@@ -1,3 +1,8 @@
+---
+tags:
+  - Criminology/Critical
+---
+
 # Core ideas
 - Crime is rooted in economic, social, and political inequalities
 - Shaped by social class divisions, racism, hate, sexism, and other social organisations

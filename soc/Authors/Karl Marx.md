@@ -1,8 +1,7 @@
 ---
 tags:
-  - Capitalism
   - Modernity
-  - Marxism
+  - Capitalism/Marxism
   - HistoricalMaterialism
 ---
 # Historical Context

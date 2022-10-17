@@ -1,0 +1,15 @@
+ul.breakdown {
+    list-style: none;
+}
+
+li.pro:before {
+    content: "+";
+    color: green;
+    margin-right: 4px;
+}
+
+li.con:before {
+    content: "-";
+    color: darkred;
+    margin-right: 4px;
+}

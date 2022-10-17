@@ -51,11 +51,13 @@ See [[Network Layer]]
 
 # Transport layer
 - Makes data transfer reliable
-- Handles ordering and congestion control to avoid dropping packets
+- Handles ordering and congestion control to avoid dropping [[packets]]
 - E.G [[Protocol List#TCP|TCP]], [[Protocol List#UDP|UDP]]
 
+See [[Transport Layer]]
+
 # Session layer
-- Manages multiple transport layer connections
+- Manages multiple [[transport layer]] connections
 - E.G NeBIOS, RPC
 
 # Presentation layer

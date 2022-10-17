@@ -1,7 +1,7 @@
 ---
 tags:
   - Modernity
-  - Marxism
+  - Capitalism/Marxism
   - HistoricalMaterialism
 ---
 

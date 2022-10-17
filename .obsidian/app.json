@@ -12,6 +12,6 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "showFrontmatter": false,
-  "newFileLocation": "root",
+  "newFileLocation": "current",
   "attachmentFolderPath": "Images"
 }

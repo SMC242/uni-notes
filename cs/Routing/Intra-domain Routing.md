@@ -44,7 +44,7 @@ Two methods:
 - This information is "flooded" through the graph to provide all nodes with a map
 - Each node then calculates the shortest path to every other node and stores that in their routing table
 - Instead of periodically refreshing like [[#Distance Vector Protocols]], updates only happen at the start and when the topology changes
-- Forwards packets based on the shortest path
+- Forwards [[packets]] based on the shortest path
 	- This decision is based on weights decided by the routing protocol
 
 ## Update format

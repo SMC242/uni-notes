@@ -1,7 +1,7 @@
 ---
 tags: 
   - Feminism
-  - Patriarchy
+  - Feminism/Patriarchy
 ---
 
 # Historical context

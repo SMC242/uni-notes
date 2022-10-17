@@ -1,8 +1,7 @@
 ---
 tags: 
   - Feminism
-  - Criminology
-  - FeministCriminology
+  - Criminology/Feminist
 ---
 
 # Historical context

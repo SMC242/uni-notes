@@ -2,5 +2,9 @@
   "baseFontSize": 16,
   "translucency": false,
   "cssTheme": "",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "pro_con_list",
+    "breakdown"
+  ]
 }

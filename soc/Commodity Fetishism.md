@@ -1,7 +1,7 @@
 ---
 tags:
-  - Marxism
   - Capitalism
+  - Capitalism/Marxism
 aliases:
   - Alienation
 ---
