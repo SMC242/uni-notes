@@ -1,0 +1,4 @@
+- [x] Read about checksums
+- [ ] Read NOSE lectures
+- [ ] Take notes on functions (AF2)
+- [ ] Reading for Sociology tutorial
