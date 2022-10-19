@@ -14,7 +14,7 @@ tags:
 	- Born in Prussia
 	- Had to flee Prussia due to persecution over his articles
 - Didn't work in academics. Was a journalist
-- Friedrich Engels supported him financially
+- [[Friedrich Engels]] supported him financially
 - Looked at how capitalism functions
 
 

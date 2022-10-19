@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 318583
       }
+    },
+    {
+      "query": "path:maths OR tag:MathsEssay",
+      "color": {
+        "a": 1,
+        "rgb": 16265437
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6808595521010259,
+  "scale": 0.6785628944142287,
   "close": true
 }
