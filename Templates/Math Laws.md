@@ -4,6 +4,8 @@
 
 # Indempotent
 
+# Negation
+
 # Commutative
 
 # Associative

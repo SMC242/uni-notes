@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "953a8634dde91f58",
+            "id": "62e636d5910cebba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "maths/Logic/Predicate Logic.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "maths/Logic/Predicate Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "maths/Logic/Predicate Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,6 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "maths/Logic/Predicate Logic.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -146,6 +153,14 @@
                 }
               }
             }
+          },
+          {
+            "id": "ac75b01d45b3afda",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -159,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "maths/Logic/Predicate Logic.md"
+              }
             }
           }
         ]
@@ -171,17 +188,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "953a8634dde91f58",
+  "active": "62e636d5910cebba",
   "lastOpenFiles": [
-    "soc/Ideologies/Historical Materialism.md",
-    "soc/Ideologies/Functionalism.md",
-    "cs/Protocols/Physical Layer.md",
-    "soc/Authors/Carol Smart.md",
-    "maths/Logic/Propositional Logic.md",
-    "maths/Latex/Useful links.md",
-    "Todo.md",
+    "maths/Logic/Predicate Properties.md",
+    "Templates/Math Laws.md",
+    "maths/Logic/Predicate Logic.md",
     "maths/Sets/Set Properties.md",
-    "maths/Sets/Set Operations.md",
-    "maths/Properties.md"
+    "maths/Logic/Propositional Logic.md",
+    "maths/Logic/Propositional Logic Properties.md",
+    "css rules/Breakdown.md",
+    "Templates/CSS Snippet.md",
+    "Todo.md",
+    "soc/Ideologies/Historical Materialism.md"
   ]
 }
