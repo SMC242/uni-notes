@@ -1,6 +1,7 @@
 ---
 tags:
   - Capitalism/Marxism
+  - Capitalism
 ---
 
 # Definition

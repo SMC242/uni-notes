@@ -36,3 +36,5 @@ Thrasher 1927:
 # Issues
 - Labels entire areas as socially disorganised -> leads to stigma
 - Communities may look disorganised from the outside, but aren't necessarily
+- Only really applies to cities that grew with industrialisation
+	- Most cities aren't like that now

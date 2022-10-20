@@ -4,39 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d830074cb7964dd0",
+        "id": "e1b8814ade2756e4",
         "type": "tabs",
         "children": [
           {
-            "id": "3bd25d9ff69416c9",
+            "id": "953a8634dde91f58",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "ffab9b2dc24d470f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/Logic/Predicate Logic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5559295c1aa1b19c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/Logic/Propositional Logic.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -68,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Criminology",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +132,7 @@
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -195,17 +171,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3bd25d9ff69416c9",
+  "active": "953a8634dde91f58",
   "lastOpenFiles": [
-    "maths/Logic/Logical Equivalence Laws.md",
-    "maths/Logic/Predicate Logic.md",
+    "soc/Ideologies/Historical Materialism.md",
+    "soc/Ideologies/Functionalism.md",
+    "cs/Protocols/Physical Layer.md",
+    "soc/Authors/Carol Smart.md",
     "maths/Logic/Propositional Logic.md",
-    "soc/Globalisation.md",
-    "soc/Criminology/Transnational Criminology.md",
-    "soc/Criminology/Criminology Overview.md",
-    "soc/Criminology/Criminology Index.md",
-    "soc/Criminology/Global Ethnography.md",
-    "soc/Criminology/Gang Studies.md",
-    "maths/Sets/Infinity.md"
+    "maths/Latex/Useful links.md",
+    "Todo.md",
+    "maths/Sets/Set Properties.md",
+    "maths/Sets/Set Operations.md",
+    "maths/Properties.md"
   ]
 }

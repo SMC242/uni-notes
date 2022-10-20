@@ -1,4 +1,6 @@
 - [x] Read about checksums
 - [ ] Read NOSE lectures
-- [ ] Take notes on functions (AF2)
-- [ ] Reading for Sociology tutorial
+	- [ ] Transport layer
+	- [ ] NAT
+- [x] Take notes on functions (AF2)
+- [x] Reading for Sociology tutorial
