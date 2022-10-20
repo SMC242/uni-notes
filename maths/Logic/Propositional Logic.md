@@ -1,6 +1,7 @@
 # Overview
 - Statements that are `true` or `false` composed together
 - These statements can be manipulated and simplified
+- Foundation for [[Predicate Logic]]
 
 See [[Propositional Logic Properties]] for the identities
 
