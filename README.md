@@ -13,7 +13,7 @@ export PATH="$PATH:$HOME/scripts"
 - Add the following scripts:
 `push-notes.sh`
 ```bash
-#!/usr/bin/bash
+#!/bin/bash
 # Absolute path of the Obsidian vault
 NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
 DEVICE_NAME="laptop"  # CHANGE ME!
@@ -23,7 +23,7 @@ git commit -a -m "Notes from $DEVICE_NAME" && git push
 
 `pull-notes.sh`
 ```bash
-#!/usr/bin/bash
+#!/bin/bash
 # Absolute path of the Obsidian vault
 $NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
 cd $NOTES_DIR
