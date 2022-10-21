@@ -4,7 +4,6 @@ This is where I store all of my knowledge from university. Created with [Obsidia
 # Syncing
 Here are the scripts that I use to sync my notes
 
-## Pre-requisites
 - Create a `scripts` directory
 - Add it to `PATH` via your `.bashrc`/`.zshrc`
 ```bash
