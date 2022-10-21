@@ -28,3 +28,6 @@ $NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
 cd $NOTES_DIR
 git pull
 ```
+
+- These can be invoked in a terminal with `push-notes.sh` and `pull-notes.sh`
+- You may want to put this in a [cron job](https://archived.forum.manjaro.org/t/how-to-create-a-cron-job-in-manjaro/105)
