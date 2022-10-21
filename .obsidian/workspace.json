@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62e636d5910cebba",
+            "id": "628357dd0d557efc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/Logic/Propositional Logic.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/Logic/Propositional Logic.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maths/Logic/Propositional Logic.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "maths/Logic/Propositional Logic.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maths/Logic/Propositional Logic.md"
+                "file": "README.md"
               }
             }
           }
@@ -188,17 +188,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "62e636d5910cebba",
+  "active": "58db476f0209927e",
   "lastOpenFiles": [
-    "maths/Logic/Predicate Logic.md",
-    "maths/Logic/Predicate Properties.md",
-    "Templates/Math Laws.md",
-    "maths/Sets/Set Properties.md",
-    "maths/Logic/Propositional Logic.md",
     "maths/Logic/Propositional Logic Properties.md",
-    "css rules/Breakdown.md",
-    "Templates/CSS Snippet.md",
-    "Todo.md",
-    "soc/Ideologies/Historical Materialism.md"
+    "maths/Logic/Propositional Logic.md",
+    "maths/Logic/Predicate Properties.md",
+    "maths/Logic/Predicate Logic.md",
+    "maths/Logic/Logical Equivalence Laws.md",
+    "Essays/AF2 Exercises/Exercise 1.md",
+    "Essays/AF2 Exercises/Exercise 1.pdf",
+    "maths/Logic/Untitled.md",
+    "Templates/Math Laws.md",
+    "maths/Sets/Set Properties.md"
   ]
 }
