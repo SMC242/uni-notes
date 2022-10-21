@@ -24,10 +24,14 @@ git commit -a -m "Notes from $DEVICE_NAME" && git push
 ```bash
 #!/bin/bash
 # Absolute path of the Obsidian vault
-$NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
+NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
 cd $NOTES_DIR
 git pull
 ```
 
+- Make both files executable
+```bash
+chmod u+x push-notes.sh pull-notes.sh
+```
 - These can be invoked in a terminal with `push-notes.sh` and `pull-notes.sh`
 - You may want to put this in a [cron job](https://archived.forum.manjaro.org/t/how-to-create-a-cron-job-in-manjaro/105)
