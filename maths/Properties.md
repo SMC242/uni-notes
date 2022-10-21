@@ -118,4 +118,5 @@ When defining a mathematical system, certain properties may or may not be define
 # Index
 Here are all of the property notes:
 - [[Set Properties]]
-- 
+- [[Propositional Logic Properties]]
+- [[Predicate Properties]]
