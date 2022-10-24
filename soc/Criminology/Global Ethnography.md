@@ -1,3 +1,9 @@
+---
+tags:
+  - Criminology
+  - Ethnography
+---
+
 # Core ideas
 - Understand human behaviour by making first-hand contact
 - Focus on social phenomena rather than hypothesis testing

@@ -11,12 +11,8 @@
             "id": "623dd70a8fce3932",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +119,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -190,15 +181,15 @@
   },
   "active": "623dd70a8fce3932",
   "lastOpenFiles": [
-    "maths/Properties.md",
-    "README.md",
-    "maths/Logic/Propositional Logic Properties.md",
-    "maths/Logic/Propositional Logic.md",
-    "maths/Logic/Predicate Properties.md",
-    "maths/Logic/Predicate Logic.md",
-    "maths/Logic/Logical Equivalence Laws.md",
-    "Essays/AF2 Exercises/Exercise 1.md",
-    "Essays/AF2 Exercises/Exercise 1.pdf",
-    "maths/Logic/Untitled.md"
+    "soc/Authors/Norbert Elias.md",
+    "soc/Authors/Michel Foucault.md",
+    "soc/Criminology/Gang Studies.md",
+    "soc/Criminology/Feminist Criminology.md",
+    "soc/Criminology/Critical Criminology.md",
+    "soc/Criminology/Criminology Overview.md",
+    "soc/Criminology/Concentric Zone Model.md",
+    "soc/Criminology/Chicago School.md",
+    "soc/Criminology/Urban Criminology.md",
+    "soc/Criminology/Transnational Criminology.md"
   ]
 }
