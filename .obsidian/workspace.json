@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "623dd70a8fce3932",
+            "id": "82aa206c19f488d0",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -179,17 +179,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "623dd70a8fce3932",
+  "active": "82aa206c19f488d0",
   "lastOpenFiles": [
-    "soc/Authors/Norbert Elias.md",
+    "Templates/CSS Snippet.md",
+    "soc/Criminology/Prison Societies.md",
     "soc/Authors/Michel Foucault.md",
+    "soc/Authors/Norbert Elias.md",
     "soc/Criminology/Gang Studies.md",
     "soc/Criminology/Feminist Criminology.md",
     "soc/Criminology/Critical Criminology.md",
     "soc/Criminology/Criminology Overview.md",
     "soc/Criminology/Concentric Zone Model.md",
-    "soc/Criminology/Chicago School.md",
-    "soc/Criminology/Urban Criminology.md",
-    "soc/Criminology/Transnational Criminology.md"
+    "soc/Criminology/Chicago School.md"
   ]
 }
