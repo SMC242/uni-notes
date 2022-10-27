@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soc/Criminology/Prisons.md",
+                "file": "soc/Criminology/Prison-industrial complex.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "soc/Criminology/Prisons.md",
+                "file": "soc/Criminology/Prison-industrial complex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "soc/Criminology/Prisons.md",
+                "file": "soc/Criminology/Prison-industrial complex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "soc/Criminology/Prisons.md",
+                "file": "soc/Criminology/Prison-industrial complex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "soc/Criminology/Prisons.md"
+                "file": "soc/Criminology/Prison-industrial complex.md"
               }
             }
           }
@@ -190,8 +190,8 @@
   },
   "active": "82aa206c19f488d0",
   "lastOpenFiles": [
-    "soc/Criminology/Prison Reformism.md",
     "soc/Criminology/Prisons.md",
+    "soc/Criminology/Prison Reformism.md",
     "soc/Authors/Michel Foucault.md",
     "Templates/CSS Snippet.md",
     "soc/Criminology/Prison Societies.md",
