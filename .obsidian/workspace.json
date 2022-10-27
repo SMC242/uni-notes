@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
+                "file": "soc/Criminology/Urban Criminology.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
+                "file": "soc/Criminology/Urban Criminology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
+                "file": "soc/Criminology/Urban Criminology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md",
+                "file": "soc/Criminology/Urban Criminology.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maths/Logic/Propositional Logic Properties.md"
+                "file": "soc/Criminology/Urban Criminology.md"
               }
             }
           }
@@ -190,15 +190,15 @@
   },
   "active": "623dd70a8fce3932",
   "lastOpenFiles": [
+    "soc/Criminology/Feminist Criminology.md",
+    "soc/Criminology/Global Ethnography.md",
+    "soc/Criminology/Chicago School.md",
+    "maths/Logic/Predicate Properties.md",
+    "maths/Logic/Propositional Logic Properties.md",
     "maths/Properties.md",
     "README.md",
-    "maths/Logic/Propositional Logic Properties.md",
     "maths/Logic/Propositional Logic.md",
-    "maths/Logic/Predicate Properties.md",
     "maths/Logic/Predicate Logic.md",
-    "maths/Logic/Logical Equivalence Laws.md",
-    "Essays/AF2 Exercises/Exercise 1.md",
-    "Essays/AF2 Exercises/Exercise 1.pdf",
-    "maths/Logic/Untitled.md"
+    "maths/Logic/Logical Equivalence Laws.md"
   ]
 }
