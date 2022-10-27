@@ -1,3 +1,8 @@
+---
+tags:
+  - Criminology
+---
+
 # Core ideas
 - Urban ethnography
 - [[Critical Criminology]]

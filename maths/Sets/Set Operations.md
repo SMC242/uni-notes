@@ -22,6 +22,7 @@ The complement of the union of $A$ and $B$ ($\overline{A \oplus B}$)
 
 Can be simplified to $(A \setminus B) \cup (B \setminus A)$ which is where the name comes from
 
+# Subset
 ![[Subsets]]
 
 # Empty set

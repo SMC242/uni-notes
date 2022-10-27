@@ -1,3 +1,8 @@
+---
+tags:
+  - Criminology
+---
+
 # What?
 - Coined by anthropologist [[Paul Topinard]]
 	- The "science of understanding the criminal"

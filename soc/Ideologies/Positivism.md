@@ -1,3 +1,8 @@
+---
+tags:
+  - Criminology
+---
+
 # Core ideas
 - You can find verifiable knowledge about an event
 - The goal is to produce objective knowledge
