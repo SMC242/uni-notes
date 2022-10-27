@@ -11,8 +11,12 @@
             "id": "82aa206c19f488d0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "soc/Criminology/Prisons.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "soc/Criminology/Prisons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "soc/Criminology/Prisons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,6 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "soc/Criminology/Prisons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "soc/Criminology/Prisons.md"
+              }
             }
           }
         ]
@@ -181,15 +190,15 @@
   },
   "active": "82aa206c19f488d0",
   "lastOpenFiles": [
+    "soc/Criminology/Prison Reformism.md",
+    "soc/Criminology/Prisons.md",
+    "soc/Authors/Michel Foucault.md",
     "Templates/CSS Snippet.md",
     "soc/Criminology/Prison Societies.md",
-    "soc/Authors/Michel Foucault.md",
     "soc/Authors/Norbert Elias.md",
     "soc/Criminology/Gang Studies.md",
     "soc/Criminology/Feminist Criminology.md",
     "soc/Criminology/Critical Criminology.md",
-    "soc/Criminology/Criminology Overview.md",
-    "soc/Criminology/Concentric Zone Model.md",
-    "soc/Criminology/Chicago School.md"
+    "soc/Criminology/Criminology Overview.md"
   ]
 }
