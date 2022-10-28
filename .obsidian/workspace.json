@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soc/Criminology/Prison-industrial complex.md",
+                "file": "soc/Criminology/Prisons.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "soc/Criminology/Prison-industrial complex.md",
+                "file": "soc/Criminology/Prisons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "soc/Criminology/Prison-industrial complex.md",
+                "file": "soc/Criminology/Prisons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "soc/Criminology/Prison-industrial complex.md",
+                "file": "soc/Criminology/Prisons.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "soc/Criminology/Prison-industrial complex.md"
+                "file": "soc/Criminology/Prisons.md"
               }
             }
           }
@@ -185,12 +185,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "82aa206c19f488d0",
   "lastOpenFiles": [
     "soc/Criminology/Prisons.md",
+    "soc/Criminology/Prison-industrial complex.md",
     "soc/Criminology/Prison Reformism.md",
     "soc/Authors/Michel Foucault.md",
     "Templates/CSS Snippet.md",
@@ -198,7 +196,6 @@
     "soc/Authors/Norbert Elias.md",
     "soc/Criminology/Gang Studies.md",
     "soc/Criminology/Feminist Criminology.md",
-    "soc/Criminology/Critical Criminology.md",
-    "soc/Criminology/Criminology Overview.md"
+    "soc/Criminology/Critical Criminology.md"
   ]
 }
