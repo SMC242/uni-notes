@@ -1,3 +1,7 @@
+---
+tags: [MathsEssay]
+---
+
 ![[Set Operations#Difference]]
 $$
 (B \setminus A) \cup (C \setminus A)
