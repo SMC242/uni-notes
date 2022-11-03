@@ -4,5 +4,7 @@
   "obsidian-footnotes",
   "obsidian-pandoc",
   "table-editor-obsidian",
-  "obsidian-vault-statistics-plugin"
+  "obsidian-vault-statistics-plugin",
+  "quick-latex",
+  "obsidian-frontmatter-tag-suggest"
 ]
