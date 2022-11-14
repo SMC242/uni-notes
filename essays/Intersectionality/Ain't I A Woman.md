@@ -1,0 +1,33 @@
+---
+tags:
+  - SocEssay
+---
+
+- Women initially had no value as slaves as they were viewed as poor labourers
+- This changed when slavers realised that children of slaves legally belonged to the slave owner
+- They were viewed as unthreatening, so they weren't put in chains
+	- This came at a great cost: this view of women made the white male slavers feel empowered to inflict violence on them
+	- Black women were beaten and raped constantly
+	- Their children were not safe either
+	- Not only did women have the fear of being beaten and whipped, they also had to fear sexual violence and attacks against their children
+- Women were made to give birth with no assistance on the slave ships
+	- This is very dangerous and resulted many deaths of mothers and/or their children
+	- Black men did not have to face this
+- Women were subjected to extra abuse to beat out all resistance. This is because they were more likely to work closely with their owners and therefore had to be unlikely to attack them
+	- This is because women are viewed as naturally suited to domestic labour
+	- Women do a massive amount of unpaid labour in the home. It has been argued by feminists that they should be compensated for this labour
+- Academia is not immune to patriarchy. Black men have traditionally been painted as the main victims of abuse in the slave ships as their masculinity was removed
+	- This is based on the idea that the worst thing a man can be is feminine
+	- Women are at the bottom of the patriarchal hierarchy
+	- This idea that men were emasculated isn't even true. While men were removed from their society's hierarchies, they were still viewed as masculine. As such, they were viewed as strong, sexually potent, and powerful
+	- Women were still made to do traditionally feminine labour, while men were not
+	- Black men were, however, castrated by mobs in America. These castrated men served to sow fear among black men and prevent resistance
+- Historians tend to focus on the perspectives of men because they are seen as the actors in history; Women are seen as unimportant support characters
+- Even in somewhat feminine roles like being a servant, black men had a higher status than women
+- White female indentured servants were rarely made to do manual labour in fields, yet black women were. This is because they were seen as ersatz men - black women are seen are lesser as women than white women
+- Due to ideas of women as more gentle and delicate, they were thought to be better at picking cotton than men. Due to this, they were expected to pick more cotton than men
+- Young female slaves were often raped before reaching maturity. They were also usually coerced with gifts, starvation, and violence
+	- If they resisted, this would be beaten severely or starved as punishment
+	- Sexual violence was part of the system of slavery. It was a way to keep them fearful of their master so that they would not resist. If they did, they would be beaten into submission
+- White protests against slavery were on the grounds of saving white men from their sins, rather than liberating black women from their plight. They had no sympathy for the slaves
+- 
