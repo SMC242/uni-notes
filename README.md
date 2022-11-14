@@ -17,7 +17,7 @@ export PATH="$PATH:$HOME/scripts"
 NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
 DEVICE_NAME="laptop"  # CHANGE ME!
 cd $NOTES_DIR
-git commit -a -m "Notes from $DEVICE_NAME" && git push
+git add -A && git commit -m "Notes from $DEVICE_NAME" && git push
 ```
 
 `pull-notes.sh`
