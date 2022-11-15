@@ -23,7 +23,3 @@
 - [ ] [Induction](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188345)
 - [ ] [Recursion](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188348)
 - [ ] [Counting](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188373)
-- [ ] [name](link)
-- [ ] [name](link)
-- [ ] [name](link)
-- [ ] [name](link)

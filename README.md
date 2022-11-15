@@ -35,3 +35,7 @@ chmod u+x push-notes.sh pull-notes.sh
 ```
 - These can be invoked in a terminal with `push-notes.sh` and `pull-notes.sh`
 - You may want to put this in a [cron job](https://archived.forum.manjaro.org/t/how-to-create-a-cron-job-in-manjaro/105)
+
+# Naming conventions
+- Top-level directories should be kebab-case
+- Notes and sub-directories should be Title Case
