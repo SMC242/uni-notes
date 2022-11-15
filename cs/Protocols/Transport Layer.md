@@ -29,7 +29,14 @@ tags:
 	- Email needs 0% data loss
 	- Voice and video streaming can handle some loss but requires speed
 
-# Congestion/flow control
+## Elasticity
+<dl>
+	<dt>Elastic</dt>
+	<dd>An application that doesn't care about send rate - speed is <i>nice to have</i> but not required</dd><dt>Inelastic</dt>
+	<dd>An application that cares about send rate - there are minimum and maximum send rates</dd>
+</dl>
+
+# Congestion control
 - This layer manages the *application sending rate*
 - It adjusts the sending rate depending on how fast the [[Network Layer]] is able to deliver the data and how fast the receiver is processing it
 - Done end-to-end because the endpoints know the path taken and how long it took
@@ -37,12 +44,35 @@ tags:
 Flow control = adjusting for the receiver
 Congestion control = adjusting for the [[network layer]]
 
-## Elasticity
-<dl>
-	<dt>Elastic</dt>
-	<dd>An application that doesn't care about send rate - speed is <i>nice to have</i> but not required</dd><dt>Inelastic</dt>
-	<dd>An application that cares about send rate - there are minimum and maximum send rates</dd>
-</dl>
+There are pros and cons of implementing this on the [[Network Layer]] vs the [[Transport Layer]]
+
+### Network layer
+<ul class="breakdown">
+	<li class="pro">Safe</li>
+	<li class="pro">All transport protocols will be congestion-controlled</li>
+	<li class="con">Forces all applications to use the same algorithm</li>
+</ul>
+
+### Transport layer
+<ul class="breakdown">
+	<li class="pro">Flexible</li>
+	<li class="pro">Can optimise for application needs</li>
+	<li class="con">Bugs can congest the network</li>
+</ul>
+
+## Conservation of packets
+- If the network is at being fully utilised, send one packet per acknowledgement
+- This creates a constant flow of packets which is exactly the capacity of the network
+- Capacity is given by $bandwidth \times delay$
+- The send-rate is reduced when the network overflows
+
+## AIMD
+Additive Increase, Multiplicative Decrease \[of the sending rate\]
+- Starts sending slowly and builds up the speed until equilibrium is reached
+- If packets are lost, multiply the sending interval by some $\beta < 1$ 
+- This leads to the sending rate decreasing faster than it increases
+	- Creates stability
+
 # End-to-end principle
 - Avoid centralising functions in networks as much as possible
 - Instead, systems on both ends should handle things
@@ -77,19 +107,3 @@ Two types:
 - Datagram (framed): packet service
 	- Uses UDP/IP
 
-# Congestion control
-There are pros and cons of implementing this on the [[Network Layer]] vs the [[Transport Layer]]
-
-### Network layer
-<ul class="breakdown">
-	<li class="pro">Safe</li>
-	<li class="pro">All transport protocols will be congestion-controlled</li>
-	<li class="con">Forces all applications to use the same algorithm</li>
-</ul>
-
-### Transport layer
-<ul class="breakdown">
-	<li class="pro">Flexible</li>
-	<li class="pro">Can optimise for application needs</li>
-	<li class="con">Bugs can congest the network</li>
-</ul>

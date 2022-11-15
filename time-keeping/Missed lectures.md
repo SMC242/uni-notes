@@ -1,7 +1,11 @@
 # NOSE
-- [ ] [Transport Layer](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190044)
+- [x] [Transport Layer](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190044)
 	- Last pages
-- [ ] [NAT](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190049)
+- [ ] [NAT + higher layers](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190049)
+	- [x] NAT
+	- [x] Session layer
+	- [ ] Presentation layer
+	- [ ] Application layer
 - [ ] [Security 1](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190057)
 - [ ] [Security 2](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190061)
 - [ ] [OS Intro](https://moodle.gla.ac.uk/mod/resource/view.php?id=3190067)

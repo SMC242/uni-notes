@@ -5,7 +5,8 @@ This is where I store all of my knowledge from university. Created with [Obsidia
 Here are the scripts that I use to sync my notes
 
 - Create a `scripts` directory
-- Add it to `PATH` via your `.bashrc`/`.zshrc`
+- Add it to `PATH` via your `.bashrc` or `.zshrc`
+	- This is located in your home directory
 ```bash
 export PATH="$PATH:$HOME/scripts"
 ```
@@ -37,5 +38,5 @@ chmod u+x push-notes.sh pull-notes.sh
 - You may want to put this in a [cron job](https://archived.forum.manjaro.org/t/how-to-create-a-cron-job-in-manjaro/105)
 
 # Naming conventions
-- Top-level directories should be kebab-case
-- Notes and sub-directories should be Title Case
+- Top-level directories should be `kebab-case`
+- Notes and sub-directories should be `Title Case`
