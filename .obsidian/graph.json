@@ -8,6 +8,20 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "path:docs",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:assignments",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
       "query": "path:soc OR tag:SocEssay",
       "color": {
         "a": 1,
@@ -53,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8184824777350208,
+  "scale": 0.6785628944142281,
   "close": true
 }

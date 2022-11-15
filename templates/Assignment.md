@@ -1,6 +1,6 @@
 ---
 class: "CBT4"
-deadline: yyyy-mm-dd
+deadline: yyyy-mm-ddThh:mm
 difficulty: Medium
 time: "Caffeine demon"
 progress: "Not started"
