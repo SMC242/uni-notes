@@ -5,55 +5,55 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:docs",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:assignments",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "path:soc OR tag:SocEssay",
+      "query": "path:\"soc\" OR tag:SocEssay",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:stats OR tag:StatsEssay",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:cs OR tag:CSEssay",
+      "query": "path:\"cs\" OR tag:CSEssay",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:arch OR tag:ArchEssay",
+      "query": "path:\"stats\" OR tag:StatsEssay",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"arch\" OR tag:ArchEssay",
       "color": {
         "a": 1,
         "rgb": 318583
       }
     },
     {
-      "query": "path:maths OR tag:MathsEssay",
+      "query": "path:\"maths\" OR tag:MathsEssay",
       "color": {
         "a": 1,
         "rgb": 16265437
+      }
+    },
+    {
+      "query": "path:\"docs\"",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"assignments\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6785628944142281,
-  "close": true
+  "scale": 0.46639249152281664,
+  "close": false
 }

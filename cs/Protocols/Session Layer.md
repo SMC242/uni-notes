@@ -19,7 +19,7 @@
 # Strategies
 ## Caching
 - Frequently used content is held in memory for faster access
-	- Can be done server-side to reduce response time or clientside to prevent duplicate requests
+	- Can be done server-side to reduce response time or client-side to prevent duplicate requests
 
 ## Middleboxes
 - An email server holds mail until the user checks their emails ("disconnected operation")
