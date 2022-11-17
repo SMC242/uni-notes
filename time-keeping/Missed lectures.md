@@ -15,7 +15,7 @@
 
 # OOP
 - Just skimming slides
-- [ ] [Concurrency](https://moodle.gla.ac.uk/mod/folder/view.php?id=3370136)
+- [x] [Concurrency](https://moodle.gla.ac.uk/mod/folder/view.php?id=3370136)
 - [ ] [Lambdas](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/Lambda%20Expressions.pptx?forcedownload=1)
 - [ ] [Generics](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/2-generics.pdf?forcedownload=1)
 

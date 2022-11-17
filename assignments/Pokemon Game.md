@@ -10,5 +10,5 @@ progress: "Not started"
 - Read notes on threading in Java
 
 # Requirements
-https://moodle.gla.ac.uk/pluginfile.php/6122454/mod_assign/introattachment/0/Lab%206.pdf?forcedownload=1
+file:///home/eilidh/Downloads/ioop-lab7+8-2022.pdf
 - Make the monster AI work
