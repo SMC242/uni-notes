@@ -3,7 +3,7 @@ class: "IOOP"
 deadline: 2022-11-17T17:00
 difficulty: Easy
 time: "Day before"
-progress: "Not started"
+progress: "Finished"
 ---
 
 # Pre-requisites

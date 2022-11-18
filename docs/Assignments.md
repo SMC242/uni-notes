@@ -22,4 +22,15 @@ It's recommended to use the [[Assignment]] template to add information about the
 	- Required when `marks` is present to calculate the percentage score
 
 # Example
-![[1A Essay]]
+```yaml
+---
+class: "Sociology 1A"
+deadline: 2022-11-24T12:00
+difficulty: Medium
+time: "Caffeine demon"
+progress: "Not started"
+
+marks: 20
+max-marks: 120
+---
+```

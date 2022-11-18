@@ -13,7 +13,7 @@ SORT
 TABLE
 	class,
 	dateformat(deadline, "yyyy-MM-dd") as submitted,
-	round((marks / max-marks) * 100, 2) + "%"  as score
+	choice(marks != null AND max-marks != null, round(marks / max-marks, 2), "N/A") as score
 FROM
 	"assignments"
 WHERE

@@ -7,4 +7,12 @@ progress: "Not started"
 ---
 
 # Requirements
-https://moodle.gla.ac.uk/mod/url/view.php?id=3345938
+https://www.overleaf.com/project/5bb4681747a81409e6f50ebb
+
+# Topics
+- Modulo
+- Division
+- GCDs
+- Euclidean Algorithm
+- Proofs
+	- Induction Proofs
