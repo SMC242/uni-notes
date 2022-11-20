@@ -23,7 +23,8 @@
 - [x] [Sequences](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188293)
 - [x] [Matrices](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188295)
 - [x] [Proofs 1](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188319)
-- [ ] [Proofs 2](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188322)
-- [ ] [Induction](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188345)
+- [x] [Proofs 2](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188322)
+	- [ ] [Induction examples](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188345)
+- [ ] 
 - [ ] [Recursion](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188348)
 - [ ] [Counting](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188373)
