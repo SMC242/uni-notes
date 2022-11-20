@@ -6,7 +6,7 @@ $\forall x \in X. (P(x) \rightarrow Q(x))$
 - Show that $Q$ is $true$
 
 # Indirect proofs
-Prove the opposite of the implication $\lnot P \rightarrow \lnot Q$
+Prove the opposite of the [[Propositional Logic#Implication|implication]] $\lnot P \rightarrow \lnot Q$
 $\forall x \in X. (\lnot Q(x) \rightarrow \lnot P(x))$
 
 - Assume $\lnot Q$

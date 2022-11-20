@@ -4,6 +4,8 @@ TABLE
 	class, dateformat(deadline, "yyyy-MM-dd @hh:mm") AS deadline, difficulty, time, progress
 FROM
 	"assignments"
+WHERE
+	progress != "Finished"
 SORT
 	deadline ASC
 ```
@@ -13,7 +15,7 @@ SORT
 TABLE
 	class,
 	dateformat(deadline, "yyyy-MM-dd") as submitted,
-	choice(marks != null AND max-marks != null, round(marks / max-marks, 2), "N/A") as score
+	round(default(marks, 0) / default(max-marks, 0), 2) * 100 + "%" as score
 FROM
 	"assignments"
 WHERE
