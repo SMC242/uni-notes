@@ -20,4 +20,6 @@ FROM
 	"assignments"
 WHERE
 	progress = "Finished"
+SORT
+	submitted DESC
 ```

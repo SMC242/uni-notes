@@ -9,7 +9,7 @@ See also: [[Division#Algorithm|where that formula comes from]]
 # Congruence
 Congruence is when some divisor $m$ divides $a - b$
 
-Written as $a \equiv (\textrm{mod m})$
+Written as $a \equiv b (\textrm{mod m})$
 
 ## Properties
 - $\textrm{a mod m} = \textrm{b mod m}$
