@@ -5,7 +5,6 @@ Implications:
 - $a \neq 0$
 - $\exists c. (a \times c = b)$
 	- $b$ can be calculated by multiplying $a$ by some factor, $c$
-https://moodle.gla.ac.uk/pluginfile.php/5699780/mod_resource/content/3/af2_week4.pdf
 
 # Algorithm
 Division can be split into multiple variables
