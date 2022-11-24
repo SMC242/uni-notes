@@ -26,7 +26,7 @@ It's important to look at the processes that lead to crime
 - Spatial ecology of cities
 - How families and households are organised
 - Circulation of goods (access to food, drugs)
-- The work that's \[not] available
+- The work that's \[not\] available
 - Powers of the state
 
 > "Criminology's subject matter is centrally implicated in the major transformations of our time"

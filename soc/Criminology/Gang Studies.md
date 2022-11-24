@@ -29,6 +29,8 @@ tags:
 - Treated gang members as deviants to be punished, rather than people who joined a gang
 	- Not very humanist
 
+See also: [[Positivism]]
+
 # Critical methods
 - Speaking to gang members to find the subjectivities and fluidities of gang dynamics
 - Drew from urban ehtnography
