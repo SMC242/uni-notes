@@ -10,13 +10,17 @@ Here are the scripts that I use to sync my notes
 ```bash
 export PATH="$PATH:$HOME/scripts"
 ```
-- Add the following scripts:
+- Copy the scripts from `uni-notes/scripts` to your global scripts directory
+```bash
+cp /path/to/obsidian/vault/scripts/* ~/scripts
+```
+- Update the lines with `CHANGE ME!` comments
 `push-notes.sh`
 ```bash
 #!/bin/bash
 # Absolute path of the Obsidian vault
 NOTES_DIR="/home/eilidhm/Desktop/uni/obsidian"  # CHANGE ME!
-DEVICE_NAME="laptop"  # CHANGE ME!
+DEVICE_NAME="laptop"                            # CHANGE ME!
 cd $NOTES_DIR
 git add -A && git commit -m "Notes from $DEVICE_NAME" && git push
 ```
