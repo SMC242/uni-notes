@@ -6,5 +6,7 @@
   "enabledCssSnippets": [
     "pro_con_list",
     "breakdown"
-  ]
+  ],
+  "nativeMenus": false,
+  "showViewHeader": true
 }
