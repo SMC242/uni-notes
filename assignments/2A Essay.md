@@ -138,3 +138,4 @@ Minorities are demonised by the media which gives the police an excuse to dispro
 ## Background reading
 https://medium.com/@amparker/what-about-the-rapists-and-murderers-7a81955b772c
 [Addressing Skeptics](https://go-gale-com.ezproxy.lib.gla.ac.uk/ps/i.do?p=AONE&u=glasuni&id=GALE%7CA707337023&v=2.1&it=r&sid=summon)
+[Foucault essay](https://crimsoc.hull.ac.uk/2018/11/29/how-does-foucault-explain-the-shift-from-corporal-to-carceral-punishment-between-the-late-18th-and-the-mid-19th-century-do-you-agree-with-that-explanation-and-why/)
