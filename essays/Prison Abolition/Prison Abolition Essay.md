@@ -1,8 +1,3 @@
----
-tags:
-  - SocEssay
----
-
 <small>
 	2560102M
 	<br/>
@@ -11,22 +6,49 @@ tags:
 
 > 4.  What and how convincing are arguments to abolish prison. Critically address this question sociologically.
 
-The prison abolition movement has a long and storied history. It has its roots in the anti-slavery movement and has been propelled into modern debate by black feminists. Yet only in recent years has it began to gain major traction and has been met with equal skepticism.
+The prison abolition movement has a long and storied history. It has its roots in the anti-slavery movement and has been propelled into modern debate by black feminists such as Angela Davis. Yet only in recent years has it began to gain major traction and has been met with equal skepticism.
 
 Understandably so, as abolitionists pose a complete transformation of society. As Moten/Harney[^moten-harney] wrote:
-> \[Prison abolitionists aim for\] Not so much the abolition of prisons, but the abolition of a society that could have prisons
+<blockquote>[Prison abolitionists aim for] "Not so much the abolition of prisons, but the abolition of a society that could have prisons"</blockquote>
 
 Here, they assert that abolition is not just the elimination of the carceral system, but the reformation of society in order to better handle criminality. This means constructing systems to support victims, help pay back the harm caused by offenders, and prevent further crimes from occurring. Abolitionists posit that the prison system fails on all counts.
 
 This approach is grounded in Michel Foucault's work in *"Discipline and Punish"* where he argues that the conditions within prisons are the product of the surrounding society[^foucault]. The same methods of observation used to pressure inmates to regulate their behaviour are used on children from a young age. Classrooms are arranged such that the teacher can see all the students, making each of them feel like they would be caught if they stepped out of line. In the workplace, constant deadlines and performance checks are imposed on employees. Their livelihood is contingent on meeting these goals. This illustrates the need to expand conversations of decarceration beyond the prison.
 
-Foucault's theories are not without drawbacks. For one, it doesn't account for systemic pressures such as racism, sexism, and classism. Much work has been done in the American branch of the decarceration movement, drawing from their history of slavery. Abolitionists argue that slavery did not disappear with the 13th Amendment - it merely transformed as capitalism grew. Its modern form is the prison-industrial complex, an idea coined by Davis and Davis
+Foucault's theories are not without drawbacks. For one, it doesn't account for systemic pressures such as racism, sexism, and classism. Much work has been done in the American branch of the decarceration movement to take on an intersectional approach. Abolitionists argue that slavery did not disappear with the 13th Amendment - it merely transformed as capitalism grew. Its modern form is the prison-industrial complex, an idea coined by Angela Davis in 1995. In her words:
+<blockquote>[the purpose of the prison is to] "deliver up bodies destined for profitable punishment, the political economy of prisons relies on racialised assumptions of criminality"
+</blockquote>[^davis]
 
+Rather than seeking to reform the offender in order to help them return to society, modern prisons seek to yield as much cheap labour from them as possible. Under this system, prison inmates are not people, but labour power to reap. Prisoners being made to work is not a new concept. Far from it - as the first "house of correction" made inmates do factory labour[^correction]. What has changed is the scale and motivation: the profit motive provided by capitalism creates pressure to deliver constant growth of prison populations. For the prison to grow is to increase the labour power and therefore the profitability. Abolitionists view this justification for prisons as entirely divorced from creating a safer society. Instead, prisons for this reason exist to line the pockets of prison owners.
 
+The media and political system are key tools for feeding the prison-industrial complex with ever more bodies. In order to rationalise incarcerating huge swathes of the population, certain groups are painted as violent and dangerous. For example, the 2011 Bureau of Justice statistic on black homicide rates[^homicide] has become infamous for its myopic misuse in common discourse. This statistic misses the context of increased police patrols and poor access to social capital in majority-black neighbourhoods. Instead of examining the socioeconomic inequalities of these areas, the media paints these crime rate outcomes as simply a product of "racial differences". This demonisation of black people is then used to justify further policing black neighbourhoods, leading to more crimes being discovered in those areas. Crime reports such as the aforementioned 2011 study cannot be taken as the full picture. It is the combination of stigma generated by the media and police response that inflates crime rate statistics. The prison abolition movement aims to tackle these socioeconomic causes through community development programmes.
 
-# Bibliography
+A frequent argument directed at decarceration activists is the issue of particularly serious crimes such as murderers. Core to the question is the assumption that some crimes imply an individual is dangerous to their core. This assumption proves incorrect as it is often observed that murderers have experienced pressures in their past or present such as domestic abuse and bullying. In cases of mass murder, often white supremacy or other ideologies of bigotry appear when investigated. For example, the Buffalo shooter released a white supremacist manifesto before committing their attack[^buffalo]. In order to prevent these types of attacks, abolitionists assert that education is critical. Classes such as religious and moral education covering many religions and traditions help to foster understanding of others and avoid hatred.
+
+Thomas Ward Frampton[^skeptics] also asserts that this question constitutes a deflection. The question attempts to limit the scope of discussion to a small proportion of criminals. Indeed, the majority of criminals do not fall into this category of "the dangerous few". Even if the assumption that there exists some subset of criminals that are too dangerous for freedom holds, it does not follow that criminals outwith that subset should continue to be incarcerated.
+
+Another question often posed to abolitionists is how they intend to respond to crime without prisons. It is hard to pin down a single response to this question and by design. Abolitionists propose that anti-crime measures must be grounded in a community's specific conditions. Some areas may have critical issues with drug use and would require drug education and rehabilitation programmes to help people to avoid or overcome substance addictions. Communities that struggle with theft may benefit from restorative techniques such as victim-offender mediation. This strategy is grounded in "traditional Maori practices"[^restorative] of arranging talks between victims and offenders with the aim of recognising the harm caused and looking forward to how that damage can be repaired or reimbursed. Victim-offender mediation has been trialled in various countries across the world, often with success. In the United States of America, it has been observed that both parties are likely to feel better afterwards (79% of victims and 87% of offenders)[^VOM]. Furthermore, 91% of victims engaged in this practice willingly[^VOM] which is crucial to avoid alienation. In order to address crime at the source, abolitionists continue to develop methods for reintegrating offenders into society.
+
+There are some non-carceral punishments in mainstream use, however abolitionists question their utility. Community service is one of the most common alternatives to prison and it attempts to compensate the damage caused to the community. The issue with this strategy is in its usual implementation: often the tasks assigned to convicts have little or no relation to the victim or the specific way they were mistreated. Tasks such as litter-picking, while helpful for the wider community, fail to address the needs of the harmed and do little to create understanding between the two parties. As a result, the victim is likely to feel that no justice has been given and the impacts of the crime are not demonstrated to the offender. This is not conductive to empathy. Furthermore, the offender is not paid for their labour, leaving them with less time and money to invest in education and other social capital. This adds friction to the offender's reintegration into society and may result in recidivism.
+
+Additionally, probation has seen widespread adoption for offences that are seen as too minor to be met with jail time. Probation is the practice of allowing convicts to continue their lives under the condition that they are frequently inspected for criminal behaviour. If they are caught committing a new crime, they will be sent to prison. To this end, tracking anklets may be used to keep track of their position at all times. They may also be subject to routine questioning by a supervisor. Returning to Foucault, probation is a method of applying pressure to conform via hierarchical observation. The frequent meetings and psychological evaluations exact further compulsion to behave at all times, lest they have to confess violating a law in their next evaluation. As a result, the offender is put under constant stress throughout their everyday lives and this may have deleterious effects on their mental health, increasing their likelihood of harming themselves or others. Decarceration proponents see some value in observing criminals in cases of sex crimes, however it should be done by the wider community rather than by imposing a supervisor on the offender. This is to avoid the stress of repeated evaluations. Ultimately, the current concept of probation is incompatible with the end of prisons because it utilises prison as a deterrent.
+
+In this essay, I have examined the multitude of justifications that prison abolitionists use when advocating for the elimination of prisons from our societies. At its core, prison abolitionism is an intersectional and revolutionary movement whose aims go beyond simply discontinuing prisons. It desires to replace our failing carceral system with one that prevents crimes where possible, repairs any damage that occurs, and encourages offenders to take part in society in order to remove them from the revolving door of prison sentences.
+
 [^moten-harney]: Moten, F. and Harney, S. (2004) ‘The University and the Undercommons’, Social Text, 22(2), p. 114. Available at: https://doi.org/10.1215/01642472-22-2_79-101.
 
-[^lombroso]: Lombroso, G. & Lombroso, C. 1911, _Criminal man: according to the classification of Cesare Lombroso,_ G. P. Putnam, The Knickerbocker Press, London;New York;.
-
 [^foucault]: Foucault, M. (1975) ‘DISCIPLINE AND PUNISH’, p. 228.
+
+[^davis]: Masked Racism: Reflections on the Prison Industrial Complex | Colorlines (no date). Available at: https://perma.cc/5JXY-2ND8 (Accessed: 29 November 2022).
+
+[^correction]: The Howard League | History of the penal system (no date) The Howard League. Available at: https://howardleague.org/history-of-the-penal-system/ (Accessed: 29 November 2022).
+
+[^homicide]: Cooper, A. and Smith, E.L. (2011) ‘Homicide Trends in the United States, 1980-2008’, p. 12.
+
+[^restorative]: Bottoms, A., Rex, S. and Robinson, G. (2004) Alternatives to Prison. London, UNITED KINGDOM: Willan Publishing. Available at: http://ebookcentral.proquest.com/lib/gla/detail.action?docID=449550 (Accessed: 29 November 2022).
+
+[^VOM]: Miers, D. (2001) An international review of restorative justice. 1. publ. Edited by B. Webb. London: Home Office, Policing and Reducing Crime Unit, Research, Development and Statistics Directorate (Crime reduction research series paper, 10).
+
+[^skeptics]: Frampton, T.W. (2022) ‘THE DANGEROUS FEW: TAKING SERIOUSLY PRISON ABOLITION AND ITS SKEPTICS.’, Harvard Law Review, 135(8), p. 2028.
+
+[^buffalo]: https://ag.ny.gov/sites/default/files/buffaloshooting-onlineplatformsreport.pdf
