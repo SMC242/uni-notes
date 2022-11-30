@@ -1,6 +1,6 @@
 ---
 class: "Sociology 1A"
-deadline: 2022-11-24T12:00
+deadline: 2022-11-29T12:00
 difficulty: Medium
 time: "Caffeine demon"
 progress: "Started"
@@ -61,6 +61,9 @@ Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/156
 	- Educate and support the offender to avoid them doing further harm
 	- Foster programmes that reduce crime via education, therapy, and community development
 	- Are community-led, so each community can tailor their policies to their specific needs
+
+> \[Prison abolitionists aim for\] Not so much the abolition of prisons, but the abolition of a society that could have prisons
+> - [Moten/Harney p.114](https://ou.edu/content/dam/Education/documents/the%20university%20and%20the%20undercommons.pdf)
 
 [History](https://oxfordre.com/criminology/view/10.1093/acrefore/9780190264079.001.0001/acrefore-9780190264079-e-625#acrefore-9780190264079-e-625-div1-1)
 
@@ -134,3 +137,4 @@ Minorities are demonised by the media which gives the police an excuse to dispro
 # Bibliography
 ## Background reading
 https://medium.com/@amparker/what-about-the-rapists-and-murderers-7a81955b772c
+[Addressing Skeptics](https://go-gale-com.ezproxy.lib.gla.ac.uk/ps/i.do?p=AONE&u=glasuni&id=GALE%7CA707337023&v=2.1&it=r&sid=summon)

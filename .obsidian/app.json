@@ -14,5 +14,6 @@
   "showFrontmatter": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "attachments",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true
 }

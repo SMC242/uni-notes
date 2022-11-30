@@ -1,5 +1,5 @@
 {
-  "displayIndividualItems": true,
+  "displayIndividualItems": false,
   "showNotes": true,
   "showAttachments": false,
   "showFiles": false,
