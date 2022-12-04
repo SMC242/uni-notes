@@ -16,8 +16,8 @@
 # OOP
 - Just skimming slides
 - [x] [Concurrency](https://moodle.gla.ac.uk/mod/folder/view.php?id=3370136)
-- [ ] [Lambdas](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/Lambda%20Expressions.pptx?forcedownload=1)
-- [ ] [Generics](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/2-generics.pdf?forcedownload=1)
+- [x] [Lambdas](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/Lambda%20Expressions.pptx?forcedownload=1)
+- [x] [Generics](https://moodle.gla.ac.uk/pluginfile.php/6141346/mod_folder/content/0/2-generics.pdf?forcedownload=1)
 
 # AF2
 - [x] [Sequences](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188293)
@@ -28,3 +28,6 @@
 - [ ] 
 - [ ] [Recursion](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188348)
 - [ ] [Counting](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188373)
+- [ ] [Probability](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188395)
+- [ ] [Graphs](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188416)
+- [ ] [Relations](https://moodle.gla.ac.uk/mod/resource/view.php?id=3188431)
