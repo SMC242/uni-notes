@@ -3,7 +3,7 @@ class: "Sociology 1A"
 deadline: 2022-11-29T12:00
 difficulty: Medium
 time: "Caffeine demon"
-progress: "Started"
+progress: "Finished"
 ---
 
 # Requirements

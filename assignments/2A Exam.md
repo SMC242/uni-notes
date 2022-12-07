@@ -47,6 +47,6 @@ covered in the section.
 today.' Discuss with reference to ONE of the following anthropologists covered in the  
 course: Marcel Mauss; Zora Neale Hurston; Margaret Mead; Max Gluckman.  
 
-# Research
-
-# Bibliography
+Go to each question's respective files:
+- [[Sociological Cannon Essay Plan]]
+- [[Old Anthropology Essay Plan]]
