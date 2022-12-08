@@ -11,6 +11,16 @@ Author: Marcel Mauss
 - Written during a time of great debate about socialism
 - The USSR had formed 3 years earlier
 
+# Types of exchange
+## Commodity
+- Money is exchanged for goods
+- The commodity has [[Value#Use value|use value]] (food is tasty, tools are helpful)
+- It also has [[Value#Exchange value|exchange value]]: it can be traded for something perceived to be of equal value
+- Two ways of representing exchange value: price ("monetary value") and bartering (trading)
+
+## Gift
+- A gift is when something is given without immediately receiving something of equal value
+
 # Reciprocation
 - When we are given a gift, we feel obligated to give one back
 - Reciprocation isn't necessarily equal or immediate
@@ -42,7 +52,7 @@ Due to this, gifts aren't accumulated, but circulated
 	- It is a refusal to enter a social relationship
 	- Giving gifts reduces conflict by binding them into a social contract
 
-# Mauri traditions
+# Maori traditions
 - They believe that part of your spirit remains in a gift
 - It's like giving part of yourself to someone
 - If you don't return a gift, they believe that something horrible will happen to them
