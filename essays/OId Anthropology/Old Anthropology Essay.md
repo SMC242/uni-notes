@@ -3,6 +3,8 @@ tags:
   - SocEssay
 ---
 
+5. 'The work of anthropologists published before the year 2000 is not worth reading today.' Discuss with reference to ONE of the following anthropologists covered in the course: Marcel Mauss; Zora Neale Hurston; Margaret Mead; Max Gluckman.  
+
 <small>
 	2560102M
 	<br/>
@@ -14,3 +16,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eleifend
 </main>
 
 # Bibliography
+[^gift]: Mauss, M., 2002. _The gift: The form and reason for exchange in archaic societies_. routledge.
