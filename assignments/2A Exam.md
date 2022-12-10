@@ -3,7 +3,7 @@ class: "Sociology 2A"
 deadline: 2022-12-10T09:00
 difficulty: Medium
 time: "Week"
-progress: "Not started"
+progress: "Finished"
 ---
 
 # Pre-requisites

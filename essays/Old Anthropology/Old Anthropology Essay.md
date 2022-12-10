@@ -34,3 +34,5 @@ Despite its flaws, Mauss' work continues to provide a powerful framework for und
 [^Kuper]: Kuper, A., 1988. _The invention of primitive society: transformations of an illusion_. Psychology Press.
 
 [^hau]: Thompson, D. (1987) ‘The Hau of the Gift in Its Cultural Context’, 11.
+
+End of answer 1 (955 words)
