@@ -3,7 +3,7 @@ Authentication is the practice of creating some kind of security measure that re
 
 # Signatures
 - Attach an encrypted summary of the data before transmitting it
-	- Hash it
+	- [[Hashing|Hash]] it
 	- Encrypt it with the [[Cryptography#Asymmetric|private key]]
 - This can then be checked on the other side
 	- Hashing the received data, then comparing it with the received signature
