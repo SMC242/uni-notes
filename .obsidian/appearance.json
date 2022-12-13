@@ -8,5 +8,6 @@
     "breakdown"
   ],
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "monospaceFontFamily": "Fira Code Retina"
 }

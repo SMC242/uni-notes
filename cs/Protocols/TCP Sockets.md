@@ -21,13 +21,20 @@ This is the standard C API
 - Errors raise exceptions
 
 ## `send`
+`send(bytes)`
 - `send` queues the data for transmission
-- It needs to be split into segments first
-	- One `send` might be split into multiple segments, or multiple calls might be put into one segment
-- Each segment is framed as a [[TCP#Format|TCP packet]]
+- Frames the data in a [[TCP#Format|TCP packet]]
+- May not send all of the bytes; returns the number of bytes sent
 - The [[Transport Layer#Congestion control|congestion control algorithm]] decides when to allow the packet through the network
 
+### `sendall`
+`sendall(bytes)`
+- Repeatedly calls `send` until all bytes have been sent
+- It needs to be split into segments first
+	- One `send` might be split into multiple segments, or multiple calls might be put into one segment
+
 ## `recv`
+`recv(n_bytes)`
 - 1 `recv` $\neq$ 1 `send`
 - The amount of data returned by `recv` is unpredictable
 
@@ -39,3 +46,26 @@ This is the standard C API
 - The IANA has a [registry of ports ](http://www.iana.org/assignments/port-numbers)
 - 75% of ports have been registered - there are not enough ports
 - TCP clients usually use random ports in the dynamic range
+
+# Example
+An echo server using Python:
+```python
+# server.py
+import sockets
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+	s.bind(("127.0.0.1", 8080))  # localhost:8080
+	s.listen()
+	conn, address = s.accept()
+	with conn:
+		while True:
+			data = conn.recv(1024)
+			if not data:  break
+			conn.sendall(data)
+
+# client.py
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+	s.connect(("127.0.0.1", 8080))
+	s.sendall(b"✨ Hello from the other side ✨")
+	data = s.recv(1024)
+```
