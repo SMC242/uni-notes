@@ -1,6 +1,6 @@
 # Roles
 - Find participants in a session
-	- Look up names in a directory like DNS
+	- Look up names in a directory like [[DNS]]
 	- Servers might direct a connection to a peer (instant messenger, VoIP call)
 - Handles setting up connections
 	- If you try to directly connect to a named host, [[NAT]] will cause issues

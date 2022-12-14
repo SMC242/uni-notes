@@ -3,15 +3,15 @@ tags:
   - OSIModel
 ---
 
-# Purposes
+# Roles
 - Hide the [[Network Layer]]
 - Make the network seem reliable (it's not)
 - Improve the quality of service from the [[Network Layer]]
-- Make interfacing with the [[network layer]] easy
+- Make interfacing with the [[Network Layer]] easy
 	- E.G programmers working on the [[Application Layer]] might work with the sockets API
 	- Operating systems usually handle the [[Network Layer]] stuff
 
-## Roles
+## Functions
 - Process-to-process rather than host-to-host
 - Multiplexing
 - Reliability
@@ -42,7 +42,7 @@ tags:
 - Done end-to-end because the endpoints know the path taken and how long it took
 
 Flow control = adjusting for the receiver
-Congestion control = adjusting for the [[network layer]]
+Congestion control = adjusting for the [[Network Layer]]
 
 There are pros and cons of implementing this on the [[Network Layer]] vs the [[Transport Layer]]
 

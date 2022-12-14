@@ -57,8 +57,10 @@ See [[Network Layer]]
 See [[Transport Layer]]
 
 # Session layer
-- Manages multiple [[transport layer]] connections
+- Manages multiple [[Transport Layer]] connections
 - E.G NeBIOS, RPC
+
+See [[Session Layer]]
 
 # Presentation layer
 - How the data looks and conversion
@@ -67,10 +69,14 @@ See [[Transport Layer]]
 - Content negotiation (E.G MIME, SDP)
 - E.G SSL, Telnet, HTTP/HTML
 
+See [[Presentation Layer]]
+
 # Application layer
 - How an app communicates
 - WhatsApp uses XMPP
 - Facebook Mobile uses MQTT
 - E.G HTTP/HTTPS, [[Protocol List#DNS|DNS]], [[Protocol List#FTP|FTP]]
+
+See [[Application Layer]]
 
 ![OSI Summary](http://www.tech-faq.com/wp-content/uploads/2009/01/osimodel.png)

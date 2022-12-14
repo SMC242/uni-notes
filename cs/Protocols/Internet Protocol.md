@@ -20,9 +20,7 @@ aliases:
 # IP Service Model
 - Connectionless
 	- Just send [[Packets]] without establishing a connection
-- Best effort
-	- The network does its best to delivery the [[packets]], but won't guarantee it
-	- [[Packets]] may be lost, delayed, disordered, duplicated, or corrupted
+- [[Best Effort Servicing|Best effort]]
 - It's simple to simulate a circuit-switched system with a packet-switched system
 	- See [[Signals#Switching within networks]] for more information on circuit and packet systems
 
@@ -41,8 +39,7 @@ aliases:
 - Simplified packet structure
 - Dropped a lot of features
 
-# Domain Name Service
-- Converts a domain name like `gnu.org` to an [[#IP address]]
+![[DNS]]
 
 # IP address
 - The unique address of your computer on a network

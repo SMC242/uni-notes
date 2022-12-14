@@ -24,4 +24,4 @@ Stands for Network Address Translation
 # Why use NATs?
 - ISPs can effectively have more addresses because they don't need to give each network its own prefix
 - The network doesn't need to be given a new IP when moving between ISPs
-	- Applications often hard-code IPs instead of DNS names which is bad practice
+	- Applications often hard-code IPs instead of [[DNS]] names which is bad practice

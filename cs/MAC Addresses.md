@@ -1,7 +1,7 @@
 - The unique, immutable identifier of your device
 - It is given to your network interface card (NIC) when it's built
 - Also known as the physical address
-- Used in [[Address Resolution Protocol]]
+- Used in [[ARP]]
 
 # Format
 `XX:XX:XX:XX:XX:XX`

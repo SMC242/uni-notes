@@ -3,6 +3,7 @@ tags:
   - OSIModel
 ---
 
+# Roles
 - This [[Protocol Layering|protocol layer]] handles transferring the actual bits of data
 - Masks the complexity of encoding and decoding sequences of bits
 

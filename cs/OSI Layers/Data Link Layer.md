@@ -3,7 +3,7 @@ tags:
   - OSIModel
 ---
 
-# Responsibilities
+# Roles
 - Gatekeeper to the [[Physical Layer]]
 - Addressing
 - Structuring the bitstream
