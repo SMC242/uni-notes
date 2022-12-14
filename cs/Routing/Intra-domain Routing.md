@@ -27,7 +27,11 @@ Two methods:
 	- Leads to conflicts between updates from neighbours and causes a loop of disagreeing updates
 	- This issue is known as <font style="color:red;">counting up to infinity</font>
 
-[Distance vector example](https://youtu.be/hdpnoOcrGck?t=370)
+## Hand Executing
+Use a table like this for each iteration:
+![[Distance Vector Table.png]]
+
+[Hand execution example](https://youtu.be/hdpnoOcrGck?t=370)
 
 ## Counting up to infinity
 - This can't be entirely solved
