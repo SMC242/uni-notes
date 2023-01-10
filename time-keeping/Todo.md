@@ -1,6 +1,3 @@
-- [x] Read about checksums
-- [ ] Read NOSE lectures
-	- [ ] Transport layer
-	- [ ] NAT
-- [x] Take notes on functions (AF2)
-- [x] Reading for Sociology tutorial
+- [ ] Read Sociology lecture 1
+- [x] Sign up for UoFG Gitlab account
+- [x] Proof of residence for bus pass

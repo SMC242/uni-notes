@@ -3,7 +3,7 @@ class: "NOSE2"
 deadline: 2022-12-14T13:30
 difficulty: Medium
 time: "Caffeine demon"
-progress: "Started"
+progress: "Finished"
 ---
 
 # Revision topics
