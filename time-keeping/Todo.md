@@ -1,3 +1,4 @@
 - [ ] Read Sociology lecture 1
+- [ ] 
 - [x] Sign up for UoFG Gitlab account
 - [x] Proof of residence for bus pass
