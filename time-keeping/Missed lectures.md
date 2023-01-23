@@ -3,9 +3,9 @@
 	- [Remote](https://moodle.gla.ac.uk/pluginfile.php/5700083/mod_folder/content/0/L2.pptx?forcedownload=1)
 
 # OOSE
-- [Testing](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/Ea5pDxhd975AlcAdGVAUvLEBOUmQk3Qfu7ZL0fsYsZ4sQA?e=yHm7Aw)
-- [Testing 2](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/ETS6xmkqkaRChHnmZdBD9GQByuKw44iO2yshYml1MfCDGw?e=dDvbXp)
-- [OOP principles](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/EaNEk_dq7lJNvdcvhWnWoPEBgrYQOxkQ8gpbGu0M5Y1BoQ?e=ZZx4kq)
+- [x] [Testing](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/Ea5pDxhd975AlcAdGVAUvLEBOUmQk3Qfu7ZL0fsYsZ4sQA?e=yHm7Aw)
+- [x] [Testing 2](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/ETS6xmkqkaRChHnmZdBD9GQByuKw44iO2yshYml1MfCDGw?e=dDvbXp)
+- [x] [OOP principles](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/EaNEk_dq7lJNvdcvhWnWoPEBgrYQOxkQ8gpbGu0M5Y1BoQ?e=ZZx4kq)
 
 # WD2
 - [ ] [MVC introduction](https://moodle.gla.ac.uk/pluginfile.php/6229322/mod_resource/content/2/L3-DjangoTutorialLecture1-notes.pdf)
