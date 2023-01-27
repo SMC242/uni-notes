@@ -44,3 +44,6 @@ chmod u+x push-notes.sh pull-notes.sh
 # Naming conventions
 - Top-level directories should be `kebab-case`
 - Notes and sub-directories should be `Title Case`
+- Organise notes loosely by subject
+	- There may be crossover between subjects (E.G CS and Maths, Sociology and Statistics)
+- Don't create directories unless there's a sensible grouping. It's fine to have lots of notes in a directory
