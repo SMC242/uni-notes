@@ -1,3 +1,12 @@
+---
+target: 10
+progress: 3.6
+---
+
+```dataviewjs
+await dv.view("scripts/progress-bar", {file: "cs/WD2 Dashboard"});
+```
+
 # Overview
 This course is on web development in Python. It's using an [[MVC]] framework called [Django](https://www.djangoproject.com/)
 
