@@ -1,6 +1,6 @@
 ---
-target: 10
 progress: 3.6
+target: 10
 ---
 
 ```dataviewjs

@@ -1,0 +1,5 @@
+- Notions of a more civilised country bringing freedom to a "backwards" country
+	- Women's rights
+	- Gay rights
+	- Religiousness
+- This is used to justify wars
