@@ -26,7 +26,7 @@
 	- Cleaners
 	- Taxi drivers
 	- Shop keepers (particularly night shifts)
-- This has created an environment where these peoples have been denied the generational wealth that white people - who have exploited other races - have
+- This has created an environment where these peoples have been denied the generational wealth that white people - who have exploited other groups - have
 	- This leads to poor access to resources such as healthcare, quality food, and education
 - The [[Prison-industrial complex|police and media]] are key tools for reinforcing this hierarchy
 
@@ -36,3 +36,6 @@ Bradley et al. 2003 asked black women whether they identified more as a black pe
 - Where women had been successfully integrated into the workforce, they identified more as black person
 
 This shows that what you are othered for defined your identity
+
+# Race
+- Sociologists are moving away from the term due to its strong relationship with [[Colonialism]]
