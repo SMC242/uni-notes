@@ -4,6 +4,8 @@ deadline: 2022-12-10T09:00
 difficulty: Medium
 time: "Week"
 progress: "Finished"
+marks: 13
+max-marks: 22
 ---
 
 # Pre-requisites

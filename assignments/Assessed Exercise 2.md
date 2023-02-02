@@ -4,6 +4,8 @@ deadline: 2022-11-21T16:30
 difficulty: Hard
 time: "Few days"
 progress: "Finished"
+marks: 70
+max-marks: 100
 ---
 
 # Requirements

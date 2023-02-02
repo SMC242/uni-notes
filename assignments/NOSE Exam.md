@@ -4,6 +4,8 @@ deadline: 2022-12-14T13:30
 difficulty: Medium
 time: "Caffeine demon"
 progress: "Finished"
+marks: 38.5
+max-marks: 60
 ---
 
 # Revision topics
