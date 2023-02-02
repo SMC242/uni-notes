@@ -1,7 +1,7 @@
 # Active assignments
 ```dataview
 TABLE
-	class, dateformat(deadline, "yyyy-MM-dd @hh:mm") AS deadline, difficulty, time, progress
+	class, dateformat(deadline, "yyyy-MM-dd @HH:mm") AS deadline, difficulty, time, progress
 FROM
 	"assignments"
 WHERE
