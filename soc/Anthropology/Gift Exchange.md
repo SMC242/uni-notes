@@ -14,8 +14,8 @@ Author: Marcel Mauss
 # Types of exchange
 ## Commodity
 - Money is exchanged for goods
-- The commodity has [[Value#Use value|use value]] (food is tasty, tools are helpful)
-- It also has [[Value#Exchange value|exchange value]]: it can be traded for something perceived to be of equal value
+- The commodity has [[soc/Anthropology/Value#Use value|use value]] (food is tasty, tools are helpful)
+- It also has [[soc/Anthropology/Value#Exchange value|exchange value]]: it can be traded for something perceived to be of equal value
 - Two ways of representing exchange value: price ("monetary value") and bartering (trading)
 
 ## Gift

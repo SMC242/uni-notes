@@ -15,18 +15,22 @@ Blocked
 - [x] [OOP principles](https://gla.sharepoint.com/:p:/s/COMPSCI2008OBJECT-ORIENTEDSOFTWAREENGINEERING2-2022-23/EaNEk_dq7lJNvdcvhWnWoPEBgrYQOxkQ8gpbGu0M5Y1BoQ?e=ZZx4kq)
 
 # WD2
-- [ ] [MVC introduction](https://moodle.gla.ac.uk/pluginfile.php/6229322/mod_resource/content/2/L3-DjangoTutorialLecture1-notes.pdf)
-- [ ] [My first Django project](https://moodle.gla.ac.uk/pluginfile.php/6229631/mod_resource/content/2/L4-DjangoTutorialLecture2-notes.pdf)
-- [ ] [Lab](https://moodle.gla.ac.uk/pluginfile.php/5700450/mod_resource/content/9/WAD2-Labs-Weeks1-5.pdf)
-- [ ] [Django introduction](https://moodle.gla.ac.uk/pluginfile.php/6229322/mod_resource/content/2/L3-DjangoTutorialLecture1-notes.pdf)
-- [ ] [Django 2](https://moodle.gla.ac.uk/pluginfile.php/6229631/mod_resource/content/2/L4-DjangoTutorialLecture2-notes.pdf)
-- [ ] [Django 3](https://moodle.gla.ac.uk/pluginfile.php/6233543/mod_resource/content/1/L5-DjangoTutorialLecture3-notes.pdf)
+- [x] [MVC introduction](https://moodle.gla.ac.uk/pluginfile.php/6229322/mod_resource/content/2/L3-DjangoTutorialLecture1-notes.pdf)
+- [x] [My first Django project](https://moodle.gla.ac.uk/pluginfile.php/6229631/mod_resource/content/2/L4-DjangoTutorialLecture2-notes.pdf)
+- [x] [Lab](https://moodle.gla.ac.uk/pluginfile.php/5700450/mod_resource/content/9/WAD2-Labs-Weeks1-5.pdf)
+- [x] [Django introduction](https://moodle.gla.ac.uk/pluginfile.php/6229322/mod_resource/content/2/L3-DjangoTutorialLecture1-notes.pdf)
+- [x] [Django 2](https://moodle.gla.ac.uk/pluginfile.php/6229631/mod_resource/content/2/L4-DjangoTutorialLecture2-notes.pdf)
+- [x] [Django 3](https://moodle.gla.ac.uk/pluginfile.php/6233543/mod_resource/content/1/L5-DjangoTutorialLecture3-notes.pdf)
 - [ ] [Tests](https://moodle.gla.ac.uk/pluginfile.php/6241001/mod_resource/content/1/L6-DjangoTutorialLecture4-notes.pdf)
+- [ ] [Architecture](https://moodle.gla.ac.uk/pluginfile.php/6243215/mod_resource/content/0/L7-System-Architecture-notes.pdf)
+- [ ] [Tiered architecture](https://moodle.gla.ac.uk/pluginfile.php/6250322/mod_resource/content/0/L8-System-Architecture2-notes.pdf)
 
 # Sociology
 - [ ] [Defining health](https://moodle.gla.ac.uk/pluginfile.php/6090813/mod_folder/content/0/Lecture%201%20-%20the%20sociology%20of%20health%20and%20illness.pptx?forcedownload=1)
 - [ ] [Excess mortality](https://moodle.gla.ac.uk/pluginfile.php/6090815/mod_folder/content/0/Lecture%203.pptx?forcedownload=1)
 - [ ] [Life expectancy](https://moodle.gla.ac.uk/pluginfile.php/6090816/mod_folder/content/0/Lecture%204%20-%20Why%20have%20life%20expectancy%20trends%20stopped%20improving%20Lessons%20in%20the%20methods%20of%20science%2C%20uncertainty%20and%20politics.pptx?forcedownload=1)
+- [ ] [Intersectionality](file:///home/eilidhm/Downloads/Level-2-Gender-and-Ethnicity-2022_23_Lecture-2.pptx)
+	- [ ] [Remote](https://moodle.gla.ac.uk/mod/resource/view.php?id=3483646)
 
 # Archaeology
 - [ ] [Contexts](https://moodle.gla.ac.uk/pluginfile.php/5735928/mod_resource/content/2/02%20Archaeology%20and%20Material%20Culture%202223.pdf)
