@@ -1,2 +1,2 @@
 - [Symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Set_and.2For_logic_notation)
-- 
+- [Wolfram Alpha calculator](https://www.wolframalpha.com/)
