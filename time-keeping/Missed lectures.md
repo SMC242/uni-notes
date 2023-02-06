@@ -31,6 +31,7 @@ Blocked
 - [ ] [Life expectancy](https://moodle.gla.ac.uk/pluginfile.php/6090816/mod_folder/content/0/Lecture%204%20-%20Why%20have%20life%20expectancy%20trends%20stopped%20improving%20Lessons%20in%20the%20methods%20of%20science%2C%20uncertainty%20and%20politics.pptx?forcedownload=1)
 - [ ] [Intersectionality](file:///home/eilidhm/Downloads/Level-2-Gender-and-Ethnicity-2022_23_Lecture-2.pptx)
 	- [ ] [Remote](https://moodle.gla.ac.uk/mod/resource/view.php?id=3483646)
+- [ ] [Work](https://moodle.gla.ac.uk/mod/resource/view.php?id=3489032) (revise)
 
 # Archaeology
 - [ ] [Contexts](https://moodle.gla.ac.uk/pluginfile.php/5735928/mod_resource/content/2/02%20Archaeology%20and%20Material%20Culture%202223.pdf)

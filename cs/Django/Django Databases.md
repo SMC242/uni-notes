@@ -1,3 +1,7 @@
+---
+tags: django 
+---
+
 # Overview
 - Databases persist data
 - Django is built on top of SQL databases such as [SQLite](https://www.sqlite.org/index.html)

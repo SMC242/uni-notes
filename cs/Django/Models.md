@@ -1,3 +1,7 @@
+---
+tags: django 
+---
+
 # Models
 - Models are how you interact with the database
 
