@@ -40,6 +40,9 @@ One project can have many apps
 # Adding dynamic files
 ![[Dynamic Files#Configuration]]
 
+# Database integration
+![[Django Databases#Configuration]]
+
 # Resulting structure
 ```
 example_project
@@ -69,4 +72,3 @@ example_project
 - `example_project` is the project settings folder
 - `example` is *an* app folder
 	- See [[Apps]] for more information on the distinction between apps and projects
-- 
