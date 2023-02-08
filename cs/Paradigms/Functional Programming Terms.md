@@ -47,6 +47,51 @@ def bubbleSort(xs: list) -> None:
 async def get(url: str):  return await aiohttp.get(url)
 ```
 
+# Partial function application
+When a function is given some, but not all, of its arguments to create a new function that takes the remaining arguments
+
+## Examples
+```haskell
+foldr :: Foldable t => (a -> b -> b) -> b -> t a -> b
+
+sum' :: (Foldable t, Num a) => [a] -> a
+sum' xs = foldr (+) 0 xs
+
+-- Sum can be defined as a partial of foldr
+sum'' :: (Foldable t, Num a) => [a] -> a
+sum'' = foldr (+) 0
+
+-- ghci
+λ: :t foldr (+) 0  
+foldr (+) 0 :: (Foldable t, Num b) => t b -> b
+```
+
+```python
+from functools import partial
+
+def add(x: int, y: int) -> int:  return x + y
+
+add_one = partial(add, 1)
+# Equivalent to add_one(y: int) -> int:  return 1 + y
+```
+
+# Currying
+Currying a multi-parameter function transforms it into a chain of unary (one-parameter) functions
+
+`(a, b, c) -> d` becomes `a -> (b -> (c -> d))`
+=> `a -> b -> c -> d` (as found in Haskell)
+
+Haskell does this automatically. In most languages, curried functions must be defined manually
+
+```python
+to_3tuple = lambda x: lambda y: lambda z: (x, y, z)
+```
+
+## FP libraries
+These libraries offer [[#Higher Order Function|decorators]] for currying functions in non-FP languages:
+- Python: [toolz](https://toolz.readthedocs.io/en/latest/api.html)
+- JavaScript: [Rambda](https://ramdajs.com/)
+
 # Higher Order Function
 - A function that takes another function as a parameter
 - Useful for extending a function ("wrapping") or deferring implementations
