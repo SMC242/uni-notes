@@ -51,6 +51,18 @@ async def get(url: str):  return await aiohttp.get(url)
 When a function is given some, but not all, of its arguments to create a new function that takes the remaining arguments
 
 ## Examples
+```python
+def add(x: int, y: int) -> int:  return x + y
+
+# Equivalent to add_one(y: int) -> int:  return 1 + y
+add_one = lambda y: add(1, y)
+
+# A general function for this exists in the standard library
+from functools import partial
+
+add_one = partial(add, 1)
+```
+
 ```haskell
 foldr :: Foldable t => (a -> b -> b) -> b -> t a -> b
 
@@ -66,17 +78,8 @@ sum'' = foldr (+) 0
 foldr (+) 0 :: (Foldable t, Num b) => t b -> b
 ```
 
-```python
-from functools import partial
-
-def add(x: int, y: int) -> int:  return x + y
-
-add_one = partial(add, 1)
-# Equivalent to add_one(y: int) -> int:  return 1 + y
-```
-
 # Currying
-Currying a multi-parameter function transforms it into a chain of unary (one-parameter) functions
+Currying a multi-parameter function transforms it into a chain of unary (one-parameter) functions. This allows easy [[#Partial function application]]
 
 `(a, b, c) -> d` becomes `a -> (b -> (c -> d))`
 => `a -> b -> c -> d` (as found in Haskell)
@@ -132,7 +135,7 @@ interface ItemListProps {
 
 const ItemList: FC<ItemListProps> = ({items}) => (
 	<ul>
-		{items.map((e, i)) => <li key={i}>{e}</li>}
+		{ items.map((e, i) => <li key={i}>{e}</li>) }
 	</ul>
 )
 
