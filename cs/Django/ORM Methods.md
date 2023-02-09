@@ -15,6 +15,13 @@ records = Table.objects().filter(x=x, y=y)
 
 Filters records by the specified fields
 
+## order_by
+```python
+Table.objects.order_by("field")
+```
+
+Gets all records and sorts them by `field` ascending. Use a hyphen to sort descending (`"-field"`)
+
 # Mutations
 These methods create or update data in the database
 

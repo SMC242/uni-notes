@@ -30,3 +30,16 @@ class Model1Admin(admin.ModelAdmin):
 	# Control which fields are displayed
 	list_display = ("field1", "field2", "field3")
 ```
+
+# Plural names
+As the naming convention for [[Models]] is to use the singular form, they can look weird on the admin dashboard. This can be fixed with:
+
+```python
+from django.db import models
+
+class Table(models.Model):
+	...
+
+	class Meta:
+		verbose_name_plural = "tables"
+```

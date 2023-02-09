@@ -25,7 +25,7 @@ A superuser is basically an admin
 In your project root, run `python manage.py createsuperuser`
 
 ## Admin dashboard
-![[Admin]]
+![[Admin Dashboard]]
 
 # Models
 ![[Models]]
