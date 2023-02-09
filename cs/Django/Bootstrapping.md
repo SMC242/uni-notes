@@ -68,6 +68,7 @@ example_project
 └── templates
    └── example
 ```
+
 - The top-level `example_project` is the project root
 - `example_project` is the project settings folder
 - `example` is *an* app folder

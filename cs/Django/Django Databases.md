@@ -24,6 +24,9 @@ A superuser is basically an admin
 
 In your project root, run `python manage.py createsuperuser`
 
+## Admin dashboard
+![[Admin]]
+
 # Models
 ![[Models]]
 
@@ -48,3 +51,16 @@ This will allow you to play with [[ORM]] queries
 >>> Category(name="Melodic Death Metal").save()  # Create a new record in Category
 >>> quit()  # Exit the REPL
 ```
+
+# Populating
+![[Populating]]
+
+# Re-intialising
+- Go to your project root
+	- `rm db.sqlite3`
+	- `python manage.py migrate` to create the database with your models
+	- `python manage.py createsuperuser` to create a new admin
+	- `python <population script>.py` to fill your database
+
+# See also
+- [[ORM Methods]]
