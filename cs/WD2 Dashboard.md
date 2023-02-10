@@ -1,5 +1,5 @@
 ---
-progress: 6
+progress: 10.5
 target: 10
 ---
 
