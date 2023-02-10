@@ -13,21 +13,15 @@ Object.assign(heading, { textContent: "Progress" });
 
 // Calculate progress percentage
 const { start, target, progress } = dv.page(input.file);
-const isDescendingProgress = progress > target;
 let max, value, percent;
-if (isDescendingProgress && start) {
-  max = (target - start) * -1;
-  value = start - progress;
-}
-if (!isDescendingProgress && start) {
+if (start) {
   max = target - start;
   value = progress - start;
-}
-if (!isDescendingProgress && !start) {
+} else {
   max = target;
   value = progress;
 }
-percent = Math.round((value / max) * 100);
+percent = Math.min(Math.round((value / max) * 100), 100); // Prevent >100%
 
 // Create progress bar and text
 const progressBar = containerEl.createEl("progress");
