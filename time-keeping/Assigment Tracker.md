@@ -21,5 +21,5 @@ FROM
 WHERE
 	progress = "Finished"
 SORT
-	submitted DESC
+	deadline DESC
 ```
