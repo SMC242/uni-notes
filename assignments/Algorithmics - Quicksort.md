@@ -19,7 +19,10 @@ progress: "Not started"
 	- Analyse the time complexity and running time
 - Write a summary report
 
-## Question 3
+# Question 1d
+![[QuickSort#3-way]]
+
+# Question 3
 - Solution: heap sort
 - Use a max heap because that's what we were taught
 
