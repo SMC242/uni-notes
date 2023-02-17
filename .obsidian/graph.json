@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "-path:assignments -tag: SocEssay -tag: MathsEssay -tag: CSEssay -tag: StatsEssay -tag: ArchEssay -path:templates -path:time-keeping",
   "showTags": false,
   "showAttachments": false,
