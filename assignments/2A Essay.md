@@ -1,21 +1,19 @@
----
-class: "Sociology 1A"
-deadline: 2022-11-29T12:00
-difficulty: Medium
-time: "Caffeine demon"
-progress: "Finished"
----
+class:: "Sociology 1A"
+deadline:: 2022-11-29T12:00
+difficulty:: Medium
+time:: "Caffeine demon"
+progress:: "Finished"
 
 # Requirements
-- [Submission](https://moodle.gla.ac.uk/mod/page/view.php?id=18836)
+- [Submission](https:://moodle.gla.ac.uk/mod/page/view.php?id=18836)
 
 ## Questions
-Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/1566979/SOC2A_EssayQuestions.docx?forcedownload=1
+Source:: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/1566979/SOC2A_EssayQuestions.docx?forcedownload=1
 
 ### Classics
 1.  To what extent, if at all, do you agree with the view that the ‘classics’ reproduce the views indicative of the social position of their relatively privileged authors?
 
-2.  Answer ONE of the following:
+2.  Answer ONE of the following::
 	a. Why, for Durkheim (1898), is individualism ‘a religion in which man is at once the worshipper and the god’?
 	
 	b) How did Marx’s vision of communism seek to overcome the problems he identified in capitalism?
@@ -31,7 +29,7 @@ Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/156
 
 4.  What and how convincing are arguments to abolish prison? Critically address this question sociologically.
 
-> (Recommended Readings: See, in particular, the list of readings for [[Prisons]] topics (5 and 6) but feel free to draw in learning and resources from any other part of the Criminology block or the Sociology and Anthropology blocks.)
+> (Recommended Readings:: See, in particular, the list of readings for [[Prisons]] topics (5 and 6) but feel free to draw in learning and resources from any other part of the Criminology block or the Sociology and Anthropology blocks.)
 
 
 
@@ -39,15 +37,15 @@ Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/156
 4.  What and how convincing are arguments to abolish prison? Critically address this question sociologically.
 
 # Helpful links
-- [Essay tips](https://moodle.gla.ac.uk/pluginfile.php/5881405/mod_resource/content/1/ESSAY%20WRITING%20GUIDE.pdf)
-- [Marking](https://moodle.gla.ac.uk/pluginfile.php/5881406/mod_resource/content/1/Sociology%202A%20Essay%20Marking%20Criteria.pdf)
-- [Extension form](https://www.gla.ac.uk/media/Media_423888_smxx.pdf)
+- [Essay tips](https:://moodle.gla.ac.uk/pluginfile.php/5881405/mod_resource/content/1/ESSAY%20WRITING%20GUIDE.pdf)
+- [Marking](https:://moodle.gla.ac.uk/pluginfile.php/5881406/mod_resource/content/1/Sociology%202A%20Essay%20Marking%20Criteria.pdf)
+- [Extension form](https:://www.gla.ac.uk/media/Media_423888_smxx.pdf)
 
 # Possible points
 ## What is the abolition movement?
 - Roots in slavery abolition movement
 - Aim to tear down the carceral system
-- Takes a humanist approach to criminality: criminality is the result of a person's conditions. Few people turn to crime without reason
+- Takes a humanist approach to criminality:: criminality is the result of a person's conditions. Few people turn to crime without reason
 - View the prison system as deeply flawed
 	- It is a system for disadvantaging marginalised peoples
 	- It locks them in a cycle of poverty
@@ -55,7 +53,7 @@ Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/156
 	- It subjects people within the prison to abuse
 	- It punishes rather than reforms --> leads to recidivism 
 	- Exploits inmates for cheap labour
-- Wants to replace the carceral system with systems that:
+- Wants to replace the carceral system with systems that::
 	- Repair the damage done
 	- Support the victims in their recovery
 	- Educate and support the offender to avoid them doing further harm
@@ -63,9 +61,9 @@ Source: https://moodle.gla.ac.uk/pluginfile.php/5881396/mod_forum/attachment/156
 	- Are community-led, so each community can tailor their policies to their specific needs
 
 > \[Prison abolitionists aim for\] Not so much the abolition of prisons, but the abolition of a society that could have prisons
-> - [Moten/Harney p.114](https://ou.edu/content/dam/Education/documents/the%20university%20and%20the%20undercommons.pdf)
+> - [Moten/Harney p.114](https:://ou.edu/content/dam/Education/documents/the%20university%20and%20the%20undercommons.pdf)
 
-[History](https://oxfordre.com/criminology/view/10.1093/acrefore/9780190264079.001.0001/acrefore-9780190264079-e-625#acrefore-9780190264079-e-625-div1-1)
+[History](https:://oxfordre.com/criminology/view/10.1093/acrefore/9780190264079.001.0001/acrefore-9780190264079-e-625#acrefore-9780190264079-e-625-div1-1)
 
 ## Roots of the prison system
 The roots of the prison system are in retribution, now we attempt to correct
@@ -78,10 +76,10 @@ Abolitionists contest that prisons are good at correction. Instead, prisons are 
 Another reason we employ prisons is to give the illusion of protection from criminals. 
 - Prisons only protect the community from criminals while they are incarcerated
 	- Repeat offending is common because incarceration doesn't help the individual to reintegrate into society
-	- [Incarceration makes recidivism more likely](https://journals.sagepub.com/doi/epdf/10.1177/1477370809341128)
+	- [Incarceration makes recidivism more likely](https:://journals.sagepub.com/doi/epdf/10.1177/1477370809341128)
 - Inmates are subjected to massive violence
 	- Abolitionists recognise that inmates are people too and therefore can be victimised within prisons
-	- Link back to [[Michel Foucault]]: allowing this violence punishes the body and soul, instead of preventing future crimes
+	- Link back to [[Michel Foucault]]:: allowing this violence punishes the body and soul, instead of preventing future crimes
 
 ## Prison industrial complex
 Under capitalism, prisons provide a cheap labour force that can be made to produce goods. These goods are then sold for a larger profit than would be possible with free citizens due to better worker's rights
@@ -89,15 +87,15 @@ Under capitalism, prisons provide a cheap labour force that can be made to produ
 - Creates a modern slavery
 	- Links back to the roots of prisons
 
-[Davis, 2000](https://www.jstor.org/stable/40338793)
+[Davis, 2000](https:://www.jstor.org/stable/40338793)
 
 - Profit motive to maintain prison populations
 	- Even in countries where prisons are not private, this motivation can be cloaked with "prisoners contributing back to the economy"
 - Capitalism has a pressure for constant growth, leading to pressure to grow the prison population
 
-See: [[Prison-industrial complex]]
+See:: [[Prison-industrial complex]]
 
-Link: and how do they maintain/grow population? -->
+Link:: and how do they maintain/grow population? -->
 
 ## Discrimination
 Minorities are demonised by the media which gives the police an excuse to disproportionately police areas where those groups live. This feeds the prisons
@@ -113,7 +111,7 @@ Minorities are demonised by the media which gives the police an excuse to dispro
 
 ## Sanctions
 ### Current punishments
-[Effectiveness of restorative justice](https://restorativejustice.org.uk/sites/default/files/resources/files/An%20International%20Review%20of%20Restorative%20Justice.pdf)
+[Effectiveness of restorative justice](https:://restorativejustice.org.uk/sites/default/files/resources/files/An%20International%20Review%20of%20Restorative%20Justice.pdf)
 - What does community service actually achieve?
 	- Often unpaid labour
 	- Often doesn't affect the victims but some random aspect of the community
@@ -123,12 +121,12 @@ Minorities are demonised by the media which gives the police an excuse to dispro
 	- ==Data needed==
 
 ### Alternatives
-[Reparative and restorative approaches p162-195](https://ebookcentral.proquest.com/lib/gla/reader.action?docID=449550)
+[Reparative and restorative approaches p162-195](https:://ebookcentral.proquest.com/lib/gla/reader.action?docID=449550)
 - Preventing recitivism via community panels
 	- Gathering members to see what action could be taken to avoid the offender going back to prison
 - Victim-offender mediation
 	- Helps with empathy
-	- Limitation: only used for less severe crimes so far
+	- Limitation:: only used for less severe crimes so far
 		- Evidence that it might be 
 - Community surveillance
 
@@ -136,6 +134,6 @@ Minorities are demonised by the media which gives the police an excuse to dispro
 
 # Bibliography
 ## Background reading
-https://medium.com/@amparker/what-about-the-rapists-and-murderers-7a81955b772c
-[Addressing Skeptics](https://go-gale-com.ezproxy.lib.gla.ac.uk/ps/i.do?p=AONE&u=glasuni&id=GALE%7CA707337023&v=2.1&it=r&sid=summon)
-[Foucault essay](https://crimsoc.hull.ac.uk/2018/11/29/how-does-foucault-explain-the-shift-from-corporal-to-carceral-punishment-between-the-late-18th-and-the-mid-19th-century-do-you-agree-with-that-explanation-and-why/)
+https:://medium.com/@amparker/what-about-the-rapists-and-murderers-7a81955b772c
+[Addressing Skeptics](https:://go-gale-com.ezproxy.lib.gla.ac.uk/ps/i.do?p=AONE&u=glasuni&id=GALE%7CA707337023&v=2.1&it=r&sid=summon)
+[Foucault essay](https:://crimsoc.hull.ac.uk/2018/11/29/how-does-foucault-explain-the-shift-from-corporal-to-carceral-punishment-between-the-late-18th-and-the-mid-19th-century-do-you-agree-with-that-explanation-and-why/)
