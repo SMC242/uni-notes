@@ -1,10 +1,8 @@
----
-class: "CBT4"
-deadline: yyyy-mm-ddThh:mm
-difficulty: Medium
-time: "Caffeine demon"
-progress: "Not started"
----
+class:: "CBT4"
+deadline:: yyyy-mm-ddThh:mm
+difficulty:: Medium
+time:: "Caffeine demon"
+progress:: "Not started"
 
 # Pre-requisites
 
