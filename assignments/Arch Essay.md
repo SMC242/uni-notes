@@ -1,0 +1,66 @@
+---
+class: "Arch1B"
+deadline: 2023-03-08T18:00
+difficulty: Medium
+time: "Caffeine demon"
+progress: "Not started"
+---
+
+# Pre-requisites
+- Read up on chosen question
+	- Lectures
+	- Tutorials
+
+# Requirements
+- 1,500 words
+- Answer one question
+
+[Source](https://moodle.gla.ac.uk/pluginfile.php/5735879/mod_resource/content/4/AMW%20Essay%20Information%202022-23.pdf)
+
+# Questions
+## Question 1
+What ethical considerations should archaeologists take into consideration when dealing with unprovenanced artefacts? To what extent would you consider an unprovenanced artefact’s meaning to have been lost? Your answer must draw on AT LEAST ONE archaeological case study.
+
+### Hints
+It helps here to remember the lecture and tutorial on ‘Material Culture’, and the lectures on ‘From Excavation to Interpretation’ and ‘Archaeology and Preservation’. There are multiple dimensions to this question that you may choose to develop. Think carefully about how controlled excavation and finds recording/processing seeks to establish meaning, and what is lost when this chain is broken/circumvented (e.g. looting). You might also think about the journey of the artefact(s) from the ground to the collection (public or private), the communities and stakeholders affected, and the impacts of academic intervention.  
+
+The artefact(s) you choose to examine in this essay may be drawn from the suggested readings or may come from your own wider reading - if you know of a good example, use it! It may also help to examine news articles, blogs, or other online sources for this essay in addition to published journal articles or books, but make sure to check the integrity of the source. If uncertain, ask your tutorial leader.  
+
+Cuno, J. 2008. Who Owns Antiquity? Museums and the Battle over our Ancient Heritage. Princeton. [pp.1-20; Extract on Moodle]  
+
+Hurcombe, L. 2007. Archaeological Artefacts as Material Culture (Chapters 2-4, especially chapter 4 'Making sense of artefacts')  
+
+Prescott, C., and Rasmussen, J.M. 2020. Exploring the “Cozy Cabal of Academics, Dealers and Collectors” through the Schøyen Collection. Heritage, 3: pp.68-97.  
+
+Renfrew, C. 2000. Loot, Legitimacy and Ownership: the Ethical Crisis in Archaeology. London. [pp. 65-80; Extract on Moodle]
+  
+Tubb, K.W. 2007. Irreconcilable Differences? Problems with Unprovenanced Antiquities. Papers from the Institute of Archaeology, 18: pp.3-11.  
+
+Yates, D. 2014. Lies, Damned Lies and Archaeologists: Antiquities Trafficking Research as Criminology and the Ethics of Identification’. AP. Online Journal in Public Archaeology 4.2. n.p.
+
+## Question 2
+“He should not be here, he should be back in the bog”. Evaluate the arguments for and against the  
+display of ‘bog bodies’ to the public using TWO case studies.
+
+### Hints
+This quote is attributed to Emma Restell Orr at the opening night of the exhibition ‘Lindow Man: A Bog Mystery’ at Manchester Museum in 2008 (Giles 2020: 251). Restell Orr is a modern pagan and founder of the group ‘Honouring the Ancient Dead’ (HAD), one of various communities and stakeholders with strong views either for or against the display of human remains in museum contexts. These discussions are heightened when it comes to ‘bog bodies’, due to their remarkable preservation and unique public appeal. Some museums have taken these ethical considerations on board when designing their displays. It may be useful to consider what decisions curators have made in their display of specific ‘bog bodies’, and how effective you consider these to have been.  
+
+The key thing here is to engage with the various arguments, in spite of the emotive language that is sometimes used. A good way of ‘evaluating’ an argument is to draw up both the strengths and the weaknesses. You might well bring your own values to the discussion. This is fine, but it’s worth reflecting on what’s making you argue for a particular position. The suggested readings are a starting point, but remember that to evaluate a range of positions in this debate requires engaging with diverse perspectives and reflecting critically on your selection of sources.  
+
+Asingh, P., and Lynnerup, N. 2016. Bog bodies: the Grauballe Man. Technè, 44: pp.85-89.  
+
+Giles, M. 2020. Bog bodies. Face to face with the past. Manchester: Manchester University Press. [see especially ‘Chapter 3: Preserving the dead’ and ‘Chapter 8: Disquieting exhibits: displaying the dead’]\]
+
+Gill-Frerking, H. 2004. Bog bodies on display. Journal of Wetland Archaeology, 4: pp.111-116.  
+
+Joy, J. 2014. Looking Death in the Face Different Attitudes towards Bog Bodies and their Display with a Focus on Lindow Man. In Fletcher, A., Antoine, D. and Hill, JD. (eds.) Regarding the Dead: Human Remains in the British Museum. London: The British Museum Press. pp.10-19.  
+
+Lacy, R. S. 2022. On Display: Ethics of Human Remains in Museums & Online. Talk Death. https://www.talkdeath.com/on-display-ethics-of-human-remains-in-museums-online/  
+
+Museums Galleries Scotland. 2011. Guidelines for the Care of Human Remains in Scottish Museum Collections. https://www.museumsgalleriesscotland.org.uk/advice/collections/introduction-to-human-remains-in-museums/
+
+# Helpful links
+
+# Research
+
+# Bibliography
