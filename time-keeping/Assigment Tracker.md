@@ -1,3 +1,11 @@
+```button
+name Create new assignment
+type command
+action QuickAdd: Create new assignment
+color purple
+class button-overrides
+```
+
 # Active assignments
 ```dataview
 TABLE

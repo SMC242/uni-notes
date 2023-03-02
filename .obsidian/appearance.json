@@ -5,7 +5,8 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "pro_con_list",
-    "breakdown"
+    "breakdown",
+    "button-overrides"
   ],
   "nativeMenus": false,
   "showViewHeader": true,

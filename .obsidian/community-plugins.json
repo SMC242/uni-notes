@@ -2,7 +2,6 @@
   "obsidian-focus-mode",
   "obsidian-html-tags-autocomplete",
   "obsidian-footnotes",
-  "obsidian-pandoc",
   "table-editor-obsidian",
   "obsidian-vault-statistics-plugin",
   "quick-latex",
@@ -10,5 +9,7 @@
   "dataview",
   "better-word-count",
   "obsidian-dictionary-plugin",
-  "templater-obsidian"
+  "templater-obsidian",
+  "buttons",
+  "quickadd"
 ]

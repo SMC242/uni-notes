@@ -2,7 +2,7 @@ class:: "ADS2"
 deadline:: 2023-02-17T16:30
 difficulty:: Hard
 time:: "Week"
-progress:: "Not started"
+progress:: "Finished"
 
 # Pre-requisites
 - Read up on quicksort and its variations
