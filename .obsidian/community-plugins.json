@@ -9,7 +9,7 @@
   "dataview",
   "better-word-count",
   "obsidian-dictionary-plugin",
-  "templater-obsidian",
   "buttons",
-  "quickadd"
+  "quickadd",
+  "templater-obsidian"
 ]
