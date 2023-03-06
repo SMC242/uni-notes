@@ -1,8 +1,9 @@
+
 ```dataview
 TABLE
 	started
 FROM
-	"Projects"
+	"projects"
 WHERE
 	file.name != "Project Tracker"
 ```
