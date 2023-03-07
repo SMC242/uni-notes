@@ -24,4 +24,6 @@ In Germany, a museum that contains six bog specimens maintains a poll box. In th
 # Bibliography
 [^sacrifices]: Lynnerup, N. (2015) ‘Bog Bodies’, The Anatomical Record, 298(6), pp. 1007–1012. Available at: https://doi.org/10.1002/ar.23138.
 
+[^Countries]:: Gill-Robinson, H. (2004) ‘Bog Bodies on Display’, Journal of Wetland Archaeology, 4(1), pp. 111–116. Available at: https://doi.org/10.1179/jwa.2004.4.1.111.
+
 [^visitors]: Kirchberg, V. (1996) ‘Museum visitors and non-visitors in Germany: A representative survey’, Poetics, 24(2), pp. 239–258. Available at: https://doi.org/10.1016/S0304-422X(96)00007-1.
