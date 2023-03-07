@@ -137,6 +137,9 @@ See [[#What are bog bodies?]]
 	- Additionally, the kind of person that is likely to attend a museum is someone with free time (I.E wealthier people) so it represents mostly middle to upper class people
 	- Additionally, dissenters may avoid the museum and therefore won't be represented in this sample
 
+# Possible sources
+[Sacrificial theory](https://www-tandfonline-com.ezproxy.lib.gla.ac.uk/doi/full/10.1080/14732971.2020.1824466)
+
 # Bibliography
 [^overview]: Asingh, P., and Lynnerup, N. 2016. Bog bodies: the Grauballe Man. Technè, 44: pp.85-89.  
 
