@@ -52,7 +52,7 @@ Gill-Frerking, H. 2004. Bog bodies on display. Journal of Wetland Archaeology, 4
 
 Joy, J. 2014. Looking Death in the Face Different Attitudes towards Bog Bodies and their Display with a Focus on Lindow Man. In Fletcher, A., Antoine, D. and Hill, JD. (eds.) Regarding the Dead: Human Remains in the British Museum. London: The British Museum Press. pp.10-19.  
 
-Lacy, R. S. 2022. On Display:: Ethics of Human Remains in Museums & Online. Talk Death. https://www.talkdeath.com/on-display-ethics-of-human-remains-in-museums-online/  
+Lacy, R. S. 2022. On Display: Ethics of Human Remains in Museums & Online. Talk Death. https://www.talkdeath.com/on-display-ethics-of-human-remains-in-museums-online/  
 
 Museums Galleries Scotland. 2011. Guidelines for the Care of Human Remains in Scottish Museum Collections. 
 https://www.museumsgalleriesscotland.org.uk/advice/collections/introduction-to-human-remains-in-museums/
@@ -138,8 +138,8 @@ See [[#What are bog bodies?]]
 	- Additionally, dissenters may avoid the museum and therefore won't be represented in this sample
 
 # Possible sources
-[Sacrificial theory](https://www-tandfonline-com.ezproxy.lib.gla.ac.uk/doi/full/10.1080/14732971.2020.1824466)
-
+- [Sacrificial theory](https://www-tandfonline-com.ezproxy.lib.gla.ac.uk/doi/full/10.1080/14732971.2020.1824466)
+- [What would the dead think?](https://www.researchgate.net/profile/Melanie-Giles-3/publication/252701285_BOG_BODIES_REPRESENTING_THE_DEAD/links/552e79db0cf22d43716e9601/BOG-BODIES-REPRESENTING-THE-DEAD.pdf)
 # Bibliography
 [^overview]: Asingh, P., and Lynnerup, N. 2016. Bog bodies: the Grauballe Man. Technè, 44: pp.85-89.  
 
