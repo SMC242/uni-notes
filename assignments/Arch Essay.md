@@ -2,7 +2,7 @@ class:: "Arch1B"
 deadline:: 2023-03-08T18:00
 difficulty:: Medium
 time:: "Caffeine demon"
-progress:: "Started"
+progress:: "Finished"
 
 # Pre-requisites
 - Read up on chosen question
