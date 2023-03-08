@@ -44,7 +44,7 @@ This quote is attributed to Emma Restell Orr at the opening night of the exhibit
 
 The key thing here is to engage with the various arguments, in spite of the emotive language that is sometimes used. A good way of ‘evaluating’ an argument is to draw up both the strengths and the weaknesses. You might well bring your own values to the discussion. This is fine, but it’s worth reflecting on what’s making you argue for a particular position. The suggested readings are a starting point, but remember that to evaluate a range of positions in this debate requires engaging with diverse perspectives and reflecting critically on your selection of sources.  
 
-Asingh, P., and Lynnerup, N. 2016. Bog bodies:: the Grauballe Man. Technè, 44: pp.85-89.  
+Asingh, P., and Lynnerup, N. 2016. Bog bodies: the Grauballe Man. Technè, 44: pp.85-89.  
 
 Giles, M. 2020. Bog bodies. Face to face with the past. Manchester: Manchester University Press. [see especially ‘Chapter 3: Preserving the dead’ and ‘Chapter 8: Disquieting exhibits: displaying the dead’]\
 
