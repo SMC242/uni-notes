@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 1
+---
+
 class:: "IOOP"
 deadline:: 2022-11-17T17:00
 difficulty:: Easy

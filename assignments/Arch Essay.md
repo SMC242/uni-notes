@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "Arch1B"
 deadline:: 2023-03-08T18:00
 difficulty:: Medium

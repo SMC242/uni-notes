@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 1
+---
+
 class:: "AF2"
 deadline:: 2022-11-21T16:30
 difficulty:: Hard

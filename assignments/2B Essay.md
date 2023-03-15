@@ -1,5 +1,11 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "Sociology 2B"
-deadline:: 2023-03-16T12:00
+deadline:: 2023-03-23T12:00
 difficulty:: Medium
 time:: "Week"
 progress:: "Not started"

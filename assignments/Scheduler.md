@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 1
+---
+
 class:: "NOSE"
 deadline:: 2022-11-25T16:30
 difficulty:: Medium

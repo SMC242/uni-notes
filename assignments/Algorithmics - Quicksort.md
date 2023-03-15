@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "ADS2"
 deadline:: 2023-02-17T16:30
 difficulty:: Hard

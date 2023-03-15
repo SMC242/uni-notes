@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "WD2"
 deadline:: 2023-02-10T18:30
 difficulty:: Low
