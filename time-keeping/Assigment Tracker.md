@@ -23,6 +23,7 @@ SORT
 ```dataview
 TABLE
 	class,
+	"Y" + when.year + "S" + when.semester AS when,
 	dateformat(deadline, "yyyy-MM-dd") as submitted,
 	round(default(marks, 0) / default(max-marks, 0), 2) * 100 + "%" as score
 FROM

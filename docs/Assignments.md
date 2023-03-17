@@ -3,7 +3,7 @@
 - Making it easy to jump to details on a given assignment
 
 # Usage
-Create a note in `assignments/` with the following keys in the metadata:
+Create a note in `assignments/` with the following [inline fields](https://blacksmithgu.github.io/obsidian-dataview/annotation/add-metadata/#inline-fields):
 - `class`: the name of the class
 - `deadline`: the date it's due
 	- Should be in UTC format: `yyyy-MM-ddThh:mm`
@@ -14,6 +14,11 @@ Create a note in `assignments/` with the following keys in the metadata:
 - `progress`: how far along the assignment is
 	- May be _Not started/Started/Nearly done/Finished_
 
+In the [front matter](https://help.obsidian.md/Editing+and+formatting/Metadata), there must be the following keys:
+- `when`: an object with keys:
+	- `year`: which year in my degree this assignment belongs to. Must be in the range $1..4$
+	- `semester`: which semester within that year the assignment belongs to. Must be in the range $1..2$
+
 It's recommended to use the [[Assignment]] template to add information about the assignment. This will not be displayed on the tracker
 
 ## Optional fields
@@ -22,15 +27,19 @@ It's recommended to use the [[Assignment]] template to add information about the
 	- Required when `marks` is present to calculate the percentage score
 
 # Example
-```yaml
+```
 ---
-class: "Sociology 1A"
-deadline: 2022-11-24T12:00
-difficulty: Medium
-time: "Caffeine demon"
-progress: "Not started"
+when:
+  - year: 1
+  - semester: 2
+---
 
-marks: 20
-max-marks: 120
----
+class:: "Sociology 1A"
+deadline:: 2022-11-24T12:00
+difficulty:: Medium
+time:: "Caffeine demon"
+progress:: "Not started"
+
+marks:: 20
+max-marks:: 120
 ```

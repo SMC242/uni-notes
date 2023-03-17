@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "OOSE"
 deadline:: 2023-03-17T16:00
 difficulty:: Medium

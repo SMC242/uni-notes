@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 1
+---
+
 class:: "Sociology 1A"
 deadline:: 2022-11-29T12:00
 difficulty:: Medium

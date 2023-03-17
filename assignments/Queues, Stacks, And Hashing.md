@@ -1,3 +1,9 @@
+---
+when:
+  year: 2
+  semester: 2
+---
+
 class:: "ADS"
 deadline:: 2023-03-24T16:30
 difficulty:: Medium
