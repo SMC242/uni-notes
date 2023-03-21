@@ -39,7 +39,7 @@ See [[Structuralism]]
 
 # Constructing the patriarchy
 - Women are portrayed as weak, illogical, and inferior to men
-- Masculinity is constructed in opposition to feminimity
+- Masculinity is constructed in opposition to femininity
 	- This is why emasculating a man is the worst thing that can happen to them 
 	- Men engage in many behaviours to reinforce their masculinity
 	- [[Sigmund Freud]] scratched the surface of this topic with "castration anxiety", but his theories are very patriarchal and should not be used
