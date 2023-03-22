@@ -8,7 +8,7 @@ class:: "OOSE"
 deadline:: 2023-03-17T16:00
 difficulty:: Medium
 time:: "Few days"
-progress:: "Not started"
+progress:: "Finished"
 
 # Pre-requisites
 
