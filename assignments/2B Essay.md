@@ -44,6 +44,7 @@ socioeconomic health inequalities?
 - Gender is not natural
 	- We created it 
 	- Women are not naturally suited for domestic labour and men aren't better at "rational roles"
+	- Draw on Judith Butler?
 - Race is not natural either
 	- There is more genetic diversity within Africans than between Africans and any other region on the planet
 	- Yet racialised peoples are seen as better for domestic labour

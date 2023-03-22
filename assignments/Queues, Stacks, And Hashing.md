@@ -5,7 +5,7 @@ when:
 ---
 
 class:: "ADS"
-deadline:: 2023-03-24T16:30
+deadline:: 2023-03-31T16:30
 difficulty:: Medium
 time:: "Few days"
 progress:: "Not started"
