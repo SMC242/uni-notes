@@ -8,7 +8,7 @@ class:: "Sociology 2B"
 deadline:: 2023-03-23T12:00
 difficulty:: Medium
 time:: "Week"
-progress:: "Started"
+progress:: "Finished"
 [[Naturalisation|Essay link]]
 
 # Pre-requisites
