@@ -8,7 +8,7 @@ class:: "WD2"
 deadline:: 2023-03-24T12:00
 difficulty:: Low
 time:: "Week"
-progress:: "Not started"
+progress:: "Finished"
 
 # Pre-requisites
 - Read lectures on CSS
