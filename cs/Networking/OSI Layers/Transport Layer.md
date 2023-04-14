@@ -24,7 +24,7 @@ tags:
 - This means that multiple transport services can be running on one host
 
 # Reliability
-- Since the [[Internet Protocol]] is best-effort, [[packets]] may be dropped
+- Since the [[Internet Protocol]] is best-effort, [[Packets]] may be dropped
 - This is fine for some use cases, but not others
 	- Email needs 0% data loss
 	- Voice and video streaming can handle some loss but requires speed

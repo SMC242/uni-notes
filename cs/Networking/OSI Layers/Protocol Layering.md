@@ -51,7 +51,7 @@ See [[Network Layer]]
 
 # Transport layer
 - Makes data transfer reliable
-- Handles ordering and congestion control to avoid dropping [[packets]]
+- Handles ordering and congestion control to avoid dropping [[Packets]]
 - E.G [[Protocol List#TCP|TCP]], [[Protocol List#UDP|UDP]]
 
 See [[Transport Layer]]

@@ -1,5 +1,5 @@
 # Definition
-- The network does its best to delivery the [[packets]], but won't guarantee it
+- The network does its best to delivery the [[Packets]], but won't guarantee it
 - [[Packets]] may be lost, delayed, disordered, duplicated, or corrupted
 
 # Advantage

@@ -36,7 +36,7 @@
 - If the responses stop coming, the receiver or network path has run into an issue
 
 ## Handling delay
-- If [[packets]] are delayed, the packets may be reordered and that causes duplicate `ACK`s
+- If [[Packets]] are delayed, the packets may be reordered and that causes duplicate `ACK`s
 - This is why a triple duplicate is the criteria for re-transmission, not a double
 - Makes an assumption: the delay isn't too big
 

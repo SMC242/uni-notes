@@ -82,7 +82,7 @@ where the `X`es are hexadecimal digits
 
 ## Fragmentation
 - The [[Data Link Layer]] has a maximum packet size (MTU)
-- IPv4 routers fragment [[packets]] that are bigger than the MTU
+- IPv4 routers fragment [[Packets]] that are bigger than the MTU
 	- The More Fragments (MF) bit is set if the packet was fragmented
 	- If the Do Not Fragment (DF) bit is set, the packet is discarded
 - Also has a fragment offset relative to the first packet
@@ -95,7 +95,7 @@ where the `X`es are hexadecimal digits
 - Makes a key assumption: the width of the network is less than the forwarding limit
 
 ## Header checksum
-IPv4 headers have a checksum, while IPv6 doesn't. IPv6 assumes [[packets]] are protected in the [[Data Link Layer]]
+IPv4 headers have a checksum, while IPv6 doesn't. IPv6 assumes [[Packets]] are protected in the [[Data Link Layer]]
 - Protects the IP header exclusively
 	- Higher layers must protect the payload
 
