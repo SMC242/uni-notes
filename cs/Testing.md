@@ -25,9 +25,21 @@ Example: Python's [unittest](https://docs.python.org/3/library/unittest.html) or
 - This often uncovers state errors or mismatched function types
 
 ## Property-based testing
-- A type of testing that randomly generates test data based on the function's type signature
+- A type of testing that randomly generates test data based on  the "properties" of a function
+- Properties are rules for how the function should behave for all valid inputs
 
-Example: Haskell's [QuickCheck](https://hackage.haskell.org/package/QuickCheck)
+Example: Haskell's [QuickCheck](https://hackage.haskell.org/package/QuickCheck) and Python's [Hypothesis](https://hypothesis.readthedocs.io/)
+
+## Example of properties
+```haskell
+add :: Num a => a -> a -> a
+add a b = a + b
+```
+
+For all numbers:
+- `add a b` should produce `a + b`
+- `add a b` should be equal to `add b a` 
+- `add c (add a b)` should be equal to `add a (add b c)`
 
 ## GUI testing
 - Automated interactions with a GUI
