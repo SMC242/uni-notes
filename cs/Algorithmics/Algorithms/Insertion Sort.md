@@ -8,7 +8,7 @@ Data about the algorithm such as:
 	- Worst case: $O(n^2)$
 - Space complexity: $O(n)$
 - [[Algorithm Strategies|Strategy type]]: [[Algorithm Strategies#Incremental|incremental]]
-- Stable
+- Stable? Yes
 - Can be recursive or iterative
 
 # Use case

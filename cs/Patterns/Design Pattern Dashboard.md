@@ -7,3 +7,8 @@ Patterns used in [[OOP|Object Orient Programming]]
 Patterns used in [[Functional Programming]]
 
 -
+
+# Programming patterns
+General patterns
+
+- [[Guard Pattern]]

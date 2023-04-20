@@ -37,3 +37,8 @@ When talking about the growth rate of a function, ignore:
 - Lower-degree terms
 	- $2n^{2} + 4n$ (quadratic function, ignore the linear term)
 	- $3n^{3} + 2n^{2} + n$ (cubic function, ignore the other terms)
+
+# Analysing recursive functions
+The time complexity of a recursive function is $O(a^{h + 1})$ where $a$ is the number of recursive calls each node can make (E.G. 1 for linear, 2 for binary) and $h$ is the height of the tree
+
+![[Recursion#Analysing trees]]

@@ -45,8 +45,11 @@ $c$ must be a constant, therefore the expression does not hold for all $n$
 ![Graphed functions](https://www.dotnetlovers.com/images/coolnikhilj2256c883d1-b9fc-46e9-b225-588ac5063c3d.png)
 
 ## Big-Omega
-- The lower bound of $g(n)$
+- The lower bound of $f(n)$
 
 $f(n) = \Omega(g(n))$ if there exists some $c, n_0$ such that $f(n) >= c \cdot g(n)$ when `n >= n_0`
 
 ## Big-Theta
+- The upper and lower bounds of $f(n)$
+
+$f(n) = \Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$

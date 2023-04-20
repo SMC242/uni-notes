@@ -10,7 +10,7 @@ It has a bad worst-case complexity, but it is provably closer to the best case o
 - Space complexity: $O(\log n)$
 - [[Algorithm Strategies|Strategy type]]: [[Algorithm Strategies#Divide and conquer|divide and conquer]]
 - Stable? No
-- Recursive?  [[Recursion#Binary recursive functions|binary recursive]]
+- Recursive? [[Recursion#Types#Binary|binary recursive]]
 
 # Use case
 - Great for large arrays
