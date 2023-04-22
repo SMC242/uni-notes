@@ -24,7 +24,7 @@ progress: 48
 target:136
 ```
 
-Dataviewjs block:
+Dataview.js block:
 ```dataviewjs
 await dv.view("scripts/progress-bar", {file: "cs/WD2 Dashboard"});
 ```

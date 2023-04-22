@@ -1,3 +1,7 @@
+---
+tags: django 
+---
+
 # Motivation
 ## Demos
 Fake data is quick to generate, but not ideal for demos. Instead, a population script may be used to insert pre-defined data into the database

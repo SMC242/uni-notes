@@ -1,3 +1,7 @@
+---
+tags: django 
+---
+
 # Queries
 These methods fetch data from the database
 
