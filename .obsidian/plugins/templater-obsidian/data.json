@@ -23,8 +23,8 @@
       "template": "templates/Essay.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "cs/Algorithmics/Algorithms",
+      "template": "templates/Algorithm.md"
     }
   ],
   "syntax_highlighting": true,

@@ -33,23 +33,7 @@ factorial 3 = 3 * (2 * (1 * 1))             <-- base case reached
 ## Ternary
 - Each recursive call produces 0 or 3 more calls
 
-# Visualising recursive functions
-## Recursion trace diagram
-A recursion trace diagram can be used to show each step
-
-![Recursion trace](https://d2vlcm61l7u1fs.cloudfront.net/media%2F752%2F7522d750-706b-4a02-aa6e-43acaafbdaff%2FphpM2PaE8.png)
-
-## Recursion tree
-- Representing the [[#Recursion trace diagram|trace]] of a recursive function is useful for [[#Binary|n-ary]] recursive functions
-
-![Fibonnaci recursion tree](https://miro.medium.com/v2/resize:fit:925/1*svQ784qk1hvBE3iz7VGGgQ.jpeg)
-
-### Analysing trees
-- The height of a tree is the maximum number of edges from the root node to any node
-	- I.E the number of layers
-- The number of nodes in a binary tree is at most $2^{h + 1} - 1$ where $h$ is the height of the tree
-- The Fibonacci function above is $O(2^n)$ because it is a binary recursive function of height $n$
-	- Exponential complexity
+[[Analysing Recursive Algorithms]]
 
 # The cost of recursion
 - Every time a function recurs, the local variables must be saved in a stack frame

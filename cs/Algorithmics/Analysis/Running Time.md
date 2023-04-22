@@ -7,7 +7,7 @@ $T(n)$ is the running time of for a given $n$
 - $b$ is the time taken by the slowest [[Algorithm Analysis#Primitive Operations|primitive operation]]
 
 $a \cdot f \le T(n) \le b \cdot f$
-	where $f(n)$ is the worst case [[time complexity]] of the function
+	where $f(n)$ is the worst case [[Time Complexity]] of the function
 
 # Bounds
 The running time is bounded by the functions $a \cdot f$ and $b \cdot f$. This can be stated as *"$T(n)$ is bounded by two {[[Time Complexity#Growth rates|growth rate]]} functions"*

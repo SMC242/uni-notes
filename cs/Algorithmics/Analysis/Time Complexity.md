@@ -41,4 +41,4 @@ When talking about the growth rate of a function, ignore:
 # Analysing recursive functions
 The time complexity of a recursive function is $O(a^{h + 1})$ where $a$ is the number of recursive calls each node can make (E.G. 1 for linear, 2 for binary) and $h$ is the height of the tree
 
-![[Recursion#Analysing trees]]
+![[Analysing Recursive Algorithms]]
