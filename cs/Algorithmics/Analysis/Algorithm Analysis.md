@@ -87,3 +87,6 @@ $T(n) = T_1 + T_{2} + T_3$
 - `x := arr[0]` is 2 operations: assignment and indexing
 - `for i = 1 to n-1` is $2n$ operations: assign `i` and compare to `n - 1` for each element
 - Loop bodies are usually executed $n - 1$ times
+
+# Amortised analysis
+![[Amortised analysis]]

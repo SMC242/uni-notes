@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-path:assignments -tag: SocEssay -tag: MathsEssay -tag: CSEssay -tag: StatsEssay -tag: ArchEssay -path:templates -path:time-keeping",
   "showTags": false,
   "showAttachments": false,
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4036360640031512,
+  "scale": 0.3346344770115116,
   "close": true
 }

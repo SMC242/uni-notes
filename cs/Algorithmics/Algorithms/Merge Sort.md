@@ -56,3 +56,31 @@ This function sorts *__in place__*
 ## Insertion sort
 - Defer to [[Insertion Sort]] for small sub-arrays
 - This usually happens when the sub-array has between 5 and 20 elements
+
+## Linked list
+- If the list is empty or there is only one element, return
+- Else: half the list with `split`
+- Recurse to sort the two halves
+- Recombine the two halves with `merge`
+
+See [Geeks For Geeks](https://www.geeksforgeeks.org/merge-sort-for-linked-list/) for an example implementation
+
+### Merge
+```haskell
+merge :: Node a -> Node a -> Node a
+```
+- Recursive
+- Manipulates the pointers of the two elements until a `NIL` is reached
+
+### Split
+```haskell
+split :: LinkedList a -> (LinkedList a, Node a)
+```
+- Recursive
+- Use two cursors (`slow` and `fast`) to traverse to the midpoint of the input
+	- `slow` moves one element at a time, `fast` moves two at a time
+- When `fast` reaches the end of the list, `slow` will be at the element before the middle
+- Get a reference to the middle element
+- Set `slow`'s' `next` to `NIL`
+	- This means that the input list will now end after `slow`
+- Return the newly-truncated list and the middle node 
