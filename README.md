@@ -41,9 +41,16 @@ chmod u+x push-notes.sh pull-notes.sh
 - These can be invoked in a terminal with `push-notes.sh` and `pull-notes.sh`
 - You may want to put this in a [cron job](https://archived.forum.manjaro.org/t/how-to-create-a-cron-job-in-manjaro/105)
 
-# Naming conventions
-- Top-level directories should be `kebab-case`
-- Notes and sub-directories should be `Title Case`
+# Organisation guidelines
 - Organise notes loosely by subject
 	- There may be crossover between subjects (E.G CS and Maths, Sociology and Statistics)
 - Don't create directories unless there's a sensible grouping. It's fine to have lots of notes in a directory
+
+# Naming conventions
+- Top-level directories should be `kebab-case`
+- Notes and sub-directories should be `Title Case`
+
+## Types of files
+- [Maps of content](https://ricraftis.au/obsidian/i-have-been-doing-my-obsidian-maps-of-content-mocs-the-wrong-way/) should be called "* Map"
+- Overviews for specific courses should be called "{course name} Dashboard"
+- Progress/task trackers should be called "* Tracker"
