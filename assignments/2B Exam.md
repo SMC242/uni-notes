@@ -5,7 +5,7 @@ when:
 ---
 
 class:: "Sociology 2B"
-deadline:: 2023-05-6T14:00
+deadline:: 2023-05-06T14:00
 difficulty:: Medium
 time:: "Week"
 progress:: "Not started"

@@ -1,9 +1,12 @@
 ---
+tags: ADT/Queue
 aliases: Dequeue
 ---
 
 # Definition
-A type of queue where you can insert and delete at both ends. Also known as a Dequeue
+A type of [[Queue]] where you can insert and delete at both ends. Also known as a Dequeue
+
+See also: [[Queue]]
 
 # Motivation
 ## Use case

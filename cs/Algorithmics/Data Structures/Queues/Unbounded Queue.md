@@ -1,8 +1,15 @@
+---
+tags: ADT/Queue
+---
+
 # Unbounded queues
-- Resizes the internal array as needed
+A [[Queue]] that resizes the internal array as needed
 
-See [[Bounded Stack#Unbounded stacks]]
+See also:
+- [[Queue]]
+- [[Unbounded Stack]]
 
+# Operations
 ## Resize
 - Resize the internal array to size $n$
 - [[Time Complexity]]: $O(n)$

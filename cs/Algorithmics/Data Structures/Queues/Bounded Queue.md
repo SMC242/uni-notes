@@ -1,21 +1,13 @@
 # Definition
-A queue is an ordered collection that follows the first-in-first-out policy (FIFO)
+A [[Queue]] that has a maximum capacity. It uses a static array to store elements
 
-# Motivation
-## Use case
-- Doing operations sequentially
-	- Long-running functions
-	- Requests
-- Waiting lists
-- Accessing shared resources
-	- Printers
-	- Servers
-- Multitasking
-	- [[Asynchronous Programming]]
-	- [[Multithreading]]
+See also: [[Bounded Stack]]
 
-# Comparison
-![[Bounded Stack#Comparison]]
+# Properties
+- Space complexity is $O(n)$
+- All operations are $O(1)$
+- The size can't be changed without reallocating the internal array
+- Vulnerable to overflows
 
 # Members
 - `data`: the internal array (if the queue is bounded)
@@ -32,7 +24,8 @@ Bounded queues use circular indexes:
 Note that modulo (`%`) is used to wrap the indexes
 
 ## Enqueue
-- Add an element to the end of the queue
+[[Queue#Enqueue]]
+
 - Queuing to a full bounded queue causes an overflow
 - [[Time Complexity]]: $O(1)$
 
@@ -44,8 +37,8 @@ def enqueue(self, x: T) -> None:
 ```
 
 ## Dequeue
-- Remove and return the top element of the queue
-- Calling this on an empty queue causes an underflow
+[[Queue#Dequeue]]
+
 - [[Time Complexity]]: $O(1)$
 
 ```python
@@ -60,7 +53,8 @@ def dequeue(self) -> T | None:
 These operations do not have to be defined
 
 ## Front
-- Get the first element without removing it
+[[Queue#Front]]
+
 - [[Time Complexity]]: $O(1)$
 
 ```python
@@ -70,7 +64,8 @@ def front(self) -> T | None:
 ```
 
 ## Queue-empty
-- Get whether the queue is empty
+[[Queue#Queue-empty]]
+
 - [[Time Complexity]]: $O(1)$
 
 ```python
@@ -79,16 +74,11 @@ def empty(self) -> bool:
 ```
 
 ## Queue-size
-- Get the number of elements in the queue
+[[Queue#Queue-size]]
+
 - [[Time Complexity]]: $O(1)$
 
 ```python
 def size(self) -> int:
 	return (self.n - self.head + self.tail) % self.n
 ```
-
-# Properties of bounded queues
-- Space complexity is $O(n)$
-- All operations are $O(1)$
-- The size can't be changed without reallocating the internal array
-- Vulnerable to overflows

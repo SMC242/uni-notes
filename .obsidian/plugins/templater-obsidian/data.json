@@ -25,10 +25,6 @@
     {
       "folder": "cs/Algorithmics/Algorithms",
       "template": "templates/Algorithm.md"
-    },
-    {
-      "folder": "cs/Algorithmics/Data Structures",
-      "template": "templates/Data Structure.md"
     }
   ],
   "syntax_highlighting": true,

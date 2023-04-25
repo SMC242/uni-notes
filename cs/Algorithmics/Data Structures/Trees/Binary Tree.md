@@ -1,3 +1,8 @@
+---
+tags:
+  - ADT/BinaryTree
+---
+
 # Definition
 A blurb about the data structure and a high-level description of how it works.
 
@@ -18,15 +23,24 @@ When would you use this structure?
 The attributes of an instance of this data structure and any sub-objects used
 
 # Operations
-The operations that are defined for this structure and their [[Time Complexity|time complexities]]
+The operations that are defined for this structure and what they do
 
 ## Example operation
 - Description
-- [[Time Complexity]]:
 
-```
-Example implementation or pseudocode
-```
 
 # Optional operations
 These operations do not need to be implemented
+
+# Implementations
+All of implementations of this [[Abstract Data Type|ADT]]:
+
+> [!WARNING]
+> Edit the tag in this query
+```dataview
+LIST
+FROM
+	#ADT/NAME-OF-ADT 
+WHERE
+	file.name != this.file.name
+```

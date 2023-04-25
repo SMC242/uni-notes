@@ -1,5 +1,15 @@
-# Linked list queue
-- A queue using a [[Linked List]] internally
+---
+tags: ADT/Queue 
+---
+
+# Overview
+A [[Queue]] using a [[Linked List]] internally
+
+See also:
+- [[Queue]]
+- [[Linked List]]
+
+# Implementation
 - `head = LinkedList.head`
 - `tail = LinkedList.tail`
 - [[#enqueue]] = [[Linked List#Insert-tail|insert-tail]] ($O(1)$)
