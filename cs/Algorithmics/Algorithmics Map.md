@@ -17,18 +17,26 @@ Different methods of making algorithms
 - [[Algorithm Strategies]]: common methods used by algorithms
 
 # Algorithms
-Standard algorithms in ascending complexity:
+Standard algorithms
 
+## Sorting
 - [[Insertion Sort]]
 - [[Merge Sort]]
 - [[QuickSort]]
 - [[Heap Sort]]
 
+## Searching
+- [[Binary Search]]
+
 # Data structures
 Clever ways of organising and storing data. These notes are on abstract data types (ADTs)
 
 > [!INFO]
-> An abstract data type is an interface that a group of data structures implement. For example, a `Map` could be implemented with hashes or a binary tree, but both versions will implement `get(x)` and `remove(x)`
+> An abstract data type is an interface that a group of data structures implement. It specifies the basic members and operations of a data structure
+> 
+> An implementation of an ADT decides how to go about those operations. It can choose the underlying data structures and algorithms.
+> 
+> For example, a `Map` could be implemented with hashes or a binary tree, but both versions will implement `get(x)` and `remove(x)`.
 
 - [[Iterator]]
 - [[Linked List]]
@@ -36,3 +44,4 @@ Clever ways of organising and storing data. These notes are on abstract data typ
 - [[Stack]]
 - [[Heap]]
 - [[Hash Map]]
+- [[Trees]]
