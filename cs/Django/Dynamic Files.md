@@ -1,5 +1,5 @@
 ---
-tags: django 
+tags: Django 
 aliases: ["Media"]
 ---
 

@@ -48,7 +48,8 @@ chmod u+x push-notes.sh pull-notes.sh
 
 # Naming conventions
 - Top-level directories should be `kebab-case`
-- Notes and sub-directories should be `Title Case`
+- Notes and sub-directories should be `Title Case
+- Tags should be `PascalCase` and may be [hierarchal](https://help.obsidian.md/Editing+and+formatting/Tags#Nested+tags)
 
 ## Types of files
 - [Maps of content](https://ricraftis.au/obsidian/i-have-been-doing-my-obsidian-maps-of-content-mocs-the-wrong-way/) should be called "* Map"

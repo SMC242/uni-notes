@@ -1,3 +1,3 @@
 ---
-tags: graphs
+tags: Graphs
 ---
