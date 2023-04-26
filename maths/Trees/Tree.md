@@ -8,6 +8,8 @@ A tree is a type of [[Graph]] with the following constraints:
 - All nodes must be connected; there are no orphaned nodes
 - [[Graph#Cycles|Acyclic]] (there are no cycles)
 
+![Example tree](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/1200px-Tree_graph.svg.png)
+
 # Nodes
 - A node contains a value and, optionally, links ("edges") to other nodes
 - A node that has no edges is called a "leaf node"

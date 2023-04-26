@@ -1,3 +1,10 @@
+---
+aliases:
+  - Big-Oh Notation
+  - Big-Theta Notation
+  - Big-Omega Notation
+---
+
 # Overview
 Asymptotic notations are used to describe the limits of a function's growth
 
