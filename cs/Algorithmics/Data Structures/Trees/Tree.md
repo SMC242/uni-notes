@@ -29,3 +29,5 @@ FROM
 WHERE
 	file.name != this.file.name
 ```
+
+Some trees also balance themselves. See [[Self-balancing Tree]]

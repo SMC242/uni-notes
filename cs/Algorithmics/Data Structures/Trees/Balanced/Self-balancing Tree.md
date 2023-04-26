@@ -1,23 +1,14 @@
 ---
 tags:
-  - ADT/Tree/SelfBalancingTree
+  - ADT/SelfBalancingTree
 ---
 
 # Definition
-A blurb about the data structure and a high-level description of how it works.
+A [[Binary Search Tree]] that minimises the [[Rooted Tree#Height|height]]. This solves the [[Binary Search Tree#Problems|issue]] of trees becoming unbalanced and degrading performance
 
 # Motivation
 ## Use case
-When would you use this structure?
-
-# Comparison
-- Comparison to relevant structures
-- Advantages and disadvantages \[in comparison to relevant structures\]
-
-<ul class="breakdown">
-	<li class="pro">Pro</li>
-	<li class="con">Con</li>
-</ul>
+- Ensuring optimal performance of algorithms depending on [[Binary Search Tree]]s
 
 # Members
 The attributes of an instance of this data structure and any sub-objects used
@@ -35,12 +26,10 @@ These operations do not need to be implemented
 # Implementations
 All of implementations of this [[Abstract Data Type|ADT]]:
 
-> [!WARNING]
-> Edit the tag in this query
 ```dataview
 LIST
 FROM
-	#ADT/NAME-OF-ADT 
+	#ADT/SelfBalancingTree 
 WHERE
 	file.name != this.file.name
 ```
