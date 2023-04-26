@@ -3,7 +3,7 @@ tags: Trees
 ---
 
 # Definition
-A type of [[Tree]] where all nodes have a common parent, the root [[Tree#Nodes|node]] ($r$), which itself has no parent. 
+A type of [[maths/Trees/Tree]] where all nodes have a common parent, the root [[maths/Trees/Tree#Nodes|node]] ($r$), which itself has no parent. 
 
 ![Example rooted tree](https://www.researchgate.net/publication/362455235/figure/fig4/AS:1185173785853995@1659578858443/a-Rooted-tree-T4-b-Rooted-tree-T5-c-Rooted-tree-T6-d-Rooted-tree-T7-e-Rooted-tree-T8.png)
 

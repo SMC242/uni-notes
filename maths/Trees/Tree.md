@@ -20,3 +20,9 @@ A tree is a type of [[Graph]] with the following constraints:
 # Paths
 - A path is a sequence of nodes from one node to another
 - The length of the path is the number of [[#edges]] on the path
+
+# Size
+- The number of nodes in a tree
+
+# Degree
+- The number of child-nodes of a node
