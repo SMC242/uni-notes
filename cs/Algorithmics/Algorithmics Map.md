@@ -40,4 +40,4 @@ Clever ways of organising and storing data. These notes are on abstract data typ
 - [[Stack]]
 - [[Heap]]
 - [[Hash Map]]
-- [[Binary Tree]]
+- [[cs/Algorithmics/Data Structures/Trees/Binary Tree]]

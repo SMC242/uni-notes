@@ -4,11 +4,12 @@ tags:
 ---
 
 # Definition
-A blurb about the data structure and a high-level description of how it works.
+A type of [[Tree]] that has at most two child [[Tree#Nodes|nodes]]. 
 
 # Motivation
 ## Use case
-When would you use this structure?
+- Used in many algorithms
+	- See [[Binary Search]], [[Heap Sort]]
 
 # Comparison
 - Comparison to relevant structures
@@ -20,7 +21,10 @@ When would you use this structure?
 </ul>
 
 # Members
-The attributes of an instance of this data structure and any sub-objects used
+- `p`: the parent node
+	- The [[Tree#Root|root node]] is the only node where `p = NIL`
+- `left`: the left node. May be `NIL`
+- `right`: the right node. May be `NIL`
 
 # Operations
 The operations that are defined for this structure and what they do
