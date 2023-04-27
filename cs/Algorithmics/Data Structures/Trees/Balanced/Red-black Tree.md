@@ -9,9 +9,11 @@ tags: ADT/SelfBalancingTree
 A [[Self-balancing Tree]] that labels nodes as either red or black. 
 
 # Properties
-- Basic operations have $O(\log n$ at the worst case
+- Basic operations have $O(\log n$ at the worst case)
+- Good for frequently-changing data
+	- Used in the Linux task scheduler
 
-## Colours
+## Red-black properties
 1. All nodes have a colour in $\{red, black\}$
 2. The root node must be black
 3. Leaf nodes must be black
@@ -19,6 +21,7 @@ A [[Self-balancing Tree]] that labels nodes as either red or black.
 5. When creating a simple path between a node and a descendant, all possible paths will have the same number of black nodes
 	- This means that there is no bad path
 
+## Node values
 Nodes are separated by their properties:
 - Leaf nodes contain `NIL`s
 	- This is stored as a single sentinel `RedBlackTree.NIL` that is pointed to
@@ -78,3 +81,69 @@ def left_rotate(self: RedBlackTree[T], x: Node[T]) -> None:
 The code is similar to [[#Left rotation]]
 
 ## Insertion
+- Create a new red node
+- Insert it in the correct place, as in [[Binary Search Tree]]
+- Find and fix violations of the [[#red black properties]] using [[#Fixup]]
+
+## Fixup
+![[#Red-black properties]]
+After a node is inserted, some properties may be violated:
+- If the new node is the root: property 2
+- If the new node's parent is red: property 4
+
+![Family diagram](https://ds2-iiith.vlabs.ac.in/exp/red-black-tree/red-black-tree-oprations/images/uncle.png)
+
+### Function
+```python
+def fixup(self: RedBlackTree[T], node: Node[T]) -> None:
+	while node.p.colour == Colours.RED:
+		# Left branch
+		if node.p = node.p.p.left:
+			y = node.p.p.right
+			# Case 1
+			# `node`'s uncle `y` is red: flip colours
+			if y.colour == Colours.RED:
+				node.p.colour = Colours.BLACK
+				y.colour = Colours.BLACK
+				node.p.p.colour = Colours.RED
+				node = node.p.p
+			else:
+				# Case 2
+				# Uncle is black and `node` is a right child:
+				# convert to case 3
+				if node == node.p.right
+					node = node.p
+					self.left_rotate(node)
+				# Case 3
+				# Uncle is black and `node` is a left child:
+				# change parent, grandparent, rotate right
+				node.p.colour = Colours.BLACK
+				node.p.p.colour = Colours.RED
+				self.right_rotate(node.p.p)
+		# Right branch (symmetrical to previous code)
+		elif node.p == node.p.p.right:
+			y = node.p.p.left
+			# Case 1
+			# `node`'s uncle `y` is red: flip colours
+			if y.colour == Colours.RED:
+				node.p.colour = Colours.BLACK
+				y.colour = Colours.BLACK
+				node.p.p.colour = Colours.RED
+				node = node.p.p
+			else:
+				# Case 2
+				# Uncle is black and `node` is a left child:
+				# convert to case 3
+				if node == node.p.left
+					node = node.p
+					self.right_rotate(node)
+				# Case 3
+				# Uncle is black and `node` is a right child:
+				# change parent, grandparent, rotate right
+				node.p.colour = Colours.BLACK
+				node.p.p.colour = Colours.RED
+				self.left_rotate(node.p.p)
+	# The root must be black
+	self.root.colour = Colours.BLACK
+		
+```
