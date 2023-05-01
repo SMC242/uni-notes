@@ -15,3 +15,6 @@ See also: [[Asymptotic Notation|Big-Oh Notation]]
 # Motivation
 - Binary trees can be very unbalanced, leading to a large height (worst case: $O(n)$)
 - This reduces the benefit of using a binary tree because traversing a poorly-balanced tree approaches $O(n)$ [[Time Complexity|complexity]]
+
+# See also
+- [[Self-balancing Tree]]
