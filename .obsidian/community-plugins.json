@@ -11,5 +11,6 @@
   "obsidian-dictionary-plugin",
   "buttons",
   "quickadd",
-  "templater-obsidian"
+  "templater-obsidian",
+  "url-into-selection"
 ]
