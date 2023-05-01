@@ -1,5 +1,5 @@
 ---
-tags: SocEssay 
+tags: Essay/Soc 
 ---
 
 <small>

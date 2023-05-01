@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 - Anti-discrimination laws in Germany have been made such that the institutions are immune

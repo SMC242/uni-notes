@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 Source index and planning for [[Trans Health Inequalities Essay]]

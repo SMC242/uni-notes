@@ -1,5 +1,5 @@
 ---
-tags: CSEssay
+tags: Essay/CS
 ---
 
 # Info

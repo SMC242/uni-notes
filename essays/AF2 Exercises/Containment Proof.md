@@ -1,5 +1,5 @@
 ---
-tags: [MathsEssay]
+tags: Essay/Maths
 ---
 
 ![[Set Operations#Difference]]

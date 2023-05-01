@@ -1,6 +1,5 @@
 ---
-tags:
-  - ArchEssay
+tags: Essay/Arch
 ---
 
 <small>

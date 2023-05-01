@@ -1,5 +1,5 @@
 ---
-tags: "SocEssay"
+tags: Essay/Soc
 ---
 # Directory
 - [[2A Exam|Assignment]]

@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 Sources index for [[Intersectionality Essay]]. The planning is in [[Intersectionality Skeleton]]

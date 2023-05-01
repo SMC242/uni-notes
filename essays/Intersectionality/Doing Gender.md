@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 # Terms

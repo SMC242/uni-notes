@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 [Source](https://www-sciencedirect-com.ezproxy.lib.gla.ac.uk/science/article/pii/S0277953612001712?via%3Dihub)

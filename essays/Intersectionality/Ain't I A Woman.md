@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 - Women initially had no value as slaves as they were viewed as poor labourers

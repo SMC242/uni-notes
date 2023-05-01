@@ -1,6 +1,5 @@
 ---
-tags:
-  - SocEssay
+tags: Essay/Soc
 ---
 
 [Source](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228765#sec009)
