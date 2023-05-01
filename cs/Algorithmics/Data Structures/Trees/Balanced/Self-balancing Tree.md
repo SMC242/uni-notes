@@ -10,19 +10,6 @@ A [[Binary Search Tree]] that minimises the [[Rooted Tree#Height|height]]. This 
 ## Use case
 - Ensuring optimal performance of algorithms depending on [[Binary Search Tree]]s
 
-# Members
-The attributes of an instance of this data structure and any sub-objects used
-
-# Operations
-The operations that are defined for this structure and what they do
-
-## Example operation
-- Description
-
-
-# Optional operations
-These operations do not need to be implemented
-
 # Implementations
 All of implementations of this [[Abstract Data Type|ADT]]:
 
