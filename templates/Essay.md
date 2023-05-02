@@ -1,6 +1,5 @@
 ---
-tags:
-  -
+tags: Essay/SubjectName
 ---
 
 <small>
