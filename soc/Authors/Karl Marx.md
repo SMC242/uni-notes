@@ -1,9 +1,13 @@
 ---
 tags:
   - Modernity
+  - Civilisation
   - Capitalism/Marxism
   - HistoricalMaterialism
+  - Class
+description: thought of capitalism as a conflict between the owner and employee classes
 ---
+
 # Historical Context
 - Lived 1818 - 1883
 	- Industrialisation 

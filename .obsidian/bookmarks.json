@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1683240147261,
+      "title": "Main Graph",
+      "options": {
+        "collapse-filter": true,
+        "search": "-path: (\"assignments\" OR \"time-keeping\" OR \"templates\") -tag: Essay",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "path:\"soc\" OR tag:SocEssay",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "path:\"cs\" OR tag:CSEssay",
+            "color": {
+              "a": 1,
+              "rgb": 11657298
+            }
+          },
+          {
+            "query": "path:\"stats\" OR tag:StatsEssay",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          },
+          {
+            "query": "path:\"arch\" OR tag:ArchEssay",
+            "color": {
+              "a": 1,
+              "rgb": 318583
+            }
+          },
+          {
+            "query": "path:\"maths\" OR tag:MathsEssay",
+            "color": {
+              "a": 1,
+              "rgb": 16265437
+            }
+          },
+          {
+            "query": "path:\"docs\"",
+            "color": {
+              "a": 1,
+              "rgb": 5395168
+            }
+          },
+          {
+            "query": "path:\"assignments\"",
+            "color": {
+              "a": 1,
+              "rgb": 5419488
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1.36199634369287,
+        "lineSizeMultiplier": 2.46795385354911,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.3346344770115113,
+        "close": true
+      }
+    }
+  ]
+}

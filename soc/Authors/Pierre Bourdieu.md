@@ -1,6 +1,6 @@
 ---
 tags: 
-	- 
+	- Class
 ---
 
 # Historical context

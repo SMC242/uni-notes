@@ -3,6 +3,7 @@ tags:
   - Modernity
   - Capitalism/Marxism
   - HistoricalMaterialism
+  - Class
 ---
 
 # Historical Context
