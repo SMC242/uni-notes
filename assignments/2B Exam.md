@@ -53,8 +53,13 @@ progress:: "Not started"
 - [Paper](https://scholar.harvard.edu/files/bonikowski/files/bonikowski_-_the_promise_of_bourdieusian_political_sociology_1.pdf)
 - [Critique](https://www.jstor.org/stable/4128669?saml_data=eyJzYW1sVG9rZW4iOiIxYWVkMDA4ZS03MDk0LTQyZmMtYmFlMC0wZTM5OTRhMzI4NjQiLCJpbnN0aXR1dGlvbklkcyI6WyI0NmEwOWQ4Yi0wZmY2LTQ3OTEtOTA3MS0zZWViNWY5ZmFhNTciXX0)
 
-# Research
+# Objectivity
 - Draw on [[Michel Foucault]]
-- 
+
+## Research methods
+- Research methods affect outcomes of research
+- Macro-level studies like analysing big datasets won't reveal everyday experiences
+- Meso-level studies reveal things about a single community. The findings might not map onto other communities
+- Micro-level studies like interviews won't show the structures at play
 
 # Bibliography
