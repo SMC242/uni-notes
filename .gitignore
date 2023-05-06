@@ -1,3 +1,4 @@
 .obsidian/workspace*
 .obsidian/plugins/obsidian-dictionary-plugin/cache.json
 *.pdf
+.obsidian/graph.json
