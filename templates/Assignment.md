@@ -1,7 +1,7 @@
 ---
 when:
-  - year: 4000
-  - semester: 80
+  year: 4000
+  semester: 80
 ---
 
 class:: "CBT4"

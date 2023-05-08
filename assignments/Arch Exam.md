@@ -1,7 +1,7 @@
 ---
 when:
-  - year: 2
-  - semester: 2
+  year: 2
+  semester: 2
 ---
 
 class:: "Arch1B"

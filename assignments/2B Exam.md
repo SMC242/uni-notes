@@ -1,14 +1,14 @@
 ---
 when:
-  - year: 2
-  - semester: 2
+  year: 2
+  semester: 2
 ---
 
 class:: "Sociology 2B"
 deadline:: 2023-05-06T14:00
 difficulty:: Medium
 time:: "Week"
-progress:: "Not started"
+progress:: "Finished"
 
 # Requirements
 - Write two essays of 1,000 words
