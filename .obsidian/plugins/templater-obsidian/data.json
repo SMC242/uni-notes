@@ -25,6 +25,10 @@
     {
       "folder": "cs/Algorithmics/Algorithms",
       "template": "templates/Algorithm.md"
+    },
+    {
+      "folder": "plants/My Plants",
+      "template": "templates/Plant.md"
     }
   ],
   "syntax_highlighting": true,
