@@ -1,8 +1,8 @@
 ---
 progress: 10.5
 target: 10
----
 
+---
 ```dataviewjs
 await dv.view("scripts/progress-bar", {file: "cs/WD2 Dashboard"});
 ```

@@ -1,9 +1,9 @@
 ---
 tags:
-  - Feminism
-  - Criminology/Feminist
----
+- Feminism
+- Criminology/Feminist
 
+---
 # Aims
 - Avoiding gender-blind assumptions
 - Challenging andro-centrism
@@ -36,4 +36,4 @@ tags:
 
 ## Identities
 - Masculinity and femininity isn't the same everywhere
-- Class, race, and other things affect an individual's perception of gendered expectations
+- Class, race, and other things affect an individual's perception of gendered expectationsions

@@ -1,7 +1,7 @@
 ---
-tags: Essay/Soc 
----
+tags: Essay/Soc
 
+---
 <small>
 	2560102M
 	<br/>
@@ -55,4 +55,4 @@ In this essay, I have examined the multitude of justifications that prison aboli
 
 [^skeptics]: Frampton, T.W. (2022) ‘THE DANGEROUS FEW: TAKING SERIOUSLY PRISON ABOLITION AND ITS SKEPTICS.’, Harvard Law Review, 135(8), p. 2028.
 
-[^buffalo]: https://ag.ny.gov/sites/default/files/buffaloshooting-onlineplatformsreport.pdf
+[^buffalo]: https://ag.ny.gov/sites/default/files/buffaloshooting-onlineplatformsreport.pdff

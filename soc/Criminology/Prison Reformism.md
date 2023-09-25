@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Prisons
----
+- Criminology/Prisons
 
+---
 # Reformism
 - Recognising that the current system doesn't work
 - Redefining the goals of a prison to reduce recidivism 
@@ -28,4 +28,4 @@ tags:
 	- Education
 	- Housing
 	- Parks
-- Issue: they usually want to close prisons overnight
+- Issue: they usually want to close prisons overnightht

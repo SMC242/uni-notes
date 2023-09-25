@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "IOOP"
 deadline:: 2022-11-30T12:00
 difficulty:: Easy
@@ -21,3 +20,4 @@ max-marks:: 100
 # Research
 
 # Bibliography
+liography

@@ -1,9 +1,9 @@
 ---
 tags:
-  - Criminology/Transnational
-  - Globalisation
----
+- Criminology/Transnational
+- Globalisation
 
+---
 # Transnational crimes
 - International laws
 	- National agencies work together to catch criminals
@@ -46,3 +46,4 @@ tags:
 	- Many people consuming these types of music aren't actually involved in gangs, yet find it thrilling
 	- Drill lyrics have been used in court cases against the artists
 		- Where is the line between cultural expression and crime?
+me?

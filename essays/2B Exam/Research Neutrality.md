@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 <small>
 	2560102M
 	<br/>

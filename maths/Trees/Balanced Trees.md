@@ -1,7 +1,7 @@
 ---
 tags: Trees
----
 
+---
 # Definition
 A type of [[maths/Trees/Binary Tree|binary tree]] where the height of the left and right sub-trees of a node have roughly the same [[Rooted Tree#Height|height]] ($\pm 1$ node). Used a lot in [[Algorithmics Map|Computing Science]]
 

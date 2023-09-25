@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Overview
 Django offers an admin dashboard for managing collections. However, it doesn't know about your application's [[Django Databases#Models|models]] by default
 

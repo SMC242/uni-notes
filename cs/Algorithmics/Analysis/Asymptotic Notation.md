@@ -1,10 +1,10 @@
 ---
 aliases:
-  - Big-Oh Notation
-  - Big-Theta Notation
-  - Big-Omega Notation
----
+- Big-Oh Notation
+- Big-Theta Notation
+- Big-Omega Notation
 
+---
 # Overview
 Asymptotic notations are used to describe the limits of a function's growth
 
@@ -59,4 +59,4 @@ $f(n) = \Omega(g(n))$ if there exists some $c, n_0$ such that $f(n) >= c \cdot g
 ## Big-Theta
 - The upper and lower bounds of $f(n)$
 
-$f(n) = \Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$
+$f(n) = \Theta(g(n))$ if and only if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$g(n))$

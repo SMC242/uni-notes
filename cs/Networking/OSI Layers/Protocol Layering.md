@@ -1,8 +1,8 @@
 ---
 aliases:
-  - OSIModel
----
+- OSIModel
 
+---
 # Protocol layering
 Protocols are often built on top of each other. They each only communicate on their layer
 
@@ -79,4 +79,4 @@ See [[Presentation Layer]]
 
 See [[Application Layer]]
 
-![OSI Summary](http://www.tech-faq.com/wp-content/uploads/2009/01/osimodel.png)
+![OSI Summary](http://www.tech-faq.com/wp-content/uploads/2009/01/osimodel.png)g)

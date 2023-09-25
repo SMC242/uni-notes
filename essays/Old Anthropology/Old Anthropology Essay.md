@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 5. 'The work of anthropologists published before the year 2000 is not worth reading today.' Discuss with reference to ONE of the following anthropologists covered in the course: Marcel Mauss; Zora Neale Hurston; Margaret Mead; Max Gluckman.  
 
 <small>

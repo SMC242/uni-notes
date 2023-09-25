@@ -1,7 +1,7 @@
 ---
-tags: ADT/Queue 
----
+tags: ADT/Queue
 
+---
 # Overview
 A [[Queue]] using a [[Linked List]] internally
 
@@ -16,4 +16,4 @@ See also:
 - [[#enqueue]] = [[Linked List#Delete-head|delete-head]] ($O(1)$)
 - [[#Queue-size|size]] would be $O(n)$ unless you store a `size` variable
 - Not vulnerable to overflows
-- Using a [[Linked List#Doubly-linked lists|doubly-linked list]] doesn't improve performance and worsens memory consumption
+- Using a [[Linked List#Doubly-linked lists|doubly-linked list]] doesn't improve performance and worsens memory consumptionn

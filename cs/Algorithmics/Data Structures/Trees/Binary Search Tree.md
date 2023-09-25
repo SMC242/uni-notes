@@ -1,7 +1,7 @@
 ---
 tags: ADT/Tree
----
 
+---
 # Overview
 A [[cs/Algorithmics/Data Structures/Trees/Binary Tree|binary tree]] where $l <= x <= r$ where $l, x, r$ are the left, current, and right nodes' values.
 

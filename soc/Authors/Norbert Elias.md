@@ -1,9 +1,9 @@
 ---
-tags: 
-  - Civilisation
-  - Modernity
----
+tags:
+- Civilisation
+- Modernity
 
+---
 # Historical context
 - Lived 1897 - 1990
 - Middle class Jewish person in Poland
@@ -63,4 +63,4 @@ Individuals are more restrained as they can't just attack someone else because t
 - Ignores the functions of civilised things in society
 	- Football has become very profitable. It is a business now
 	- A common set of rules has allowed the sport to become international
-	- This benefits team owners as they make lots of money
+	- This benefits team owners as they make lots of moneymoney

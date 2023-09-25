@@ -1,10 +1,10 @@
 ---
 tags:
-  - Capitalism/Marxism
-  - Criminology
-  - Criminology/Prisons
----
+- Capitalism/Marxism
+- Criminology
+- Criminology/Prisons
 
+---
 # Historical context
 - 18th century
 - Moving away from public executions
@@ -53,4 +53,4 @@ See [[Michel Foucault]]
 ![[The War On Drugs]]
 
 # Prison reform
-![[Prison Reformism]]
+![[Prison Reformism]]mism]]

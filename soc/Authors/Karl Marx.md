@@ -1,13 +1,13 @@
 ---
-tags:
-  - Modernity
-  - Civilisation
-  - Capitalism/Marxism
-  - HistoricalMaterialism
-  - Class
 description: thought of capitalism as a conflict between the owner and employee classes
----
+tags:
+- Modernity
+- Civilisation
+- Capitalism/Marxism
+- HistoricalMaterialism
+- Class
 
+---
 # Historical Context
 - Lived 1818 - 1883
 	- Industrialisation 
@@ -70,4 +70,4 @@ Marx' writing focused a lot on the transition between Feudalism and Capitalism
 - Not intersectional
 	- Ignores other axes of oppression and views liberation of the working class as paramount
 - Marx' writing led to a lot of authoritarianism 
-	- Very harsh towards his opponents
+	- Very harsh towards his opponents opponents

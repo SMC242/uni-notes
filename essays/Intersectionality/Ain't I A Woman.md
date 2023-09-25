@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 - Women initially had no value as slaves as they were viewed as poor labourers
 - This changed when slavers realised that children of slaves legally belonged to the slave owner
 - They were viewed as unthreatening, so they weren't put in chains

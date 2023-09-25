@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Initialising
 `python django-admin startproject <name>`
 The naming convention is `*_project`

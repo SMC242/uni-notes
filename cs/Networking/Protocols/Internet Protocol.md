@@ -1,8 +1,8 @@
 ---
 aliases:
-  - IP
----
+- IP
 
+---
 # Roles
 - The protocol for communication on the internet
 - Addressing, routing, fragmentation, reassembly
@@ -109,4 +109,4 @@ Some IDs:
 - DCCP = 33
 - ICMP = 1
 
-Here is the full list: http://www.iana.org/assignments/protocol-numbers/
+Here is the full list: http://www.iana.org/assignments/protocol-numbers/s/

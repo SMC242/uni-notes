@@ -1,7 +1,7 @@
 ---
 aliases: CI
----
 
+---
 # Definition
 Continuous integration is automation of tasks such as compiling when new code is pushed to a [[Git#Repository|repository]]
 

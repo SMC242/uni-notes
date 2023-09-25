@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Overview
 - A [[MVC#View|view]] is a function that returns HTML to the client
 

@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "NOSE"
 deadline:: 2022-11-25T16:30
 difficulty:: Medium
@@ -23,3 +22,4 @@ https:://moodle.gla.ac.uk/mod/resource/view.php?id=3190126
 # Research
 
 # Bibliography
+liography

@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
-# Directory
+
+---# Directory
 - [[2A Exam|Assignment]]
 - [[Old Anthropology Essay]]
 

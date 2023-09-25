@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "AF2"
 deadline:: 2022-11-21T16:30
 difficulty:: Hard
@@ -26,4 +25,6 @@ https:://www.overleaf.com/project/637ad55688ce440be4824573
 - Euclidean Algorithm
 - Proofs
 	- Induction Proofs
+
+n Proofs
 

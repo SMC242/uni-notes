@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Overview 
 - Static files are any files that aren't dynamically generated
 - CSS, JS, and most media are all static

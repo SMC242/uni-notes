@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "Arch1B"
 deadline:: 2023-03-08T18:00
 difficulty:: Medium
@@ -157,4 +156,4 @@ See [[#What are bog bodies?]]
 > [!ERROR]
 > Author name possibly inaccurate
 
-[^museums]: Gill-Frerking, H. 2004. Bog bodies on display. Journal of Wetland Archaeology, 4: pp.111-116.  
+[^museums]: Gill-Frerking, H. 2004. Bog bodies on display. Journal of Wetland Archaeology, 4: pp.111-116.  111-116.  

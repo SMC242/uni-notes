@@ -1,7 +1,7 @@
 ---
 tags: ADT/Queue
----
 
+---
 # Unbounded queues
 A [[Queue]] that resizes the internal array as needed
 

@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 Sources index for [[Intersectionality Essay]]. The planning is in [[Intersectionality Skeleton]]
 # Background
 ## Race in Germany and Europe

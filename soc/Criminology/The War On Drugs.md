@@ -1,9 +1,9 @@
 ---
 tags:
-  - Criminology/Prisons
-  - Racism/Systemic
----
+- Criminology/Prisons
+- Racism/Systemic
 
+---
 # History
 - Ronald Reagan started a war on drug crime
 - Aimed at black people
@@ -23,4 +23,4 @@ tags:
 	- Caused by structural discrimination
 	- Denied cultural capital (poor access to education in black areas)
 	- Excluded from social redistribution (welfare payments)
-	- Excluded from political system (poor voting access in black areas, also can't vote in prison)
+	- Excluded from political system (poor voting access in black areas, also can't vote in prison)son)

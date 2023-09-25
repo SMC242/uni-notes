@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "NOSE2"
 deadline:: 2022-12-14T13:30
 difficulty:: Medium
@@ -30,3 +29,4 @@ max-marks:: 60
 - [x] Sockets API - see [[TCP Sockets]]
 
 # Helpful links
+ful links

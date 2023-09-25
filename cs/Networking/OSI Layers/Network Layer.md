@@ -1,8 +1,8 @@
 ---
 tags:
-  - OSIModel
----
+- OSIModel
 
+---
 # Roles
 - Delivering data across multiple [[Data Link Layer]] hops and different tech
 - Transmission across many autonomous systems
@@ -47,4 +47,6 @@ tags:
 - Textual is human-readable
 - Binary is faster
 - Which is used depends on the use-case
+
+
 

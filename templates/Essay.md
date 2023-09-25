@@ -1,7 +1,7 @@
 ---
 tags: Essay/SubjectName
----
 
+---
 <small>
 	2560102M
 	<br/>

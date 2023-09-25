@@ -1,8 +1,8 @@
 ---
-tags: 
-	- Class
----
+tags:
+- Class
 
+---
 # Historical context
 - French
 - Lived 1930-2002
@@ -60,4 +60,4 @@ It has three forms:
 
 # Uses
 
-# Limitations
+# Limitationss

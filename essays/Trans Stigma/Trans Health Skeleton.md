@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 Source index and planning for [[Trans Health Inequalities Essay]]
 
 # Differing outcomes based on gender

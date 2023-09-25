@@ -1,8 +1,9 @@
 ---
-tags: Django 
-aliases: ["Media"]
----
+aliases:
+- Media
+tags: Django
 
+---
 # Overview
 - Media is any dynamic file, as opposed to a [[Static Files#Overview|static file]]
 - This is often user-generated content like avatars or images of products
@@ -60,4 +61,4 @@ urlpatterns = [
 		<img src="{{ MEDIA_URL }}jerma.png" alt="Jerma :^)" />
 	</body>
 </html>
-```
+``````

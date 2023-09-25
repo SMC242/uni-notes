@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Stack
----
+- ADT/Stack
 
+---
 # Overview
 A [[Stack]] that dynamically resizes itself
 
@@ -58,3 +58,4 @@ def pop(self) -> T | None:
 		self.resize(self.n / 2)
 	return x
 ```
+`

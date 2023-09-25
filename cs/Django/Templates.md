@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Overview
 - Templates are skeletons that are filled with data by [[Views]]
 

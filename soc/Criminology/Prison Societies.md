@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Prisons
----
+- Criminology/Prisons
 
+---
 # Importance of order
 - Order gives inmates structure
 	- They know what will happen each day
@@ -68,4 +68,4 @@ This information comes from studies of Brazil and Guatemala
 ### Continuing gangs
 - A member's status doesn't change when they go to prison
 - Street dynamics are reproduced in prisons
-- Graffiti and gang symbols mark territory
+- Graffiti and gang symbols mark territoryry

@@ -1,7 +1,7 @@
 ---
-tags: ADT/SelfBalancingTree 
----
+tags: ADT/SelfBalancingTree
 
+---
 # Overview
 A [[Self-balancing Tree]] that 
 
@@ -133,4 +133,4 @@ def insert(self: BTree[T], key: T) -> None:
 		self.insert_nonfull(s, key)
 	else:
 		self.insert_non_full(r, key)
-```
+````

@@ -1,8 +1,8 @@
 ---
 tags:
-  - OSIModel
----
+- OSIModel
 
+---
 # Roles
 - Gatekeeper to the [[Physical Layer]]
 - Addressing
@@ -72,3 +72,4 @@ Before transmitting, the protocol will check if a collision would happen. This i
 - A random back-off delay is used
 
 Protocols are designed to reduce propagation delay (the time taken for a signal to reach its destination). This is because high propagation delay increases the likelihood of collisions
+s

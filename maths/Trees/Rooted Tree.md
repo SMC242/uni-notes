@@ -1,7 +1,7 @@
 ---
-tags: Trees 
----
+tags: Trees
 
+---
 # Definition
 A type of [[maths/Trees/Tree]] where all nodes have a common parent, the root [[maths/Trees/Tree#Nodes|node]] ($r$), which itself has no parent. 
 
@@ -18,4 +18,4 @@ Can be defined recursively:
 # Levels
 - A level is a layer of nodes
 
-![Tree with labelled layers](https://i.ytimg.com/vi/7EYf2XhxB4s/hqdefault.jpg)
+![Tree with labelled layers](https://i.ytimg.com/vi/7EYf2XhxB4s/hqdefault.jpg))

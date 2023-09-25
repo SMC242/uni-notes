@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Tree
----
+- ADT/Tree
 
+---
 # Definition
 A tree that can have up to $k$ sub-trees
 
@@ -15,3 +15,4 @@ Each node has:
 - `key`: the value of the node
 - `p`: the parent node
 - $child_{i}..child_{k}$: pointers to sub-trees
+s

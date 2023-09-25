@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "Arch1B"
 deadline:: 2023-05-02T14:00
 difficulty:: Medium
@@ -249,3 +248,4 @@ Solutions:
 - Important representation of Ancient Greek art 
 
 # Bibliography
+liography

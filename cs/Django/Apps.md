@@ -1,7 +1,7 @@
 ---
 tags: Django
----
 
+---
 # Projects
 - One project contains many [[#Apps|apps]]
 - This represents the website as a whole

@@ -1,7 +1,7 @@
 ---
-tags: ADT/SelfBalancingTree 
----
+tags: ADT/SelfBalancingTree
 
+---
 # Overview
 - Which [[Abstract Data Type]] does this data structure implement?
 - What are its implementation details?
@@ -146,4 +146,4 @@ def fixup(self: RedBlackTree[T], node: Node[T]) -> None:
 	# The root must be black
 	self.root.colour = Colours.BLACK
 		
-```
+````

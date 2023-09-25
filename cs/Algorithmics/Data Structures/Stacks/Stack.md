@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Stack
----
-# Definition
+- ADT/Stack
+
+---# Definition
 
 A stack is like a pile; they follow the last-in-first-out policy (LIFO)
 
@@ -52,4 +52,4 @@ FROM
 	#ADT/Stack
 WHERE
 	file.name != this.file.name
-```
+`````

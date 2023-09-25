@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "ADS"
 deadline:: 2023-03-31T16:30
 difficulty:: Medium
@@ -25,3 +24,4 @@ progress:: "Finished"
 [Question paper](https://moodle.gla.ac.uk/pluginfile.php/5700122/mod_assign/introattachment/0/AE2.pdf?forcedownload=0)
 
 # Helpful links
+ful links

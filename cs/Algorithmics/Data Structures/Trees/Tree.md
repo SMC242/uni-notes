@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Tree
----
+- ADT/Tree
 
+---
 # Definition
 In Computing Science, [[Rooted Tree]]s are usually used, particularly [[maths/Trees/Binary Tree|binary trees]]
 
@@ -30,4 +30,4 @@ WHERE
 	file.name != this.file.name
 ```
 
-Some trees also balance themselves. See [[Self-balancing Tree]]
+Some trees also balance themselves. See [[Self-balancing Tree]]]]

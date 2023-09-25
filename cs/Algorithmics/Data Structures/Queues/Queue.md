@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Queue
----
+- ADT/Queue
 
+---
 # Definition
 A queue is an ordered collection that follows the first-in-first-out policy (FIFO)
 
@@ -57,4 +57,4 @@ FROM
 	#ADT/Queue
 WHERE
 	file.name != this.file.name
-```
+`````

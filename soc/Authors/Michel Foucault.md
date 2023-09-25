@@ -1,9 +1,9 @@
 ---
-tags: 
-	- Criminology
-	- Criminology/Prisons
----
+tags:
+- Criminology
+- Criminology/Prisons
 
+---
 # Historical context
 - Wrote about the birth of the prison
 
@@ -47,4 +47,4 @@ tags:
 - No mentions of systemic pressures like racism
 - In his view, power is dispersed throughout society
 - There is no dominant class applying these methods of control
-- Not very useful outwith a Western context
+- Not very useful outwith a Western contextt

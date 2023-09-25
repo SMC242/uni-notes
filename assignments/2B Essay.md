@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "Sociology 2B"
 deadline:: 2023-03-23T12:00
 difficulty:: Medium
@@ -148,3 +147,4 @@ socioeconomic health inequalities?
 - Sexualisation/masculinisation of racialised women: Hill Collins 1990, McClintock 1995
 
 # Bibliography
+liography

@@ -1,9 +1,9 @@
 ---
 tags:
-  - Capitalism/Marxism
-  - Globalisation
----
+- Capitalism/Marxism
+- Globalisation
 
+---
 # Definition
 ## Barrier definition
 - A reduction in barriers between people in different countries
@@ -61,4 +61,4 @@ Scale is growing in a few directions:
 # Military
 - Global wars
 	- Intercontinental missiles
-	- Large distance between headquarters and frontlines
+	- Large distance between headquarters and frontlinesines

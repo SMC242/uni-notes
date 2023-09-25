@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 [Source](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228765#sec009)
 
 - Study on health outcomes of trans people

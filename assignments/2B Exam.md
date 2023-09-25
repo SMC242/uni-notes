@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "Sociology 2B"
 deadline:: 2023-05-06T14:00
 difficulty:: Medium
@@ -119,3 +118,4 @@ progress:: "Finished"
 - 
 
 # Bibliography
+liography

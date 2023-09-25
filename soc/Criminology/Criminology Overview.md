@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology
----
+- Criminology
 
+---
 # What?
 - Coined by anthropologist [[Paul Topinard]]
 	- The "science of understanding the criminal"
@@ -102,4 +102,4 @@ See [[Emile Durkheim#Anomie]]
 	- Crimes of the state (genocides)
 	- Corporate crimes (banks, environmental disaster)
 	- State-corporate crimes (the state allowing corporate crimes to happen)
-	- Crimes of globalisation (E.G the World Bank contributing to exploitation of the Global South)
+	- Crimes of globalisation (E.G the World Bank contributing to exploitation of the Global South)h)

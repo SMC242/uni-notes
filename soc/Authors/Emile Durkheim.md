@@ -1,8 +1,8 @@
 ---
 tags:
-  - Modernity
----
+- Modernity
 
+---
 # Historical Context
 - Rabbi (Jewish priest)
 - Lived between 1858 and 1917 (same time as Weber)
@@ -84,4 +84,4 @@ The following authors and fields draw on Durkheim:
 - Absolute facts are considered to be socially constructed today
 - Unclear relationship between facts and everyday experiences
 	- Tries to use statistics to make conclusions about social reality, but doesn't look at the subjective reasons
-- Didn't care much about power structures (and their fairness)
+- Didn't care much about power structures (and their fairness)s)

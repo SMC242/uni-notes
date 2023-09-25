@@ -1,8 +1,8 @@
 ---
-tags: ADT/Queue
 aliases: Dequeue
----
+tags: ADT/Queue
 
+---
 # Definition
 A type of [[Queue]] where you can insert and delete at both ends. Also known as a Dequeue
 
