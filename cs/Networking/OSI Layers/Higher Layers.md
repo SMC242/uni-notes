@@ -1,7 +1,7 @@
 ---
-tags: OSIModel 
----
+tags: OSIModel
 
+---
 - The layers above [[Transport Layer]] are considered the "higher layers" because they're what back-end devs spend most of their time dealing with
 	- The application or its dependencies usually implement this stuff rather than the OS kernel
 - The boundaries between these layers are loose
@@ -18,4 +18,4 @@ tags: OSIModel
 
 ![[Presentation Layer]]
 
-![[Application Layer]]
+![[Application Layer]]]

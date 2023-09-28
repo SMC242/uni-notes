@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 2
----
+semester: 2
+year: 2
 
+---
 class:: "WD2"
 deadline:: 2023-03-24T12:00
 difficulty:: Low
@@ -29,3 +28,4 @@ progress:: "Finished"
 # Research
 
 # Bibliography
+liography

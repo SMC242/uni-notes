@@ -1,8 +1,8 @@
 ---
 tags:
-  - OSIModel
----
+- OSIModel
 
+---
 # Roles
 - This [[Protocol Layering|protocol layer]] handles transferring the actual bits of data
 - Masks the complexity of encoding and decoding sequences of bits
@@ -63,4 +63,4 @@ The maximum transmission rate of a channel
 
 ### Max transmission rate formula
 This is Shannon's Theorem (good for them)
-$$R_{max} = H log_2(1 + S/N)$$
+$$R_{max} = H log_2(1 + S/N)$$$$

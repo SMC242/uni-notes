@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology
----
+- Criminology
 
+---
 # Core ideas
 - Urban ethnography
 - [[Critical Criminology]]
@@ -42,4 +42,4 @@ Observing how the politics of the area affect gang crime
 - Racism
 - Inequalities
 - Council policy
-	- E.G less council housing or job cuts in working class jobs
+	- E.G less council housing or job cuts in working class jobsbs

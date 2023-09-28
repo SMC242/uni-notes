@@ -1,7 +1,7 @@
 ---
 tags: Essay/Arch
----
 
+---
 <small>
 	2560102M
 	<br/>

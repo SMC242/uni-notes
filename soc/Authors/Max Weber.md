@@ -1,11 +1,11 @@
 ---
 tags:
-  - Modernity
-  - Capitalism/Marxism
-  - HistoricalMaterialism
-  - Class
----
+- Modernity
+- Capitalism/Marxism
+- HistoricalMaterialism
+- Class
 
+---
 # Historical Context
 - Lived 1864 - 1920
 - University professor
@@ -70,4 +70,4 @@ Working towards a goal
 - He tries to build his theories from impressions rather than a web of concepts
 	- Committing too hard to this leads to ethnocentrism due to the biases of the observer
 	- E.G looking at other groups of people and stating that they are irrational because they don't make sense from your cultural point of view
-	- Provides cover for bigotry because they can just say that they're just describing things as they see them
+	- Provides cover for bigotry because they can just say that they're just describing things as they see themsee them

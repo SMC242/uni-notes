@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Urban
----
+- Criminology/Urban
 
+---
 # Historical context
 - Founded in 1890
 - Founded with donations from John Rockerfeller
@@ -56,4 +56,4 @@ tags:
 - [[Feminist Criminology|Feminists]] criticised the school
 	- Focused on men's experiences
 - Most researchers were men
-	- Few women were allowed a platform
+	- Few women were allowed a platformrm

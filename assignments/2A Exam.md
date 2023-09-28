@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "Sociology 2A"
 deadline:: 2022-12-10T09:00
 difficulty:: Medium
@@ -55,4 +54,4 @@ course:: Marcel Mauss; Zora Neale Hurston; Margaret Mead; Max Gluckman.
 
 Go to each question's respective files::
 - [[Sociological Cannon Essay Plan]]
-- [[Old Anthropology Essay Plan]]
+- [[Old Anthropology Essay Plan]]say Plan]]

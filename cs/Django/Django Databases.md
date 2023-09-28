@@ -1,7 +1,7 @@
 ---
-tags: Django 
----
+tags: Django
 
+---
 # Overview
 - Databases persist data
 - Django is built on top of SQL databases such as [SQLite](https://www.sqlite.org/index.html)
@@ -63,4 +63,4 @@ This will allow you to play with [[ORM]] queries
 	- `python <population script>.py` to fill your database
 
 # See also
-- [[ORM Methods]]
+- [[ORM Methods]]]

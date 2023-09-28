@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Critical
----
+- Criminology/Critical
 
+---
 # Core ideas
 - Crime is rooted in economic, social, and political inequalities
 - Shaped by social class divisions, racism, hate, sexism, and other social organisations
@@ -34,4 +34,4 @@ The common ideas of critical criminology are
 - The power of the state and ideology
 - Power and knowledge are related
 - Focus on radical reform and social justice
-- Economic power
+- Economic powerer

@@ -1,8 +1,8 @@
 ---
 tags:
-  - 
----
+- null
 
+---
 # Book info
 
 # Author context

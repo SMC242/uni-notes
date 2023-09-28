@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Urban
----
+- Criminology/Urban
 
+---
 - Splits cities up into areas that grow in circle around the centre
 - Developed by the [[Chicago School]]
 ![Concentric Zone Model Diagram](https://i0.wp.com/transportgeography.org/wp-content/uploads/burgess_urban_model.png?resize=900%2C554&ssl=1)
@@ -37,4 +37,4 @@ Thrasher 1927:
 - Labels entire areas as socially disorganised -> leads to stigma
 - Communities may look disorganised from the outside, but aren't necessarily
 - Only really applies to cities that grew with industrialisation
-	- Most cities aren't like that now
+	- Most cities aren't like that nowow

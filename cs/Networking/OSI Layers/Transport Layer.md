@@ -1,8 +1,8 @@
 ---
 tags:
-  - OSIModel
----
+- OSIModel
 
+---
 # Roles
 - Hide the [[Network Layer]]
 - Make the network seem reliable (it's not)
@@ -106,4 +106,6 @@ Two types:
 	- Uses TCP/IP
 - Datagram (framed): packet service
 	- Uses UDP/IP
+
+
 

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - Feminism
-  - Criminology/Feminist
----
+tags:
+- Feminism
+- Criminology/Feminist
 
+---
 # Historical context
 - 1960s and 70s
 - Academics were using lots of [[Positivism|Positivist]] methods at the time
@@ -23,4 +23,4 @@ tags:
 # Uses
 - Feminist criminology
 
-# Limitations
+# Limitationstions

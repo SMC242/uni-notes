@@ -1,8 +1,8 @@
 ---
 tags:
-  - 
----
+- null
 
+---
 # Summary
 
 # Historical context

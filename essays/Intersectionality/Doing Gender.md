@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 # Terms
 <dl>
 	<dt>Sex</dt>

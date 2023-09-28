@@ -1,7 +1,7 @@
 ---
-tags: Django 
----
+tags: Django
 
+---
 # Motivation
 ## Demos
 Fake data is quick to generate, but not ideal for demos. Instead, a population script may be used to insert pre-defined data into the database
@@ -49,4 +49,4 @@ def populate():
 		category = add_category(category_name)
 		for page in page_list:
 			add_page(category, page["title"], page["url"])
-```
+````

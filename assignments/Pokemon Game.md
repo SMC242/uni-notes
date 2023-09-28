@@ -1,9 +1,8 @@
 ---
-when:
-  year: 2
-  semester: 1
----
+semester: 1
+year: 2
 
+---
 class:: "IOOP"
 deadline:: 2022-11-17T17:00
 difficulty:: Easy
@@ -16,3 +15,4 @@ progress:: "Finished"
 # Requirements
 file::///home/eilidh/Downloads/ioop-lab7+8-2022.pdf
 - Make the monster AI work
+r AI work

@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Tree
----
+- ADT/Tree
 
+---
 # Definition
 A tree that can have a dynamic number of sub-trees. Accessing child nodes works by scanning the siblings until the desired node is reached
 
@@ -40,4 +40,4 @@ FROM
 	#ADT/NAME-OF-ADT 
 WHERE
 	file.name != this.file.name
-```
+`````

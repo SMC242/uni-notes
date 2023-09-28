@@ -1,9 +1,9 @@
 ---
 tags:
-  - Criminology
-  - Ethnography
----
+- Criminology
+- Ethnography
 
+---
 # Core ideas
 - Understand human behaviour by making first-hand contact
 - Focus on social phenomena rather than hypothesis testing
@@ -31,4 +31,4 @@ tags:
 - Focused on individuals -> can't make large sociological hypotheses
 - Difficult to pick places
 - How do you draw boundaries between communities? They're always in flux
-- Which events are important?
+- Which events are important?ant?

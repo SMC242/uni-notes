@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Stack
----
+- ADT/Stack
 
+---
 # Overview
 A [[Stack]] that has a maximum number of elements. It uses a static array to store elements
 
@@ -78,3 +78,4 @@ def size(self) -> int:
 def empty(self) -> bool:
 	return self.top == -1
 ```
+`

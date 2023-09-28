@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 # Directory
 - [[2A Exam|Assignment]]
 - [[Sociological Cannon Essay|Essay]]

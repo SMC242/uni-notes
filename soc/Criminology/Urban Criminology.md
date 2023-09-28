@@ -1,8 +1,8 @@
 ---
 tags:
-  - Criminology/Urban
----
+- Criminology/Urban
 
+---
 # Summary
 - Criminology looking at life in cities
 - Views every settlement as networked with cities
@@ -44,4 +44,4 @@ tags:
 - Gangs are then used as an excuse to attack those communities
 	- E.G the war on drugs
 - State intervention often further destabilises these communities
-- Gangs often regulate violence in areas
+- Gangs often regulate violence in areasas

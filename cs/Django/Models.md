@@ -1,7 +1,7 @@
 ---
-tags: Django 
----
+tags: Django
 
+---
 # Models
 - Models are how you interact with the database
 
@@ -83,4 +83,4 @@ from app_name.models import BlogPost
 @admin.register(BlogPost)
 class BlogPostAdmin(admin.ModelAdmin):
 	prepopoulated_fields = {"slug": ("name",)}
-```
+````

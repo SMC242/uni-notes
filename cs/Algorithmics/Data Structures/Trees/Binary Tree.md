@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/Tree
----
+- ADT/Tree
 
+---
 # Definition
 ![[maths/Trees/Binary Tree#Definition]]
 
@@ -17,3 +17,4 @@ Each node has:
 	- The [[maths/Trees/Tree#Root|root node]] is the only node where `p = NIL`
 - `left`: the left node. May be `NIL`
 - `right`: the right node. May be `NIL`
+`

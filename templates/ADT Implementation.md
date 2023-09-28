@@ -1,7 +1,7 @@
 ---
-tags: ADT/NAME-OF-ADT 
----
+tags: ADT/NAME-OF-ADT
 
+---
 # Overview
 - Which [[Abstract Data Type]] does this data structure implement?
 - What are its implementation details?
@@ -29,3 +29,4 @@ How each operation is implemented and their [[Time Complexity|time complexities]
 ```
 Example implementation or pseudocode
 ```
+

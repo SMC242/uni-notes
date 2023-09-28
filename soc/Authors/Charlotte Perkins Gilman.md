@@ -1,9 +1,9 @@
 ---
-tags: 
-  - Feminism
-  - Feminism/Patriarchy
----
+tags:
+- Feminism
+- Feminism/Patriarchy
 
+---
 # Historical context
 - Lived 1860 - 1935
 - Middle class religious background, poor
@@ -83,4 +83,4 @@ tags:
 	- overly masculine or feminine visions according to [[Virginia Woolf]]
 - Advocating for re-enslavement
 	- Following from Darwinism, every group within a species has its place. That is the logic
-	- Racial planning to change society into her vision (eugenicist)
+	- Racial planning to change society into her vision (eugenicist)cist)

@@ -1,7 +1,7 @@
 ---
 tags: Essay/Soc
----
 
+---
 - Anti-discrimination laws in Germany have been made such that the institutions are immune
 	- This is deeply unhelpful because they are a major place where discrimination occurs
 	- In order to relieve systemic racism in Germany, these laws must be adjusted to give legal footing to push institutions to be better

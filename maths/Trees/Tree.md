@@ -1,7 +1,7 @@
 ---
-tags: Trees 
----
+tags: Trees
 
+---
 # Definition
 A tree is a type of [[Graph]] with the following constraints:
 - [[Graph#Direction|Undirected]]
@@ -25,4 +25,4 @@ A tree is a type of [[Graph]] with the following constraints:
 - The number of nodes in a tree
 
 # Degree
-- The number of child-nodes of a node
+- The number of child-nodes of a nodee

@@ -1,8 +1,8 @@
 ---
 tags:
-  - ADT/NAME-OF-ADT
----
+- ADT/NAME-OF-ADT
 
+---
 # Definition
 A blurb about the data structure and a high-level description of how it works.
 
@@ -43,4 +43,4 @@ FROM
 	#ADT/NAME-OF-ADT 
 WHERE
 	file.name != this.file.name
-```
+`````
