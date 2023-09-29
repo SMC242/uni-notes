@@ -42,3 +42,4 @@ Clever ways of organising and storing data. These notes are on abstract data typ
 - [[Hash Map]]
 - [[cs/Algorithmics/Data Structures/Trees/Tree|Tree]]
 	- [[Self-balancing Tree]]
+	- [[Trie]]

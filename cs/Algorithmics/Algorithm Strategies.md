@@ -18,3 +18,6 @@
 - Split the problem into sub-problems
 - Solve each problem and [[Caching#Memoisation example|cache]] the result
 - Instead of recalculating results, use the cache
+
+# Buckets/bins
+- Group elements by some condition (often a range)

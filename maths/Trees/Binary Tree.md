@@ -25,6 +25,9 @@ $$
 C_{i} = \frac{2n}{(n + 1) \times \cdot n!}
 $$
 
+# Number of nodes
+The number of nodes in a binary tree is at most $2^{h + 1} - 1$ where $h$ is the height of the tree
+
 # Traversing
 There are main three ways to traverse a tree. I will be working with the following Haskell definition in my implementations:
 ```haskell
