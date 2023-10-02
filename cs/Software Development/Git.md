@@ -31,14 +31,3 @@ The process of combining the histories of two [[#branch]]es
 # Diffing
 Comparing two versions of the same file to see how it has changed
 ![Diff example](https://sgeb.io/posts/git-diff-anywhere/git-diff.png)
-
-# Issue
-A document that specifies a problem, enhancement, or suggestion for the program
-
-# Kanban board
-A method of issue tracking. They're divided into various headings such as "to do", "in progress", "in testing", and "finished". [[#Issue]]s are moved between headings as they are worked on
-
-![Kanban board example](https://upload.wikimedia.org/wikipedia/commons/f/f5/Kanban_board_example.jpg)
-
-# Triage
-Triage is the process of assigning priorities to [[#issue]]s. Some features and bugs are more important than others and must be worked on first
