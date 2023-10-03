@@ -11,7 +11,7 @@ WHERE
 # Maps of content
 ```dataview
 LIST
-	file.path
+	file.folder
 FROM
 	"/"
 WHERE
