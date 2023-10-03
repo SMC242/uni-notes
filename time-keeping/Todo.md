@@ -1,4 +1,6 @@
-- [x] Read Sociology lecture 1
-- [ ] 
-- [x] Sign up for UoFG Gitlab account
-- [x] Proof of residence for bus pass
+# HCI
+- [ ] Study colour
+- [ ] Study bands
+
+# PSD
+- [ ] Read week 2 lecture

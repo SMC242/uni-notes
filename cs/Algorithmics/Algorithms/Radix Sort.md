@@ -27,7 +27,7 @@ The vanilla implementation of radix sort involves the following sub-procedures:
 5. Repeat the above steps for all digits.
 6. The array is now sorted.
 
-For a code example, see [Link to code implementation](https://example.com).
+For a code example, see [Link to code implementation](https://www.geeksforgeeks.org/heap-sort/).
 
 # Variants
 Radix sort does not have many specialized variants, as its core strategy revolves around distributing elements into buckets based on digit values. However, there may be specific optimizations or adaptations based on the data types being sorted or the radix (base) chosen for sorting, such as binary radix sort or decimal radix sort.

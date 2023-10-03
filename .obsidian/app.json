@@ -13,7 +13,7 @@
   "promptDelete": false,
   "showFrontmatter": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "assignments",
   "showUnsupportedFiles": true,
   "showInlineTitle": true
 }

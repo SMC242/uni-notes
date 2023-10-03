@@ -79,4 +79,4 @@ See [[Presentation Layer]]
 
 See [[Application Layer]]
 
-![OSI Summary](http://www.tech-faq.com/wp-content/uploads/2009/01/osimodel.png)g)
+![OSI Summary](http://www.tech-faq.com/wp-content/uploads/2009/01/osimodel.png)

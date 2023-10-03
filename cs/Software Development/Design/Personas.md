@@ -19,5 +19,3 @@ A persona is a profile of a fictional person. They are used to provide hypotheti
 
 # Pain points
 - Frustrations with existing tools
-
-# 

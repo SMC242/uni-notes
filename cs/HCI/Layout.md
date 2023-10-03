@@ -1,0 +1,11 @@
+# Considerations
+- Screen size
+	- Some designs may only work for some screens
+	- The layout may need to adapt to different screens
+- Position
+	- Related things should be close together
+- White space
+	- Gaps create groupings
+- Proximity, size, alignment
+	- Another way to group elements
+- Grid
