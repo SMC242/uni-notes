@@ -1,10 +1,9 @@
 # Overview
 Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to build a max-heap or min-heap, and then repeatedly removes the top element from the heap to place it in its correct position.
-
 # Properties
 - [[Algorithm Analysis#Time complexities|Time complexity]]
-  - Best case: $O(n \log n)$
-  - Worst case: $O(n \log n)$
+	- Best case: $O(n \log n)$
+	- Worst case: $O(n \log n)$
 - Space complexity: $O(1)$ (in-place sorting)
 - [[Algorithm Strategies|Strategy type]]: Comparison-based sorting
 - Stable: No
