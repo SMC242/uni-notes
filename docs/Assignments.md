@@ -15,9 +15,8 @@ Create a note in `assignments/` with the following [inline fields](https://black
 	- May be _Not started/Started/Nearly done/Finished_
 
 In the [front matter](https://help.obsidian.md/Editing+and+formatting/Metadata), there must be the following keys:
-- `when`: an object with keys:
-	- `year`: which year in my degree this assignment belongs to. Must be in the range $1..4$
 	- `semester`: which semester within that year the assignment belongs to. Must be in the range $1..2$
+	- `year`: which year in my degree this assignment belongs to. Must be in the range $1..4$
 
 It's recommended to use the [[Assignment]] template to add information about the assignment. This will not be displayed on the tracker
 
