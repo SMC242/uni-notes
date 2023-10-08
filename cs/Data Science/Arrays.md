@@ -1,3 +1,9 @@
+---
+aliases:
+  - NDArrays
+---
+
+
 # Definition
 - Contiguous blocks of memory used for storing homogeneous data
 	- All elements must be of the same type
@@ -11,3 +17,6 @@
 - A Python library
 - Provides fast array operations
 - Built on top of FORTRAN
+
+# Representation
+![[Array Representation]]

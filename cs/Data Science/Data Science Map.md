@@ -5,7 +5,11 @@ Data science is a field that focuses on applying transformations to large datase
 - [[Vectorisation]]
 	- [[SIMD]]
 - [[Arrays]]
-	- [[Dimensions]]
+	- [[Tensor Types]]
+	- [[Array Representation]]
+	- [[Array Operations]]
+		- [[Broadcasting]]
+- [[Floating Point Representation]]
 
 # Tools
 - [[NumPy Map|NumPy]]
