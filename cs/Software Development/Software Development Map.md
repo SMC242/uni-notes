@@ -8,7 +8,7 @@ Software engineering is the field of writing maintainable and scalable code; mak
 - [[Issue Tracking]]: keeping track of bugs, enhancements, and tasks
 
 # Architecture
-
+- [[MVC]]: Model-View-Controller - keeping data, templating, and routing separate
 
 # Technologies
 - [[Caching]]: saving frequently-used data in fast-access storage
@@ -31,5 +31,5 @@ Constraints on how you program in order to give certain benefits
 ```dataview
 LIST
 FROM
-	"cs/Software Development/Engineering/Paradigms"
+	"cs/Software Development/Paradigms"
 ```
