@@ -10,20 +10,10 @@ WHERE
 
 # Maps of content
 ```dataview
-LIST
-	file.folder
+TABLE
+	file.folder as "folder"
 FROM
 	"/"
 WHERE
 	icontains(file.name, "map")
-```
-
-# Courses
-```dataview
-LIST
-	file.path
-FROM
-	"/"
-WHERE
-	icontains(file.name, "dashboard")
 ```
