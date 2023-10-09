@@ -28,6 +28,19 @@ Standard algorithms
 ## Searching
 - [[Binary Search]]
 
+## Compression
+- [[Huffman Encoding]]
+	- [[Huffman Decoding]]
+- [[LZW Compression]]
+	- [[LZW Decompression]]
+
+See also: [[Text Compression]]
+
+## Strings
+- [[String Notation]]
+- [[String Distance]]
+- [[String Searching]]
+
 # Data structures
 Clever ways of organising and storing data. These notes are on abstract data types (ADTs)
 
