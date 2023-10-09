@@ -1,0 +1,103 @@
+# Requirements
+## Software process
+- Documents to be produced for every decision that is made
+- Thorough documentation for the software
+- Detailed wireframes and user personas
+
+## Backend
+- Ability to upload PDFs into the database
+    - Batch upload from a path
+    - Should be easy to extend to pull from APIs
+    - Should be easy to extend to support other file formats
+	    - EndNote XML, PubMed, RIS, Zotero
+    - CLI?
+- Delete files
+- Ability to search through the database
+    - Should be easy to extend to use word association
+- Reject file
+- Accept file
+- Move file to another stage (admin privileges required)
+- Store file status
+	- Status: accepted/rejected/pending review/deadlock
+	- Votes
+		- Who?
+		- Their choice
+- Export
+	- CSV
+	- Should be easy to extend to export to other formats
+		- xlsx
+	- Referencing format
+
+##  User interface
+- Web app? (Would make it easier to port to different clients using Electron.js)
+- Import PDF interface
+    - Batch upload via path
+    - Exclude patterns
+- Ability to see which documents are in each stage
+	- Group by acceptance status (accepted/rejected/undecided)
+	- Display status per reviewer alongside their avatar
+		- Role should be visualised with their avatar
+- A dashboard that provides an overview of the progress of the review. Allows you to see:
+	- A funnel diagram visualising the number of documents contained in each stage
+	- Bar diagram
+		- Files reviewed
+		- Files with only one vote
+		- Conflicts
+		- Unreviewed
+	- Rejection rate
+	- Acceptance rate
+	- Highlight blockages
+- Menu for managing collaborators
+	- Roles
+		- Primary reviewers (their actions are required for the process to continue)
+		- Secondary reviewers (brought in to solve impasses, actions not required)
+		- Spectators (able to observe the process, unable to act)
+		- Administrator (able to change individuals' roles - automatically granted to primary reviewers)
+		- Manage whether an individual is allowed to screen?
+	- Role edit menu
+	- Generate invitation link
+	- Send invitation link
+- Account management screen
+	- Name
+	- Organisation
+	- Email
+	- Avatar
+- PDF viewer
+	- Zoom
+	- Comment
+	- Heading outline
+	- Mini-map
+	- Search text
+	- Highlight relevant words (inclusion/exclusion)
+		- Highlighting criteria menu
+	- Split into relevant sections (title, abstract, full text)
+	- Vote buttons (accept, reject, skip)
+	- Ability to move to next paper
+	- Highlight section
+- Three review stages:
+	- Title review
+	- Abstract review
+	- Full-text review
+- Tag files
+	- Create tags
+		- Title
+		- Colour
+		- Nested?
+	- Manage tags
+		- Change title, colour
+		- Delete
+	- Add tag to file
+		- Batch tag?
+- Settings for review process
+	- Minimum number of votes to pass through a stage
+		- Per-stage basis
+- Export menu
+	- Choose referencing style
+	- Choose output format
+- Exclusion reasons menu
+	- Manage reasons
+	- Select reason when excluding file at the full-text stage
+	- View exclusion reason in list of files
+	- Filter search by exclusion reason
+- Plug-in system?
+	- Low priority
