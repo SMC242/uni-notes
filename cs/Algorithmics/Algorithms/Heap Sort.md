@@ -1,5 +1,5 @@
 # Overview
-Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to build a max-heap or min-heap, and then repeatedly removes the top element from the heap to place it in its correct position.
+[[Heap]] sort is a comparison-based sorting algorithm that uses a binary [[heap]] data structure to build a [[max-heap]] or [[min-heap]], and then repeatedly removes the top element from the heap to place it in its correct position.
 # Properties
 - [[Algorithm Analysis#Time complexities|Time complexity]]
 	- Best case: $O(n \log n)$
@@ -22,7 +22,7 @@ Heap sort is implemented using the following sub-procedures:
    - After each extraction, reduce the heap size and restore the heap property by sifting down the new root element.
 3. Repeat step 2 until the entire array is sorted.
 
-For a code example, see [Link to code implementation](https://www.geeksforgeeks.org/heap-sort/).
+For a code example, see [GeeksForGeeks](https://www.geeksforgeeks.org/heap-sort/).
 
 # Variants
 Heap sort itself doesn't have many variants, but variations exist in the type of heap used (max-heap or min-heap) and the application of the algorithm, such as external sorting using a variation called "Polyphase merge heap sort."
