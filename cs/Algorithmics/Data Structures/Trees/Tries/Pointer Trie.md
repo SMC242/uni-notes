@@ -1,6 +1,6 @@
 ---
 tags:
-  - ADT/NAME-OF-ADT
+  - ADT/Trie
 ---
 ## Overview
 - Implements [[Trie]]
@@ -11,27 +11,26 @@ tags:
 - Nodes may contain associated values or simply serve as markers for key existence.
 
 ## Properties
-- The resulting properties of implementing the [[Abstract Data Type|ADT]] this way:
-  - **Time complexities** of major operations:
-    - Insertion: $O(m)$, where $m$ is the length of the key to be inserted.
-    - Deletion: $O(m)$, where $m$ is the length of the key to be deleted.
-    - Search: $O(m)$, where $m$ is the length of the key to be searched.
-    - Prefix Search: $O(k)$, where $k$ is the length of the prefix.
-  - Upsides:
-    - Efficient for storing and searching keys with common prefixes.
-    - Space-efficient due to collapsing nodes.
-    - Well-suited for IP routing tables and text indexing.
-  - Downsides:
-    - Requires more memory than other data structures like hash tables.
-    - Insertion and deletion can be slower for long keys compared to hash tables.
+## Time complexities of major operations:
+- Insertion: $O(m)$, where $m$ is the length of the key to be inserted.
+- Deletion: $O(m)$, where $m$ is the length of the key to be deleted.
+- Search: $O(m)$, where $m$ is the length of the key to be searched.
+- Prefix Search: $O(k)$, where $k$ is the length of the prefix.
+  
+## Upsides:
+- Efficient for storing and searching keys with common prefixes.
+- Space-efficient due to collapsing nodes.
+- Well-suited for IP routing tables and text indexing.
+  
+##  Downsides:
+- Requires more memory than other data structures like hash tables.
+- Insertion and deletion can be slower for long keys compared to hash tables.
 
 ## Members
-- Implementation details about members:
-  - Node Structure: Each node contains edge labels, pointers to child nodes, and optional values.
-  - Edge Labels: Represent characters on edges leading to child nodes.
-  - Pointer: Points to child nodes, optimizing memory usage.
-  - Value: Optional data associated with nodes.
+- Node Structure: Each node contains edge labels, pointers to child nodes, and optional values.
+- Edge Labels: Represent characters on edges leading to child nodes.
+- Pointer: Points to child nodes, optimizing memory usage.
+- Value: Optional data associated with nodes.
 
 - Extra members:
   - In some implementations, nodes may include additional metadata or flags to enhance functionality or support specific use cases.
-```
