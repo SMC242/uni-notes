@@ -18,6 +18,7 @@ Computing Science is the science of computers and programming.
 - #Python
 - #Java
 - #C
+	- [[C Map]]
 - #Haskell
 - #JavaScript
 	- #TypeScript
