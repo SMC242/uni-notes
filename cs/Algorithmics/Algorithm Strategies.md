@@ -10,9 +10,8 @@
 - Combine: recombine the sub-problems to create the solution for the original problem
 
 # Dynamic programming
-- A [[Recursion|recursive]] approach
-- Only works with [[Functional Programming Terms#Pure function|pure functions]]
-	- This is because the result of solving a function must be deterministic to be cached
+![[Dynamic Programming]]
+
 
 ## Method
 - Split the problem into sub-problems

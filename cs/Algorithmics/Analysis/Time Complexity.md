@@ -1,3 +1,6 @@
+---
+aliases: []
+---
 # Overview
 - Time complexity is a mathematical function that describes how the amount of time it takes to run the function *grows*
 - Do not confuse this with [[Running Time]]

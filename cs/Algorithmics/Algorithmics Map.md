@@ -37,9 +37,10 @@ Standard algorithms
 See also: [[Text Compression]]
 
 ## Strings
-- [[String Notation]]
-- [[String Distance]]
-- [[String Searching]]
+- [[Strings]]
+	- [[String Notation]]
+	- [[String Distance]]
+	- [[String Searching]]
 
 # Data structures
 Clever ways of organising and storing data. These notes are on abstract data types (ADTs)
