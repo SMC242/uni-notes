@@ -4,3 +4,4 @@
 **/__pycache__
 scripts/.vscode
 **/dist-newstyle
+.mypy_cache
