@@ -3,7 +3,7 @@
 module Main where
 
 import Data.Char (toLower)
-import Data.Functor (($>))
+import Data.Functor ((<$))
 import Data.List (intercalate)
 import Data.Maybe (fromMaybe)
 import Data.Text qualified as T
@@ -50,7 +50,7 @@ tabLike = Char.char ' ' <|> Char.char '\t'
 
 markdownListDash :: Parser ()
 markdownListDash =
-  optional (many tabLike) <* symbol "-"
+  optional (some tabLike) <* symbol "-"
 
 markdownListElement :: Parser T.Text
 markdownListElement = do
@@ -97,8 +97,8 @@ markdownFormat =
           line <- markdownListDash
           category <-
             try
-              (Char.string' "Pro" $> Pro)
-              <|> (Char.string' "Con" $> Con)
+              (Pro <$ Char.string' "Pro")
+              <|> (Con <$ Char.string' "Con")
           contents <- symbol ":" *> many Char.printChar
           ListElement <$> contents category
 
