@@ -1,16 +1,16 @@
-# Requirements
-## Software process
+# Software process
 - Documents to be produced for every decision that is made
 - Thorough documentation for the software
 - Detailed wireframes and user personas
 
-## Backend
+# Backend
 - Ability to upload PDFs into the database
     - Batch upload from a path
     - Should be easy to extend to pull from APIs
     - Should be easy to extend to support other file formats
 	    - EndNote XML, PubMed, RIS, Zotero
     - CLI?
+    - De-duplicate
 - Delete files
 - Ability to search through the database
     - Should be easy to extend to use word association
@@ -27,8 +27,10 @@
 	- Should be easy to extend to export to other formats
 		- xlsx
 	- Referencing format
+- Allocate papers to members
+- Look at journal title
 
-##  User interface
+#  User interface
 - Web app? (Would make it easier to port to different clients using Electron.js)
 - Import PDF interface
     - Batch upload via path
@@ -62,6 +64,10 @@
 	- Organisation
 	- Email
 	- Avatar
+- Allocate papers to members
+	- Visualise: 
+		- The number of papers per person
+		- Progress (reuse components from dashboard)
 - PDF viewer
 	- Zoom
 	- Comment
