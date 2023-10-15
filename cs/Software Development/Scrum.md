@@ -1,3 +1,8 @@
+---
+tags:
+  - Software/Methodology
+  - Software/Communication
+---
 # Overview
 - Small meetings within a team to keep all members updated
 - Aims to reduce risk due to changing requirements with frequent communication and smaller units of work

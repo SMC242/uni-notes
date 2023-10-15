@@ -6,13 +6,15 @@ Computing Science is the science of computers and programming.
 - [[Data Science Map|Data Science]]: number crunching
 - [[Software Development Map|Software Development]]: working as part of a team to deliver scalable software to clients
 - [[Networking Map|Networking]]: how data is relayed between computers
+- [[Design Map|Design]]: creating models of how an app could work
 - [[HCI Map|Human Computer Interface]]: designing better interfaces with people in mind
 - [[Web Development Map|Web Development]]: creating websites
 
 # Libraries, languages, and tools
 ## Libraries
 - #Django: An Python [[MVC]] framework 
-- [[NumPy Map|Numpy]]: a Python
+- [[NumPy Map|Numpy]]: a Python array library
+- #Figma: a wireframing tool
 
 # Languages
 - #Python

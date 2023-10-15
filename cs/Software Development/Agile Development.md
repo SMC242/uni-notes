@@ -1,3 +1,7 @@
+---
+tags:
+  - Software/Methodology
+---
 # Definition
 - Small teams
 - Communicate with team members, bosses, and clients regularly
