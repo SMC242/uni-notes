@@ -1,10 +1,5 @@
 ---
-aliases:
-  - Matrix
-  - Matrices
-  - Tensor
-  - Scalar
-  - Vector
+aliases: []
 ---
 # Types of structures
 ## Scalars

@@ -46,6 +46,10 @@ $n \gg m$
 > For the string `"a c a c g a t a c a c"`, the border table would be:
 > - `a c`
 > - `a c a c`
+> 
+> `a c a c` would be stored because it is the longest border
+
+
 
 ### Border table representation
 | pattern (`s`) 	| a 	| b 	| a 	| b 	| a 	| c 	| a 	|

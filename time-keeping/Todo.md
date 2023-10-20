@@ -4,13 +4,19 @@
 	- [ ] Hierarchy
 	- [ ] Layout
 	- [ ] Designing HCI Experiments
+- [ ] Make Figma prototypes
 
 # PSD
 - [x] Read week 2 lecture
+- [ ] Read week 4 lecture
 
 # Algorithmics
-- [ ] Finish lab 1
-- [ ] Take notes on lecture 2
+- [ ] Take notes on string searching
+- [ ] Take notes on graphs
+
+# SP
+- [ ] Do [[Systems Programming CW1]]
 
 # DF
-- [ ] Complete lab 2
+- [x] Complete lab 2
+- [ ] Take notes on matrices (week 4 lecture)

@@ -37,6 +37,8 @@ Standard algorithms
 See also: [[Text Compression]]
 
 ## Strings
+Theory related to string algorithms
+
 - [[Strings]]
 	- [[String Notation]]
 	- [[String Distance]]

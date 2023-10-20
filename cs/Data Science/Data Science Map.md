@@ -1,3 +1,7 @@
+---
+aliases:
+  - Data Science
+---
 # Overview
 Data science is a field that focuses on applying transformations to large datasets such as experimental data, sensor inputs, or media (image/video/audio). [[Machine Learning]] is built on top of this subject.
 
@@ -10,6 +14,8 @@ Data science is a field that focuses on applying transformations to large datase
 	- [[Array Operations]]
 		- [[Broadcasting]]
 - [[Floating Point Representation]]
+- [[Linear Algebra Map|Linear algebra]]
+- [[Machine Learning]]
 
 # Tools
 - [[NumPy Map|NumPy]]
