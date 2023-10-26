@@ -62,6 +62,17 @@ $$
 	- Can be reduced to $O(m + n)$ if you only keep the most recent entry per column in the table
 - Optimal alignment can be obtained via a [[#traceback]]
 
+# Hand executing
+![String distance table](https://vinayakgarg.files.wordpress.com/2012/12/editdist.png)
+
+- Draw the following table with strings and red numbers
+	- The red numbers represent the number of operations required if the strings were completely different
+	- They are used when evaluating the $1 + \min(\dots)$ branch if there no evaluated cells nearby
+- Go along the rows
+	- Look at the left, top left, and top neighbours
+	- Take the minimum and add 
+![[String Distance Table]]
+
 ## Traceback
 ![String distance table](https://vinayakgarg.files.wordpress.com/2012/12/editdist.png)
 
