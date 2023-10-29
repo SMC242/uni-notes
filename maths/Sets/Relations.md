@@ -1,3 +1,6 @@
+# Overview
+Relations are a set of 2-tuples representing some connection between the two elements
+
 # Cross-product
 $A \times B$ is the set of ordered pairs $(a,b)$ where $a \in A$ and $b \in B$
 

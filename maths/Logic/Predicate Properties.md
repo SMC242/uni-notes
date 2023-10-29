@@ -1,4 +1,6 @@
-See [[Predicate Logic]] for operator definitions
+See:
+- [[Properties]] for what these rules mean
+- [[Predicate Logic]] for operator definitions
 
 # Commutative
 You can only apply these when the quantifiers are the same

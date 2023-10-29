@@ -1,4 +1,6 @@
-See [[Propositional Logic]] for operator definitions
+See:
+- [[Properties]] for what these rules mean
+- [[Propositional Logic]] for operator definitions
 
 # Identity
 $P \land true \equiv P$

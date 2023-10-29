@@ -1,3 +1,7 @@
+See:
+- [[Properties]] for what these rules mean
+- [[Set Operations]] for the definitions of each operator
+
 # Identity
 $A \cup \emptyset = A$
 $A \cap U = A$
