@@ -1,8 +1,7 @@
+% Customer day 1
 
-# Customer day 1
+## Roles
 
----
-### Roles
 | Person | Role          |
 | ------ | ------------- |
 | Josiah | Demonstrator  |
@@ -13,10 +12,9 @@
 | Chenyu |               |
 | Bo     |               |
 
----
-# Agenda
+----
 
----
+# Agenda
 
 - Opening: 2 minutes
 - Previous sprint: 5 minutes
@@ -26,13 +24,10 @@
 
 Total: 23 minutes (estimate)
 
----
+----
 
-# Previous sprint
+## In the last sprint...
 
----
-
-## What we worked on...
 - Gathering and combining requirements
 - Starting to design the app
 - Bootstrapped the project with a provisional technology stack
@@ -40,11 +35,9 @@ Total: 23 minutes (estimate)
 	- Currently using React with Next JS, Tailwind CSS, Prisma, tRPC, and NextAuth
 	- Discussion about database still in progress
 
----
+----
 
-# Upcoming sprint goals
-
----
+### Upcoming sprint goals
 
 - Create detailed wireframes for:
 	- Dashboard
@@ -54,13 +47,14 @@ Total: 23 minutes (estimate)
 	- Provisionally define our data model
 	- Database
 - Look at the other team's requirements and finalise requirements
-	- Decide on scope (minimum requirements)
 
----
+----
+
 # Wireframes
-[Link to Figma project]()
 
----
+[Link to Figma project](https://www.figma.com/file/HIDSvfboJaL1eAY2mr1diD/Untitled?type=design&node-id=0%3A1&mode=design&t=6nTEsQf6B7EiNKIh-1)
+
+----
 
 # Summary
 - Any questions?
