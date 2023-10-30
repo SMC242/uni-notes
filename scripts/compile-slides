@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Function to display usage information
+show_help() {
+    echo "Usage: compile-slides.sh [OPTIONS] <input_file> [output_path]"
+    echo "Convert a Markdown file to a reveal.js presentation."
+    echo
+    echo "  <input_file>     Input Markdown file to convert."
+    echo "  [output_path]    The path to write the resulting HTML to (optional). If not provided, it will be derived from the input file name."
+    echo
+    echo "Options:"
+    echo "  -h, --help       Display this help message and exit."
+    exit 1
+}
+
+# Check for the help flag
+if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
+    show_help
+fi
+
+# Check if the number of arguments is less than 1, and show the help message if needed
+if [ "$#" -lt 1 ]; then
+    show_help
+fi
+
+FILE=$1
+no_extension="${FILE%.*}"
+OUTPUT_PATH=$2
+
+# If no output file is provided, derive it from the input file name
+OUTPUT_PATH=${OUTPUT_PATH:="${no_extension}.html"}
+
+# Check if the input file exists
+if [ ! -f "$FILE" ]; then
+    echo "Error: Input file '$FILE' does not exist."
+    show_help
+fi
+
+# Convert the Markdown file to reveal.js presentation
+pandoc -t revealjs -o "${OUTPUT_PATH}" -s "${FILE}"
+
+echo "Conversion complete. Output file: ${OUTPUT_PATH}"
