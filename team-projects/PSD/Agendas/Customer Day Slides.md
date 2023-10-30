@@ -1,4 +1,5 @@
 % Customer day 1
+% Theme: requirements and wireframes
 
 ## Roles
 
@@ -26,7 +27,15 @@ Total: 23 minutes (estimate)
 
 ----
 
-## In the last sprint...
+## Our goals for the last sprint
+
+- Create our internal requirements and merge them with Jesus' list
+- Experiment with the technologies we might use
+- Start on wireframes
+
+----
+
+## What we achieved
 
 - Gathering and combining requirements
 - Starting to design the app
