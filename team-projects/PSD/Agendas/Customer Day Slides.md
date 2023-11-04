@@ -1,6 +1,12 @@
 % Customer day 1
 % Theme: requirements and wireframes
 
+<style>
+	.slides {
+		font-size: 36px;
+	}
+</style>
+
 ## Roles
 
 | Person | Role          |
@@ -48,6 +54,9 @@ Total: 23 minutes (estimate)
 
 ### Upcoming sprint goals
 
+<small>Theme: wireframes, database & tech. stack</small>
+
+- Look at the other team's requirements and finalise requirements
 - Create detailed wireframes for:
 	- Dashboard
 	- Paper review view
@@ -55,7 +64,6 @@ Total: 23 minutes (estimate)
 - Decide on tech. stack
 	- Provisionally define our data model
 	- Database
-- Look at the other team's requirements and finalise requirements
 
 ----
 

@@ -9,7 +9,7 @@ Data science is a field that focuses on applying transformations to large datase
 - [[Vectorisation]]
 	- [[SIMD]]
 - [[Arrays]]
-	- [[Tensor Types]]
+	- [[Tensor Ranks]]
 	- [[Array Representation]]
 	- [[Array Operations]]
 		- [[Broadcasting]]

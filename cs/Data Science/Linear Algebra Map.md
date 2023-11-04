@@ -5,5 +5,7 @@ Linear algebra is the field of vectors and matrices
 - [[Vectors]]
 	- [[Vector Spaces]]
 	- [[Vector Operations]]
+		- [[Norms]]
 - [[Matrices]]
-- 
+	- [[Matrix Operations]]
+- [[Mathematical Optimisation]]
