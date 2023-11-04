@@ -1,7 +1,7 @@
 # Overview
 - The broadcasting rules are used when applying operations to arrays of mismatching size
 
-See first: [[Arrays]] and [[Tensor Types]] 
+See first: [[Arrays]] and [[Tensor Ranks]] 
 
 # Rules
 Broadcasting can only happen one of the following is true:

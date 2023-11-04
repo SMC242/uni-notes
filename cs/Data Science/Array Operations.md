@@ -11,7 +11,7 @@ This is an index of significant operations that can be applied to [[Arrays|NDArr
 - [[#Flip]]
 
 ## Rank promotion
-Some operations change the [[Tensor Types|tensor rank]] of the array. They are sorted into three categories:
+Some operations change the [[Tensor Ranks|tensor rank]] of the array. They are sorted into three categories:
 - Rank-preserving: the dimensions remain unchanged (E.G mapping, slicing all dimensions)
 - Rank-reducing: reduces the number of dimensions (E.G reductions, unravelling)
 - Rank-promoting: adds new dimensions
