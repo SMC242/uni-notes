@@ -48,3 +48,10 @@ The other vectors in the set are just scaled versions of
 
 # Vector operations
 ![[Vector operations]]
+
+# Feature vectors
+- Data relevant to the model encoded as a vector
+
+> [!EXAMPLE]
+> When modelling flowers, the feature vector might look like this:
+> `[petal size, number of petals, height, colour, lifespan]`

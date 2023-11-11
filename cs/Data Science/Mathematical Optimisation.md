@@ -102,3 +102,10 @@ There are many optimisation algorithms
 - Parameters for the optimisation algorithm
 - Will affect the results of the algorithm for the same parameters
 - E.G the number of rows and columns for Grid Search
+
+# Orders of optimisation
+- First order  methods have an attractor that rolls towards the solution (a minima)
+	- Visualise it as a ball rolling down a slope until it settles into a minima
+
+# Gradient descent
+- A method built on top of [[Automatic Differentiation]]

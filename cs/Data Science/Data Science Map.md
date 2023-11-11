@@ -15,6 +15,7 @@ Data science is a field that focuses on applying transformations to large datase
 		- [[Broadcasting]]
 - [[Floating Point Representation]]
 - [[Linear Algebra Map|Linear algebra]]
+- [[Classification]]
 - [[Machine Learning]]
 
 # Tools

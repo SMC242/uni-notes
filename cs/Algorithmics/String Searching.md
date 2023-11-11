@@ -49,15 +49,15 @@ $n \gg m$
 > 
 > `a c a c` would be stored because it is the longest border
 
-
-
 ### Border table representation
 | pattern (`s`) 	| a 	| b 	| a 	| b 	| a 	| c 	| a 	|
 |---------------	|---	|---	|---	|---	|---	|---	|---	|
 | j             	| 0 	| 1 	| 2 	| 3 	| 4 	| 5 	| 6 	|
 | b[j]          	| 0 	| 0 	| 0 	| 1 	| 2 	| 3 	| 0 	|
 
-
+To generate a border table, use the following algorithm:
+1. Start with `j = b[0] = 0`, increment `j` until `Length(s) - 1`
+2. Compare `s[j]` to 
 ## Algorithm
 - If a mismatch is encountered, look in the border table to find out which character should be compared with the current character
 - 
