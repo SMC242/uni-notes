@@ -131,6 +131,8 @@ NextJS is a meta-framework built on top of React. It provides what React does no
 	- An easy HTTP client that gives you caching for free
 - Image optimisation
 
+Additionally, `create-react-app` [is no longer recommended](https://react.dev/learn/start-a-new-react-project) for starting new projects
+
 Learning curve: 2/5
 - Average learning curve for a fully-fledged framework
 	- Lots of reading the docs to begin with
@@ -150,6 +152,7 @@ app
 ├── layout.jsx
 └── page.jsx
 ```
+
 - A `page.jsx` is the template for the content of the page
 - Directories become URL segments
 	- E.G `manage-team` --> `https://my.app/manage-team`
@@ -157,28 +160,31 @@ app
 	- `layout.jsx` is the layout that pages will be rendered inside
 	- `app/page.jsx` is the index page (`https://my.app/`)
 
-Here is a POST request handler
-```js
-// app/api/route.js
-import {NextResponse} from "next/server";
+Here is a POST request handler that echoes the request body
 
-export async function POST(request) {
-    // This echoes the request body
-    if (!request.ok)
-        return NextResponse.json(
+```js
+// app/api/echo/route.js
+// This will be mapped to https://my.app/api/echo
+import {NextRequest, NextResponse} from "next/server";
+
+export async function POST(request: NextRequest) {
+    const json = await request.json();
+    if (!("message" in json))
+	    return NextResponse.json(
             {},
             {
                 status: 400,
                 statusText: "A `message` is required in the request body",
             }
         );
-    const json = await request.json();
     return NextResponse.json({ body: json.body.message });
 }
 ```
+
 ### Documentation
 
-NextJS recently changed the way their router and backend works. The new version is called the "app router". Be careful when you read tutorials because they may be using the page router
+NextJS recently changed the way their router and backend works. The new version is called the "app router". Be careful when you read tutorials because they may be using the old "page router"
+
 - [App router struture](https://nextjs.org/docs/app/building-your-application/routing)
 - [Quickstart](https://nextjs.org/docs)
 
@@ -198,7 +204,7 @@ Cons:
 	- See [[#CLSX]]
 
 Learning curve: 1/5
-- You don't really learn Tailwind. You just Google what you want to to (E.G search "tailwind flexbox" or "tailwind LI decoration")
+- You don't really learn Tailwind. You just Google what you want to to (E.G search "tailwind flexbox" or "tailwind list decoration")
 - The naming conventions can take some getting used to
 
 ### Examples
@@ -273,7 +279,7 @@ function CSSModuleExample() {
 
 This is the preferred unit-testing framework for [[#React]]
 
-Learning curve: 2
+Learning curve: 2/5
 - It's just like every other front-end testing library
 
 ### Examples
@@ -281,6 +287,7 @@ Learning curve: 2
 Here is a test for a [[#React]]  counter component
 ```jsx
 import { render, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Counter from './Counter';
 
 test('renders Counter component', () => {
@@ -302,6 +309,8 @@ test('renders Counter component', () => {
 });
 ```
 
+It can also be used for testing business logic
+
 ### Documentation
 
 - [Docs](https://jestjs.io/)
@@ -310,12 +319,14 @@ test('renders Counter component', () => {
 
 ## NodeJS
 
-NodeJS is a runtime that allows JavaScript to run on the server. It provides the usual APIs you'd expect from a backend language (`fs` for the file system, `crypto` for cryptography). The [[#NextJS]] server runs on NodeJS in order to serve responses to browsers. A bundler like Webpack or Vite will combine the generated JS, CSS, and HTML into a bundle and send it back to the browser
+NodeJS is a runtime that allows JavaScript to run on the server. It provides the usual APIs you'd expect from a backend language (`fs` for the file system, `crypto` for cryptography). The [[#NextJS]] server runs on NodeJS in order to serve responses to browsers. A bundler like [Webpack](https://webpack.js.org/) or [Vite](https://vitejs.dev/) will combine the generated JS, CSS, and HTML into a bundle and send it back to the browser
 
-It comes with a package manager (`npm`) out of the box. It's like `pip` from Python, except dependencies are sand-boxed instead of global
+It comes with a package manager (`npm`) out of the box. It's like Python's `pip`, except dependencies are sand-boxed instead of global
 
 Learning curve: 0/5
 - It's just JavaScript running in a different place
+- `npm` is just like any other package manager
+	- There are a few other package managers in the space like `yarn` and `pnpm` which offer big performance improvements
 
 ### Documentation
 
@@ -323,7 +334,7 @@ Learning curve: 0/5
 
 ## TypeScript
 
-TypeScript is a super-set of JavaScript that is transpiled to JavaScript. It adds a type system and some features such as decorators. It has very good type-inference, meaning that you often write types once and let them propagate through your program. It helps you to write self-documenting code and catch null pointer exceptions easily. It also aids refactoring by not allowing you to compile until your program is sane
+TypeScript is a super-set of JavaScript that is transpiled to JavaScript. It adds a type system and some features such as decorators. It has very good type-inference, meaning that you often write types once and let them propagate through your program. It helps you to write self-documenting code and type errors at compile-time. It also aids refactoring by not allowing you to compile until your program is sane
 
 Learning curve: 3/5
 - Since it's a super-set of JavaScript, it can be gradually adopted
@@ -509,6 +520,7 @@ export async function PUT(request: NextRequest) {
 ```
 
 Using Zod instead:
+
 ```ts
 import z from "zod";
 
