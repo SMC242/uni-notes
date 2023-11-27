@@ -9,9 +9,9 @@ Additionally, this can be a jumping-off point for documenting our tech decisions
 
 ## React
 
-React is a JavaScript framework that provides the rendering, templating, and state + reactivity layer. By default, it supports client-side rendering (CSR) and server-side rendering (SSR).
+React is a JavaScript framework that provides the rendering, templating, and state + reactivity layer. By default, it supports client-side rendering (CSR) only
 
-It uses a templating system called JSX which co-locates the JavaScript and markup for a component. The basic unit of React is the component - you think of pages as a composition of small components. A component is a function that returns JSX. 
+It uses a templating system called JSX which co-locates the JavaScript and markup for a component. The basic unit of React is the component - you think of pages as a composition of small components. A component is a function that returns JSX
 
 Learning curve: 3/5
 - JSX is easy to learn
