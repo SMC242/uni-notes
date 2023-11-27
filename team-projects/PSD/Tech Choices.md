@@ -620,3 +620,4 @@ TODO: flesh this out once the systems design is done
 
 - Docker: containers for easy deployments
 - RabbitMQ: a message queue
+- Azure Functions: serverless functions on Microsoft Azure
