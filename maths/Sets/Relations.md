@@ -34,4 +34,4 @@ R&=\{(a,b),(a,e),(b,d),(c,c),(c,d)\}
 # Partial orders
 - [[#Reflexive]], [[#Anti-symmetric]], [[#Transitive]] relations are partial orders
 - This means that the elements are ordered, but some pairs of elements might not be related
-- It can't have [[Graph#Cycles|cycles]]
+- It can't have [[Undirected Graph#Cycles|cycles]]

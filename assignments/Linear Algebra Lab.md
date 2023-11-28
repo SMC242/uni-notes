@@ -7,7 +7,7 @@ class:: "Data Fundamentals"
 deadline:: 2023-11-02T16:30
 difficulty:: Hard
 time:: "Caffeine demon"
-progress:: "Not started"
+progress:: "Finished"
 
 # Pre-requisites
 

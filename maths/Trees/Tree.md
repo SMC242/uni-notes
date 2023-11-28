@@ -3,10 +3,10 @@ tags: Trees
 
 ---
 # Definition
-A tree is a type of [[Graph]] with the following constraints:
-- [[Graph#Direction|Undirected]]
+A tree is a type of [[Undirected Graph]] with the following constraints:
+- [[Undirected Graph#Direction|Undirected]]
 - All nodes must be connected; there are no orphaned nodes
-- [[Graph#Cycles|Acyclic]] (there are no cycles)
+- [[Undirected Graph#Cycles|Acyclic]] (there are no cycles)
 
 ![Example tree](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/1200px-Tree_graph.svg.png)
 
@@ -15,7 +15,7 @@ A tree is a type of [[Graph]] with the following constraints:
 - A node that has no edges is called a "leaf node"
 
 # Edges
-![[Graph#Edges]]
+![[Undirected Graph#Edges]]
 
 # Paths
 - A path is a sequence of nodes from one node to another

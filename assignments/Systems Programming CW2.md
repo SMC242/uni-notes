@@ -7,7 +7,7 @@ class:: "System Programming"
 deadline:: 2023-11-23T16:30
 difficulty:: Medium
 time:: "Caffeine demon"
-progress:: "Not started"
+progress:: "Finished"
 
 # Pre-requisites
 

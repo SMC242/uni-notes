@@ -35,9 +35,10 @@ Sets are collections of elements. This field focuses on the properties of sets
 	- [[Infinity]]: some infinities are bigger than others
 
 # Graphs
-![[Graph#Overview]]
+![[Undirected Graph#Overview]]
 
-- [[Graph]]
+- [[Undirected Graph]]
+- [[Directed Graph]]
 
 # Trees
 ![[maths/Trees/Tree#Definition|Tree]]

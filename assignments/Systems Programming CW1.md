@@ -6,7 +6,7 @@ class:: "Systems Programming"
 deadline:: 2023-11-02T16:30
 difficulty:: Medium
 time:: "Caffeine demon"
-progress:: "Started"
+progress:: "Finished"
 
 # Requirements
 - Implement a date parser
