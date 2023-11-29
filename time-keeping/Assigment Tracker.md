@@ -19,6 +19,19 @@ SORT
 	deadline ASC
 ```
 
+# Possibly outdated
+```dataview
+TABLE 
+	class,
+	dateformat(deadline, "yyyy-MM-dd @HH:mm") AS deadline,
+	"Y" + year + "S" + semester AS when,
+	progress
+FROM
+	"assignments"
+WHERE
+	progress != "Finished" AND deadline < date(now)
+```
+
 # Assignment history
 ```dataview
 TABLE
