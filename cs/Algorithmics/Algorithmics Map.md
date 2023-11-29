@@ -44,6 +44,16 @@ Theory related to string algorithms
 	- [[String Distance]]
 	- [[String Searching]]
 
+## Graphs
+Algorithms for traversing and searching graphs
+
+- [[Graph Algorithms]]
+	- [[Depth First Search]]
+	- [[Breadth First Search]]
+	- [[Dijkstra's Algorithm]]
+
+See also: [[Maths Map#Graphs|graph theory]]
+
 # Data structures
 Clever ways of organising and storing data. These notes are on abstract data types (ADTs)
 

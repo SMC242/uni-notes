@@ -1,7 +1,6 @@
 ---
-semester: 80
-year: 4000
-
+semester: 1
+year: 3
 ---
 class:: "System Programming"
 deadline:: 2023-11-23T16:30

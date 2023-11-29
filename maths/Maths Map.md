@@ -39,6 +39,7 @@ Sets are collections of elements. This field focuses on the properties of sets
 
 - [[Undirected Graph]]
 - [[Directed Graph]]
+- [[Weighted Graphs]]
 
 # Trees
 ![[maths/Trees/Tree#Definition|Tree]]

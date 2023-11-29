@@ -1,6 +1,8 @@
 ---
 aliases:
   - digraph
+tags:
+  - Graphs
 ---
 # Overview
 A graph where each edge has a direction
