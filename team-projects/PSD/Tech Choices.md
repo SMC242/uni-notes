@@ -570,6 +570,11 @@ Due to the relatively large amount of set-up code, it's best to just look at the
 
 - [Quickstart](https://tanstack.com/query/latest/docs/react/quick-start)
 
+## NextAuth
+
+TODO
+
+
 # Tooling
 
 ## ESLint
