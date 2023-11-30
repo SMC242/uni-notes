@@ -3,7 +3,7 @@ tags:
   - Graphs
 ---
 # Overview
-Dijkstra's algorithm is a graph search algorithm that finds the shortest path between two nodes in a weighted graph. It operates by maintaining a set of tentative distances to every node and iteratively selecting the node with the smallest tentative distance, updating the distances of its neighbors. Dijkstra's algorithm is widely used in routing and as a subroutine in other graph algorithms.
+Dijkstra's algorithm is a graph search algorithm that finds the shortest path between two nodes in a [[weighted graph]]. It operates by maintaining a set of tentative distances to every node and iteratively selecting the node with the smallest tentative distance, updating the distances of its neighbors. Dijkstra's algorithm is widely used in routing and as a subroutine in other graph algorithms.
 
 # Properties
 Data about the algorithm such as:

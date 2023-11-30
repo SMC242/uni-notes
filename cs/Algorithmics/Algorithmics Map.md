@@ -48,9 +48,14 @@ Theory related to string algorithms
 Algorithms for traversing and searching graphs
 
 - [[Graph Algorithms]]
-	- [[Depth First Search]]
-	- [[Breadth First Search]]
-	- [[Dijkstra's Algorithm]]
+	- Searching
+		- [[Depth First Search]]
+		- [[Breadth First Search]]
+		- [[Dijkstra's Algorithm]]
+	- [[Minimum Spanning Tree|Minimising weight]]
+		- [[Prim-Jarnik]]
+	- [[Topological Ordering Algorithm]]
+- [[Topological Ordering]] 
 
 See also: [[Maths Map#Graphs|graph theory]]
 

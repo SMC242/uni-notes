@@ -4,7 +4,6 @@ I think it would be easier to show which problems each technology solves and how
 
 Additionally, this can be a jumping-off point for documenting our tech decisions. Jesus will be very happy to see some documentation
 
-
 # Frameworks
 
 ## React

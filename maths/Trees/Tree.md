@@ -26,9 +26,3 @@ A tree is a type of [[Undirected Graph]] with the following constraints:
 
 # Degree
 - The number of child-nodes of a nodee
-
-# Spanning tree
-A tree that includes all vertices in a graph
-
-> [!EXAMPLE]
-> ![Spanning tree](https://www.tutorialspoint.com/data_structures_algorithms/images/spanning_trees.jpg)

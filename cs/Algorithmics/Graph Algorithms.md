@@ -11,7 +11,7 @@ See first: [[Maths Map#Graphs|graph theory]]
 - A traversal is considered to be efficient if it traverses the whole graph in $O(|V| + |E|)$ time
 
 # Traversals
-[[maths/Trees/Tree#Spanning tree|Spanning trees]] are useful for visualising the coverage of a traversal
+[[Spanning Tree]]s are useful for visualising the coverage of a traversal
 
 ## Depth-first
 For each component:
@@ -49,3 +49,9 @@ See also: [[Breadth First Search]]
 
 # Shortest paths
 ![[Shortest Path Algorithms]]
+
+# Minimum spanning tree
+![[Minimum Spanning Tree]]
+
+# Topological ordering
+![[Topological Ordering]]

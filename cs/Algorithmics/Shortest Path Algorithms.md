@@ -5,7 +5,7 @@ tags:
 # Overview
 These are algorithms for finding the shortest path to a node in a graph
 
-See first: [[Maths Map#Graphs|Graph theory]] - particularly [[Weighted Graphs]]
+See first: [[Maths Map#Graphs|Graph theory]] - particularly [[Weighted Graph]]
 
 # Dijkstra's algorithm
 Let:
