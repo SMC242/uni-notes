@@ -52,3 +52,10 @@ Closely related to the computing science notion of [[cs/Algorithmics/Data Struct
 - [[maths/Trees/Binary Tree|Binary Tree]]
 	- [[Balanced Trees]]
 	- [[Decision Tree]]
+- [[Spanning Tree]]
+
+# NP completeness
+![[NP Completeness#Overview]]
+
+- [[NP Completeness]]
+- [[NDAs]]
