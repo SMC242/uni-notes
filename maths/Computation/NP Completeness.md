@@ -15,7 +15,7 @@ A [[#Decision problems|decision problem]] is NP-complete if:
 	- I.E it is at least as hard as all other problems in $NP$
 
 ## Theoretical consequences
-The big question is whether the existence of an [[NDAs|NDA]] implies that a problem is solvable in polynomial time
+The big question is whether the existence of an [[Non-deterministic Algorithms|NDA]] implies that a problem is solvable in polynomial time
 
 Either:
 - If $\Pi$ is NP-complete and $\Pi \in P$, $P = NP$
@@ -26,12 +26,12 @@ Finding an answer to this question would have a huge impact on the field of [[CS
 # Definitions
 - Intractable: a problem that cannot be solved in [[Time Complexity#Example growth rates|polynomial time]] (I.E it is $O(c^{n})$ or, worse, $O(n!)$)
 - $P$: the class containing all problems that can be solved in polynomial time
-- $NP$: the class containing all problems that can be solved in [[NDAs|non-deterministic polynomial time]]
+- $NP$: the class containing all problems that can be solved in [[Non-deterministic Algorithms|non-deterministic polynomial time]]
 	- $NP$ is probably a super-set of $P$ (yet to be proven)
 - NP complete: the problem can be solved in non-polynomial time and it is at least as hard as all other problems in $NP$
 	- See [[#Formal definition]]
 - NDAs: a non-deterministically solvable algorithm
-	- See [[NDAs]]
+	- See [[Non-deterministic Algorithms]]
 - $\Pi$: a problem
 - $I$: an instance
 
@@ -79,7 +79,7 @@ $\Pi_{1} \propto \Pi_2$ means there is a PTR from $\Pi_1$ to $\Pi_2$
 
 ## Process
 1. Prove that $\Pi_{1}\in NP$ 
-	- Create an [[NDAs|NDA]] for the problem
+	- Create an [[Non-deterministic Algorithms|NDA]] for the problem
 2. Show that there is a [[#Polynomial time reduction|PTR]] from an NP-complete problem $\Pi_2$ to $\Pi_1$
 3. Use the reduction function on an instance
 	- Show that the construction can be done in polynomial time

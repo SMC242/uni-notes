@@ -54,8 +54,12 @@ Closely related to the computing science notion of [[cs/Algorithmics/Data Struct
 	- [[Decision Tree]]
 - [[Spanning Tree]]
 
-# NP completeness
-![[NP Completeness#Overview]]
+# Computation
+This topic focuses on the fundamental theories of computation such as what can and can't be computed; various systems for computation; and the cutting edge of computational theory
 
 - [[NP Completeness]]
-- [[NDAs]]
+- [[Non-deterministic Algorithms]]
+- [[Computability]]
+- [[Computational Models]]
+	- [[Finite-state Automata]]
+	- [[Pushdown Automata]]
