@@ -5,7 +5,7 @@ import Data.List (intercalate)
 import qualified Data.Text as T
 import Text.Printf (printf)
 
-import Markdown (Contents)
+import Markdown (Contents, ListElement, ProCon)
 
 data HTMLElementData = HTMLElementData
   { htmlElementTagName :: Contents,
@@ -26,6 +26,28 @@ renderHTMLElement ele = case ele of
     openingTag (HTMLElementData tagName className) = printf "<%s class=\"%s\" >\n" tagName className
     closingTag :: HTMLElementData -> String
     closingTag (HTMLElementData tagName _) = printf "\n</%s>" tagName
+
+tagWithContent :: String -> String -> HTMLElement
+tagWithContent tagName className content = TagWithContent (HTMLElementData tagName className) content
+
+li :: String -> String -> HTMLElement
+li = tagWithContent "li"
+
+tagWithChildren :: String -> String -> [HTMLElement] -> HTMLElement
+tagWithChildren tagName className children = TagWithChildren (HTMLElementData tagName className) children
+
+ul :: String -> [HTMLElement] -> HTMLElement
+ul = tagWithChildren "ul"
+
+proLi = li "pro"
+conLi = li "con"
+breakdownUl = ul "breakdown"
+
+toBreakdownHTML :: [ListElement] -> HTMLElement
+toBreakdownHTML xs = breakdownUl $
+  map
+    (\(ListElement c t) -> li (toLower(show t)) c)
+    xs
 
 testDOM :: HTMLElement
 testDOM =
