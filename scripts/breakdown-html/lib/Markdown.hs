@@ -3,7 +3,7 @@
 module Markdown where
 
 import Data.Char (toLower)
-import Data.Functor ((<$))
+import Data.Functor ((<$>), void)
 import Data.Maybe (fromMaybe)
 import qualified Data.Text as T
 import Data.Void (Void)
@@ -38,11 +38,11 @@ symbol :: Contents -> Parser Contents
 symbol = L.symbol spaceConsumer
 
 tabLike :: Parser Contents
-tabLike = T.pack <$> (Char.char ' ' <|> Char.char '\t')
+tabLike = T.singleton <$> (Char.char ' ' <|> Char.char '\t')
 
 markdownListDash :: Parser ()
 markdownListDash =
-  optional (some tabLike) <* symbol "-"
+  optional (some tabLike) *> void (symbol "-")
 
 markdownListElement :: Parser T.Text
 markdownListElement = do
@@ -53,15 +53,18 @@ markdownListElement = do
 
 markdownListElement' :: Parser (Int, T.Text)
 markdownListElement' = do
-  indents <- length . fromMaybe <$> optional (some $ Char.char '\t') <* symbol "-"
+  indents <- length . fromMaybe [] <$> optional (some tabLike) <* symbol "-"
   contents <- many Char.printChar
   Char.eol
   return (indents, T.pack contents)
 
 markdownFormat :: Parser (Format ListElement)
 markdownFormat =
-  choice
-    []
+  choice [
+      heading
+      , colon
+      , inline
+    ]
   where
     proConList :: (Monad m) => ProCon -> m [Contents] -> m [ListElement]
     proConList type_ = fmap (map (`ListElement` type_))
@@ -92,4 +95,5 @@ markdownFormat =
               (Pro <$ Char.string' "Pro")
               <|> (Con <$ Char.string' "Con")
           contents <- symbol ":" *> many Char.printChar
-          ListElement <$> contents category
+          pure $ ListElement (T.pack contents) category
+

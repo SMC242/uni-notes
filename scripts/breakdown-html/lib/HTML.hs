@@ -1,7 +1,9 @@
+{-# LANGUAGE OverloadedStrings #-}
 module HTML where
 
 import Data.List (intercalate)
 import qualified Data.Text as T
+import Text.Printf (printf)
 
 import Markdown (Contents)
 
