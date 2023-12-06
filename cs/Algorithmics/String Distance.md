@@ -70,7 +70,7 @@ $$
 	- They are used when evaluating the $1 + \min(\dots)$ branch if there no evaluated cells nearby
 - Go along the rows
 	- Look at the left, top left, and top neighbours
-	- Take the minimum and add 
+	- Take the minimum and add 1
 ![[String Distance Table]]
 
 ## Traceback

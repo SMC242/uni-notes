@@ -63,3 +63,4 @@ This topic focuses on the fundamental theories of computation such as what can a
 - [[Computational Models]]
 	- [[Finite-state Automata]]
 	- [[Pushdown Automata]]
+	- [[Turing Machines]]

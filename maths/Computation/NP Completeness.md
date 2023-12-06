@@ -1,6 +1,8 @@
 # Overview
 NP completeness is an idea used to prove that algorithms are intractable (impossible to compute in a reasonable amount of time)
 
+![Overlap between classes](https://media.geeksforgeeks.org/wp-content/uploads/20230828114559/np-complete-complexity-classes.png)
+
 # Motivation
 - Some problems have no polynomial-time algorithm
 - It may be difficult to prove this
@@ -102,3 +104,12 @@ If you have an NP-complete problem, you can work around it in order to increase 
 - For optimisation problems: approximate
 	- Ideally, your algorithm should be provably good (evaluated using some heuristic)
 - For decision problems: make a probabilistic algorithm that usually gives the correct answer 
+
+# NP-hard
+A class of problems that are at least as hard as problems in NP
+- NP-complete problems are always decision problems, NP-hard problems aren't
+- All NP-complete problems are in NP-hard
+
+> A problem $X$ is in NP-hard if there is an [[#Formal definition|NP-complete]] problem $Y$ where there is a [[#Polynomial time reduction|PTR]] from Y to X
+
+This means that if any of these problems could be solved, they could be reduced and used to solve all problems in NP
