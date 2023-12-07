@@ -19,14 +19,14 @@ type Parser a = Parsec Void Contents a
 data Format a
   = HeadingFormat [a]
   | ColonFormat [a]
-  | InlineFormat [a]
+  | InlineFormat [a] deriving (Show, Eq)
 
 data ProCon = Pro | Con deriving (Show, Eq)
 
 data ListElement = ListElement
   { listElementContents :: Contents,
     listElementType :: ProCon
-  }
+  } deriving (Show, Eq)
 
 spaceConsumer :: Parser ()
 spaceConsumer = L.space Char.space1 empty empty

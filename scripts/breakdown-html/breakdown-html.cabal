@@ -54,6 +54,7 @@ test-suite test-markdown
         base
         , megaparsec
         , HUnit
+        , text
         , parsing-lib
     hs-source-dirs: test
     default-language: Haskell2010
