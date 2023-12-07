@@ -4,39 +4,56 @@ module HTML where
 import Data.List (intercalate)
 import qualified Data.Text as T
 import Text.Printf (printf)
+import Data.List (intercalate)
+import Data.Char (toLower)
 
-import Markdown (Contents, ListElement, ProCon)
+import Markdown (Contents, ListElement (..), ProCon)
 
 data HTMLElementData = HTMLElementData
   { htmlElementTagName :: Contents,
     htmElementClassName :: Contents
-  }
+  } deriving Show
 
-data HTMLElement = TagWithContent HTMLElementData Contents | TagWithChildren HTMLElementData [HTMLElement]
+data HTMLElement = TagWithContent HTMLElementData Contents | TagWithChildren HTMLElementData [HTMLElement] deriving Show
 
 joinWith :: String -> [String] -> String
 joinWith = intercalate
 
-renderHTMLElement :: HTMLElement -> String
-renderHTMLElement ele = case ele of
-  TagWithContent data_ cs -> openingTag data_ ++ "\t" ++ T.unpack cs ++ closingTag data_
-  TagWithChildren data_ children -> openingTag data_ ++ joinWith "\n" (map renderHTMLElement children) ++ closingTag data_
+openingTag :: HTMLElementData -> String
+openingTag (HTMLElementData tagName className) = printf "<%s%s>" tagName classSegment
   where
-    openingTag :: HTMLElementData -> String
-    openingTag (HTMLElementData tagName className) = printf "<%s class=\"%s\" >\n" tagName className
-    closingTag :: HTMLElementData -> String
-    closingTag (HTMLElementData tagName _) = printf "\n</%s>" tagName
+    classSegment :: String
+    classSegment = if not (T.null className) then
+      printf " class=\"%s\" " (T.unpack className)
+      else ""
+closingTag :: HTMLElementData -> String
+closingTag (HTMLElementData tagName _) = printf "</%s>" tagName
 
-tagWithContent :: String -> String -> HTMLElement
+renderTag :: HTMLElementData -> String -> String
+renderTag data_ innerContent = openingTag data_ ++ innerContent ++ closingTag data_
+
+renderHTMLElement :: HTMLElement -> String
+renderHTMLElement ele =  case ele of
+      TagWithContent data_ cs -> renderTag data_ $ "\n\t"
+        ++ T.unpack cs
+        ++ "\n"
+      TagWithChildren data_ children -> renderTag data_ $
+        "\n"
+        ++ joinWith "\n" (map renderHTMLElement children)
+        ++ "\n"
+
+   
+
+tagWithContent :: Contents -> Contents -> Contents -> HTMLElement
 tagWithContent tagName className content = TagWithContent (HTMLElementData tagName className) content
 
-li :: String -> String -> HTMLElement
+li :: Contents -> Contents -> HTMLElement
 li = tagWithContent "li"
 
-tagWithChildren :: String -> String -> [HTMLElement] -> HTMLElement
+tagWithChildren :: Contents -> Contents -> [HTMLElement] -> HTMLElement
 tagWithChildren tagName className children = TagWithChildren (HTMLElementData tagName className) children
 
-ul :: String -> [HTMLElement] -> HTMLElement
+ul :: Contents -> [HTMLElement] -> HTMLElement
 ul = tagWithChildren "ul"
 
 proLi = li "pro"
@@ -46,7 +63,7 @@ breakdownUl = ul "breakdown"
 toBreakdownHTML :: [ListElement] -> HTMLElement
 toBreakdownHTML xs = breakdownUl $
   map
-    (\(ListElement c t) -> li (toLower(show t)) c)
+    (\(ListElement c t) -> li (T.pack . map toLower . show $ t) c)
     xs
 
 testDOM :: HTMLElement
