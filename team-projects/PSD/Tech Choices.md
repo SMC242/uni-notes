@@ -83,7 +83,7 @@ Here is a React server component
 // RSCExample.jsx
 import {Suspense} from "react";
 
-// This is a server-rendered component (React server component)
+// This is a React server component
 async function RSCExample() {
 	const data = await someIO();
 
