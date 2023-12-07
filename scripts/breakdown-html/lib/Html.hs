@@ -47,7 +47,6 @@ renderHTMLElement ele = aux 0 ele
       TagWithContent data_ cs -> indentLines indents (renderTag data_ $ "\n"
         ++ indent (indents + 1)  -- Always indent inner content
         ++ T.unpack cs
-        ++ show indents
         ++ "\n")
       TagWithChildren data_ children -> indentLines indents (renderTag data_ $
         "\n"
