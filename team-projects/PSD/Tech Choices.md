@@ -582,6 +582,9 @@ A linter (static analyser) for JavaScript/TypeScript and JSX. It makes sure your
 
 We would run this in our CI as well as using it as an editor extension
 
+Learning curve: 2/5
+- Some warnings can be hard to understand
+
 ### Documentation
 
 - [Docs](https://eslint.org/)
@@ -591,6 +594,9 @@ We would run this in our CI as well as using it as an editor extension
 A formatter for all common file formats in the web development space. It's very helpful to have a common formatting config in order to minimise arguments about code style. It also prevents the issue of file diffs being obfuscated by differing formatting styles
 
 This would be run as an editor extension. We would agree on a single config that would be stored in our project repository
+
+Learning curve: 0/5
+- It automatically formats your files - nothing to learn
 
 ### Documentation
 
@@ -604,16 +610,29 @@ This wouldn't be required. It's just worth mentioning
 
 [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries)
 
+Learning curve: 0/5
+- It's just a comment format
+
+### Examples
+
+From the docs:
+![TwoSlash example](https://github.com/orta/vscode-twoslash-queries/raw/HEAD/vscode-twoslash.png)
+
 ## Pretty TS Errors
 
 It converts TypeScript errors to a more readable format with syntax highlighting. It usually gives an explanation of the error too. TypeScript errors can be monstrous, so much so that they hide the cause of the error
 
 I highly recommend this for people new to TypeScript
 
+[VS Code extension](https://open-vsx.org/extension/yoavbls/pretty-ts-errors)
+
+Learning curve: -2/5
+- Makes learning TypeScript easier
+### Examples
+
 From the docs:
 ![After](https://github.com/yoavbls/pretty-ts-errors/raw/main/assets/this.png)
 ![Before](https://github.com/yoavbls/pretty-ts-errors/raw/main/assets/instead-of-that.png)
-[VS Code extension](https://open-vsx.org/extension/yoavbls/pretty-ts-errors)
 
 # Database
 
