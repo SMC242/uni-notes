@@ -26,6 +26,7 @@ openingTag (HTMLElementData tagName className) = printf "<%s%s>" tagName classSe
     classSegment = if not (T.null className) then
       printf " class=\"%s\" " (T.unpack className)
       else ""
+
 closingTag :: HTMLElementData -> String
 closingTag (HTMLElementData tagName _) = printf "</%s>" tagName
 
@@ -45,13 +46,13 @@ renderHTMLElement ele = aux 0 ele
   where
     aux indents e =  case e of
       TagWithContent data_ cs -> indentLines indents (renderTag data_ $ "\n"
-        ++ indent (indents + 1)  -- Always indent inner content
+        ++ indent (if indents > 0 then indents else 1)  -- Always indent inner content
         ++ T.unpack cs
         ++ "\n")
       TagWithChildren data_ children -> indentLines indents (renderTag data_ $
         "\n"
         ++ joinWith "\n" (map (aux (indents + 1)) children)
-        ++ "\n")
+        )
 
    
 
