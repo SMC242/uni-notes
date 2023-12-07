@@ -76,7 +76,7 @@ markdownFormat =
             )
           <> (header "Cons" *> proConList Con (many markdownListElement))
       where
-        header headerTitle = some (symbol "#") *> Char.string' headerTitle
+        header headerTitle = some (symbol "#") *> Char.string' headerTitle <* Char.eol
     colon :: Parser (Format ListElement)
     colon =
       ColonFormat
@@ -94,6 +94,6 @@ markdownFormat =
             try
               (Pro <$ Char.string' "Pro")
               <|> (Con <$ Char.string' "Con")
-          contents <- symbol ":" *> many Char.printChar
+          contents <- symbol ":" *> many Char.printChar <* Char.eol
           pure $ ListElement (T.pack contents) category
 
