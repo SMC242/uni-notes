@@ -21,7 +21,7 @@ data Format a
   | ColonFormat [a]
   | InlineFormat [a]
 
-data ProCon = Pro | Con
+data ProCon = Pro | Con deriving (Show, Eq)
 
 data ListElement = ListElement
   { listElementContents :: Contents,
