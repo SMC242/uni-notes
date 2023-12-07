@@ -30,17 +30,29 @@ closingTag :: HTMLElementData -> String
 closingTag (HTMLElementData tagName _) = printf "</%s>" tagName
 
 renderTag :: HTMLElementData -> String -> String
-renderTag data_ innerContent = openingTag data_ ++ innerContent ++ closingTag data_
+renderTag data_ innerContent = openingTag data_
+  ++ innerContent
+  ++ closingTag data_
+
+indent :: Int -> String
+indent = flip replicate '\t'
+
+indentLines :: Int -> String -> String
+indentLines n = unlines . map (indent n ++) . lines 
 
 renderHTMLElement :: HTMLElement -> String
-renderHTMLElement ele =  case ele of
-      TagWithContent data_ cs -> renderTag data_ $ "\n\t"
+renderHTMLElement ele = aux 0 ele
+  where
+    aux indents e =  case e of
+      TagWithContent data_ cs -> indentLines indents (renderTag data_ $ "\n"
+        ++ indent (indents + 1)  -- Always indent inner content
         ++ T.unpack cs
-        ++ "\n"
-      TagWithChildren data_ children -> renderTag data_ $
+        ++ show indents
+        ++ "\n")
+      TagWithChildren data_ children -> indentLines indents (renderTag data_ $
         "\n"
-        ++ joinWith "\n" (map renderHTMLElement children)
-        ++ "\n"
+        ++ joinWith "\n" (map (aux (indents + 1)) children)
+        ++ "\n")
 
    
 
