@@ -32,14 +32,16 @@ executable breakdown-html
     -- other-extensions:
     build-depends:
         base ^>=4.19.0.0
+        , megaparsec
         , optparse-applicative
+        , markup-lib
     hs-source-dirs:   app
     default-language: Haskell2010
 
 library markup-lib
     exposed-modules:
         Markdown
-        , HTML
+        , Html
     hs-source-dirs: lib
     build-depends:
         base ^>=4.19.0.0
@@ -53,6 +55,17 @@ test-suite test-markdown
     build-depends:
         base
         , megaparsec
+        , HUnit
+        , text
+        , markup-lib
+    hs-source-dirs: test
+    default-language: Haskell2010
+
+test-suite test-html
+    type:            exitcode-stdio-1.0
+    main-is:          test-html.hs
+    build-depends:
+        base
         , HUnit
         , text
         , markup-lib

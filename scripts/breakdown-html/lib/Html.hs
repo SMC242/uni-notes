@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module HTML where
+module Html where
 
 import Data.List (intercalate)
 import qualified Data.Text as T
@@ -77,11 +77,3 @@ toBreakdownHTML xs = breakdownUl $
   map
     (\(ListElement c t) -> li (T.pack . map toLower . show $ t) c)
     xs
-
-testDOM :: HTMLElement
-testDOM =
-  TagWithChildren
-    (HTMLElementData "ul" "breakdown")
-    [ TagWithContent (HTMLElementData "li" "pro") "Pro",
-      TagWithContent (HTMLElementData "li" "con") "Con"
-    ]
