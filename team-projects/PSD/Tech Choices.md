@@ -110,6 +110,7 @@ React has just moved to new documentation, meaning that many tutorials are outda
 	- [Official tutorial](https://react.dev/learn/describing-the-ui) <-- 4-page tutorial. I recommend reading the first 3 pages only
 
 ### See also
+
 - [[#NextJS]]
 
 ## NextJS
@@ -186,6 +187,7 @@ NextJS recently changed the way their router and backend works. The new version 
 
 - [App router struture](https://nextjs.org/docs/app/building-your-application/routing)
 - [Quickstart](https://nextjs.org/docs)
+
 
 ## Tailwind.css
 
