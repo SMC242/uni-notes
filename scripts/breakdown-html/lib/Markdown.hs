@@ -58,42 +58,45 @@ markdownListElement' = do
   Char.eol
   return (indents, T.pack contents)
 
+proConList :: (Monad m) => ProCon -> m [Contents] -> m [ListElement]
+proConList type_ = fmap (map (`ListElement` type_))
+
+headingFormat :: Parser (Format ListElement)
+headingFormat =
+  HeadingFormat
+    <$> ( header "Pros"
+            *> proConList Pro (many markdownListElement)
+        )
+      <> (header "Cons" *> proConList Con (many markdownListElement))
+  where
+    header headerTitle = some (symbol "#") *> Char.string' headerTitle <* Char.eol
+
+colonformat :: Parser (Format ListElement)
+colonformat =
+  ColonFormat
+    <$> ( Char.string' "Pros" *> symbol ":" *> proConList Pro (many markdownListElement)
+        )
+      <> (Char.string' "Cons" *> symbol ":" *> proConList Con (many markdownListElement))
+  where
+    header headerTitle = Char.string' headerTitle <* symbol ":" <* Char.eol
+
+inlineFormat :: Parser (Format ListElement)
+inlineFormat =
+  InlineFormat <$> do
+    many $ do
+      line <- markdownListDash
+      category <-
+        try
+          (Pro <$ Char.string' "Pro")
+          <|> (Con <$ Char.string' "Con")
+      contents <- symbol ":" *> many Char.printChar <* Char.eol
+      pure $ ListElement (T.pack contents) category
+
 markdownFormat :: Parser (Format ListElement)
 markdownFormat =
   choice [
-      heading
-      , colon
-      , inline
+      headingFormat
+      , colonformat
+      , inlineFormat
     ]
-  where
-    proConList :: (Monad m) => ProCon -> m [Contents] -> m [ListElement]
-    proConList type_ = fmap (map (`ListElement` type_))
-    heading :: Parser (Format ListElement)
-    heading =
-      HeadingFormat
-        <$> ( header "Pros"
-                *> proConList Pro (many markdownListElement)
-            )
-          <> (header "Cons" *> proConList Con (many markdownListElement))
-      where
-        header headerTitle = some (symbol "#") *> Char.string' headerTitle <* Char.eol
-    colon :: Parser (Format ListElement)
-    colon =
-      ColonFormat
-        <$> ( Char.string' "Pros" *> symbol ":" *> proConList Pro (many markdownListElement)
-            )
-          <> (Char.string' "Cons" *> symbol ":" *> proConList Con (many markdownListElement))
-      where
-        header headerTitle = Char.string' headerTitle <* symbol ":" <* Char.eol
-    inline :: Parser (Format ListElement)
-    inline =
-      InlineFormat <$> do
-        many $ do
-          line <- markdownListDash
-          category <-
-            try
-              (Pro <$ Char.string' "Pro")
-              <|> (Con <$ Char.string' "Con")
-          contents <- symbol ":" *> many Char.printChar <* Char.eol
-          pure $ ListElement (T.pack contents) category
 
