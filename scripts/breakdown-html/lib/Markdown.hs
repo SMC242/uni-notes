@@ -3,7 +3,7 @@
 module Markdown where
 
 import Data.Char (toLower)
-import Data.Functor ((<$>), void)
+import Data.Functor (void, (<$>))
 import Data.Maybe (fromMaybe)
 import qualified Data.Text as T
 import Data.Void (Void)
@@ -19,14 +19,16 @@ type Parser a = Parsec Void Contents a
 data Format a
   = HeadingFormat [a]
   | ColonFormat [a]
-  | InlineFormat [a] deriving (Show, Eq)
+  | InlineFormat [a]
+  deriving (Show, Eq)
 
 data ProCon = Pro | Con deriving (Show, Eq)
 
 data ListElement = ListElement
   { listElementContents :: Contents,
     listElementType :: ProCon
-  } deriving (Show, Eq)
+  }
+  deriving (Show, Eq)
 
 spaceConsumer :: Parser ()
 spaceConsumer = L.space Char.space1 empty empty
@@ -94,9 +96,8 @@ inlineFormat =
 
 markdownFormat :: Parser (Format ListElement)
 markdownFormat =
-  choice [
-      headingFormat
-      , colonformat
-      , inlineFormat
+  choice
+    [ headingFormat,
+      colonformat,
+      inlineFormat
     ]
-
