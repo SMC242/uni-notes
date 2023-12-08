@@ -91,7 +91,7 @@ testRenderHTMLElementNested =
     assertEqual
       "Render HTML element nested"
       -- div>(div>div>foo)+(div>div>bar)
-      "<div>\n\t<div>\n\t\t<div>\n\t\t\tfoo\n\t\t</div>\n\t</div>\n\t<div>\n\t\t<div>\n\t\t\tbar\n\t\t</div>\n\t</div>\n</div>\n"
+      "<div>\n\t<div>\n\t\t\t<div>\n\t\t\t\tfoo\n\t\t\t</div>\n\t</div>\n\t<div>\n\t\t\t<div>\n\t\t\t\tbar\n\t\t\t</div>\n\t</div>\n</div>\n"
       ( H.renderHTMLElement $
           H.TagWithChildren
             (H.HTMLElementData "div" "")

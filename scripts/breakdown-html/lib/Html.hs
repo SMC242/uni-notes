@@ -56,6 +56,7 @@ renderHTMLElement = aux 0
                 ++ T.unpack cs
                 ++ "\n"
           )
+      -- !Bug: children nested > 2 times are over-indented
       TagWithChildren data_ children ->
         indentLines
           indents
