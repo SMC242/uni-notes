@@ -90,7 +90,8 @@ testRenderHTMLElementNested =
   TestCase $
     assertEqual
       "Render HTML element nested"
-      "<div>\n\t<div>\n\t\tfoo\n\t</div>\n\t<div>\n\t\tbar\n\t</div>\n</div>"
+      -- div>(div>div>foo)+(div>div>bar)
+      "<div>\n\t<div>\n\t\t<div>\n\t\t\tfoo\n\t\t</div>\n\t</div>\n\t<div>\n\t\t<div>\n\t\t\tbar\n\t\t</div>\n\t</div>\n</div>\n"
       ( H.renderHTMLElement $
           H.TagWithChildren
             (H.HTMLElementData "div" "")
@@ -110,7 +111,7 @@ testToBreakdownHTML =
   TestCase $
     assertEqual
       "To breakdown HTML"
-      "<ul class=\"breakdown\" >\n\t<li class=\"pro\" >foo</li>\n\t<li class=\"con\" >bar</li>\n</ul>"
+      "<ul class=\"breakdown\" >\n\t<li class=\"pro\" >\n\t\tfoo\n\t</li>\n\t<li class=\"con\" >\n\t\tbar\n\t</li>\n</ul>\n"
       (H.renderHTMLElement $ H.toBreakdownHTML [MD.ListElement "foo" MD.Pro, MD.ListElement "bar" MD.Con])
 
 tests :: Test

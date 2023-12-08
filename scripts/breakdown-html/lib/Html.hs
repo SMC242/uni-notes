@@ -52,7 +52,7 @@ renderHTMLElement = aux 0
           indents
           ( renderTag data_ $
               "\n"
-                ++ indent (if indents > 0 then indents else 1) -- Always indent inner content
+                ++ "\t" -- Always indent inner content
                 ++ T.unpack cs
                 ++ "\n"
           )
@@ -61,7 +61,7 @@ renderHTMLElement = aux 0
           indents
           ( renderTag data_ $
               "\n"
-                ++ joinWith "\n" (map (aux (indents + 1)) children)
+                ++ concatMap (aux (indents + 1)) children
           )
 
 tagWithContent :: Contents -> Contents -> Contents -> HTMLElement
