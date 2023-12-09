@@ -99,7 +99,7 @@ colonformat =
 inlineFormat :: Parser (Format ListElement)
 inlineFormat =
   InlineFormat <$> do
-    many $ do
+    some $ do
       line <- markdownListDash
       category <-
         try
