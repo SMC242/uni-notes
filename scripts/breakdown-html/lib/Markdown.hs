@@ -1,6 +1,14 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Markdown where
+module Markdown
+  ( Contents,
+    Parser,
+    Format (..),
+    ProCon (..),
+    ListElement (..),
+    markdownFormat,
+  )
+where
 
 import Data.Char (toLower)
 import Data.Functor (void, (<$>))

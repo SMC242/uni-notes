@@ -1,6 +1,18 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Html where
+module Html
+  ( HTMLElement (..),
+    HTMLElementData (..),
+    renderHTMLElement,
+    tagWithContent,
+    tagWithChildren,
+    li,
+    ul,
+    proLi,
+    conLi,
+    toBreakdownHTML,
+  )
+where
 
 import Data.Char (toLower)
 import Data.List (intercalate)
