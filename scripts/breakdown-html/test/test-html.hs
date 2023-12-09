@@ -114,6 +114,14 @@ testToBreakdownHTML =
       "<ul class=\"breakdown\" >\n\t<li class=\"pro\" >\n\t\tfoo\n\t</li>\n\t<li class=\"con\" >\n\t\tbar\n\t</li>\n</ul>\n"
       (H.renderHTMLElement $ H.toBreakdownHTML [MD.ListElement "foo" MD.Pro, MD.ListElement "bar" MD.Con])
 
+testToBreakdownHTMLEmpty :: Test
+testToBreakdownHTMLEmpty =
+  TestCase $
+    assertEqual
+      "To breakdown HTML (empty input)"
+      "<ul class=\"breakdown\" >\n\t\n</ul>"
+      (H.renderHTMLElement $ H.toBreakdownHTML [])
+
 tests :: Test
 tests =
   TestList
@@ -126,7 +134,8 @@ tests =
       testRenderHTMLElementTagWithContent,
       testRenderHTMLElementTagWithChildren,
       testRenderHTMLElementNested,
-      testToBreakdownHTML
+      testToBreakdownHTML,
+      testToBreakdownHTMLEmpty
     ]
 
 main :: IO ()

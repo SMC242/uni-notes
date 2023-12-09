@@ -76,12 +76,20 @@ testMdInline =
         ]
     expected = M.InlineFormat [M.ListElement "Pro 1" M.Pro, M.ListElement "Pro 2" M.Pro, M.ListElement "Con 1" M.Con, M.ListElement "Con 2" M.Con]
 
+testEmptyInput :: Test
+testEmptyInput = TestCase $
+  do
+    case parse M.markdownFormat "" "" of
+      Left err -> assertString (errorBundlePretty err)
+      Right _ -> assertFailure "Failed to throw an error when passed the empty string"
+
 tests :: Test
 tests =
   TestList
     [ testMdHeading,
       testMdColon,
-      testMdInline
+      testMdInline,
+      testEmptyInput
     ]
 
 main :: IO ()
