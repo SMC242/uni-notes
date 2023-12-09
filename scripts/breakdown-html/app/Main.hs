@@ -1,4 +1,6 @@
 module Main where
 
+import Cli (runCli)
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = print =<< runCli
