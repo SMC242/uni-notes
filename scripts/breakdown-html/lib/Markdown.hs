@@ -7,6 +7,7 @@ module Markdown
     ProCon (..),
     ListElement (..),
     markdownFormat,
+    formatContents,
   )
 where
 
@@ -37,6 +38,11 @@ data ListElement = ListElement
     listElementType :: ProCon
   }
   deriving (Show, Eq)
+
+formatContents :: Format a -> [a]
+formatContents (HeadingFormat xs) = xs
+formatContents (ColonFormat xs) = xs
+formatContents (InlineFormat xs) = xs
 
 spaceConsumer :: Parser ()
 spaceConsumer = L.space Char.space1 empty empty
