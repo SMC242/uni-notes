@@ -13,7 +13,7 @@ testOpeningTagNoClass =
     assertEqual
       "Opening tag with no class"
       "<div>"
-      (H.openingTag $ H.HTMLElementData "div" "")
+      (H._openingTag $ H.HTMLElementData "div" "")
 
 testOpeningTagWithClass :: Test
 testOpeningTagWithClass =
@@ -21,7 +21,7 @@ testOpeningTagWithClass =
     assertEqual
       "Opening tag with class"
       "<div class=\"foo\" >"
-      (H.openingTag $ H.HTMLElementData "div" "foo")
+      (H._openingTag $ H.HTMLElementData "div" "foo")
 
 testClosingTag :: Test
 testClosingTag =
@@ -29,7 +29,7 @@ testClosingTag =
     assertEqual
       "Closing tag"
       "</div>"
-      (H.closingTag $ H.HTMLElementData "div" "")
+      (H._closingTag $ H.HTMLElementData "div" "")
 
 testRenderTagNoClass :: Test
 testRenderTagNoClass =
@@ -53,7 +53,7 @@ testIndentLines =
     assertEqual
       "Indent lines"
       "\t\tfoo\n\t\tbar\n\t\tbaz\n"
-      (H.indentLines 2 "foo\nbar\nbaz\n")
+      (H._indentLines 2 "foo\nbar\nbaz\n")
 
 testIndentLinesZero :: Test
 testIndentLinesZero =
@@ -61,7 +61,7 @@ testIndentLinesZero =
     assertEqual
       "Indent lines where indents = 0"
       "foo\nbar\nbaz\n"
-      (H.indentLines 0 "foo\nbar\nbaz\n")
+      (H._indentLines 0 "foo\nbar\nbaz\n")
 
 testRenderHTMLElementTagWithContent :: Test
 testRenderHTMLElementTagWithContent =

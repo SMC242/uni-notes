@@ -11,6 +11,10 @@ module Html
     proLi,
     conLi,
     toBreakdownHTML,
+    renderTag,
+    _openingTag,
+    _closingTag,
+    _indentLines,
   )
 where
 
@@ -31,8 +35,8 @@ data HTMLElement = TagWithContent HTMLElementData Contents | TagWithChildren HTM
 joinWith :: String -> [String] -> String
 joinWith = intercalate
 
-openingTag :: HTMLElementData -> String
-openingTag (HTMLElementData tagName className) = printf "<%s%s>" tagName classSegment
+_openingTag :: HTMLElementData -> String
+_openingTag (HTMLElementData tagName className) = printf "<%s%s>" tagName classSegment
   where
     classSegment :: String
     classSegment =
@@ -40,27 +44,27 @@ openingTag (HTMLElementData tagName className) = printf "<%s%s>" tagName classSe
         then printf " class=\"%s\" " (T.unpack className)
         else ""
 
-closingTag :: HTMLElementData -> String
-closingTag (HTMLElementData tagName _) = printf "</%s>" tagName
+_closingTag :: HTMLElementData -> String
+_closingTag (HTMLElementData tagName _) = printf "</%s>" tagName
 
 renderTag :: HTMLElementData -> String -> String
 renderTag data_ innerContent =
-  openingTag data_
+  _openingTag data_
     ++ innerContent
-    ++ closingTag data_
+    ++ _closingTag data_
 
 indent :: Int -> String
 indent = flip replicate '\t'
 
-indentLines :: Int -> String -> String
-indentLines n = unlines . map (indent n ++) . lines
+_indentLines :: Int -> String -> String
+_indentLines n = unlines . map (indent n ++) . lines
 
 renderHTMLElement :: HTMLElement -> String
 renderHTMLElement = aux 0
   where
     aux indents e = case e of
       TagWithContent data_ cs ->
-        indentLines
+        _indentLines
           indents
           ( renderTag data_ $
               "\n"
@@ -70,7 +74,7 @@ renderHTMLElement = aux 0
           )
       -- !Bug: children nested > 2 times are over-indented
       TagWithChildren data_ children ->
-        indentLines
+        _indentLines
           indents
           ( renderTag data_ $
               "\n"
