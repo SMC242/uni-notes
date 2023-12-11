@@ -68,7 +68,8 @@ There are 5 main types of response bias that affect questionnaires
 - Tell the respondent how important the research is
 
 ## Acquiescence
-- Respondents are more likely to agree than disagree if presented with a yes/no question]
+- Respondents are more likely to agree than disagree if presented with a yes/no question
+
 ### Solutions
 - Neutral phrasing
 
