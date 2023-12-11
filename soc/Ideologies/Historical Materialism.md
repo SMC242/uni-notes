@@ -9,4 +9,4 @@ The idea that material conditions shape social reality. Very much a [[Karl Marx|
 
 # Writers
 - [[Karl Marx]]
-- [[Max Weber]]er]]
+- [[Max Weber]]

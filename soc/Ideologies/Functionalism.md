@@ -10,4 +10,3 @@ tags:
 # Historical context
 - Developed by [[Emile Durkheim]]
 - The early foundation of [[Criminology Overview|Criminology]]
-y]]

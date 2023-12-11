@@ -33,7 +33,7 @@ See also: [[Positivism]]
 
 # Critical methods
 - Speaking to gang members to find the subjectivities and fluidities of gang dynamics
-- Drew from urban ehtnography
+- Drew from urban ethnography
 - Interviews about gangs' everyday lives
 - Used localised definitions of gangs
 

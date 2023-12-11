@@ -1,3 +1,7 @@
+---
+tags:
+  - Health
+---
 # Formal definition
 - When someone has a BMI of>30
 - This is hard to apply to children because their weight and height changes rapidly

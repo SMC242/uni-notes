@@ -1,3 +1,6 @@
+---
+tags: Health
+---
 # Overview
 - A report from the 1980s posing theories about health inequalities
 - Debunked lots of theories that attempted to explain the link between socioeconomic status and health

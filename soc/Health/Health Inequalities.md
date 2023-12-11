@@ -1,3 +1,6 @@
+---
+tags: Health 
+---
 # Definition
 - Systemic, avoidable, and unfair differences in health outcomes
 	- Unfairness ~= discrimination

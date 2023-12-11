@@ -1,3 +1,7 @@
+---
+tags:
+  - Health
+---
 # Bad measures
 - Mortality
 	- Too narrow

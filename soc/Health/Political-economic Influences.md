@@ -1,3 +1,7 @@
+---
+tags:
+  - Health
+---
 # Political economists
 - Academics that contextualise economics in a broader political context
 - Academics such as Adam Smith, [[Karl Marx]], and Ricardo

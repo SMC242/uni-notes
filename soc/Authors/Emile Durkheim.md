@@ -59,7 +59,6 @@ Ferdinand Tonnies called this "community". He said that modern societies have re
 - Multicultural
 - Cities
 - Belief in [[Individualism]]
-- 
 
 # Division of labour
 

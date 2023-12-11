@@ -9,6 +9,7 @@ tags:
 
 # Causality
 Positivism attempted to look for causes of criminality
+
 - Biological (nature vs nurture)
 - Psychological reasons (what happened to the individual)
 - Sociological reasons (why do some areas have more crime?)?)
