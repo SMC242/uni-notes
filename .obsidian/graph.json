@@ -55,6 +55,20 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "path:\"research\"",
+      "color": {
+        "a": 1,
+        "rgb": 12999935
+      }
+    },
+    {
+      "query": "path:\"plants\"",
+      "color": {
+        "a": 1,
+        "rgb": 61480
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.24283707412935082,
+  "scale": 0.23713724137853573,
   "close": true
 }

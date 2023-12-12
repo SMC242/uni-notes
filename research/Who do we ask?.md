@@ -1,3 +1,6 @@
+---
+tags: Research 
+---
 # Samples
 - Who you sample drastically affects the conclusions reached
 - If you ask only racist people about their thoughts on migrants, you will conclude that there is a lot of racism in the population 

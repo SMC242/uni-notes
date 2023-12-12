@@ -15,4 +15,3 @@ Each node has:
 - `key`: the value of the node
 - `p`: the parent node
 - $child_{i}..child_{k}$: pointers to sub-trees
-s

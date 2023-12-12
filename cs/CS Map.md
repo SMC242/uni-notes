@@ -9,6 +9,7 @@ Computing Science is the science of computers and programming.
 - [[Design Map|Design]]: creating models of how an app could work
 - [[HCI Map|Human Computer Interface]]: designing better interfaces with people in mind
 - [[Web Development Map|Web Development]]: creating websites
+- [[Cyber-security Map|Cyber-security]]: building secure software
 
 # Libraries, languages, and tools
 ## Libraries

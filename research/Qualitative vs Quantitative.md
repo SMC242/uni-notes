@@ -1,3 +1,9 @@
+---
+tags:
+  - Research
+  - Research/Qualitative
+  - Research/Quantitative
+---
 # Overview
 - Methods are split into two main groups: quantitative and qualitative
 

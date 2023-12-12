@@ -11,6 +11,7 @@ aliases:
 - IP is the protocol that handles interfacing between the upper and lower layers
 - Exists in the [[Network Layer]]
 - Links the [[Transport Layer]], [[Data Link Layer]], and [[Physical Layer]]
+
 ![Internet Protocol technology diagram](https://scx2.b-cdn.net/gfx/news/hires/2011/howtheintern.jpg)
 
 ## Why one protocol?

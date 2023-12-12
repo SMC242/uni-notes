@@ -5,7 +5,7 @@ aliases:
   - Pointer
 ---
 # Overview
-Pointers are a reference to an [[Memory#Addresses|address]] in [[memory]]
+Pointers are a reference to an [[Memory#Addresses|address]] in [[Memory]]
 
 # Getting a pointer
 The address of a [[Pointers|pointer]] in C can be accessed with the following syntax:
