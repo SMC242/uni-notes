@@ -75,6 +75,11 @@ markdownListElement' = do
 proConList :: (Monad m) => ProCon -> m [Contents] -> m [ListElement]
 proConList type_ = fmap (map (`ListElement` type_))
 
+-- # Pros
+-- - Pro 1
+-- - Pro 2
+-- # Cons
+-- - Con 1
 headingFormat :: Parser (Format ListElement)
 headingFormat =
   HeadingFormat
@@ -85,6 +90,11 @@ headingFormat =
   where
     header headerTitle = some (symbol "#") *> Char.string' headerTitle <* Char.eol
 
+-- Pros:
+-- - Pro 1
+-- Cons:
+-- - Con 1
+-- - Con 2
 colonformat :: Parser (Format ListElement)
 colonformat =
   ColonFormat
@@ -94,6 +104,11 @@ colonformat =
   where
     header headerTitle = Char.string' headerTitle <* symbol ":" <* Char.eol
 
+-- - Pro: pro 1
+-- - Con: con 1
+-- - Pro: pro 2
+-- - Con: con 2
+-- - Con: con 3
 inlineFormat :: Parser (Format ListElement)
 inlineFormat =
   InlineFormat <$> do
