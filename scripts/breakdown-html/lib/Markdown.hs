@@ -77,11 +77,11 @@ markdownListElement' = do
 proConList :: (Monad m) => ProCon -> m [Contents] -> m [ListElement]
 proConList type_ = fmap (map (`ListElement` type_))
 
---- # Pros
---- - Pro 1
---- - Pro 2
---- # Cons
---- - Con 1
+-- # Pros
+-- - Pro 1
+-- - Pro 2
+-- # Cons
+-- - Con 1
 headingFormat :: Parser (Format ListElement)
 headingFormat =
   HeadingFormat
