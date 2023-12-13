@@ -22,4 +22,3 @@ Research is core to the field of HCI. The field has drawn heavily from social ps
 - [[Ethnography]]: a research method that utilises immersion to understand the phenomenon from an insider's perspective
 	- [[Ethnography In HCI]]
 - [[Questionnaires]]: designing good surveys
-- [[A-B Testing]]: comparing designs against each other
