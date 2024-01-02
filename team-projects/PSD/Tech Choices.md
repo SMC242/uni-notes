@@ -1,8 +1,61 @@
 # Motivation
 
-I think it would be easier to show which problems each technology solves and how. Saying a library does something doesn't give an idea of how it feels to use it. I've tried to include examples as much as possible. I've also added a learning curve estimate to aid evaluating the cost of adding each library to our stack
+The aim of this proposal is to ground our tech choices in what problems each technology solves and how. Examples, documentation, and learning curve ratings have been included to aid our decisions. It only covers front-end technologies as back-end technologies need to be tailored to the needs of each service
 
-Additionally, this can be a jumping-off point for documenting our tech decisions. Jesus will be very happy to see some documentation
+This document will be used as a basis for a more formal document later on
+
+# Verdicts
+- [React](#React): yes
+	- Provides templating, rendering, state, and reactivity
+	- Huge ecosystem
+		- Libraries for most things are available
+		- Learning resources are easy to find
+	- Preferred by the customer
+	- There are a few footguns to be careful of
+		- `useEffect` for example
+- [NextJS](#NextJS): yes
+	- Fleshes out React with server-side functionality such as:
+		- Server-side rendering
+		- Multi-page routing
+		- Bundle optimisation
+		- Image optimisation
+		- A lightweight HTTP server that can be used to make basic REST APIs
+	- Very commonly used with React
+- [Tailwind CSS](#Tailwind.css): no
+	- Provides utility classes for styling elements without writing CSS classes
+	- Treeshakes CSS to prevent shipping unused styles
+	- Doesn't feel like it makes development much easier
+- CSS modules: no
+	- Provides namespacing for CSS classes
+	- We're not too worried about solving that problem for now
+	- Could be introduced later
+	- Could also be solved with a post-processor or the BEM convention
+- [Jest](#Jest): yes
+	- Unit testing is beneficial for defining problems and preventing regressions
+	- It can also be used to test React code
+- [TypeScript](#TypeScript): yes
+	- Prevents type errors
+		- JavaScript is weakly-typed, meaning that type errors can be very subtle (`0 + "1" = "01"`)
+	- Aids reasoning about programs by showing its data flow
+	- Can be difficult to learn due to complex error messages
+		- [Pretty TS Errors](#Pretty TS Errors) can make error messages easier to read
+		- [TwoSlash](#TwoSlash) is also a useful tool for checking intermediate types
+		- We've agreed to disable `noExplicitAny` in our TS config as an escape hatch but have agreed to only use it as such
+			- `any` declarations will be fixed before merging
+- [CLSX](#CLSX): yes
+	- A very simple library for adding conditional styling
+- [Zod](#Zod): yes
+	- A schema library for TypeScript
+	- Reduces pain when validating data
+		- Should reduce the likelihood writing unsafe code (E.G casting response bodies)
+- [Tanstack Query](#Tanstack Query): yes
+	- Provides data fetching, caching, cache invalidation, mutations, and re-fetching in the background
+	- Makes data-fetching simple
+- [ESLint](#ESLint): yes
+	- Static analysis to prevent more complex errors 
+		- A second line of defence after the TypeScript compiler
+- [Prettier](#Prettier): yes
+	- Using a common formatting config will avoid polluted diffs
 
 # Frameworks
 
@@ -13,6 +66,7 @@ React is a JavaScript framework that provides the rendering, templating, and sta
 It uses a templating system called JSX which co-locates the JavaScript and markup for a component. The basic unit of React is the component - you think of pages as a composition of small components. A component is a function that returns JSX
 
 Learning curve: 3/5
+
 - JSX is easy to learn
 - There are some gotchas. For example:
 	- Having to use `useMemo` to avoid running an expensive computation on every render
@@ -23,6 +77,7 @@ Learning curve: 3/5
 ### Examples
 
 Here is a simplified example from the bins demo
+
 ```jsx
 function BinList() {
     const bins = []; // Data fetching omitted
@@ -75,10 +130,10 @@ function Paper({ authors, title, lastUpdated }) {
         </div>
     );
 }
-
 ```
 
 Here is a React server component
+
 ```jsx
 // RSCExample.jsx
 import {Suspense} from "react";
@@ -104,18 +159,20 @@ function Parent() {
 ### Documentation
 
 React has just moved to new documentation, meaning that many tutorials are outdated as of 16/03/2023
+
 - [New documentation](https://react.dev/)
 - [Quickstart](https://react.dev/learn)
 	- [How to structure pages in React](https://react.dev/learn/thinking-in-react)
-	- [Official tutorial](https://react.dev/learn/describing-the-ui) <-- 4-page tutorial. I recommend reading the first 3 pages only
+	- [Official tutorial](https://react.dev/learn/describing-the-ui) 
 
 ### See also
 
-- [[#NextJS]]
+- [NextJS](#NextJS)
 
 ## NextJS
 
 NextJS is a meta-framework built on top of React. It provides what React does not:
+
 - Rendering strategies selected per-page
 	- Client-side rendering (JS is sent to the client, the client runs it to generate the page)
 	- Server-side rendering (the JS is run on the server and the result is sent to the client to be re-hydrated)
@@ -134,23 +191,25 @@ NextJS is a meta-framework built on top of React. It provides what React does no
 Additionally, `create-react-app` [is no longer recommended](https://react.dev/learn/start-a-new-react-project) for starting new projects
 
 Learning curve: 2/5
+
 - Average learning curve for a fully-fledged framework
 	- Lots of reading the docs to begin with
 
 ### Examples
 
 Here is an example directory structure
+
 ```
 app
-├── manage-team
-│  └── page.jsx
-├── profile
-│  └── [id]
-│     └── page.jsx
-├── review
-│  └── page.jsx
-├── layout.jsx
-└── page.jsx
+|-- manage-team
+|  |-- page.jsx
+|-- profile
+|  |-- [id]
+|     |-- page.jsx
+|-- review
+|  |-- page.jsx
+|-- layout.jsx
+|-- page.jsx
 ```
 
 - A `page.jsx` is the template for the content of the page
@@ -194,17 +253,19 @@ NextJS recently changed the way their router and backend works. The new version 
 Tailwind is a utility class library. Think Bootstrap but more granular. Instead of writing stylesheets, you add classes that correspond to the styles you desire
 
 Pros:
+
 - Transparent styling - the styles of an element are in the markup
 - No unused styles are sent to the client
 	- Tailwind only generates classes that are found in the source code
 
 Cons:
+
 - Cluttered markup
-	- See [[#Inline Fold]] for a solution
 - Dynamically generated class names don't work
-	- See [[#CLSX]]
+	- See [CLSX](#CLSX)
 
 Learning curve: 1/5
+
 - You don't really learn Tailwind. You just Google what you want to to (E.G search "tailwind flexbox" or "tailwind list decoration")
 - The naming conventions can take some getting used to
 
@@ -222,7 +283,6 @@ Learning curve: 1/5
         </article>
     </div>
 </main>
-
 ```
 
 ### Documentation
@@ -231,15 +291,14 @@ Learning curve: 1/5
 
 ### See also
 
-- [[#CLSX]]
-- [[#Inline Fold]]
+- [CLSX](#CLSX)
 
 ### Alternatives
 
 CSS modules are a good alternative if we don't want to use a CSS framework like Bootstrap or Tailwind. They are scoped stylesheets that you import into your JavaScript code. An ID is prepended to the class name to prevent name collisions. CSS modules are usually co-located with a component
 
 ```css
-// button.module.css
+/* button.module.css */
 .container {
     width: 100%;
 }
@@ -278,14 +337,16 @@ function CSSModuleExample() {
 
 ## Jest
 
-This is the preferred unit-testing framework for [[#React]]
+This is the preferred unit-testing framework for [React](#React)
 
 Learning curve: 2/5
+
 - It's just like every other front-end testing library
 
 ### Examples
 
-Here is a test for a [[#React]]  counter component
+Here is a test for a [React](#React) counter component
+
 ```jsx
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
@@ -320,11 +381,12 @@ It can also be used for testing business logic
 
 ## NodeJS
 
-NodeJS is a runtime that allows JavaScript to run on the server. It provides the usual APIs you'd expect from a backend language (`fs` for the file system, `crypto` for cryptography). The [[#NextJS]] server runs on NodeJS in order to serve responses to browsers. A bundler like [Webpack](https://webpack.js.org/) or [Vite](https://vitejs.dev/) will combine the generated JS, CSS, and HTML into a bundle and send it back to the browser
+NodeJS is a runtime that allows JavaScript to run on the server. It provides the usual APIs you'd expect from a backend language (`fs` for the file system, `crypto` for cryptography). The [NextJS](#NextJS) server runs on NodeJS in order to serve responses to browsers. A bundler like [Webpack](https://webpack.js.org/) or [Vite](https://vitejs.dev/) will combine the generated JS, CSS, and HTML into a bundle and send it back to the browser
 
 It comes with a package manager (`npm`) out of the box. It's like Python's `pip`, except dependencies are sand-boxed instead of global
 
 Learning curve: 0/5
+
 - It's just JavaScript running in a different place
 - `npm` is just like any other package manager
 	- There are a few other package managers in the space like `yarn` and `pnpm` which offer big performance improvements
@@ -338,15 +400,17 @@ Learning curve: 0/5
 TypeScript is a super-set of JavaScript that is transpiled to JavaScript. It adds a type system and some features such as decorators. It has very good type-inference, meaning that you often write types once and let them propagate through your program. It helps you to write self-documenting code and type errors at compile-time. It also aids refactoring by not allowing you to compile until your program is sane
 
 Learning curve: 3/5
+
 - Since it's a super-set of JavaScript, it can be gradually adopted
 - Basic TypeScript will be very familiar coming from a Java background
 - Some errors are very intimidating
-	- See [[#Pretty TS Errors]]
+	- See [Pretty TS Errors](#Pretty TS Errors)
 - Advanced TypeScript can seem like wizardry
 
 ### Examples
 
 Here are the basic features:
+
 ```ts
 // Java-style static typing
 function add(x: number, y: number): number {
@@ -356,7 +420,7 @@ function add(x: number, y: number): number {
 const result: number = add(1, 2);
 
 // You could just as easily infer these types
-const add2 = (x: number, y: number) => x + y;
+const add2 = (x, y: number) => x + y;
 //      ^? const add2: (x: number, y: number) => number
 // NOTE: these arrow comments are TwoSlash queries.
 // They reveal the type of the variable above it.
@@ -435,9 +499,9 @@ const result3 = take(2, [1, 2, 3, 4, 5]);
 
 ### See also
 
-- [[#TypeScript Pretty Errors]]
-- [[#TwoSlash]]
-- [[#Zod]]
+- [TS Pretty Errors](#TypeScript Pretty Errors)
+- [TwoSlash](#TwoSlash)
+- [Zod](#Zod)
 
 # Libraries
 
@@ -445,14 +509,16 @@ const result3 = take(2, [1, 2, 3, 4, 5]);
 
 A JavaScript library for conditionally concatenating classes. This solves two problems:
 1. Using string interpolation is clunky
-2. Tailwind's pre-processor doesn't understand dynamically generated class names. See [[#CLSX#Examples]]
+2. Tailwind's pre-processor doesn't understand dynamically generated class names. See [CLSX](#CLSX)'s examples
 
 Learning curve: 0/5
+
 - This library only provides one function
 
 ### Examples
 
 In this example, the background will be set to green if `isActive = true`
+
 ```jsx
 const MyComponent = () => {
   const [isActive, setIsActive] = useState(false);
@@ -460,7 +526,6 @@ const MyComponent = () => {
   return (
     <div>
       <button onClick={() => setIsActive(!isActive)}>Toggle</button>
-
       <div className={clsx('bg-blue-500', 'text-white', 'p-4', { 'bg-green-500': isActive })}>
         {isActive ? 'Active' : 'Inactive'} Box
       </div>
@@ -487,6 +552,7 @@ Zod is a TypeScript schema library. It lets you specify a schema and easily chec
 ### Examples
 
 The problem: ensuring that requests and responses follow the expected schema
+
 ```ts
 // app/api/papers/route.ts
 import { NextRequest, NextResponse } from "next/server";
@@ -544,7 +610,6 @@ export async function PUT2(request: NextRequest) {
     // ...
     return NextResponse.json(result.data);
 }
-
 ```
 
 ### Documentation
@@ -571,11 +636,6 @@ Due to the relatively large amount of set-up code, it's best to just look at the
 
 - [Quickstart](https://tanstack.com/query/latest/docs/react/quick-start)
 
-## NextAuth
-
-TODO
-
-
 # Tooling
 
 ## ESLint
@@ -585,6 +645,7 @@ A linter (static analyser) for JavaScript/TypeScript and JSX. It makes sure your
 We would run this in our CI as well as using it as an editor extension
 
 Learning curve: 2/5
+
 - Some warnings can be hard to understand
 
 ### Documentation
@@ -598,6 +659,7 @@ A formatter for all common file formats in the web development space. It's very 
 This would be run as an editor extension. We would agree on a single config that would be stored in our project repository
 
 Learning curve: 0/5
+
 - It automatically formats your files - nothing to learn
 
 ### Documentation
@@ -613,11 +675,13 @@ This wouldn't be required. It's just worth mentioning
 [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries)
 
 Learning curve: 0/5
+
 - It's just a comment format
 
 ### Examples
 
 From the docs:
+
 ![TwoSlash example](https://github.com/orta/vscode-twoslash-queries/raw/HEAD/vscode-twoslash.png)
 
 ## Pretty TS Errors
@@ -629,20 +693,12 @@ I highly recommend this for people new to TypeScript
 [VS Code extension](https://open-vsx.org/extension/yoavbls/pretty-ts-errors)
 
 Learning curve: -2/5
+
 - Makes learning TypeScript easier
+
 ### Examples
 
 From the docs:
 ![After](https://github.com/yoavbls/pretty-ts-errors/raw/main/assets/this.png)
 ![Before](https://github.com/yoavbls/pretty-ts-errors/raw/main/assets/instead-of-that.png)
 
-# Database
-
-TODO: someone who knows databases please fill this part in
-
-# Infrastructure
-TODO: flesh this out once the systems design is done
-
-- Docker: containers for easy deployments
-- RabbitMQ: a message queue
-- Azure Functions: serverless functions on Microsoft Azure
