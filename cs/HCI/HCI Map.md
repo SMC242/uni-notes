@@ -14,6 +14,13 @@ Ideas that guide web design
 - [[Fitts' Law]]: making elements easier to click on
 - [[Error Prevention]]: avoiding errors
 - [[Intuitive Design]]: guiding users along the correct paths
+# Mobile Devices
+#HCI/Mobile
+
+Mobile devices have their own design constraints
+
+- [[cs/HCI/Context|Context]]: how the situation a device is being used in affects its usage
+	- [[Context-aware Computing]]: designing features around contexts and activating them when those contexts are detected
 
 # Research
 Research is core to the field of HCI. The field has drawn heavily from social psychology and has adopted many of its methods

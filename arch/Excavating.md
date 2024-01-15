@@ -33,7 +33,7 @@
 	- Instead, a pattern of test trenches may be dug
 
 ## Trenches
-- Reveals [[Context#Sequence|sequences]]
+- Reveals [[arch/Context#Sequence|sequences]]
 - Best for small teams
 
 ## Open areas
@@ -43,7 +43,7 @@
 - Takes a lot of effort
 	- $1m^3$ is 1 tonne of soil
 	- Lots of manpower and equipment required
-- Loses the stratigraphy ([[Context]])
+- Loses the stratigraphy ([[arch/Context]])
 
 ## Box trenches
 - Digging up squares

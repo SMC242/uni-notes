@@ -7,7 +7,7 @@
 - [ ] Do lab exercise
 
 # PSD
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel
 	- [ ] Create account
 	- [ ] Deploy
 	- [ ] Test
