@@ -95,4 +95,4 @@ Authentication using physical characteristics
 See: [[Nonce]]
 
 ## Kerboros protocol
-![[Kerboros]]
+![[Kerberos]]

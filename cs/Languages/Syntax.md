@@ -110,6 +110,7 @@ AKA EBNF
 > eol = ‘\n’
 > ```
 
+# Grammar
 
 The set of rules of a language that define how the phrases in the language can be formed
 

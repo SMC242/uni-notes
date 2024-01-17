@@ -1,7 +1,8 @@
 ---
 aliases:
-- IP
-
+  - IP
+tags:
+  - Protocol
 ---
 # Roles
 - The protocol for communication on the internet

@@ -2,13 +2,17 @@
 Computing Science is the science of computers and programming.
 
 # Topics
+## Theoretical
 - [[Algorithmics Map|Algorithmics]]: the theory of analysing, designing, and writing efficient programs
-- [[Data Science Map|Data Science]]: number crunching
-- [[Software Development Map|Software Development]]: working as part of a team to deliver scalable software to clients
 - [[Networking Map|Networking]]: how data is relayed between computers
-- [[Design Map|Design]]: creating models of how an app could work
+- [[Database Map|Databases]]: the theory behind efficient storage of data
 - [[HCI Map|Human Computer Interface]]: designing better interfaces with people in mind
+
+## Practical
+- [[Software Development Map|Software Development]]: working as part of a team to deliver scalable software to clients
+- [[Data Science Map|Data Science]]: working with large datasets
 - [[Web Development Map|Web Development]]: creating websites
+- [[Design Map|Design]]: creating models of how an app could work
 - [[Cyber-security Map|Cyber-security]]: building secure software
 
 # Libraries, languages, and tools

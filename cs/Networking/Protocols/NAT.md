@@ -1,3 +1,6 @@
+---
+tags: Protocol
+---
 Stands for Network Address Translation
 
 # Address translation

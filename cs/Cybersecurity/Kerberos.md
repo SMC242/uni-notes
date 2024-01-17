@@ -1,6 +1,7 @@
 ---
 tags:
   - Authentication
+  - Protocol
 ---
 # Overview
 - An early third-party authentication service from 1988
@@ -13,6 +14,8 @@ tags:
 	- Ticket-granting server (TGS)
 
 # Process
+Useful explanation: https://youtu.be/5N242XcKAsM
+
 1. User logs into client, sends request to SS
 	1. The client sends a cleartext message to AS including the user ID and asks for a ticket-granting ticket (TGT)
 2. AS checks database for key (hashed password, $H(P)$) and responds with two messages encrypted with $H(P)$

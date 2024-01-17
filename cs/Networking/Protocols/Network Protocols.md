@@ -1,3 +1,6 @@
+---
+tags: Protocol
+---
 <dl>
 <dt>Protocol</dt>
 <dd>A mutually agreed way to communicate between multiple hosts; a communication standard</dd>

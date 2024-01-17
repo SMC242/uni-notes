@@ -1,3 +1,6 @@
+---
+tags: Protocol
+---
 # Model
 - Can be peer-to-peer or client-server, but is usually the latter
 - Used to have persistent communication between clients
