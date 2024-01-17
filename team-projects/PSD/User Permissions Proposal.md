@@ -51,11 +51,13 @@ Being able to manage other user implies being able to see their name in the rele
 
 ### Manage review settings design
 
-TODO: convert these to Figma models for customer day
+Here are two sketches for how the nested permissions could be presented to the user
 
 ![Sketch 2](https://i.ibb.co/pnV37BG/permission-wireframe-excalidraw.png)
-![Sketch 2](https://i.ibb.co/PTFvVCF/permission-wireframe-2-excalidraw.png)
+Figure 1.1
 
+![Sketch 2](https://i.ibb.co/qjnfgY8/permission-wireframe-2-excalidraw-1.png)
+Figure 1.2
 
 ## Reviewing
 
