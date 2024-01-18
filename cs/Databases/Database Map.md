@@ -6,4 +6,4 @@ Databases are systems designed to efficiently store, read, write, and update dat
 # Database design
 Designing good database schemas
 
-- [[Integrity]]: ensuring that data doesn't rot
+- [[Data Integrity]]: ensuring that data doesn't rot
