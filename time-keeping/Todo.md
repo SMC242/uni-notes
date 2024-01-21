@@ -1,18 +1,21 @@
 # Database
-- [ ] Take notes on lecture 1
-	- [ ] Integrity
-	- [ ] Superkeys
+- [x] Take notes on lecture 1
+	- [x] Integrity
+	- [x] Superkeys
 - [ ] Do lab exercise
+- [ ] Take notes on lecture 2
 
 # Cybersecurity
-- [ ] Take notes on lecture 1
+- [x] Take notes on lecture 1
+
 # Programming languages
 - [ ] Do lab exercise
+- [ ] Take notes on lecture 2
 
 # PSD
 - [x] Deploy to Vercel
 	- [x] Create account
 	- [x] Deploy
 	- [x] Test
-- [ ] Read lecture
-- [ ] Do quiz
+- [x] Read lecture
+- [x] Do quiz
