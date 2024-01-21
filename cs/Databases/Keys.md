@@ -47,11 +47,14 @@ $$
 $\{SSN\}$ is the candidate key
 
 > [!NOTE] Formal process
-> $$
+> $
 > K \textrm{is candidate key} \leftrightarrow K' = K \\ \{A_{i}\} \textrm{ is not a } SK \textrm{ for any } A_{i} \in K
-$$
+> $
 
 ## Candidate keys
 - There may be more than one candidate key
 - The choice of primary key is sometimes arbitrary
 - The remaining candidate keys are called secondary keys
+
+### Prime attributes
+- An attribute that is part of a candidate key
