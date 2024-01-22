@@ -7,6 +7,7 @@ Computing Science is the science of computers and programming.
 - [[Networking Map|Networking]]: how data is relayed between computers
 - [[Database Map|Databases]]: the theory behind efficient storage of data
 - [[HCI Map|Human Computer Interface]]: designing better interfaces with people in mind
+- [[Programming Languages Map#Theory|Programming languages]]: how programming languages are constructed
 
 ## Practical
 - [[Software Development Map|Software Development]]: working as part of a team to deliver scalable software to clients
@@ -25,7 +26,7 @@ Computing Science is the science of computers and programming.
 - #Python
 - #Java
 - #C
-	- [[C Map]]
+	- [[C Map|C]]
 - #Haskell
 - #JavaScript
 	- #TypeScript

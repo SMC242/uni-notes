@@ -77,3 +77,27 @@ The non-prime transitive attribute becomes the:
 - Foreign key for the old relation
 ### Generalised Third Normal Form
 AKA G3NF
+
+## BCNF
+AKA Boyce-Codd Normal Form
+
+> Whenever there is an $FD : X \rightarrow A$, $X$ is a primary key
+
+### BCNF Decomposition Theorem
+Given a relation $R$ not in BCNF and an FD $X \rightarrow A$ that causes the BCNF violation:
+1. Split $R$ into two relations:
+	- $R_{1} = R \setminus \{A\}$: remove $A$ from the main relation
+	- $R_{2} = \{X\} \cup \{A\}$: move $A$ to another relation and reference $X$
+2. If $R_{1}$ or $R_{2}$ is not in BCNF, repeat
+
+> [!EXAMPLE]
+> `TEACH(Student (FK), Instructor (FK), Course (FK))`
+>
+>FDs:
+> 1. $\{Student, Course\} \rightarrow Instructor$
+> 2. $Instructor \rightarrow Course$  <-- violation
+>
+>Split into two relations:
+>1. $R_{1} = \{Student, Instructor\}$
+>2. $R_{2} = \{Instructor, Course\}$
+

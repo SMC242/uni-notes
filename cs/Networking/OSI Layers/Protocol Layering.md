@@ -45,14 +45,14 @@ See [[Data Link Layer]]
 - Connects between networks (source host to destination host)
 - The first layer that enables end to end connections is the network layer 
 - Manages data delivery, naming, addressing, routing, flow control
-- E.G [[Protocol List#IP|IP]], ICMP
+- E.G [[Internet Protocol]], ICMP
 
 See [[Network Layer]]
 
 # Transport layer
 - Makes data transfer reliable
 - Handles ordering and congestion control to avoid dropping [[Packets]]
-- E.G [[Protocol List#TCP|TCP]], [[Protocol List#UDP|UDP]]
+- E.G [[TCP]], [[UDP]]
 
 See [[Transport Layer]]
 
@@ -75,7 +75,7 @@ See [[Presentation Layer]]
 - How an app communicates
 - WhatsApp uses XMPP
 - Facebook Mobile uses MQTT
-- E.G HTTP/HTTPS, [[Protocol List#DNS|DNS]], [[Protocol List#FTP|FTP]]
+- E.G HTTP/HTTPS, [[DNS]], [[FTP]]
 
 See [[Application Layer]]
 

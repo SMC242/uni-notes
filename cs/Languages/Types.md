@@ -1,5 +1,8 @@
+---
+tags: TypeTheory 
+---
 # Overview
-Programming languages use various types to store data. Some are [[#Dynamic typing|dynamically typed]], others are [[#Static typing|statically typed]], but both use types. Type theory is founded in [[Maths Map#Set theory|Set Theory]]
+Programming languages use various types to store data. Some are [[Type Systems#Dynamic|dynamically typed]], others are [[Type Systems#Static|statically typed]], but both use types. Type theory is founded in [[Maths Map#Set theory|Set Theory]]
 
 # Definition
 Values can be grouped into types based on what operations are defined for them
@@ -144,8 +147,25 @@ $\# (S \rightarrow T) = (\#T)^{\# S}$
 
 See also: [[Functions|Mathematical functions]]
 
+### Arrays
+![[Array Types]]
+
+### Functions
+![[Function Types]]
+
 ## Recursive types
 - Used for lists and trees
+- A disjoint union defined in terms of itself
+	- Has at least one recursive case and non-recursive case
+
+Cardinality: $\#T = \infty$
+
+> [!EXAMPLE]
+> - $LIST = VOID + (T \times LIST)$
+> - $TREE = VOID + (VALUE \times TREE \times TREE)$
+
+### Lists
+![[List Types]]
 
 # Expressions
 Expressions also have types
@@ -155,3 +175,14 @@ Expressions also have types
 > [!EXAMPLE] Java expressions
 > - `n - 1` is of type INT
 > - `n > 0` is of type BOOL
+
+There are two categories of expressions:
+- Simple
+	- Literals
+	- Variables
+- Compound
+	- Function calls
+	- Constructions
+	- Conditional expressions
+	- Iterative expressions
+	- Block expressions (contains local variables)
