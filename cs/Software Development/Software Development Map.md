@@ -26,7 +26,6 @@ Techniques for negotiating requirements with customers
 
 # Technologies
 - [[Caching]]: saving frequently-used data in fast-access storage
-- [[Authentication]]: ensuring users have access to content before revealing it
 - [[Continuous Integration]]: automatic builds, linting, testing, and deployments
 
 ## Tools
