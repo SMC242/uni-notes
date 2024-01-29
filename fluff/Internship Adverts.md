@@ -11,4 +11,5 @@
 - [x] [Barclays](https://www.linkedin.com/jobs/view/technology-developer-summer-internship-programme-2024-glasgow-at-barclays-3709990301/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&originalSubdomain=uk) Unkown
 - [x] [NXP Superconductors](https://www.linkedin.com/jobs/view/internship-software-engineering-2024-at-nxp-semiconductors-3784395814/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&originalSubdomain=uk) Unknown
 - [x] [SAS](https://uk.whatjobs.com/job/Summer-2024-Technical/city-of-glasgow-glasgow/270260006?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) Unkown
-- [ ] [Canon Medical](https://equatecareerhub.org.uk/job/summer-interns-2024-canon-medical/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) 12th January
+- [x] [Canon Medical](https://equatecareerhub.org.uk/job/summer-interns-2024-canon-medical/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) 12th January
+- [ ] [EY](https://ukstudents.ey.com/?jobs=%26program%5B%5D%3D41%26business-area%5B%5D%3D60%26sub-business-area%5B%5D%3D91%26location%5B%5D%3D52%26programme-start-date%5B%5D%3D45%26source%3DIndeed&paged=1)
