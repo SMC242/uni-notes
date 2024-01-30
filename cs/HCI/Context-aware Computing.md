@@ -11,9 +11,6 @@ Devices can detect what the user is doing with its sensors
 See also: 
 - [[cs/HCI/Context|Context]]
 
-# Awareness
-
-
 # Pitfalls
 - Bad inference can cause frustration
 - Privacy

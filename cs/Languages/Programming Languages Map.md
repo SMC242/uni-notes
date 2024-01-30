@@ -3,6 +3,10 @@ Programming languages are tools for describing programs to a computer. They each
 
 # Theory
 - [[Syntax]]: how the syntax of a program is specified
+- [[Translators]]: how compilers and interpreters work
+	- [[Tombstone Diagram]]: diagrams for drawing compiler dependencies
+	- [[Virtual Machines]]: intermediate interpreters for portability
+	- [[Compiler Bootstrapping]]: how the first compiler was made
 
 ## Type theory
 #TypeTheory
