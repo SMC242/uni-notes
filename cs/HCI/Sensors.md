@@ -1,5 +1,6 @@
 ---
-tags: HCI/Mobile 
+tags:
+  - HCI/Mobile
 ---
 # Overview
 Mobile devices have a variety of sensors that can be utilised by developers. Often, multiple sensors are used in one interaction
@@ -69,7 +70,9 @@ Use:
 # Pressure
 Types:
 - Grip (squeezing the phone)
+	- Using a force-sensitive resistor
 - Touch (pressing the screen)
+	- Using force sensors (barometric pressure sensors) below the screen
 
 - Can be useful for adding extra states
 - 
