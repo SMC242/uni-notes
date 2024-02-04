@@ -7,6 +7,11 @@ Programming languages are tools for describing programs to a computer. They each
 	- [[Tombstone Diagram]]: diagrams for drawing compiler dependencies
 	- [[Virtual Machines]]: intermediate interpreters for portability
 	- [[Compiler Bootstrapping]]: how the first compiler was made
+	- [[Abstract Syntax Tree]]: representing the commands in the program
+
+# Practical
+- [[Translating Constructs]]: translating to machine code
+- [[Writing Compilers]]: how to make a compiler
 
 ## Type theory
 #TypeTheory
@@ -14,6 +19,7 @@ Theories relating to grouping values into types and verifying the sanity of oper
 
 - [[Types]]
 - [[Type Systems]]
+
 
 # Languages
 Notes about specific programming languages

@@ -35,3 +35,8 @@ Strategies for managing access
 - [[Discretionary Access Control]]
 - [[Role-based Access Control]]
 - [[Attribute-based Access Control]]
+
+# Attacks
+Methods that malicious actors can attack systems
+
+- [[Denial of Service]]: depleting a server's resources so that it can't serve legitimate users
