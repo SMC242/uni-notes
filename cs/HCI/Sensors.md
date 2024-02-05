@@ -31,6 +31,13 @@ Contains:
 - Gyroscope (rotation)
 - Magnetometer (heading)
 
+# Simultaneous Localization and Mapping
+AKA SLAM
+
+- Maps the environment in real time
+- Tracks your position within the environment
+- 
+
 # Sensing
 ## Surroundings
 Sensing immediate surroundings

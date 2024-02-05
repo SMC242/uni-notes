@@ -21,7 +21,19 @@ Mobile devices have their own design constraints
 
 - [[cs/HCI/Context|Context]]: how the situation a device is being used in affects its usage
 	- [[Context-aware Computing]]: designing features around contexts and activating them when those contexts are detected
+	- [[Attention]]: factors affecting a user's focu
+- [[Sensors]]: the sensors available to mobile apps
+	- [[Touchscreens]]
+- [[Gestures]]: designing good gesture-based interactions
+- [[Adoption]]: factors that determine whether a technology will become popular
 
+# Mixed reality
+![[Mixed Reality#Overview]]
+
+- [[Mixed Reality]]
+	- [[Mixed Reality Tracking]]
+- [[Augmented Reality]]
+- [[Virtual Reality]]
 # Research
 Research is core to the field of HCI. The field has drawn heavily from social psychology and has adopted many of its methods
 
