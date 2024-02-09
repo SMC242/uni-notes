@@ -8,7 +8,9 @@ Scrambling data to prevent unauthorised users from reading data
 - [[Hashing]]: one-way cryptography
 - [[Cryptographic Signing]]: adding a signature to verify that the file hasn't been tampered with
 
-# Authentication
+# Managing access
+
+## Authentication
 #Authentication 
 
 Verifying that a user is who they say they are and preventing unauthorised access
@@ -16,12 +18,12 @@ Verifying that a user is who they say they are and preventing unauthorised acces
 - [[Authentication]]
 	- [[Passwords]]
 
-## Authentication protocols
+### Authentication protocols
 Protocols for authentication
 
 - [[Kerberos]]
 
-# Access control
+## Access control
 #AccessControl 
 
 Ensuring that only authorised users can access resources
@@ -29,7 +31,7 @@ Ensuring that only authorised users can access resources
 - [[Access Control]]
 - [[UNIX File Access Control]]
 
-## Policies
+### Policies
 Strategies for managing access
 
 - [[Discretionary Access Control]]
@@ -40,3 +42,9 @@ Strategies for managing access
 Methods that malicious actors can attack systems
 
 - [[Denial of Service]]: depleting a server's resources so that it can't serve legitimate users
+
+##  Defence
+Methods for defending against attacks
+
+- [[Firewalls]]: controlling who can access a network and how
+- [[Intrusion Detection Systems]]: detecting attacks in progress

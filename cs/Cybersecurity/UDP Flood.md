@@ -1,3 +1,6 @@
+---
+tags: []
+---
 # Overview
 A type of [[Denial of Service]] attack using [[UDP]]
 

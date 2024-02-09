@@ -34,17 +34,7 @@ See [[#Distributed attacks]]
 - [[SIP Flood]]
 
 # IP address spoofing
-- The attacker forges the source address when sending packets
-	- The attacker needs [[Access Control|high-priveleged access]] to the source server
-	- They would need to edit the socket interface in the [[Internet Protocol]] [[Protocol Layering|layer]]
-- This is a core vulnerability of [[TCP]] over IP
-	- TCP doesn't check whether the source address is correct
-
-Advantages:
-- The attacker won't receive the responses
-	- Random services get them instead ("backscattering")
-- Harder to identify
-	- You have to trace the [[Routing|route]] that the packets took
+![[IP address spoofing]]
 
 # Distributed attacks
 AKA DDoS attacks
@@ -95,7 +85,7 @@ Countermeasure for [[#Botnets]]
 - [[Machine Learning]] is making this less effective
 
 # Detection
-- Detect abnormal traffic by monitoring the network traffic with intrusion detection systems and firewalls 
+- Detect abnormal traffic by monitoring the network traffic with [[intrusion detection systems]] and firewalls 
 	- Example service: [Cloudflare](https://www.google.com/recaptcha/about/)
 - When an attack is detected, figure out which type it is
 - Apply appropriate filters for the attack

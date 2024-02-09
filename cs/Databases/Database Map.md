@@ -14,3 +14,14 @@ Designing good database schemas
 - [[Database Design Guidelines]]
 - [[Functional Dependency Theory]]: evaluating the quality of a relational model
 - [[Normalisation]]: a series of algorithms for making good models
+
+# SQL
+Structure Query Language is a declarative language for querying databases
+
+- [[Joins]]: how to fetch data from multiple tables
+
+# Storage
+How databases are stored on disk
+
+- [[Storing Databases]]: how databases are stored efficiently
+	- [[Storage Blocks]]: how files are represented on disk
