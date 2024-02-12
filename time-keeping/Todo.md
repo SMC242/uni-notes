@@ -20,4 +20,4 @@
 # PSD
 - [x] Read lecture
 - [x] Do quiz
-- [ ] Deploy to Digital Ocean
+- [x] Deploy to Digital Ocean

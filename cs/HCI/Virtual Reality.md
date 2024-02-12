@@ -1,3 +1,6 @@
+---
+aliases: VR
+---
 # Overview
 When virtual experiences replace one or more sensations. The user experiences mostly virtual reality by blocking out some of their senses
 

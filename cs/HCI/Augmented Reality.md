@@ -1,3 +1,6 @@
+---
+aliases: AR
+---
 # Overview
 When virtual experiences are layered (I.E overlayed) on top of reality. The majority of the user's experience is real
 

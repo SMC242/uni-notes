@@ -1,3 +1,6 @@
+---
+aliases: XR
+---
 # Overview
 Mixed reality is a mix of real and virtual experiences (all senses, not just visual)
 
