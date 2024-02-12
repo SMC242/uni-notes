@@ -3,7 +3,7 @@ Compilers 👍
 
 # Phases
 There are 3 phases of compilation:
-- Syntactic analysis
+- [[Syntactic analysis]]
 	- Check that the program is well-formed (I.E checking [[syntax]])
 	- [[#Lexing]], parsing
 	- Outputs an [[Abstract Syntax Tree|AST]]
