@@ -10,6 +10,7 @@
 # Cybersecurity
 - [x] Take notes on lecture 1
 - [ ] Finish notes on lecture 5
+- [ ] Finish notes on lecture 6
 
 # Programming languages
 - [x] Take notes on lecture 2
