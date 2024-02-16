@@ -23,5 +23,5 @@ Structure Query Language is a declarative language for querying databases
 # Storage
 How databases are stored on disk
 
-- [[Storing Databases]]: how databases are stored efficiently
+- [[Database Files]]: how databases are stored efficiently
 	- [[Storage Blocks]]: how files are represented on disk

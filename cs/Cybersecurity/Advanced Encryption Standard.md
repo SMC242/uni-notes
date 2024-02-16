@@ -39,14 +39,14 @@ Implemented at the hardware level on many [[CPU]]s
 
 1. `AddRoundKey(A, B)` takes the [[Bitwise Operations#XOR|XOR]] if the two inputs
 	1. At round = 0, `AddRoundKey(STATE, round_key0)`
-		1. Adds  [[Symmetric Cryptography#Formal definition|confusion]] by mixing keys with state
+		1. Adds  [[Symmetric Cryptography#Ciphers|confusion]] by mixing keys with state
 2. Rounds 1..9:
 	1. `SubBytes` substitutes the state byte-by-byte using a look-up table (`S-box`)
 		1. E.G byte $00_{16}$ is swapped for $63_{16}$
 		2. $STATE \leftarrow SubBytes(STATE)$ (I.E it mutates the state)
 		3. Non-linear because $SubBytes(A \oplus B) \neq SubBytes(A) \oplus SubBYtes(B)$
 	2. $STATE \leftarrow ShiftRows(STATE)$: performs a [[Bitwise Operations#Shift|cyclical left shift]] operation on positions 1..3
-		1. Adds [[Symmetric Cryptography#Formal definition|diffusion]]
+		1. Adds [[Symmetric Cryptography#Ciphers|diffusion]]
 	3. $STATE \leftarrow MixColumns(STATE)$ changes each byte in a column by looking at *all* bytes in the column
 	4. `AddRoundKey(key)` is called using the round key
 3. Round 10:

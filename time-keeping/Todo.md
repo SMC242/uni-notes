@@ -6,6 +6,7 @@
 - [ ] Take notes on lecture 5
 	- [ ] Pages 31 - 28
 - [x] Finish slideshow
+- [ ] Takes notes on lecture 6
 
 # Cybersecurity
 - [x] Take notes on lecture 1
@@ -16,7 +17,8 @@
 - [x] Take notes on lecture 2
 - [x] Take notes on lecture 3
 	- [x] Bootstrapping
-- [ ] Take notes on lecture 5
+- [x] Take notes on lecture 5
+- [ ] Takes notes on lecture 6
 
 # PSD
 - [x] Read lecture
