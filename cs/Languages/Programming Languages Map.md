@@ -8,10 +8,7 @@ Programming languages are tools for describing programs to a computer. They each
 	- [[Virtual Machines]]: intermediate interpreters for portability
 	- [[Compiler Bootstrapping]]: how the first compiler was made
 	- [[Abstract Syntax Tree]]: representing the commands in the program
-
-# Practical
-- [[Translating Constructs]]: translating to machine code
-- [[Writing Compilers]]: how to make a compiler
+- [[Scopes]]: where a variable is defined
 
 ## Type theory
 #TypeTheory
@@ -20,6 +17,13 @@ Theories relating to grouping values into types and verifying the sanity of oper
 - [[Types]]
 - [[Type Systems]]
 
+# Writing compilers
+How to make your own compiler
+
+- [[Translating Constructs]]: translating to machine code
+- [[Compilation Phases]]: how to make a compiler
+	- [[Syntactic Analysis]]: checking that the syntax is correct
+	- [[Contextual Analysis]]: checking that the types and [[scopes]] are correct
 
 # Languages
 Notes about specific programming languages

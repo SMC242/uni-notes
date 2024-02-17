@@ -81,7 +81,7 @@ There are two policies for handling packets:
 	- Only allows packets from inside the network because the external service would be responding with `ACK = 1`
 	- Vulnerability: the attacker can just set `ACK = 1` in their packets
 
-# Stateful inspection
+## Stateful inspection
 - Maintain a table about the states of *outgoing* connections
 	- [[TCP]] streams, [[UDP]] datagrams, ICMP messages
 - When a packet is received, check it against the state table
@@ -101,6 +101,20 @@ Cons:
 - Less performant
 - More expensive than stateless filtering
 
+## Gateways
+![[Gateway Proxies#Overview]]
+
+Two main types:
+- [[Gateway Proxies#Application-level|Application level]]
+- [[Gateway Proxies#Circuit-level|Circuit level]]
+
+> [!NOTE] Comparison
+> Comparison for application-level proxies:
+> ![[Gateway Proxies#Application-level#Comparison]]
+> 
+> Comparison for circuit-level proxies:
+> ![[Gateway Proxies#Circuit-level#Comparison]]
+
 # Position
 A firewall can be in a few positions:
 - Bastion host: a system identified by the admin as a critical point in the network
@@ -108,7 +122,17 @@ A firewall can be in a few positions:
 	- Available in most operating systems
 - Network device firewall: installed in [[Routing|routers]] and switches
 
-
 ## Layering
-- Multiple layers of firewalls can be used to provide more protection
-TODO: 23-24
+Multiple layers of firewalls can be used to provide more protection
+
+- An external firewall is placed at the boundary of a network
+	- In the boundary router
+	- Provides a basic level of protection for the whole network
+- An internal firewall is placed between the external and internal network
+	- This firewall will be more strict
+	- Protects against the DMZ as well as the outside world
+	- There can be multiple internal networks, each protected from each other by their own internal firewalls. This creates some isolation
+- This leaves a space in between called the demilitarised zone (DMZ)
+	- Externally accessible systems are placed here (web, mail, [[DNS]] servers, public APIs)
+	- This provides some protection without the stricter rules of the internal firewall
+- [[LAN]] switches route traffic into the networks

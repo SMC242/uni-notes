@@ -4,7 +4,7 @@ aliases: AST
 # Overview
 AKA AST
 
-A [[maths/Trees/Tree|Tree]] that represents the source program after [[Writing Compilers#Phases|syntactic analysis]]
+A [[maths/Trees/Tree|Tree]] that represents the source program after [[Compilation Phases#Phases|syntactic analysis]]
 
 See first: [[Syntax]]
 

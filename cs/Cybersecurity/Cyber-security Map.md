@@ -47,5 +47,7 @@ Methods that malicious actors can attack systems
 ##  Defence
 Methods for defending against attacks
 
-- [[Firewalls]]: controlling who can access a network and how
-- [[Intrusion Detection Systems]]: detecting attacks in progress
+- [[Firewall]]: controlling who can access a network and how
+- [[Intrusion Detection System]]: detecting attacks in progress
+	- [[Host-based IDS]]
+	- [[Network-based IDS]]

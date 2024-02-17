@@ -4,21 +4,22 @@
 	- [x] Superkeys
 - [x] Take notes on lecture 2
 - [ ] Take notes on lecture 5
-	- [ ] Pages 31 - 28
+	- [ ] Pages 31 - 38
 - [x] Finish slideshow
 - [ ] Takes notes on lecture 6
 
 # Cybersecurity
 - [x] Take notes on lecture 1
-- [ ] Finish notes on lecture 5
-- [ ] Finish notes on lecture 6
+- [x] Finish notes on lecture 5
+- [x] Finish notes on lecture 6
 
 # Programming languages
 - [x] Take notes on lecture 2
 - [x] Take notes on lecture 3
 	- [x] Bootstrapping
 - [x] Take notes on lecture 5
-- [ ] Takes notes on lecture 6
+- [x] Takes notes on lecture 6
+- [ ] Complete prelude for coursework
 
 # PSD
 - [x] Read lecture

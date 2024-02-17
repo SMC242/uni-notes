@@ -85,7 +85,7 @@ Countermeasure for [[#Botnets]]
 - [[Machine Learning]] is making this less effective
 
 # Detection
-- Detect abnormal traffic by monitoring the network traffic with [[intrusion detection systems]] and firewalls 
+- Detect abnormal traffic by monitoring the network traffic with [[Intrusion Detection System]] and firewalls 
 	- Example service: [Cloudflare](https://www.google.com/recaptcha/about/)
 - When an attack is detected, figure out which type it is
 - Apply appropriate filters for the attack

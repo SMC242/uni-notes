@@ -35,10 +35,10 @@ Systems that detect [[Access Control|unauthorised access]]  by monitoring comput
 - User interface: a dashboard for viewing the status of the system and controlling it
 
 # Categories
-- [[#Host-based IDS|Host-based]] (HIDS): monitors single hosts and events inside them
+- [[Host-based IDS|Host-based]] (HIDS): monitors single hosts and events inside them
 	- Process identifiers
 	- System calls
-- Network-based: (NIDS): monitors network traffic
+- [[Network-based IDS|Network-based]]: (NIDS): monitors network traffic
 	- Network segments
 	- Devices
 	- [[Network Layer]], [[Transport Layer]], and [[Application Layer]] protocols
@@ -49,7 +49,7 @@ Systems that detect [[Access Control|unauthorised access]]  by monitoring comput
 - A statistical method
 	- May use [[Machine Learning]]
 - Collecting data about legitimate users and marking unusual behaviour as an attack
-- Good for detecting \ero-day attacks
+- Good for detecting zero-day attacks
 - Difficult
 - High false alarm rate
 
@@ -60,40 +60,4 @@ Systems that detect [[Access Control|unauthorised access]]  by monitoring comput
 - Reduces false positives
 - Can only identify known attacks
 
-# Host-based IDS
-- Can detect internal and external intrusions
-- May use anomaly, signature, or heuristic approaches
-
-## Sensors used
-- System call traces: a record of the sequence of system calls each process uses
-- Audit logs
-- Integrity [[checksums]]: a [[Hashing|hash]] added to packets on transmission that is verified when received
-	- Critical files are scanned for changes
-
-## Analysis approaches
-- Anomaly-based:
-	- Check how programs access core [[kernel]] fuctions
-	- Verify [[checksums]] on key files
-		- Can't detect changes made to processes once they're running (E.G editing memory)
-- Signature/heuristic
-- Distributed HIDS
-	- Used by organisations to defend[[LAN]]s
-	- Coordinates IDSes across the network
-
-# Network-based IDS
-- Examines packets in real time or close to real time
-
-## Network sensors
-- Inline: inserted into network segments so that traffic must pass through the sensor
-	- Can be added to a [[Firewalls|firewall]] or [[LAN]] switch
-	- Can block an attacker once detected
-- Passive: monitor copies of the traffic (traffic doesn't pass through the sensor)
-	- More efficient as they don't add an extra step
-	- Reduces latency
-
-### Wireless network sensors
-- These sensors are capable of analysing wireless traffic (and only that kind of traffic)
-- Usually just one part of a NIDS
-
-## Deployment
-TODO: 40-44
+[[Network-based IDS]]
