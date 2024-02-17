@@ -3,8 +3,8 @@
 	- [x] Integrity
 	- [x] Superkeys
 - [x] Take notes on lecture 2
-- [ ] Take notes on lecture 5
-	- [ ] Pages 31 - 38
+- [x] Take notes on lecture 5
+	- [x] Pages 31 - 38
 - [x] Finish slideshow
 - [ ] Takes notes on lecture 6
 

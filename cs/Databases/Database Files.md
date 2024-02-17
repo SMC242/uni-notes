@@ -167,4 +167,10 @@ Assuming a linked list is being used:
 - Best case: $O(1)$
 - Worst case: $O(n)$
 	- Have to traverse the block pointers
+
+## Range
+- $O(n)$
+	- $O(m) + O(nm)$ block accesses where $n$ is the number of overflow blocks per bucket
+- Inefficient because buckets are equi-probable
+	- All buckets must be visited
 - 
