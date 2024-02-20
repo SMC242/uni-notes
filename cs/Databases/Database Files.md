@@ -53,7 +53,7 @@ where:
 E \left(C(X) \right) &= \sum\limits_{x} P(X = x) \cdot C(x)\\
  &= 2.5\ block\ accesses
 \end{align*}
-$$
+> $$
 
 # Deleting records
 - Set the deletion flag
