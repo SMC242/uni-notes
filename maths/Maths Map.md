@@ -18,6 +18,7 @@ How numbers are constructed and functions over numbers
 - [[Division]]: the formal definition of division
 	- [[Modulo]]: a function that gets the remainder of divison
 	- [[GCD]]: the *greatest common denominator* function
+	- [[Modular Arithmetic]]: arithmetic built on top of the [[Modulo]] and [[GCD]] operators
 - [[Primes]]: numbers that can only be divided by itself and 1
 - [[Summation]]: a notation for applying a function to a set, collecting the results
 
