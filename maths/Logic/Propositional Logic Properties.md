@@ -6,6 +6,8 @@ See:
 $P \land true \equiv P$
 $P \lor false \equiv P$
 
+See also: [[Identity Property]]
+
 # Domination
 $P \lor true \equiv true$
 $P \land false \equiv false$
@@ -24,6 +26,8 @@ $P \lor Q \equiv Q \lor P$
 # Associative
 $(P \land Q) \land R \equiv P \land (Q \land R)$
 $(p \lor Q) \lor R \equiv P \lor (Q \lor R)$
+
+See also: [[Associative Property]]
 
 # Distributive
 $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$

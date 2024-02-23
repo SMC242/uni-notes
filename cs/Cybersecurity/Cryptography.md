@@ -12,6 +12,7 @@ The field of secure interaction where there could be malicious actors or the par
 # Fields
 - [[Symmetric Cryptography]]: the same key is used by both parties
 - [[Asymmetric Cryptography]]: two keys are used: one for local use and another for distribution
+- [[Cryptographic Signing]]: verifying whether a message was tampered with
 
 # Key definitions
 <dl>

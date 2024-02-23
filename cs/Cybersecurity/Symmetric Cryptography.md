@@ -1,3 +1,6 @@
+---
+aliases: SKE
+---
 # Overview
 A type of [[Cryptography]] where you have one key that is shared
 

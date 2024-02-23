@@ -1,7 +1,9 @@
 # Overview
-A type of [[Cryptography]] where two keys are used:
-- Public: a key that is shared between the parties
-- Private: both parties have a key that isn't shared
+A type of [[Cryptography]] where multiple keys are used
 
 - Pro: you never need to share the private key
 - Con: the algorithms are much slower than [[Symmetric Cryptography]] ones
+
+# Protocols
+- [[Diffie-Hellman Key Exchange Protocol]]
+- [[Public-key Encryption]]

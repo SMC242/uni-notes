@@ -6,6 +6,8 @@ See:
 $A \cup \emptyset = A$
 $A \cap U = A$
 
+See also: [[Identity Property]]
+
 # Domination
 $A \cup U = U$
 $A \cap \emptyset = \emptyset$
@@ -21,6 +23,8 @@ $A \cap  B = B \cap A$
 # Associative
 $A \cup (B \cup C) = (A \cup B) \cup C$
 $A \cap (B \cap C) = (A \cap B) \cap C$
+
+See also: [[Associative Property]]
 
 # Distributive
 $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
