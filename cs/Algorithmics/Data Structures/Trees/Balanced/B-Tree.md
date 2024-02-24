@@ -3,7 +3,7 @@ tags: ADT/SelfBalancingTree
 
 ---
 # Overview
-A [[Self-balancing Tree]] that 
+A [[Self-balancing Tree]] that can have multiple children
 
 # Properties
 - Good for big datasets on secondary storage devices (hard drives)

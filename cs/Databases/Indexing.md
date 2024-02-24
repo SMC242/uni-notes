@@ -89,54 +89,5 @@ where:
 
 ![Non-key secondary indexing diagram](https://prepinstadotcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/01/Secondary-Indexing.webp)
 
-## Multilevel index
-- All index files:
-	- Are ordered on the indexing field
-	- The indexing field has a unique value
-	- Index entries have a fixed length
-- Therefore, index files can be [[#Primary index|primary indexed]]
-	- The original index file is called the "base" or "level 1" index
-		- Sparse
-	- Subsequent layers of indexing are called $level_{t}$ indexes
-		- Dense
-- Strategy: split the indexes into a tree of $t$ levels
-	- Going down one level drastically reduces the search space
-- Optimise the number of levels using $t =\log_{m}(b)$
-	- $m$ is called the "fan-out" or "index blocking factor"/$ibfr$
-	- Works because $\log_{m}$ splits the search space into $m$ sub-spaces, reducing the number of steps drastically
-- Trades off overhead for speed
-	- $access \ cost = t + 1 = ceil(\log_{m}(b)) + 1$
-- Used by all major DBMS systems
-
-> [!NOTE] Number of blocks in an index
-> $$b_{i} = ceil(b_{i - 1}/m)$$
-> where:
-> - $b_{i}$ is the number of blocks in the index at level $i$
-> - $m$ is the fan-out (measured in blocks)
-
-### Proof
-
-$$
-\begin{alignat*}{3}
-&Let:\\
-&B := block \ size \ in\  bytes\\
-&r := number \ of \ records\\
-&s := record \ size\\\\\\
-
-&\textrm{File information}\\
-&f = floor(B/s)\\
-&b = ceil(\frac{r}{f})\\
-&l := size \ of \ index \ entry\\\\
-
-&\textrm{Level 1 index}\\
-&m = floor(\frac{B}{l})\\
-&b_{1} = ceil\left(\frac{b}{m}\right) & \mbox{b entries, b1 index blocks}\\\\
-
-&\textrm{Level 2 index}\\
-&b_{2} = ceil\left(\frac{b_1}{m^{2}}\right) & \frac{1}{m^{2}} \ less \ blocks \\\\
-
-&\textrm{The level t index has 1 block}\\
-&1 \le (\frac{b}{m^{t}})\\
-&\Rightarrow t = \log_{m}(b)
-\end{alignat*}
-$$
+## Multilevel Index
+![[Multilevel Index#Overview]]
