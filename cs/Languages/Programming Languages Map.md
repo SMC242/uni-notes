@@ -24,6 +24,7 @@ How to make your own compiler
 - [[Compilation Phases]]: how to make a compiler
 	- [[Syntactic Analysis]]: checking that the syntax is correct
 	- [[Contextual Analysis]]: checking that the types and [[scopes]] are correct
+	- [[Code Generation]]: deciding what code to emit and generating code
 
 # Languages
 Notes about specific programming languages

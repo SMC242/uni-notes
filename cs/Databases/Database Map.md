@@ -26,3 +26,5 @@ How databases are stored on disk
 - [[Database Files]]: how databases are stored efficiently
 	- [[Storage Blocks]]: how files are represented on disk
 - [[Indexing]]: making references to data to enable efficient queries
+	- [[Multilevel Index]]: representing indexes as trees
+		- [[B+ Tree]]: a type of tree optimised for storing databases

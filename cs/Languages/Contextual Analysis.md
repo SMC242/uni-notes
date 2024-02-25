@@ -25,5 +25,5 @@ The compilation stage where the following functions [[scopes|scope]] and [[Type 
 		- The third expression is an integer
 
 > [!NOTE] Terminology
-> The process of traversing sub-expressions is called "walking". In OOP, this is implemented using the [Visitor Pattern](https://refactoring.guru/design-patterns/visitor)
+> The process of traversing sub-expressions is called "[[Abstract Syntax Tree#Walking|walking]]". In OOP, this is implemented using the [[Visitor Pattern]]
 

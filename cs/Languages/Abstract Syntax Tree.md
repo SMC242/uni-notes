@@ -15,3 +15,6 @@ See first: [[Syntax]]
 - Each internal node is a construct
 	- E.G commands or declarations
 - Much more compact than [[Syntax#Syntax trees|syntax trees]]
+
+# Walking
+- "Walking an AST" refers to traversing a tree and its sub-trees, doing something as you go

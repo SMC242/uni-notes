@@ -1,8 +1,6 @@
 ---
 tags: []
 ---
-
-
 # Overview
 - "Memory" usually refers to the Random Access Memory (RAM) of a computer
 - This memory holds temporary data

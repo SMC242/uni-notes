@@ -11,7 +11,7 @@ There are 3 phases of compilation:
 	- [[Type Systems|Type checking]] expressions
 	- Checking variable scopes and lifetimes
 	- Outputs an [[Abstract Syntax Tree|AST]]
-- Code generation
+- [[Code generation]]
 	- [[Translators|Translating]] to object code
 	- Outputs object code
 
