@@ -29,7 +29,7 @@ TABLE
 FROM
 	"assignments"
 WHERE
-	progress != "Finished" AND deadline < date(now)
+	progress != "Finished" AND deadline < date(today)
 ```
 
 # Assignment history

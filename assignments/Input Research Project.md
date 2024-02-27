@@ -3,7 +3,7 @@ semester: 2
 year: 3
 ---
 class:: "MHCI"
-deadline:: 2023-03-11T16:30
+deadline:: 2024-03-11T16:30
 difficulty:: Low
 time:: "Week"
 progress:: "Not started"
@@ -40,7 +40,6 @@ progress:: "Not started"
 	- Compare with tap inputs
 - A finite-state machine
 - Code submitted via GitHub
-- 
 
 External requirements [here](https://moodle.gla.ac.uk/pluginfile.php/7898929/mod_resource/content/2/Coursework%20Handout.pdf)
 
@@ -58,7 +57,34 @@ External requirements [here](https://moodle.gla.ac.uk/pluginfile.php/7898929/mod
 	- Ideal for quick-access
 		- Not good for displaying a full inventory
 	- Release to activate
+	- On target, segment gets larger
 	- On activate, vibrate, make the button's border glow, pop forward, then the menu closes after a delay
+		- Use [browser vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
+
+## Use cases
+- Quick-access
+	- You won't be able to have lots of items as they have to be close to the centre
+- Inventories in VR games
+- Favourite tools in drawing apps
+- Joystick input devices
+
+## Input modalities
+- Touchscreen
+	- Hold tap --> drag --> release
+- VR hand tracking
+	- Same as touchscreen
+- Joystick
+	- Click --> rotate --> release
+
+## Prototype ideas
+- No delay on long-press
+- Long-press allowed anywhere
+- Long-press allowed when mode selected
+- Long-press allowed in certain region
+	- Corner (would limit the number of items)
+	- Could be better for one-handed interaction
+- Lots of buttons
+- 
 
 # Bibliography
 - [Marking menus](https://dl.acm.org/doi/abs/10.1145/191666.191759)
