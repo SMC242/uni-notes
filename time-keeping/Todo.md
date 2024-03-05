@@ -7,8 +7,11 @@
 	- [x] Pages 31 - 38
 - [x] Finish slideshow
 - [x] Takes notes on lecture 6
-- [ ] Finish taking notes on lecture 7
+- [x] Finish taking notes on lecture 7
+- [ ] Take notes on lecture 8
 
+# Mobile HCI
+- [ ] Work on coursework
 # Cybersecurity
 - [x] Take notes on lecture 1
 - [x] Finish notes on lecture 5
@@ -21,8 +24,12 @@
 - [x] Take notes on lecture 5
 - [x] Takes notes on lecture 6
 - [x] Complete prelude for coursework
+- [ ] Work on coursework
 
 # PSD
 - [x] Read lecture
 - [x] Do quiz
 - [x] Deploy to Digital Ocean
+
+# Interships
+- [x] Do coding test

@@ -1,6 +1,9 @@
 # Overview
 A [[B-Tree]] where internal nodes don't hold data pointers to reduce storage overhead. Used in [[Multilevel Index]]ing
 
+> [!WARNING] Silver bullets
+> While B+ trees are more storage-efficient than [[B-Tree]]s, they still have more storage overhead than a [[Indexing|single layer of indexes]]
+
 ## Motivation
 - [[B-Tree]]s store a lot of metadata
 	- Data-pointers
@@ -14,6 +17,8 @@ See [[Multilevel Index#Redundancy]] for more information on the problem
 
 # Structure
 - $p$ is the order of the [[maths/Trees/Tree|tree]] (number of child nodes per node)
+
+![B+ tree diagram](https://i.stack.imgur.com/qEXGR.png)
 
 ## Internal nodes
 - Don't have data-pointers
@@ -30,7 +35,9 @@ See [[Multilevel Index#Redundancy]] for more information on the problem
 	- Keys and their pointers are sorted
 - All keys in the file appear in the leaf nodes
 - All leaf nodes are on the same level, so the tree is [[Balanced Trees|balanced]]
+	- Constant I/O cost for traversing to a node
 - Leaf nodes hold a pointer to the next leaf
+	- Forms a [[Linked List]]
 
 # Maximising order
 These are the formulae for maximising order:

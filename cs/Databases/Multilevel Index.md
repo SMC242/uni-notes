@@ -96,3 +96,34 @@ Extends the normal B-tree node members
 > - Level 3: 4096 nodes, null pointers
 > - Adding level 4: 65,536 nodes, null pointers
 > 	- Level 3 will be updated to have 65,536 pointers
+
+# Range ratio
+$$\alpha = \frac{U -L }{n} \in [\frac{1}{n}, 1]$$
+- The ratio of records retrieved to total rows
+	- $L$ is the lower bound of a query (E.G `ID >= 4`)
+	- $U$ is the upper bound of a query
+
+## Expected cost
+$$C(\alpha) = \alpha n \left(1+ \frac{1}{q}\right)+ (t - 1)$$
+where:
+- $C(\alpha)$ is the [[Database Files#I/O access cost|expected cost]] given a range ratio
+- $n$ is the number of records
+- $t$ is the number of block accesses to reach the first matching leaf-node
+	- E.G $ID = 4$
+- $q$ is the number of block accesses to load data blocks and run aggregations
+
+
+See also: [[Database Files#I/O access cost|Expected access cost]]
+
+## Leaf nodes accessed
+$$\frac{U-L}{q} = \frac{\alpha n}{q}$$
+
+- The number of leaf nodes accessed during a query
+
+## Cost of accessing sibling leaves
+$$s = \frac{\alpha n}{q} - 1$$
+
+# When to use B+ trees
+- $C(\alpha) \lt b$
+	- When the cost of searching through the [[B+ Tree]] is less than linear search
+- There is a certain range ratio threshold where B+ trees perform worse than linear searches
