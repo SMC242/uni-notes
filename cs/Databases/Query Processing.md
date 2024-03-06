@@ -59,3 +59,66 @@ There are multiple strategies for performing each [[Fundamental operations|funda
 4. [[#Merge-join]]: over a [[Database Files#Ordered files|sorted file]]
 5. [[#Hash-join]]: over a [[Database Files#Hash file|hashed file]]
 
+## Naive join
+ 1. Take the [[Set Operations#Cartesian product|Cartesian product]] of the two relations and write the result to a file
+ 2. Check if the attributes match for each tuple (I.E $R.A = S.B$ given $(r, s$). Store the matched tuples in another file
+
+## Nested loop join
+- Iterate over the blocks of each relation and see if they match
+	- Multiple blocks are loaded at a time
+- A buffer is used to store the matched tuples
+	- If the buffer fills up, pause execution to dump it to the result file
+
+```
+FOR EACH r IN R DO       // The blocks of relation R
+	FOR EACH s IN S DO  // The bocks of relation S
+		IF r.A = s.B THEN
+			Append(file, (r, s))
+```
+
+### Nested loop cost prediction
+- If $n_{B}$ blocks are available in memory
+	- 2 blocks are required for: reading the inner file, writing the result
+	- ==> $n_{B}-2$ blocks are available for reading the outer file ("chunk size")
+- Each block of the outer relation is read once
+- The entire inner relation is read for each outer block
+- Therefore, the database engine should put the bigger relation in the outer loop
+
+> [!NOTE] Expected cost
+> - Total blocks read for outer relation $E: n_{E}$
+> - Total number of blocks in inner relation $D: n_D$
+> - Number of chunks in the outer relation: $ceil(\frac{n_{E}}{n_{B}-2})$
+> - Total number of blocks read in each outer loop iteration: $n_{D} \times ceil(\frac{n_{E}}{n_{B}-2})$
+
+## Index-based nested-loop join
+- Use the index on one of the relations' attribute to get all matching tuples
+	- E.G $I(R.A)$ to find all $s$ where $r.A = s.B$
+- Faster than [[#Nested loop join]] because it avoids linearly searching the indexed relation
+- Can't be used for recursive relationships
+
+### Index-based cost prediction
+Two strategies:
+
+1. 
+$$n_{D} + r_{D} \times (x_{E} + 1)$$
+
+## Merge-join
+- Use [[Merge Sort]] over two sorted files
+- Blockwise algorithm
+
+Process:
+1. Load a pair of blocks $\{R.block, S.block\}$
+2. Linear scan both blocks concurrently using merge sort
+3. Store matched tuples in a buffer
+
+> [!NOTE] Unsorted files
+> This strategy does work on [[Database Files#Heap files|unsorted files]], but will require ad-hoc sorting. This negates some of the performance gains 
+
+## Hash-join
+- Both relations must stored in a [[Database Files#Hash file|hash file]] using the **same** [[Hashing|hash function]]
+	- They must both have the same number of buckets
+- Has 2 phases:
+	1. Partitioning: for each $r$, compute the bucket address of $r.A$ and put the tuple there in memory
+	2. Probing
+		1. For each $s$, compute the bucket address, put it there
+			1. Compare each $r$ in the same bucket as $s$. Append matching pairs to the results file
