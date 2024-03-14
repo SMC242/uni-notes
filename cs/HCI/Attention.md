@@ -4,6 +4,11 @@ tags: HCI/Mobile
 # Overview
 Users pay varying levels of attention depending on their situation
 
+> [!NOTE] Key concept: fragmented attention
+> A user's attention is divided between the device and their surroundings.
+
+
+
 See also: [[Context]]
 
 # Multi-tasking
@@ -34,3 +39,8 @@ See also: [[Context]]
 - Multi-sensory: reduce reliance on visual attention
 	- Use vibration, light, sound
 - Flexible: support multiple input modalities
+
+# Safety
+- If a device is using too many cognitive resources, they may stop using it
+- However, they might tunnel-vision on it instead
+	- Could be dangerous or disruptive

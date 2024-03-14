@@ -30,3 +30,13 @@ Constraints introduced by the user's current activity
 
 # Situation impairment
 - When a context makes it harder to use a feature of a device
+
+> [!EXAMPLE] Examples
+> - Holding a page in one hand
+> 	- Only one hand is available to interact
+> - Bright environments
+> 	- Screen glare makes it harder to see content
+> - Busy street
+> 	- Can't hear audio
+> - Walking
+> 	- Need to watch surroundings
