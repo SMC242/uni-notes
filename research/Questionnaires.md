@@ -52,7 +52,7 @@ Provide a statement for the respondent to rate
 	- Would invalidate previous answers
 
 
-## Bias
+## Bias\
 There are 5 main types of response bias that affect questionnaires
 
 ### Satisficing

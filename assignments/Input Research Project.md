@@ -6,7 +6,7 @@ class:: "MHCI"
 deadline:: 2024-03-11T16:30
 difficulty:: Low
 time:: "Week"
-progress:: "Started"
+progress:: "Finished"
 
 # Pre-requisites
 
