@@ -26,6 +26,7 @@ Mobile devices have their own design constraints
 	- [[Touchscreens]]
 - [[Gestures]]: designing good gesture-based interactions
 - [[Adoption]]: factors that determine whether a technology will become popular
+- [[High Mobility Design]]: designing for users on the move
 
 # Mixed reality
 ![[Mixed Reality#Overview]]

@@ -69,6 +69,19 @@ External requirements [here](https://moodle.gla.ac.uk/pluginfile.php/7898929/mod
 	- Make menu semi-transparent
 		- Allows users to see the context
 
+## Input modality
+In this research, I will focus on quick-access menus for mobile games, drawing and editing software, and mixed reality games. For my input technique, I will use touch because it is readily available on mobile phones. I had hoped to use hand tracking, but opted for touch instead as I could not access the appropriate sensors. I 
+
+While I will be focusing on touch, I believe that my input technique would work for both hand-tracking and joystick input modalities. As such, I will make describe how the input technique could be adapted for those modalities throughout this paper.
+
+Input technique
+
+I have chosen to create a radial marking menu for the following reasons:
+1. A marking menu minimises the distance from the cursor to all buttons
+	1. This contrasts with traditional context menus which create a large distance between the click and the bottom-most menu item
+2. Marking menus spring out from a single point. This property can be leveraged to create contextual interactions such as editing a particular object in a drawing
+3. Marking menus are ideal for pen inputs because they easily glide from the centre-point to the buttons. This research aims to uncover whether such menus are also ergonomic for other modalities such as touch, hand-tracking, and joysticks
+
 ## Use cases
 - Quick-access
 	- You won't be able to have lots of items as they have to be close to the centre
@@ -92,7 +105,6 @@ External requirements [here](https://moodle.gla.ac.uk/pluginfile.php/7898929/mod
 	- Corner (would limit the number of items)
 	- Could be better for one-handed interaction
 - Lots of buttons
-- 
 
 # Bibliography
 - [Marking menus](https://dl.acm.org/doi/abs/10.1145/191666.191759)

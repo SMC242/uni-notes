@@ -6,8 +6,8 @@ Scrambling data to prevent unauthorised users from reading data
 
 Map of content: [[Cryptography]]
 
-- [[Cryptographic Signing]]: adding a signature to verify that the file hasn't been tampered with
-	- [[checksums]]
+See also:
+- [[TLS]]: a protocol for secured communication over [[HTTP]]
 
 # Managing access
 

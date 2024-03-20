@@ -11,6 +11,9 @@ A key exchange protocol for [[Asymmetric Cryptography]] using a pair of keys
 - The public key is safe to share over public channels
 - The private key cannot be shared
 
+See also:
+- [[Public-key Infrastructure]]
+
 # Definition
 - A public key encryption schema consists of 3 components:
 	- A key generator $(sk, pk) \leftarrow Gen$
