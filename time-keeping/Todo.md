@@ -33,3 +33,21 @@
 
 # Interships
 - [x] Do coding test
+
+# General
+- [x] Check MHCI grade
+- [ ] Work on dissertation
+	- [ ] What and how the system was implemented
+- [ ] Prepare for Ember interview
+	- [ ] Read the advertisement
+	- [ ] Who are they?
+	- [ ] What do they do?
+	- [ ] What is their tech stack?
+- [ ] Go over past papers and note gaps in knowledge
+	- [ ] Data fundamentals
+	- [ ] Cybersecurity fundamentals
+	- [ ] Programming languages
+	- [ ] Systems programming
+	- [ ] Database fundamentals
+	- [ ] PSD
+	- [ ] MHCI

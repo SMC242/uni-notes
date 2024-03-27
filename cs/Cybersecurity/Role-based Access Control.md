@@ -83,4 +83,3 @@ erDiagram
 
 - During a session, the user has a subset of their roles
 	- This follows the principle of least privilege
-	- 

@@ -21,11 +21,11 @@ See also:
 	- A decryption algorithm $M \leftarrow Dec_{sk}(M)$
 - $M_{1} = M_{2}$ must hold for $M_{2} \leftarrow Dec_{sk}(Enc_{pk}(M_{1}))$ 
 	- I.E $Dec_{sk}$ must decrypt $Enc_{pk}$
-- Acheives [[IND-CPA]]
+- Achieves [[IND-CPA]]
 
 # Protocol
 1. Party 1 generates private key $sk$ and public key $pk$
-2. Party 2 receives the private key somehow
+2. Party 2 receives the public key somehow
 	- An [[Authentication|authenticated channel]] or otherwise trusted source
 3. Party 2 encrypts their message with the public key
 	1. $C \leftarrow Enc_{pk}(M)$

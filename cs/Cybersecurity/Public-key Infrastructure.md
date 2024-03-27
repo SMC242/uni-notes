@@ -23,7 +23,6 @@ See first:
 3. Party 1 distributes their ID, public key, and certificate via some public channel
 4. Party 2 verifies the signature
 	- $Vrfy_{pk_{c}}(ID_{A} || pk_{A}, cert_{A}) \stackrel{?}{=} 1$
-5. 
 	
 
 > [!TIP] Concatenation
@@ -62,4 +61,3 @@ A CA can know that a public key is legitimate if either:
 	- In case a user's private key is stolen or an employee leaves a company
 - Certificates have a validity period and a serial number
 	- The serial number is used to ask the CA if the certificate was revoked
-- 
