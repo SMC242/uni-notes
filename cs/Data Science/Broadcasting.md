@@ -12,6 +12,7 @@ b. One of the dimensions is `1`
 Two dimensions are compatible if one of the following is true:
 a. They are equal
 b. One of the dimensions is `1`
+c. The last dimensions of the first array match the shape of the second array
 
 # Examples
 ```python
