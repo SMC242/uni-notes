@@ -2,7 +2,7 @@
 This is one system for describing types of [[Data Visualisation]]s
 
 Visualisations are formed of the following components:
-- Stats: computed statistics
+- [[#Stats]]: computed statistics
 	- Mean
 	- Standard deviation
 - Mapping: some function that takes data and creates visual values
@@ -31,21 +31,33 @@ Visualisations are formed of the following components:
 	- Shows the coordinate system
 - Annotate important features
 
+## Plotting variables
+- It's conventional to put variables on particular axes
+	- X-axis: independent variable
+	- Y-axis: dependent variable
+## Axes
+-  Avoid non-zero axis origins unless it makes the graph much clearer
+	- Starting from a non-zero value can make values look bigger
+
 # Geoms
 - A few types
 	- Lines/curves
 		- Line graph
+		- Tells you what happens between points
 	- Markers/points
 		- Scatter plot
 	- Patches
 		- Bar charts
 
-# Plotting variables
-- It's conventional to put variables on particular axes
-	- X-axis: independent variable
-	- Y-axis: dependent variable
+## Colour
+- Use a colour scale monotonically varying brightness
+	- Colours that are *perceptually* equal in difference
+	- Human perception of colour is non-linear
+- For signed data (can be positive or negative), use a different colour on each side of 0
+- Always provide a colour bar for reference
 
-# Showing uncertainty
+
+## Showing uncertainty
 - Method 1: show an area around a line plot
 	- Mark each datapoint
 	- Draw a line between them
@@ -56,7 +68,12 @@ Visualisations are formed of the following components:
 
 Error bars (left), ribbon (right)
 
-# Axes
-- Avoid non-zero axis origins unless it makes the graph much clearer
-	- Starting from a non-zero value can make values look bigger
-	- 
+# Stats
+- 3 main types
+	- Aggregates
+		- Averages like means and medians
+		- Deviations like standard deviation, min/max, interquartile range
+	- Binning: grouping continuous data into discrete bins
+	- Smoothing, regressions: finding a function that approximates the data
+		- [[Linear Regression]]
+- 
