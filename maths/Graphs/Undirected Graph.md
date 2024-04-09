@@ -27,7 +27,7 @@ E &= \{ \{ a, z \} \}\\
 $$
 
 ## Adjacency matrix
-A matrix consisting of boolean values (0 or 1) representing whether every vertex is adjacent to every other vertex
+A [[Matrices|matrix]] consisting of boolean values (0 or 1) representing whether every vertex is adjacent to every other vertex
 - Dimensions: $|a| \times |b|$
 
 <img alt="Adjacency matrix example" height="400px" src="https://i.stack.imgur.com/GahiR.jpg" />
