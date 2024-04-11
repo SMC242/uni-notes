@@ -2,6 +2,8 @@
 tags:
   - Matrix
   - LinearAlgebra
+aliases:
+  - Matrix
 ---
 # Overview
 - Tables / 2D arrays
