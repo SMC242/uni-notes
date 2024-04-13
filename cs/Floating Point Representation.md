@@ -78,6 +78,8 @@ The following errors can occur when doing floating point operations:
 	- Subtracting numbers that are almost equal
 - Comparing floats
 	- Due to the imprecision of floats, two numbers that would logically be equal may not be equal in their representation
+- $\frac{x}{y}$ (divisions magnification)
+	- Division amplifies the existing error
 
 ### Round-off error mitigation
 - Compare using an error tolerance $\epsilon$

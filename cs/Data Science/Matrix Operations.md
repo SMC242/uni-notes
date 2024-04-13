@@ -23,9 +23,6 @@ tags:
 
 $$A^{n} = \prod^{n}_{i=1} A$$
 
-# Eigenvalues
-![[Eigenvalues]]
-
 # Decompositions
 Matrix decompositions are algorithms for factorising matrices into its components
 
@@ -59,7 +56,7 @@ where:
 
 - Factorises *any* matrix
 	- In $O(n^3)$ time for [[Matrices#Square|square matrices]]
-- If $A$ is real, $U,V$ will be [[Matrices#Orthogonal|orthogonal matrices]]. All rows and columns will have [[Vector Operations#Norms|norm]] =1
+- If $A$ is real, $U,V$ will be [[Matrices#Orthogonal|orthogonal matrices]]. All rows and columns will have [[Vector Operations#Norms|norm]] = 1
 - $U,V$ are [[Matrices#Orthogonal|orthogonal matrices]] and represent pure rotation
 - Can be used to simplify a linear map
 	- Technically, it finds a linear map that does a similar thing

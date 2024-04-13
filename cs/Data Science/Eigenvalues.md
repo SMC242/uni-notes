@@ -8,7 +8,9 @@ aliases: Eigenvectors
 	- The eigenvectors are not unique to the eigenvalue
 - The eigenvalues are used in eigenvectors, which are special vectors that only get scaled (no rotation) when multiplied by the matrix
 	- $Ax = \lambda x$ where $\lambda$ is the eigenvalue
-	
+
+See also:
+- [[Matrix Operations#Eigendecomposition|Eigendecomposition]]
 
 > [!NOTE] Applications
 > - Finding the axes of rotation

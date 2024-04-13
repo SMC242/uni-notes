@@ -5,6 +5,8 @@ See first:
 - [[Vector Spaces]]
 - [[Vector Operations#Norms|Vector norms]]
 
+See also:
+- [[Higher Order Optimisation]]
 # Parameters
 - Parameters ($\theta$) exist in [[Vector Spaces|parameter space]] as vectors
 
@@ -32,6 +34,7 @@ $$L(\theta) = ||y\prime - y|| = ||f(x; \theta) - y||$$
 # Approximation
 - When you have a target and want to get as close as possible to it
 - Application: [[Machine Learning]]
+- Typically involves training with a large dataset of examples
 
 # Spaces
 - [[#Parameters|Parameter spaces]] may be continuous or discrete
@@ -98,6 +101,17 @@ There are a few methods of applying constraints to a function
 - Minima are points in objective function space where the objective function increases in every direction
 - Not necessarily the global minimum
 	- Local minima can cause optimisers to get stuck on sub-optimal solutions
+
+# Critical points
+- Plateaus: causes wandering (optimisers that don't have memory) or stopping (derivative-based optimisers)
+	- Mitigated using memory and momentum
+- Saddle points (valleys): traps [[Higher Order Optimisation#Gradient descent|gradient descent]] methods
+- Ridge: prevents exploration of a portion of the topography
+
+![Objective function line plot](https://www.cs.iusb.edu/~danav/teach/c463/landscape.gif)
+
+![Plotted objective functions](https://preview.redd.it/gias0iu724g81.png?width=918&format=png&auto=webp&s=50178de56c269c4c03bf005a2f791f65a6598d9c)
+
 # Convex functions
 - An objective function that has only one minimum is known as a "convex" function
 - The optimiser can stop as soon as a minimum is found
@@ -140,14 +154,8 @@ Potential issues:
 - Slow progress: very small changes between steps, causing the objective function to be evaluated many times. Won't cover much space
 - Diverging performance: optimisers can get caught in regions of infinitely decreasing values
 - Noise: bouncing around without making progress
-- Plateaus: causes wandering (optimisers that don't have memory) or stopping (derivative-based optimisers)
-	- Mitigated using memory and momentum
-- Saddle points (valleys): traps gradient descent methods
 - Steep/discontinuous objective functions: gradient descent gets stuck. Stochastic methods have to be used
 
-![Objective function line plot](https://www.cs.iusb.edu/~danav/teach/c463/landscape.gif)
-
-![Plotted objective functions](https://preview.redd.it/gias0iu724g81.png?width=918&format=png&auto=webp&s=50178de56c269c4c03bf005a2f791f65a6598d9c)
 
 > [!NOTE] Hyperparameters
 > - Parameters for the optimisation algorithm
@@ -286,10 +294,11 @@ Structure:
 | Know the derivatives of the objective function, or can compute them | Use a first-order method (or second order, if possible).                                   |
 | Don't know any of these things                                      | Use a general-purpose zeroth-order solver like simulated annealing or a genetic algorithm. |
 
+# Stochastic relaxation
+- Using controlled randomness to escape local minima
 
-# Orders of optimisation
-- First order methods have an attractor that rolls towards the solution (a minima)
-	- Visualise it as a ball rolling down a slope until it settles into a minima
+> [!EXAMPLE] Examples
+> - Adding noise to the objective funciton
+> - Randomly bumping the search trajectory
+> - Random sampling
 
-# Gradient descent
-- A method built on top of [[Automatic Differentiation]]
