@@ -12,7 +12,7 @@ The address of a [[Pointers|pointer]] in C can be accessed with the following sy
 ```c
 type * pointer = &pointer
 ```
-where `type` is the type of the contents of the address
+where `type` is the type of the contents of the address. This allows the compiler to allocate enough memory for the result
 
 # Following a pointer
 "Following" a pointer gets the value at the address
@@ -85,3 +85,7 @@ void print_a(){
 	free(a);
 }
 ```
+
+# Dangling pointers
+- A pointer to de-allocated variable
+- 
