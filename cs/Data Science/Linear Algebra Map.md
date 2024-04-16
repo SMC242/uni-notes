@@ -9,3 +9,4 @@ Linear algebra is the field of vectors and matrices
 - [[Matrices]]
 	- [[Matrix Operations]]
 - [[Mathematical Optimisation]]
+	- [[Higher Order Optimisation]]

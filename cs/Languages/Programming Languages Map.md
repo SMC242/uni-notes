@@ -9,6 +9,8 @@ Programming languages are tools for describing programs to a computer. They each
 	- [[Compiler Bootstrapping]]: how the first compiler was made
 	- [[Abstract Syntax Tree]]: representing the commands in the program
 - [[Scopes]]: where a variable is defined
+- [[Variables And Lifetimes]]: when variables are created and destroyed
+- [[Bindings]]: identifiers and their namespaces
 
 ## Type theory
 #TypeTheory

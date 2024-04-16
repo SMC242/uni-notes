@@ -2,6 +2,12 @@
 Scope refers to the region of code where a variable is defined
 
 # Scoping systems
+- A language might use multiple scoping systems
+	- It's common to have [[#flat block]]-scoped functions and [[#nested]] variable scopes
+
+## Monolithic
+- There is only one scope
+
 ## Flat block
 - When there is only a global and local scope
 

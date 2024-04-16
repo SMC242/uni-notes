@@ -1,4 +1,4 @@
-Underlying probability is set theory
+Underlying probability is [[Maths Map#Set theory|set theory]]
 
 # Outcomes
 An outcome is when a random process produces a value, such as rolling a dice and reading the number. In that case, the specific number is the outcome.

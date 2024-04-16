@@ -7,6 +7,7 @@ See first:
 
 See also:
 - [[Higher Order Optimisation]]
+
 # Parameters
 - Parameters ($\theta$) exist in [[Vector Spaces|parameter space]] as vectors
 

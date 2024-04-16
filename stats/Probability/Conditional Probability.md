@@ -19,9 +19,11 @@ This is a second way of formatting the table. It does not function differently.
 # Formula
 You just take the probabilities and put them into the following equation:
 
-$P(A|B) = \frac{P(\textrm{A and B})}{P(B)}$
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$
 
-Remember AND from ![[Independence#And of multiple events]]
+See also:
+- [[Probabilistic  Models#Multiplication rule|AND in statistics]]
+
 # Bayes Theorem
 Used to flip conditional probabilities from $P(\textrm{A is x | B is y})$ to $P(\textrm{B is y| A is x})$
 
