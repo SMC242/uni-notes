@@ -106,7 +106,7 @@ where $X,Y$ are input matrices
 - All of the [[#Eigenvalues|eigenvalues]] are $\pm 1$
 
 > [!NOTE]
-> They're referred to as "orthogonal" vectors instead of perpendicular vectors because orthogonality is the more general term. It encompasses all coordinate systems whereas perpendicularity is only defined in Euclidean geometry
+> They're referred to as "orthogonal" vectors instead of perpendicular vectors because orthogonality is the more general term. Perpendicularity is only defined in 2 dimensions, whereas orthogonality refers to any number of dimensions
 
 ## Covariance
 - Denoted by $C$ or $\Sigma$

@@ -93,7 +93,7 @@ where:
 | Matrix not full-rank                                        | Singular (deficient rank), cannot be inverted |
 
 ### Condition number
-- The ratio of the largest singular value to the smallest
+- The ratio of the largest singular value (from $\Sigma$) to the smallest
 - Only defined for full-rank matrices
 - Indicates how sensitive the inverse of the matrix is to minor changes
 	- Measures how close the matrix is to being [[#Determinant|singular]]
@@ -112,6 +112,8 @@ AKA PCA
 	- They indicate the directions of greatest variance
 - Length of a PC: $\sqrt{\lambda_i}$
 - The direction of a PC is just the eigenvector
+
+![PCA example](https://numxl.com/wp-content/uploads/principal-component-analysis-pca-featured.png)
 
 > [!NOTE] Dimensionality reduction
 > - The key use case for PCA is to reduce a dataset to fewer dimensions
