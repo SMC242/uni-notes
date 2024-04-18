@@ -41,7 +41,7 @@ today = xmas;
 - Global variables have lifetime = program 
 - Local variables live inside their context (E.G a block or function)
 - [[Stack and Heap#Heap|Heap-allocated]] variables live as long as they are allowed to 
-	- Depends on the memory management system of the language (E.G manual, reference counting, garbage collection, ownership)
+	- Depends on the memory management system of the language (E.G manual, reference counting, [[garbage collection]], ownership)
 	- Accessed with pointers
 	- An operation that allocates heap variables is called an "allocator"
 		- `new` in Java
