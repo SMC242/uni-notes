@@ -36,3 +36,7 @@ Process:
 	- Young: short-lived variables
 - Garbage collection runs less frequently on the old space
 - Variables that survive a certain number of generations get *promoted*to the old space
+
+## Reference counting
+- A count of references is maintained for each variable
+- When the count reaches 0, it is deallocated
