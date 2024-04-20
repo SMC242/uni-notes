@@ -8,6 +8,8 @@ The [[Compilation Phases|compilation stage]] where an [[Abstract Syntax Tree|AST
 
 - Implemented in OOP languages with the [[Visitor Pattern]]
 
+See also:
+- [[Native Code Generation]]
 
 # Address allocation
 - Deciding how and where variables will be stored in memory
