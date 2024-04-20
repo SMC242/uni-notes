@@ -37,3 +37,13 @@ The probability of all [[Events And Outcomes|outcomes]] for a given experiment c
 - The distribution of a sample
 - Won't be the same as the true distribution, but will tend towards the true distribution with repetitions
 	- See [[Sampling#Central Limit Theorem|Central Limit Theorem]]
+- Estimated from a set of values with $P(X = x) = \frac{n_{x}}{N}$
+	- $n_x$ is the number of times $x$ was observed
+	- $N$ is the number of trials
+	- Approximates the [[#Probability mass function|PMF]]
+		- Doesn't work for continuous values because the likelihood of the same value reappearing is low
+
+
+# Distribution types
+- The type of a distribution can be annotated like so: $X \sim U$ 
+	- $U$ means that $X$ is uniformly distributed

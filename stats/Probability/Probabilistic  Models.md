@@ -9,6 +9,7 @@ There are a few classes of questions that you can ask about a probabilistic mode
 
 # Multiplication rule
 - Used in cases where you want to know the likelihood of multiple [[Independence|independent]] events occurring at the same time, such as rolling 3 on a die three times.
+- If they're dependent, use [[Joint Probability]]
 
 $$P(A \cap B) = P(A) \times P(B)$$
 
