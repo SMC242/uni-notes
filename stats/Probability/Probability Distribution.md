@@ -6,6 +6,9 @@ The probability of all [[Events And Outcomes|outcomes]] for a given experiment c
 > - $P(X)$
 > - $P(x)$  for a specific $x$
 
+See also:
+- [[Continuous Distributions]]
+
 # Probability functions
 - A [[Functions|function]] $f_{X}(x), x \rightarrow \mathbb{R}$ that defines the probability distribution
 - There are two types depending on the nature of the random variable
@@ -16,8 +19,12 @@ The probability of all [[Events And Outcomes|outcomes]] for a given experiment c
 | Discrete function   | Probability mass function (PMF)    | No                |
 ## Probability density function
 - Shows the spread of probability between the outcomes
+	- The density at a given point
 - Integrates to 1
 	- $\int_{x} f_{X} (x) dx = 1$
+	- But the maximum value of a PDF is not 1!
+- The probability of any given value is 0
+	- It's very unlikely that two observations will be equal because [[Domains#Number sets|real numbers]] are infinite
 
 ## Probability mass function
 - Maps outcomes to probabilities (I.E retrieves the probability of an outcome)

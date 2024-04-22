@@ -22,10 +22,13 @@ See first:
 - Strategy: determine when variables are "live" and remove them from the registers when they are not
 	- A variable is considered live if it could be inspected in the future
 
+
 ## Basic blocks
 - Basic blocks are a sequence of instructions with little jumping
 	- Only jumping at the end or to the start of the the block
 - Given some code that meets these requirements, you can split its sub-expressions into temporary, intermediate variables
+	- This form is called "three-address-code"
+		- It involves 1 assignment and two operands involved in a binary operation
 - These variables can then be assigned to registers
 
 > [!EXAMPLE]

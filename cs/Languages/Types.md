@@ -36,8 +36,6 @@ Typical built-in primitives include:
 > [!NOTE] Names have different meanings
 > A BOOL in one language can mean a single bit, while in another it could mean a small integer
 
-
-
 # Composite types
 A type made up of another types
 

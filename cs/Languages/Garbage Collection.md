@@ -2,7 +2,6 @@
 aliases:
   - GC
 ---
-
 # Overview
 A method of automatic memory management where the runtime periodically deallocates unused [[Stack and Heap#Heap|heap]] variables
 
