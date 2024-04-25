@@ -15,3 +15,11 @@ See also:
 - Can be transformed with a [[Matrices|matrix]] and/or shifted by adding a [[Vectors|vector]]
 
 ![A 3D multivariate uniform distribution](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJ0aLCKXhnhIfvbV0A7jmEW13MxSgG_78APNczkKUjQ&s)
+
+# Multivariate normal
+- A ball transformed by the [[Matrices#Covariance|covariance matrix]] $C$ and shifted by the [[Vector Operations#Mean|mean vector]]
+
+# Joint and marginal
+- The [[Joint Probability|joint probability density function]] is the joint probability of the whole vector taking a particular value
+- The [[Joint Probability#Marginal probability|marginal probability density function]] is the density for a subset of the dimensions
+- You can also get the [[Conditional Probability|conditional]] densities

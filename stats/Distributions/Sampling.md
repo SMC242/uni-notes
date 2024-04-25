@@ -42,3 +42,13 @@ You can look at the difference between two proportions
 $$SE=\sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}$$
 The confidence interval version:
 $$\hat{p}_1 - \hat{p}_2 \pm z^* \sqrt{\frac{p_1(1-p_1)}{n_1}+\frac{p_2(1-p_2)}{n_2}}$$
+
+# Monte Carlo
+- Problem: it can be difficult to compute the [[Predictions#Expected Value|expected value]] of a continuous random variable
+- Solution: approximate the expected value by repeatedly sampling from the distribution
+	- Usually by simulating
+
+$$\mathcal{E}(g(X)) = \int_{x}f_{X}(x) \cdot g(x) dx \approx \frac{1}{N} \sum\limits_{i = 1}^{N} g(x_{i})$$
+
+See also:
+- [[Probability Distribution#Probability density function|Probability density functions]]
