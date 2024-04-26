@@ -168,6 +168,7 @@ Potential issues:
 - Finds a solution directly (not iteratively)
 - Handles objective functions of the form $L(x) = ||Ax - y||^{2}_2$
 	- Functions that minimise the squared $L_{2}$ norm by applying some [[Matrices|Matrix]]
+- The basis for [[Least Squares Regression]]
 
 ### Line fitting
 - Direct algorithm

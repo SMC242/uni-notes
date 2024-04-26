@@ -2,6 +2,8 @@
 tags:
   - Vector
   - LinearAlgebra
+aliases:
+  - Vector
 ---
 # Overview
 Vectors are 1D arrays of a fixed length. They can be used to describe many things, such as points in a mesh, fields with direction ("arrows"), or points in $n$D space. In [[Data Science Map|Data Science]], they are thought of as points in space.

@@ -111,6 +111,7 @@ where $X,Y$ are input matrices
 ## Covariance
 - Denoted by $C$ or $\Sigma$
  - A matrix that represents the spread of the points in a matrix
+	 - A higher-dimensional version of variance
  - Computes the variance of each vector from the [[Vector Operations#Mean|mean vector]]
  - The covariance ellipse can be plotted to show a circle that has been sheared to cover all the points
 	 - Strongly correlated data will form an ellipse
