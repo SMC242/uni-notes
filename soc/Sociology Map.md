@@ -19,6 +19,7 @@ See [[Author Map]] for detailed groupings by topic
 - [[Ethnicity Overview|Ethinicity]]
 	- #Racism
 - [[Sexuality]]
+- [[Intersectionality]]
 - #Health 
 - [[Criminology Overview]]: the study of crime
 	- [[Critical Criminology]]

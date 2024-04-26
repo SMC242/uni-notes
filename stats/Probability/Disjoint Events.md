@@ -4,4 +4,3 @@ Two [[Events And Outcomes#Events|events]] are disjoint ("mutually exclusive") if
 # Addition
 $P(A) + P(B) = P(A) + P(B)$
 
-#

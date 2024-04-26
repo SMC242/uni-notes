@@ -8,7 +8,7 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"soc\" OR tag:SocEssay",
+      "query": "path:\"soc/\" OR tag:SocEssay",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -81,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 86,
-  "scale": 0.20632078327541162,
+  "scale": 0.11714600304775842,
   "close": true
 }
