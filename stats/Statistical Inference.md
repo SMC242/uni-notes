@@ -63,6 +63,7 @@ AKA log-likelihood optimisation, MLE
 
 ## Bayesian inference
 - Uses distributions over parameters instead of direct values
+	- Outputs the *models that are compatible with the data* rather than a single best-fit model
 - Start with initial guesses for the parameters (the initial hypotheses or "prior"s)
 - Consider the parameters as random variables
 	- This means we can estimate the distribution of their values
@@ -72,7 +73,7 @@ AKA log-likelihood optimisation, MLE
 - Posterior formula: $P(\theta|D) = \frac{P(D | \theta) \cdot P(\theta)}{P(D)}$ where $D$ is the data, $P(\theta)$ is a prior over parameters
 
 Requirements:
-- A prior $P(\theta)$ over the parameters
+- A prior $P(\theta)$ over a parameter vector
 	- I.E an [[#initial model]] including values for $m$, $c$, and $\epsilon$
 - A likelihood function $P(D | \theta)$
 - A way to combine them into the posterior formula
@@ -82,6 +83,73 @@ Requirements:
 See also:
 - [[Bayes' Rule]]
 
-### Bayesian linear regression
-- The parameters are packed into a [[Vectors|vector]] $\theta$
+> [!TIP]
+> Bayesian inference is the process of updating your prior beliefs based on new evidence
+
+### Models as graphs
+AKA graphical models
+
+- Expressions can be converted to graphs
+- Used to model dependencies between random variables
+	- Some variables will have been observed, others won'will be unobserved
+	- Dependencies are either deterministic (defined by the parent) or stochastic (defined by a distribution)
+		- Stochastic nodes require prior distributions
+- You can do inference on the graph
+	- You can find the posterior distribution of the unobserved nodes (I.E infer their distribution) by integrating over the possible values given the observed values (the evidence)
+- Variables can be fixed (assigned a fixed value) if you can express this knowledge as a distribution
+- Stochastic nodes that don't depend on a deterministic node are not allowed
+	- Such nodes are known as "wild nodes"
+
+
+> [!EXAMPLE]
+> $$y = mx + c$$
+> ```mermaid
+> graph RL
+> 	y
+> 	m
+> 	x
+> 	mx
+> 	c
+> 	m --> mx
+> 	x --> mx
+> 	mx --> y
+> 	c --> y
+>  ```
+
+> [!EXAMPLE] Detailed Example
+> $$\begin{align*}\\
+> y &\sim N(\mu, \sigma)\\
+> \mu &= mx + c
+> \end{align*}$$
+> ```mermaid
+> graph RL
+> 	y(y)
+> 	m(m)
+> 	x[x]
+> 	mx(mx)
+> 	c(c)
+>     μ(μ)
+>     σ(σ)
+> 
+> 	m -.-> mx
+> 	x -.-> mx
+> 	mx -.-> μ
+> 	c -.-> μ
+>     μ --> y
+>     σ --> y
+> ```
+> - Dotted lines are deterministic dependencies
+> - Solid lines are stochastic dependencies
+> - Circular nodes are random variables
+> - Square nodes are observed variables
+> - Key assumption: there is some invisible structure that can be modelled as a linear relationship to $x$
+
+### Computing
+- Computed using [[Markov Chain Monte Carlo]]
+- We assume that $P(\theta | D) = \frac{P(D | \theta) P(\theta)}{\int_{\theta} P(D | \theta) P(\theta)} \propto P(D | \theta) P(\theta)$
+	- I.E that $P(D)$ is just a normalising constant
+- Make assumptions about the distributions for your stochastic variables (E.G $m, c, \sigma$)
+- Find a likelihood function
+	- For a linear regression, it's $L(D | \theta) = L(x, y; m, c, \sigma) = f_{X} (y - mx + c, \sigma^2)$
+- The histogram of posterior samples is called the "trace"
 - 
