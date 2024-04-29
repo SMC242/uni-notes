@@ -70,6 +70,6 @@ Modelling the tendency of data as a line
 # Time series
 Analysing data with a time dimension
 
-- [[Time Series Analysis]]
+- [[Seasonal Trends]]
 - [[Trends]]: types of trends
 
