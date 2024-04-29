@@ -17,7 +17,7 @@ max-marks:: 60
 - [ ] Best-effort servicing
 	- [ ] Why does the Internet use it?
 	- See [[Internet Protocol#IP Service Model]]
-- Packet vs circuit switching - see [[Signals#Switching within networks]]
+- Packet vs circuit switching - see [[cs/Networking/Signals#Switching within networks]]
 - [ ] Routing algorithms - see [[Intra-domain Routing]]
 - [x] [Caching](https:://moodle.gla.ac.uk/pluginfile.php/5701734/mod_resource/content/9/14.%20Paging.pdf)
 	- [x] LRU

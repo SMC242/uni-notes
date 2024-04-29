@@ -4,6 +4,13 @@ This note covers the complexities of dealing with continuous random variables
 See first:
 - [[Probability Distribution#Probability density function|Probability density functions]]
 
+# Problems
+- A PDF doesn't output the probability of $x$, but the density at $x$
+	- The probability for any $x$ will be 0 because it's extremely unlikely that two randomly sampled real numbers will be equal
+	- Instead, use a [[#Within range|range]]
+- The density can be > 1
+	- Use [[#Cumulative distribution functions|CDFs]] instead
+
 # Within range
 $$P(X \in (a,b)) = (a \lt X \lt b) = \int_{a}^{b} f_{X}(x)$$
 - The probability of $X$ being in the range $a..b$

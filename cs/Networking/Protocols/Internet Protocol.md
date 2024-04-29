@@ -24,7 +24,7 @@ tags:
 	- Just send [[Packets]] without establishing a connection
 - [[Best Effort Servicing|Best effort]]
 - It's simple to simulate a circuit-switched system with a packet-switched system
-	- See [[Signals#Switching within networks]] for more information on circuit and packet systems
+	- See [[cs/Networking/Signals#Switching within networks]] for more information on circuit and packet systems
 
 # Versions
 - The Internet Protocol has been through two main versions

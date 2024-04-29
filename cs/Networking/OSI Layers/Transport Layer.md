@@ -102,7 +102,7 @@ In order to use new protocols, applications "tunnel" by going through the core p
 
 ## Sockets
 Two types:
-- Stream: [[Signals#Virtual circuits|virtual circuit service]]
+- Stream: [[cs/Networking/Signals#Virtual circuits|virtual circuit service]]
 	- Uses TCP/IP
 - Datagram (framed): packet service
 	- Uses UDP/IP

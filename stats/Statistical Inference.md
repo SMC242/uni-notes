@@ -61,6 +61,18 @@ AKA log-likelihood optimisation, MLE
 	- Aiming to minimise the negative log-likelihood avoids [[Floating Point Representation#Exceptions|underflow errors]]
 	- [[Higher Order Optimisation#Gradient descent|Gradient descent]] can be used if this is differentiable
 
+### Mixture models
+- When there are multiple components in a distribution
+	- Example: a distribution with two [[Normal Distribution|normal-like]] humps
+	- Used to model clusters
+- Use multiple models $\mathcal{N}_i(\mu_{i}, \sigma_{i})$ with weighting factors $\lambda_i$
+	- The weighting factors must add up to 1
+	- Indicates the importance of a component (I.E how likely an observation is to fall in that component)
+- Problem: no estimators exist for these models
+- Solution: just optimise
+	- The likelihood function is $\mathcal{L}(\theta | x)$ and is the log of the weighted sum of the [[Probability Distribution#Probability density function|PDFs]]
+	- The parameter vector made up of all the $\mu, \sigma, \lambda$s
+
 ## Bayesian inference
 - Uses distributions over parameters instead of direct values
 - Start with initial guesses for the parameters (the initial hypotheses or "prior"s)
@@ -70,6 +82,9 @@ AKA log-likelihood optimisation, MLE
 	- Observations are used to create a tighter distribution (the "posterior")
 	- The distribution would change as more observations are added to the dataset
 - Posterior formula: $P(\theta|D) = \frac{P(D | \theta) \cdot P(\theta)}{P(D)}$ where $D$ is the data, $P(\theta)$ is a prior over parameters
+- The predictive posterior is the expected distribution of observations
+	- If the model is good, sampling from this will be like sampling from the real distribution
+	- I.E it approximates the real distribution
 
 Requirements:
 - A prior $P(\theta)$ over the parameters
@@ -84,4 +99,3 @@ See also:
 
 ### Bayesian linear regression
 - The parameters are packed into a [[Vectors|vector]] $\theta$
-- 
