@@ -51,6 +51,14 @@ Signals are continuous values that vary over time/space. Usually but not always 
 - Linear filtering strateties satisfy [[Matrices#Linearity|linearity]]
 - When each output is the [[Vector Operations#Weighted sum|weighted sum]] of the previous inputs
 - Efficient at the hardware level
+- Can't add new frequencies
+	- You have to use a non-linear filter for this
+
+## Common filters
+- Smoothing/lowpass filter: [[#Moving average]] - reduces higher frequencies
+- Highpass filter: reduces low frequencies
+- Bandpass filter: reduces frequencies outside of a given band
+- Notch/bandstop filter: reduces frequencies *inside* a band
 
 ## Moving average
 AKA lowpass filter
@@ -141,3 +149,14 @@ $$c = \sum\limits_{t} a[t]b[t]$$
 | Unrelated                               | $c \approx 0$             |
 | $a[t], b[t]$ are closely related        | $c$ is large and positive |
 | $a[t], b[t]$ are inverses of each other | $c$ is large and negative |
+
+# Convolution theorem
+See first: [[Fourier Transform]]
+
+$$FT(f(x) * g(x)) = FT(f(x)) FT(g(x))$$
+and
+$$f(x) * g(x) = IFT\left( FT(f(x)) FT(g(x)) \right)$$
+
+- You can get the Fourier transform of the [[#convolution]] of two signals by taking the product of their Fourier transforms
+- Reversible using the second formula
+- Useful for computing convolutions in the frequency/spatial frequency domain and then converted to the time/spatial domain

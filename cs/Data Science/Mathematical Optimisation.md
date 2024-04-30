@@ -248,6 +248,10 @@ Structure:
 - Assumes the objective function is continuous
 - Can get trapped in minima
 - Doesn't work with objective function regions that are flat (think of these as valleys - it takes many strides to get out of a valley, which may be larger than the jumps the algorithm is configured to use)
+	- Also vulnerable to ridges
+- Unpredictable running time
+	- Might take lots of good steps, might not
+	- Might get stuck rolling around in an area
 
 > [!TIP] Handling Local Minima
 > Two adjustments can be added to avoid getting stuck in local minima:

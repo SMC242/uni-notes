@@ -4,7 +4,7 @@ tags:
   - LinearAlgebra
 ---
 # Multiplication
-- $(R^{n \times m}, R^{m \times p} \rightarrow R^{m \times p}$
+- $(R^{n \times m}, R^{m \times p}) \rightarrow R^{m \times p}$
 - The weighted sum
 	- Element-wise multiplication of each row of $A$ by each column of $B$
 - Not [[Properties|commutative]]
@@ -108,7 +108,7 @@ where:
 # Principle component analysis
 AKA PCA
 
-- The [[#Eigenvalues|]] of the [[Matrices#Covariance|covariance]] matrix are known as the "principle components" of the matrix
+- The [[#Eigenvalues]] of the [[Matrices#Covariance|covariance]] matrix are known as the "principle components" of the matrix
 	- They indicate the directions of greatest variance
 - Length of a PC: $\sqrt{\lambda_i}$
 - The direction of a PC is just the eigenvector

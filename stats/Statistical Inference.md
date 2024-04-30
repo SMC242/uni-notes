@@ -86,26 +86,26 @@ AKA log-likelihood optimisation, MLE
 ## Bayesian inference
 
 - Uses distributions over parameters instead of direct values
-  - Outputs the _models that are compatible with the data_ rather than a single best-fit model
+	- Outputs the _models that are compatible with the data_ rather than a single best-fit model
 - Start with initial guesses for the parameters (the initial hypotheses or "prior"s)
 - Consider the parameters as random variables
-  - This means we can estimate the distribution of their values
+	- This means we can estimate the distribution of their values
 - Update the parameters based on the [[Odds#Likelihood|likelihood]] of a parameter taking on a value
   - Observations are used to create a tighter distribution (the "posterior")
-  - The distribution would change as more observations are added to the dataset
+	- The distribution would change as more observations are added to the dataset
 - Posterior formula: $P(\theta|D) = \frac{P(D | \theta) \cdot P(\theta)}{P(D)}$ where $D$ is the data, $P(\theta)$ is a prior over parameters
 - The predictive posterior is the expected distribution of observations
-  - If the model is good, sampling from this will be like sampling from the real distribution
-  - I.E it approximates the real distribution
+	- If the model is good, sampling from this will be like sampling from the real distribution
+	- I.E it approximates the real distribution
 
 Requirements:
-
 - A prior $P(\theta)$ over a parameter vector
-  - I.E an [[#initial model]] including values for $m$, $c$, and $\epsilon$
+	- I.E an [[#initial model]] including values for $m$, $c$, and $\epsilon$
 - A likelihood function $P(D | \theta)$
 - A way to combine them into the posterior formula
-  - $P(D)$ is usually infeasible to compute
-  - Instead, approximate using [[Sampling#Monte Carlo|Monte Carlo]]
+	- $P(D)$ is usually infeasible to compute
+		- Instead, approximate using [[Sampling#Monte Carlo|Monte Carlo]]
+		- Slow to compute, even with MCMC
 
 See also:
 
