@@ -1,5 +1,6 @@
 # Overview
 In order to implement [[Mixed Reality]], you need to track where the user is and what they're doing
+
 # Degrees of freedom
 AKA DoF
 

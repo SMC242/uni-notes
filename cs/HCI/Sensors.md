@@ -36,7 +36,6 @@ AKA SLAM
 
 - Maps the environment in real time
 - Tracks your position within the environment
-- 
 
 # Sensing
 ## Surroundings

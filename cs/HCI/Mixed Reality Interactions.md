@@ -15,7 +15,7 @@ Pros:
 Cons:
 - Not hands-free
 	- You have to hold chunky controllers
-- The format factor might be inconvenient for some interaction [[cs/HCI/Context|Context|contexts]]
+- The format factor might be inconvenient for some interaction [[cs/HCI/Context|contexts]]
 
 ### Metaphors
 - Using a controller that looks like the thing you're simulating can make interactions more intuitive
@@ -85,6 +85,7 @@ When should select events be emitted?
 - When in a particular input mode?
 	- The user could select pinch or push mode
 		- Like Photoshop but VR
+
 ## Dwelling
 - When a user hovers over an object for some period of time before the select event is emitted
 
@@ -101,7 +102,6 @@ Solutions:
 - Teleportation: allow the user to teleport
 - Controller (E.G joystick)
 - 360 degree treadmill
-
 
 # Design considerations
 - [[#Reach]]: what can the users reach *with minimal effort*?
@@ -142,7 +142,7 @@ Solutions:
 - Avoid prolonged arm-raising ("gorilla arm")
 	- Keep elbows close to torso during long interactions
 	- Use [[#Ray-casting-based interaction]] to reduce reaching
-	- Reduce [[#Dwelling#dwell time]] or use mode switches to reduce interaction duration
+	- Reduce [[#Dwelling#dwell time|dwell time]] or use mode switches to reduce interaction duration
 - Measurable with the [consumed endurance model](https://dl.acm.org/doi/10.1145/2556288.2557130)
 
 ## Legibility

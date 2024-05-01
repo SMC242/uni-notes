@@ -43,7 +43,7 @@ Some factors that influence social acceptance:
 	- Camera in glasses (spectators feel like they're being recorded)
 - Reduce visibility
 	- Use vibration instead of audio
-- 
+
 ## Spectators
 - Recognition may improve spectator acceptance
 - It helps if there is a visible outcome after the interaction
