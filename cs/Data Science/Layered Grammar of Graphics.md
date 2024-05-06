@@ -56,7 +56,6 @@ Visualisations are formed of the following components:
 - For signed data (can be positive or negative), use a different colour on each side of 0
 - Always provide a colour bar for reference
 
-
 ## Showing uncertainty
 - Method 1: show an area around a line plot
 	- Mark each datapoint

@@ -37,13 +37,13 @@ Only functions with this property can be written as matrices
 - Matrices can be definite, semi-definite, or indefinite
 	- Positive or negative
 
-| Property               | Definition                                           |
-|------------------------|------------------------------------------------------|
-| Positive Definite      | All eigenvalues are greater than 0.                  |
-| Negative Definite      | All eigenvalues are less than 0.                     |
-| Positive Semi-definite| All eigenvalues are greater than or equal to 0.       |
-| Negative Semi-definite| All eigenvalues are less than or equal to 0.          |
-| Indefinite             | No other criteria met.                                |
+| Property               | Definition                                       |
+| ---------------------- | ------------------------------------------------ |
+| Positive Definite      | All eigenvalues are greater than 0.              |
+| Negative Definite      | All eigenvalues are less than 0.                 |
+| Positive Semi-definite | All eigenvalues are greater than or equal to 0.  |
+| Negative Semi-definite | All [[eigenvalues]] are less than or equal to 0. |
+| Indefinite             | No other criteria met.                           |
 
 ![Graphed definite matrices](https://brickisland.net/cs177/wp-content/uploads/2011/11/ddg_definiteness.svg)
 
@@ -87,6 +87,7 @@ where $X,Y$ are input matrices
 # Special matrices
 ## Diagonal
 - Diagonal matrices have values along its diagonal and zeroes elsewhere
+- Represent pure scaling, no rotation
 - Often used for computations because multiplying by them costs only $O(n)$ instead of $O(n^3)$
 
 ## Identity
@@ -126,7 +127,7 @@ where $X,Y$ are input matrices
 - Has many important properties
 	- Inverse
 	- Determinant
-	- [[#Eigendcomposition]]
+	- [[Matrix Operations#Eigendecomposition|Eigendecomposition]]
 
 ## Triangular
 - A matrix with non-zero elements above or below the diagonal (including the diagonal)

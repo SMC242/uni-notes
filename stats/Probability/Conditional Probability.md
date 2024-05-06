@@ -1,12 +1,9 @@
 # Definition
 When you calculate a probability given a condition. This usually means filtering the cases by a predicate such as value = 3. 
 
-<dl>
-	<dt>Marginal probability</dt>
-	<dd>When a probability relies on one variable<dd>
-	<dt>Joint probability</dt>
-	<dd>When a probability relies on multiple variables</dd>
-</dl>
+See also:
+- [[Joint Probability]]
+- [[Joint Probability#Marginal probability|Marginal probability]]
 
 # Probability table
 These tables are used to summarise total probabilities.
@@ -23,6 +20,9 @@ $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 
 See also:
 - [[Probabilistic  Models#Multiplication rule|AND in statistics]]
+
+# Reconstructing prior
+- You can get the prior $P(A)$ back by dividing $P(A | B)$ by all possible probabilities
 
 # Bayes Theorem
 ![[Bayes' Theorem]]

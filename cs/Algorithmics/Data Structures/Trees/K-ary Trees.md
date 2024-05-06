@@ -4,7 +4,7 @@ tags:
 
 ---
 # Definition
-A tree that can have up to $k$ sub-trees
+A [[cs/Algorithmics/Data Structures/Trees/Tree|tree]] that can have up to $k$ sub-trees
 
 # Properties
 - You can have lots of children

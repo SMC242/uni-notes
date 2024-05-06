@@ -18,3 +18,25 @@ This can be applied for as many variables as you need. Just add another $P(B|A_k
 Alternative phrasing:
 $$P(H | D) = \frac{P(D | H)P(H)}{P(D)}$$
 where $H$ is the hypothesis and $D$ is some observed data
+
+
+## Probability of D
+$$P(D) = \sum\limits P(D|H) P(D)$$
+- This is the formula for the denominator of Bayes' Theorem
+- Usually intractable
+- See [[Statistical Inference#Bayesian inference|Markov Chain Monte Carlo]] for how this is approximated
+
+i) 0.6
+ii)
+==P(plastic) = 1/300==
+
+Calculating these in case they're useful later:
+P(gravel) = 1/100
+P(irrigator) = 1/1000
+
+iii)
+ P(gravel|improve) = P(improve|gravel) P(gravel) / P(D)
+ = (0.6 x 1/100) / P(D)
+P(D) = P(improve|gravel) x P(gravel) + P(improve|plastic) x P(plastic) + P(improve | irrigator) x P(irrigator) = 0.6 x 1/100 + 0.3 x 1/300 + 0.9 x 1/1000
+
+P(gravel|improve) = (0.6 x 1/100) / (0.6 x 1/100 + 0.3 x 1/300 + 0.9 x 1/1000)
