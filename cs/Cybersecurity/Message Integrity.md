@@ -3,7 +3,7 @@ aliases:
   - MAC
 ---
 # Overview
-[[Symmetric Cryptography]] methods can only defend against passive attackers. Active attackers can flip bits in the ciphertext without being detected
+[[Symmetric Cryptography]] methods can only defend against [[Adversaries#Passive|passive attackers]]. [[Adversaries#Active|Active attackers]] can flip bits in the ciphertext without being detected
 
 Solution: MACs
 - Provide integrity, but not confidentiality

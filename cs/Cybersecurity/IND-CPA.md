@@ -10,6 +10,6 @@ IND-CPA is a class of [[Cryptography]] algorithms where:
 > In other words, an attacker shouldn't be able to decrypt messages. This is referred to as IND-CPA security
 
 # Drawback
-- IND-CPA algorithms can only defend against passive attackers
+- IND-CPA algorithms can only defend against [[Adversaries#Passive|passive attackers]]
 	- E.G people listening to packets
-- Active attackers can change the message without being detected
+- [[Adversaries#Active|Active attackers]] can change the message without being detected

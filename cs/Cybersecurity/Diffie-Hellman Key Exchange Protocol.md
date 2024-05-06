@@ -43,7 +43,7 @@ k_{A} &= (h_{B})^{x}\\
 $$
 
 # Security
-- A passive adversary (eavesdropper) can see both $g^{x}$ and $g^y$
+- A [[Adversaries#Passive|passive adversary]] (eavesdropper) can see both $g^{x}$ and $g^y$
 - If $q$ is large enough, it's not feasible to compute:
 	- $a$ given $g^{a}$
 		- AKA discrete logarithm problem

@@ -1,6 +1,13 @@
 # Overview
 Cyber-security is the study of vulnerabilities in software and preventing them
 
+> [!INFO] Trade-offs
+> Every decision in cybersecurity is a trade-off. Increasing confidentiality comes at the cost of availability (E.G by using stricter [[Access Control]]). You need to find a balance where the system is secure but still usable
+> 
+> <img src="https://www.itgovernance.co.uk/blog/wp-content/uploads/2023/02/image-2.png" alt="CIA triad" height="300px" />
+> 
+><p><small>Image: the CIA triad model</small></p>
+
 # Cryptography
 Scrambling data to prevent unauthorised users from reading data
 
@@ -40,7 +47,7 @@ Strategies for managing access
 - [[Attribute-based Access Control]]
 
 # Attacks
-Methods that malicious actors can attack systems
+Methods that [[Adversaries|malicious actors]] can attack systems
 
 - [[Denial of Service]]: depleting a server's resources so that it can't serve legitimate users
 - [[Man-in-the-middle]]
