@@ -95,5 +95,3 @@ Each team member is asked a series of questions:
 	- Were any features dropped?
 - Explain any deviations from the plan
 - Think about new features that could be added
-
-## 
