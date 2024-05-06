@@ -24,7 +24,7 @@ tags:
 Bits are structured into fields. This is how Ethernet does it:
 ![Ethernet Frame](https://www.flukenetworks.com/sites/default/files/blog/ethernetbacktobasic01_1.png)
 
-The CRC (cyclic redundancy code) contains where errors were detected and if they were fixed
+![[CRC#Overview]]
 
 # Error detection
 ## Parity codes

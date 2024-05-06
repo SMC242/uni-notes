@@ -43,6 +43,7 @@ Strategies for managing access
 Methods that malicious actors can attack systems
 
 - [[Denial of Service]]: depleting a server's resources so that it can't serve legitimate users
+- [[Man-in-the-middle]]
 
 ##  Defence
 Methods for defending against attacks
