@@ -59,4 +59,20 @@ Takes the following information into account:
 - Each attribute $A$
 	- The [[Probability Distribution#Probability functions|probability density function]] for each value $x$
 		- A good approximation of the probability distribution is required
+
+# Selectivity prediction
+- Predicting the [[#Selection selectivity]] is usually intractable
+- There are a few ways to get around this
+
+## Approximation
+- Use a histogram to approximate the [[Probability Distribution#Probability density function|PDF]]
+	- Assumption: $sl(A = x) \approx P(A = x), x \in [\min(A), \max(A)]$
+	- Just read off the value for the given $x$ and calculate the [[#Selection cardinality]]
+- Accurate but adds maintenance overhead
+	- You have to maintain a histogram --> you'd need to regenerate it every time the data in $A$ changes
+
+## Uniformity assumption
+- Assume the values are uniformly distributed $\therefore$ all values are equally likely
+- Less accurate than a histogram, but doesn't require maintaining a histogram
+- $\forall x \in [\min(A), \max(A)] . sl(A = x) \approx k$
 - 
