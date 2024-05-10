@@ -1,6 +1,9 @@
 # Overview
 There are multiple strategies for performing each [[Fundamental operations|fundamental operation]]. Before running a query, the database engine evaluates the [[Database Files#I/O access cost|cost]] of each strategy and picks the most efficient option
 
+See also:
+- [[Query Optimisation]]
+
 # Sorting
 - Most queries involve ad-hoc sorting
 	- E.G `SORT BY` and `GROUP BY`
