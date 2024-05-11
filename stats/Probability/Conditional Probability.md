@@ -19,7 +19,7 @@ You just take the probabilities and put them into the following equation:
 $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 
 See also:
-- [[Probabilistic  Models#Multiplication rule|AND in statistics]]
+- [[Probabilistic Models#Multiplication rule|AND in statistics]]
 
 # Reconstructing prior
 - You can get the prior $P(A)$ back by dividing $P(A | B)$ by all possible probabilities

@@ -28,6 +28,11 @@ where $r$ is the number of tuples
 - The ratio of matching tuples in Cartesian space
 	- I.E the likelihood of a joined tuple matching a condition
 
+# NDV
+AKA the Number of Distinct Values
+
+- The number of unique values in an attribute
+
 # Strategies
 - Query optimisation takes in a query and outputs an optimal [[Query Processing|execution plan]]
 
@@ -73,6 +78,63 @@ Takes the following information into account:
 
 ## Uniformity assumption
 - Assume the values are uniformly distributed $\therefore$ all values are equally likely
+	- The probability of this is almost 0
 - Less accurate than a histogram, but doesn't require maintaining a histogram
 - $\forall x \in [\min(A), \max(A)] . sl(A = x) \approx k$
-- 
+- [[#Selection selectivity]] $= \frac{1}{NDV(A)}= \frac{1}{n}$
+	- [[#Selection cardinality]] $= r \cdot \frac{1}{NDV(A)} = \frac{r}{n}$
+
+> [!EXAMPLE] Example: $A$ is a key
+> Given an equality condition like `WHERE A = 1` for a *key* $A$, $sl(A = x) = \frac{1}{r}$ is a good estimate
+> - [[#Selection cardinality]] will be 1 tuple (because all values are unique)
+
+> [!EXAMPLE] $A$ is not a key
+> Given an equality condition for a *non-key* $A$, $sl(A = x) = \frac{1}{NDV(A)} = 1/n$ is not a good estimate
+> - If there are less distinct values than values ($n \ne r$), this will be a poor model
+> 	- There are more tuples than values --> some values will have more tuples than others (unless $r$ is a multiple of $n$)
+> - [[#Selection cardinality]] will be $\ge 1$ tuple
+> 	- Because $n = NDV(A) \lt r \therefore \frac{r}{n} \ge 1$
+
+## Cases
+Here are the are the different cases for each type of query
+### Range selectivity
+Example query: `SELECT * FROM Relation WHERE A >= x`
+
+- Domain range: $\max(A) - \min(A)$
+- Query range: $\max(A) - x$
+- The selectivity will be $0$ if $x > \max(A)$ (I.E $x$ is out of the domain  range)
+- Otherwise, $sl(A \ge x) = \frac{\max(A) - x}{\max(A) - \min(A)} \in [0, 1]$
+
+> [!WARNING] Assumptions
+> Uniformity
+
+
+### Conjunctive selectivity
+Example query: `SELECT * FROM Relation WHERE A = x AND B = y`
+
+- $sl(Q) = sl(A = x) \cdot sl(B = y) \in [0, 1]$
+	- Applying the [[Joint Probability]] formula
+
+> [!WARNING] Assumptions
+> - Uniformity
+> - $A$ and $B$ are [[Independence|indepedent]]
+
+### Disjunctive selectivity
+Example query: `SELECT * FROM Relationm WHERE A = x OR B = y`
+
+- $sl(Q) = \left(sl(A) + sl(B)\right) - (sl(A) \cdot sl(B))$
+	- Applying the [[Probabilistic Models#Sum rule|sum rule]]
+
+> [!WARNING] Assumptions
+> - Uniformity
+> - $A$ and $B$ are [[Independence|indepedent]]
+
+# Predicting selectivity
+- The predicted number of blocks outputted will be $ceil\left(\frac{s}{f}\right)= ceil\left(\frac{r}{f \cdot NDV(A)}\right)= \frac{r}{nf}$ where:
+	- The selection cardinality is $s = r \cdot \frac{1}{NDV(A)} = \frac{r}{n}$ ([[#Uniformity assumption]])
+	- $f$ is the [[Storage Blocks#Blocking factor|blocking factor]]
+
+> [!INFO] Key conclusion
+> The expected number of blocks outputted reduces as blocking factor increases
+
+- Accuracy can be improved by modelling cost as a function of $s(A) = \frac{r}{n}$ or $s(A) = P(A)$

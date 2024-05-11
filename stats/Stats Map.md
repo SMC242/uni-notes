@@ -12,7 +12,7 @@ Finding out how likely an outcome is
 
 - [[Disjoint Events]]: modelling events that can't happen together
 - [[Non-disjoint Events]]: events that can happen together
-- [[Probabilistic  Models]]: why it's useful to make predictions
+- [[Probabilistic Models]]: why it's useful to make predictions
 - [[Probability Distribution]]: how to measure the probability of outcomes
 - [[Joint Probability]]: the probability of two outcomes together
 - [[Conditional Probability]]: the probability given prior information
