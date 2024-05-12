@@ -25,8 +25,28 @@ where $r$ is the number of tuples
 - The expected (average) number of tuples that will be matched by the condition
 
 ## Join selectivity
+$$js = \frac{|R_{1} \bowtie R_{2}|}{|R_{1} \times R_{2}Z}$$
 - The ratio of matching tuples in Cartesian space
 	- I.E the likelihood of a joined tuple matching a condition
+
+> [!INFO] Bowtie Operator
+> $\bowtie$ means "$R_1$ join $R_2$"
+
+### Join cardinality
+$$jc = js\cdot |R_{1}| \cdot |R_{2}|$$
+
+### Join selectivity theorem
+$$
+\begin{align*}
+\text{Let: }&\\
+n &= NDV(A, R_{1}) & A\mbox{ is an attribute of }R_1\\
+m &= NDV(B, R_{2}) & B\mbox{ is an attribute of }R_2\\
+\\
+js &= \frac{1}{\max(n,m)}\\
+jc &= \frac{|R_{1}| \cdot |R_{2}|}{\max(n,m)}
+\end{align*}
+$$
+- Allows you to calculate the join selectivity and cardinality without knowing the join's result
 
 # NDV
 AKA the Number of Distinct Values
@@ -108,7 +128,6 @@ Example query: `SELECT * FROM Relation WHERE A >= x`
 > [!WARNING] Assumptions
 > Uniformity
 
-
 ### Conjunctive selectivity
 Example query: `SELECT * FROM Relation WHERE A = x AND B = y`
 
@@ -129,7 +148,7 @@ Example query: `SELECT * FROM Relationm WHERE A = x OR B = y`
 > - Uniformity
 > - $A$ and $B$ are [[Independence|indepedent]]
 
-# Predicting selectivity
+# Predicting cost
 - The predicted number of blocks outputted will be $ceil\left(\frac{s}{f}\right)= ceil\left(\frac{r}{f \cdot NDV(A)}\right)= \frac{r}{nf}$ where:
 	- The selection cardinality is $s = r \cdot \frac{1}{NDV(A)} = \frac{r}{n}$ ([[#Uniformity assumption]])
 	- $f$ is the [[Storage Blocks#Blocking factor|blocking factor]]
