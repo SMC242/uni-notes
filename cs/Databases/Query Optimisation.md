@@ -8,6 +8,7 @@ See first:
 - A metric for evaluating how useful an index would be for a column
 	- Indicates the uniqueness of values in the column
 	- Higher = better
+- Also used for estimating the cost of a query
 - Two types:
 	- [[#Selection selectivity]]
 	- [[#Join selectivity]]
@@ -32,6 +33,9 @@ where $r$ is the number of tuples
 AKA the Number of Distinct Values
 
 - The number of unique values in an attribute
+- The [[HyperLogLog]] algorithm is used
+	- A hash-based approach is $O(n)$ - not good enough for databases
+- [[HyperLogLog]] is $O(\log(\log r) + \log r)$
 
 # Strategies
 - Query optimisation takes in a query and outputs an optimal [[Query Processing|execution plan]]
