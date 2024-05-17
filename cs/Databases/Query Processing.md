@@ -14,6 +14,8 @@ See also:
 	- $L$ is the number of sorted segments before merging
 	- Meaning: a larger $M$ drastically reduces the blocks accessed (at the expense of memory usage)
 
+selectivity = 39/100
+
 # Select
 1. Linear search over a [[Keys|key]]
 	- $C() = \frac{b}{2}$
@@ -125,6 +127,7 @@ Case: B+ tree on $A$ with $x_{E}$ levels, selection cardinality $s_{E}$, blockin
 - $k = \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
 - Cost: $n_{D} + |D| \cdot (x_{E} + y + s_{E}) + \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
 	- $y$ is the number of pointer-blocks
+
 ## Merge-join
 AKA sort-merge
 

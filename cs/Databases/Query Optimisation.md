@@ -43,7 +43,7 @@ AKA the Number of Distinct Values
 ## Heuristic optimisation
 - Built on top of [[Relational Algebra]]
 
-## Cost-based otpimisation
+## Cost-based optimisation
 - Generate multiple execution plans, estimate their [[Database Files#I/O access cost|cost]], pick the best one
 - Uses a [[Database Files#Cost function|cost function]] with multiple parameters such as:
 	- Number of [[Database Files#I/O access cost|block accesses]]
@@ -108,6 +108,7 @@ Example query: `SELECT * FROM Relation WHERE A >= x`
 - Query range: $\max(A) - x$
 - The selectivity will be $0$ if $x > \max(A)$ (I.E $x$ is out of the domain  range)
 - Otherwise, $sl(A \ge x) = \frac{\max(A) - x}{\max(A) - \min(A)} \in [0, 1]$
+	- $sl(A \le x) = \frac{x - \min(A)}{\max(A) - \min(A)}$
 
 > [!WARNING] Assumptions
 > Uniformity
