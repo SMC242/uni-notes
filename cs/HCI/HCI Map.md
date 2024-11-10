@@ -6,6 +6,7 @@ Human Computer Interface is a multi-disciplinary field focusing on improving use
 # Design principles
 Ideas that guide web design
 
+- [[Action Time Scales]]: consider when and for how long an interaction takes places
 - [[Visual Design]]: making designs visually appealing
 	- [[Colour]]
 	- [[Consistency]]
@@ -14,6 +15,7 @@ Ideas that guide web design
 - [[Fitts' Law]]: making elements easier to click on
 - [[Error Prevention]]: avoiding errors
 - [[Intuitive Design]]: guiding users along the correct paths
+
 # Mobile Devices
 #HCI/Mobile
 
@@ -35,6 +37,12 @@ Mobile devices have their own design constraints
 	- [[Mixed Reality Tracking]]
 - [[Augmented Reality]]
 - [[Virtual Reality]]
+
+# Health tech
+There are a variety of extra concerns when designing applications for healthcare
+
+See [[Health Tech Map]]
+
 # Research
 Research is core to the field of HCI. The field has drawn heavily from social psychology and has adopted many of its methods
 

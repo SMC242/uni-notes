@@ -14,5 +14,6 @@
   "templater-obsidian",
   "url-into-selection",
   "obsidian-excalidraw-plugin",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-relative-line-numbers"
 ]

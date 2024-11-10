@@ -16,5 +16,6 @@
   "attachmentFolderPath": "attachments",
   "showUnsupportedFiles": true,
   "showInlineTitle": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "vimMode": true
 }

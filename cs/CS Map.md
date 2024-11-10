@@ -8,6 +8,7 @@ Computing Science is the science of computers and programming.
 - [[Database Map|Databases]]: the theory behind efficient storage of data
 - [[HCI Map|Human Computer Interface]]: designing better interfaces with people in mind
 - [[Programming Languages Map#Theory|Programming languages]]: how programming languages are constructed
+- [[Distributed and Parallel Systems Map]]: how to compute more stuff
 
 ## Practical
 - [[Software Development Map|Software Development]]: working as part of a team to deliver scalable software to clients
@@ -15,6 +16,7 @@ Computing Science is the science of computers and programming.
 - [[Web Development Map|Web Development]]: creating websites
 - [[Design Map|Design]]: creating models of how an app could work
 - [[Cyber-security Map|Cyber-security]]: building secure software
+- [[Constraint Programming Map]]: a style of declarative programming where you declare constraints for valid solutions
 
 # Libraries, languages, and tools
 ## Libraries
