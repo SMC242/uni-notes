@@ -14,6 +14,8 @@ See also:
 	- $L$ is the number of sorted segments before merging
 	- Meaning: a larger $M$ drastically reduces the blocks accessed (at the expense of memory usage)
 
+selectivity = 39/100
+
 # Select
 1. Linear search over a [[Keys|key]]
 	- $C() = \frac{b}{2}$
@@ -92,6 +94,14 @@ FOR EACH r IN R DO       // The blocks of relation R
 > - Total number of blocks in inner relation $D: n_D$
 > - Number of chunks in the outer relation: $ceil(\frac{n_{E}}{n_{B}-2})$
 > - Total number of blocks read in each outer loop iteration: $n_{D} \times ceil(\frac{n_{E}}{n_{B}-2})$
+> 
+> Using [[Query Optimisation#Selectivity|selectivity]] to refine this expression:
+> - $jc = js \cdot |E| \cdot |D| = \frac{1}{\max(n_{E},m_{D})} \cdot |E| \cdot |D|$
+> - Number of resulting blocks: $k = \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+> 	- $f_{ED}$ is the blocking factor of the joined tuples (calculate by summing the record sizes and dividing by the block size)
+> 	- This will be the number of blocks written to disk
+> - Refined cost: $n_{D} + (ceil(n_{D}/(m - 2)) \cdot n_E  + (\frac{js \cdot |E| \cdot |D|}{f_{ED}}))$
+> 	- $m$ is the number of blocks available in memory
 
 ## Index-based nested-loop join
 - Use the index on one of the relations' attribute to get all matching tuples
@@ -100,14 +110,30 @@ FOR EACH r IN R DO       // The blocks of relation R
 - Can't be used for recursive relationships
 
 ### Index-based cost prediction
-Two strategies:
-
-1. 
 $$n_{D} + r_{D} \times (x_{E} + 1)$$
+Case: primary index (ordering, key field)
+- $jc = js \cdot |E| \cdot |D| = \frac{1}{\max(n_{E},n_{D})} \cdot |E| \cdot |D|$
+- Resulting blocks: $k = \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+- Cost: $b_{E} + |E| \cdot (x_{D} + 1) \cdot (\frac{js \cdot |E| \cdot |D|}{f_{ED}})$
+
+Case: clustering index (ordering, non-key) on $E.A$ with $x_E$ levels, selection cardinality $s_{E}$, blocking factor $f_{E}$
+- $S_{E} = \frac{1}{NDV(A)} \cdot |E|$
+- Blocks per cluster: $ceil(\frac{S_{E}}{f_{E}})$
+- $k = \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+- Cost: $n_{D} + |D| \cdot \left(x_{E} + ceil\left(\frac{s_{E}}{f_{E}}\right)\right) + \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+
+Case: B+ tree on $A$ with $x_{E}$ levels, selection cardinality $s_{E}$, blocking factor $f_E$
+- Selection cardinality $s_{E} = \frac{1}{NDV(A)} \cdot |E|$
+- $k = \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+- Cost: $n_{D} + |D| \cdot (x_{E} + y + s_{E}) + \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
+	- $y$ is the number of pointer-blocks
 
 ## Merge-join
+AKA sort-merge
+
 - Use [[Merge Sort]] over two sorted files
-- Blockwise algorithm
+- Block-wise algorithm
+- Cost: $n_{E} + n_{D} + \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
 
 Process:
 1. Load a pair of blocks $\{R.block, S.block\}$
@@ -125,3 +151,4 @@ Process:
 	2. Probing
 		1. For each $s$, compute the bucket address, put it there
 			1. Compare each $r$ in the same bucket as $s$. Append matching pairs to the results file
+- Cost: $3 (n_{E} + n_{D}) + \frac{js \cdot |E| \cdot |D|}{f_{ED}}$
