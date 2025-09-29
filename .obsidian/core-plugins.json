@@ -7,7 +7,7 @@
   "outgoing-link": true,
   "tag-pane": true,
   "page-preview": true,
-  "daily-notes": false,
+  "daily-notes": true,
   "templates": true,
   "note-composer": true,
   "command-palette": true,
@@ -27,5 +27,7 @@
   "canvas": true,
   "properties": false,
   "bookmarks": false,
-  "webviewer": false
+  "webviewer": false,
+  "footnotes": false,
+  "bases": true
 }

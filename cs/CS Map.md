@@ -16,7 +16,8 @@ Computing Science is the science of computers and programming.
 - [[Web Development Map|Web Development]]: creating websites
 - [[Design Map|Design]]: creating models of how an app could work
 - [[Cyber-security Map|Cyber-security]]: building secure software
-- [[Constraint Programming Map]]: a style of declarative programming where you declare constraints for valid solutions
+- [[Constraint Programming Map|Constraint Programming]]: a style of declarative programming where you declare constraints for valid solutions
+- [[Functional Programming Map|Functional Programming]]: a style of declarative programming where everything is a expression and mutation is managed
 
 # Libraries, languages, and tools
 ## Libraries
