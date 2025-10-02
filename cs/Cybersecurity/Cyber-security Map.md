@@ -59,3 +59,14 @@ Methods for defending against attacks
 - [[Intrusion Detection System]]: detecting attacks in progress
 	- [[Host-based IDS]]
 	- [[Network-based IDS]]
+
+# Tooling
+
+## Offensive
+- [[Kali Linux]]
+- [[nmap]]
+
+## Defensive
+
+- [[Static Application Security Testing]]
+- [[Dynamic Application Security Testing]]
