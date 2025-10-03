@@ -1,6 +1,8 @@
 ---
 aliases:
   - Goroutines
+tags:
+  - Concurrency
 ---
 # Overview
 Go implements concurrency as a primitive with the `go` keyword. The threads spawned are called "goroutines"

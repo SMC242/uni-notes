@@ -34,7 +34,7 @@ https://github.com/zaproxy/zaproxy
 # sslyze
 https://github.com/nabla-c0d3/sslyze
 
-- Focused on SSL and TLS configuration vulnerabilities
+- Focused on SSL and [[TLS]] configuration vulnerabilities
 - Not [[Docker]]-specific
 
 # nmap

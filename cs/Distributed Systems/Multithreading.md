@@ -1,3 +1,8 @@
+---
+tags:
+  - Multithreading
+  - Parallelism
+---
 # Overview
 - Each core in a CPU has multiple threads. These threads are executed in parallel
 - Operating systems map OS threads to physical threads
@@ -7,6 +12,10 @@
 1. Fork: branch off a new thread
 2. Execute...
 3. Join: wait for a thread to finish
+
+# Critical regions
+- Areas where shared resources must be consistent
+	- E.G reading a shared value
 
 # Green threads
 - Threads managed by the runtime instead of the operating system
@@ -24,17 +33,34 @@
 - Stands for "mutual exclusion"
 - AKA locks
 - One thread *acquires* a lock for a resource and others can't access the resource until the lock has been *released*
+- Uses [[Compare-and-swap]] instructions under the hoop
 
 ## Condition variables
 - A way to signal that something has happened
 - An alternative to busy waiting (E.G polling)
-- Threads wait for a condition variable to be set
+- Threads `wait` for a condition variable to be set via `signal`
 
 ## Semaphores
 - A [[#Mutexes|mutex]] and [[#Condition variables|condition variable]] with a counter
 - Used to represent multiple available handles for a resource
 - `wait` decrements the counter, blocks if `0`
 - `signal` increments the counter and wakes up waiting threads
+
+## Barriers
+- A point in the code where a thread will block until all threads have reached it
+- Used to implement checkpoints (for resumability --> fault tolerance)
+- Under the hood, just a [[#Semaphores|semaphore]] where `wait` increments a counter
+## Futures
+ - A higher-level construct where you can pass around uncomputed values
+ - Calling `get()` will block until the value is computed
+ - Concept used in lots of languages
+	 - C++
+	 - C#
+	 - Rust
+	 - JavaScript
+	 - Python
+
+See [the C++ docs on futures](https://en.cppreference.com/w/cpp/thread/future.html)
 
 # Types of failures
 ## Deadlock
