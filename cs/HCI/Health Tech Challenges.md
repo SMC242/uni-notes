@@ -14,6 +14,8 @@ tags:
 		- Ethics reviews can take an entire year
 		- Iteration is slow
 - Privacy is crucial because these systems hold so much private information
+	- [[GDPR]] means this data is a huge risk
+	
 
 # IT Competency
 - There is a huge gap in tech literacy

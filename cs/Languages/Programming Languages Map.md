@@ -32,4 +32,4 @@ How to make your own compiler
 # Languages
 Notes about specific programming languages
 
-- [[C Map|C]]: a systems programming language
+- [[Systems Programming Map|C]]: a systems programming language

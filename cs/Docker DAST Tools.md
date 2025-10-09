@@ -52,5 +52,11 @@ https://github.com/wireshark/wireshark
 	-  Could be used to see the communications coming in and out of a container
 - Not [[Docker]]-specific
 
+# To look into
+- https://github.com/deepfence/ThreatMapper 
+- https://github.com/projectdiscovery/nuclei
+- https://github.com/greenbone/openvas-scanner
+- https://github.com/purpleteam-labs/purpleteam
+
 # See also
 -  https://github.com/zhenyaderyaka/dast/: This list was based on this GitHub repo

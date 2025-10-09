@@ -3,11 +3,12 @@ aliases:
   - Goroutines
 tags:
   - Concurrency
+  - DistributedSystems
 ---
 # Overview
 Go implements concurrency as a primitive with the `go` keyword. The threads spawned are called "goroutines"
 
-- [[cs/Distributed Systems/Computational Models#Concurrency|Concurrent]] philosophy, but often runs in [[cs/Distributed Systems/Computational Models#Parallellism|parallel]]
+- [[cs/Computational Models#Concurrency|Concurrent]] philosophy, but often runs in [[cs/Computational Models#Parallellism|parallel]]
 	- Problems are broken up into parts that pass messages to each other
 ```go
 func add(x, y int) int {

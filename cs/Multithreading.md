@@ -2,16 +2,12 @@
 tags:
   - Multithreading
   - Parallelism
+  - DistributedSystems
 ---
 # Overview
-- Each core in a CPU has multiple threads. These threads are executed in parallel
+- Each core in a CPU has multiple threads. These threads are executed in [[Parallellism|parallel]]
 - Operating systems map OS threads to physical threads
 - Threads share memory
-
-# Lifecycle
-1. Fork: branch off a new thread
-2. Execute...
-3. Join: wait for a thread to finish
 
 # Critical regions
 - Areas where shared resources must be consistent
@@ -46,10 +42,6 @@ tags:
 - `wait` decrements the counter, blocks if `0`
 - `signal` increments the counter and wakes up waiting threads
 
-## Barriers
-- A point in the code where a thread will block until all threads have reached it
-- Used to implement checkpoints (for resumability --> fault tolerance)
-- Under the hood, just a [[#Semaphores|semaphore]] where `wait` increments a counter
 ## Futures
  - A higher-level construct where you can pass around uncomputed values
  - Calling `get()` will block until the value is computed
@@ -81,5 +73,12 @@ Here are some abstractions for multi-threading
 
 ## Barriers
 - Prevents threads from progressing until they have all reached the same checkpoint
+	- For resumability --> fault tolerance
 - Implemented as a counter
-	- `wait` increments the counter
+	- Under the hood, just a [[#Semaphores|semaphore]] where `wait` increments a counter
+
+## Threadpool
+- A struct that manages a reusing set of threads to avoid paying the cost of respawning OS threads for each task
+	 - To spawn a thread, the program must do a system call
+# See also
+- [[Hyperthreading]]

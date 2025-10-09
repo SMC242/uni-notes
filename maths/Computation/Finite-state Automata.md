@@ -1,5 +1,5 @@
 # Overview
-A [[Computational Models]] with these characteristics:
+A [[maths/Computation/Computational Models]] with these characteristics:
 - Fixed amount of memory
 - Simple
 - Limited problem-solving ability

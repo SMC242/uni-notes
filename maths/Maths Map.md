@@ -61,7 +61,7 @@ This topic focuses on the fundamental theories of computation such as what can a
 - [[NP Completeness]]
 - [[Non-deterministic Algorithms]]
 - [[Computability]]
-- [[Computational Models]]
+- [[maths/Computation/Computational Models]]
 	- [[Finite-state Automata]]
 	- [[Pushdown Automata]]
 	- [[Turing Machines]]

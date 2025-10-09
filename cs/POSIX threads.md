@@ -4,11 +4,24 @@ aliases:
 tags:
   - Multithreading
   - Parallelism
+  - DistributedSystems
 ---
 # Overview
 A standard interface for [[Multithreading|threads]] specified by [[POSIX]]
 - Low-level interface
 - Often used in C, but not limited to it
+
+# Enabling
+
+You need to set a compiler flag to link against the pthreads library
+
+```bash
+gcc -lpthread
+```
+
+```bash
+clang -pthread
+```
 
 # Spawning threads
 ```c

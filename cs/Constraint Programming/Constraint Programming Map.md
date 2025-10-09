@@ -9,3 +9,10 @@ FROM
 WHERE
 	file.name != this.file.name
 ```
+
+# Topics
+
+- [[Solver Types]]
+- [[Arc consistency]]
+- [[Combinatorial Search]]
+- [[Integer Programming]]

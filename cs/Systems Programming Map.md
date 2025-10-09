@@ -6,3 +6,8 @@ C is a systems programming language. It gives you fine-grain control over memory
 - [[Memory]]: what is memory?
 - [[Stack and Heap]]: types of memory
 - [[Pointers]]: memory addresses
+
+## The CPU
+
+- [[CPU]]
+- [[CPU Scheduling]]

@@ -18,7 +18,6 @@ See also: [The standard for floating point representation](https://en.wikipedia.
 - Similar to scientific notation: $\textrm{mantissa} \times 10^{\textrm{exponent}}$
 
 ## Mantissa
-- The size of the mantissa defines the range that can be represented
 - Represents a number in the range: $1.0 \le m \lt 2.0$
 - There is always one and only one digit before the decimal section
 	- Just like scientific notation

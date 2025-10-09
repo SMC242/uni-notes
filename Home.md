@@ -18,6 +18,7 @@ WHERE
 - [[Archaeology Map|Archaeology]]
 - [[Plant Map|Plants]]
 - [[Prompt Map|Prompts]]
+- [[Daily Note Map]]
 
 ## All
 ```dataview
