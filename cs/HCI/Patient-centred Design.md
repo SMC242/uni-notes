@@ -5,10 +5,12 @@ tags:
 # Overview
 Fronting the patient's needs is crucial for delivering effective healthcare. It must be:
 1. User-centred: tailored to the patient's needs 
+	- Summary statistics hide important details
 2. Personalised: they should be able to customise the system to their needs and preferences (E.G to accommodate disabilities)
 3. Holistic: understand all of their needs (physical, emotional, cultural, socio-economical)
 4. Empowering: make patients feel involved and active in decisions about their health
 
+# Why?
 Improves:
 - Outcomes: tailored solutions result in higher effectiveness of treatments
 - Satisfaction: feeling listened to and involved results in better perception of the healthcare system
@@ -21,3 +23,15 @@ Challenges:
 - Speaking to patients is difficult (privacy, medical conditions, logistics)
 - Overemphasis of expert opinions
 - Disempowered patients: patients are traditionally passive and don't have a voice
+
+> [!NOTE] Design challenges
+> There are challenges for the systems we make and there are other challenges for how we design them. You need to separate these challenges as much as possible, but often they overlap
+> 
+> Example: you need to make a technology that blind people can interact with. That is the design challenge. However, accessing blind people is difficult because you need to design patient recruitment processes that they can find (E.G posters won't work). That is a challenge for the design process
+
+# Co-design methods
+- Working with [[Stakeholders]] to design technology and democratise access to the tech
+- Workshops are an example
+
+# See also
+- [[Ethnography In HCI]]: ethnographic methods are used

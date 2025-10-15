@@ -1,4 +1,4 @@
-merged.# Overview
+# Overview
 AKA Robust Security Network
 
 - An improvement over [[WLAN]]

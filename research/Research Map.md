@@ -17,6 +17,7 @@ This topic covers research methods, design, and analysis
 
 # Research design
 - [[Who do we ask?]]
+- [[Between vs Within Designs]]
 
 # Analysis
 - [[Research Analysis]]

@@ -8,6 +8,7 @@ tags:
 - Massive diversity in patients
 - Have to integrate with gigantic networks of legacy software
 - Multi-disciplinary: many different approaches to the same problems due to differing fields of specialisation
+	- Lots of regulatory bodies too
 - Ethics must constantly be considered
 	- Poor software can cost lives
 	- Ethics boards can limit what is possible
@@ -15,7 +16,7 @@ tags:
 		- Iteration is slow
 - Privacy is crucial because these systems hold so much private information
 	- [[GDPR]] means this data is a huge risk
-	
+- Medical error causes many deaths per year
 
 # IT Competency
 - There is a huge gap in tech literacy
@@ -27,6 +28,7 @@ tags:
 # Global South
 - Literacy rates are lower in the Global South
 - Lack of tech infrastructure/devices or consistent access to them
+- Many different languages - smaller languages get less resources allocated to them
 
 # Immersion
 - Terminology changes frequently
