@@ -40,3 +40,6 @@ Computing Science is the science of computers and programming.
 - [[Continuous Integration]]: automation around building and deploying new code
 - [[ORM]]: an abstraction layer on top of databases to make queries simpler
 - [[Automated Testing]]: automated tests that ensure a program does what it should
+
+# Dissertations
+- [[Docker Vulnerabilities Map|Docker vulnerabilities dissertation]]

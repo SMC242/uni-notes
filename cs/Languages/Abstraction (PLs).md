@@ -11,7 +11,7 @@ This note focuses on abstraction in the context of programming language design
 - FP languages only have functions
 
 ## Function design
-- In [[Functional Programming|FP]] languages, functions are designed as expressions
+- In [[Functional Programming Map|Functional Programming]] languages, functions are designed as expressions
 	- Simple
 	- Translates mathematics easily
 	- Less expressive
@@ -84,4 +84,3 @@ See also: [[OOP]]
 		- `f(1)` generates `f(x: int) -> int`
 		- `f("hello")` genereates `f(x: str) -> str`
 - The typical `T1 extends T2` expression "bounds" the set of [[types]] that `T1` can be (`T1` is bounded by `T2`)
-- 

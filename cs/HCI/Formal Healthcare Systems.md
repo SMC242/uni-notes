@@ -1,3 +1,7 @@
+---
+tags:
+  - HCI/HealthTech
+---
 # Overview
 Each country has a healthcare system
 - Composed of a large network of components

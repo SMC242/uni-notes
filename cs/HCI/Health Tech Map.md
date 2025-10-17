@@ -23,13 +23,17 @@ WHERE
 
 - [[Formal Healthcare Systems]]
 - [[Informal Healthcare Systems]]
+- [[Health Tech Challenges]]
+- [[Stakeholders]]
+- [[Ethical Concerns and Safety]]
 
 ## Patient-centred design
 
 - [[Patient-centred Design]]
-- [[Health Tech Challenges]]
-- [[Stakeholders]]
-
+- [[Health System Design]]
+	- [[User-centred Design Principle]]
+	- [[Experience-centred Design Principle]]
+- [[Digitising Healthcare]]
 
 ## Machine-learning
 

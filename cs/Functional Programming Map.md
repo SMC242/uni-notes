@@ -1,3 +1,7 @@
+---
+aliases:
+  - Functional Programming
+---
 # Overview
 A style of declarative programming where functions are the key building block. Additional characteristics include:
 - Limited mutability
@@ -6,3 +10,4 @@ A style of declarative programming where functions are the key building block. A
 
 # Index
 - [[Functional Reduction]]: how expressions are evaluated into values
+- [[Polymorphism]]

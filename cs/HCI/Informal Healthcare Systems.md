@@ -1,3 +1,7 @@
+---
+tags:
+  - HCI/HealthTech
+---
 # Overview
 - Healthcare practices implemented by families, communities, and friends
 	- Mental health support

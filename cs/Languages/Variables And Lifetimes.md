@@ -20,7 +20,7 @@ See also:
 ## Updating
 - Updates are either total or selective (one component at a time)
 - Updates are [[Functional Programming Terms#Side effect|side effects]]
-	- Often not allowed in functional programming languages as they favour immutability
+	- Often not allowed in [[Functional Programming Map|functional programming languages]] as they favour immutability
 
 ```c
 struct Date {int y, m, d};
