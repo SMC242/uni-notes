@@ -11,3 +11,4 @@ A style of declarative programming where functions are the key building block. A
 # Index
 - [[Functional Reduction]]: how expressions are evaluated into values
 - [[Polymorphism]]
+- [[Functional Programming Terms]]

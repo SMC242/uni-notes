@@ -21,9 +21,18 @@ Which two tools together uncover the most vulnerabilities?
 1. What tools are available? 
 2. Which ones fit together to produce something better?
 3. Can I build tool that bridges the gaps between two tools?
+	- Using Dive and Trufflehog
 
 # Are native tools better?
 
 Does [[Docker SAST Tools|Docker Scout]] outperform other [[Docker SAST Tools|SAST tools]]?
 
 - Scout is developed in-house so may have access to expertise that third-party tools don't
+
+# Objectives
+- 
+# Metrics
+- Coverage: percentage of vulnerabilities discovered in a known-vulnerable container
+- Real-world effectiveness: number of vulnerabilities discovered in images from DockerHub 
+- Real-world usefulness: percentage of real-world vulnerabilities that are manually classified as impactful
+- Impact: based on CVE rating and relevance to the app in question

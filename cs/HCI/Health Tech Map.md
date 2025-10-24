@@ -35,8 +35,21 @@ WHERE
 	- [[Experience-centred Design Principle]]
 - [[Digitising Healthcare]]
 
+## Designing systems
+- [[Digitising Healthcare]]
+- [[Patient Interface Design]]
+- [[Inclusive Design]]
+
+## Evaluating designs
+
+- [[Evaluating Health Tech]]
+- [[Think Aloud Protocol]]
+
 ## Machine-learning
 
 [[Machine Learning]] is increasingly being used in health tech
 
 - [[AI In Healthcare]]
+
+# See also
+- [[Health Inequalities]]: the [[Sociology Map|Sociology]] behind health and access to it

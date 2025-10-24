@@ -6,6 +6,7 @@ Human Computer Interface is a multi-disciplinary field focusing on improving use
 # Design principles
 Ideas that guide web design
 
+- [[Nielsen Heuristic Framework]]: 10 heuristics for good design
 - [[Action Time Scales]]: consider when and for how long an interaction takes places
 - [[Visual Design]]: making designs visually appealing
 	- [[Colour]]

@@ -14,6 +14,7 @@ tags:
 
 # Metrics
 - Requests per second
+- Concurrent users
 - Service-level agreements (SLAs)
 	- Uptime
 	- Response latency

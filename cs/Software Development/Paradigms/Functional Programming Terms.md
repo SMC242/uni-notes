@@ -1,5 +1,9 @@
 This is an index of terms used in [[Functional Programming Map|Functional Programming]]. They like their jargon...
 
+# Referential traansparency
+- When you can replace code with a value
+- [[Functional Reduction]] is a method of doing this
+
 # Side effect
 - Something that affects state outwith the function
 - Side effects must be used at some point in any app, otherwise it would do nothing
@@ -13,8 +17,8 @@ This is an index of terms used in [[Functional Programming Map|Functional Progra
 - Throwing an error
 
 # Pure function
-- A function that lacks [[#side effect]]s
-- Its output depends purely on its input - it is predictable
+- A function that lacks [[#side effect]]s, is stateless, and is defined for all inputs (I.E doesn't throw errors, returns them instead)
+- In summary: its output depends purely on its input - it is predictable
 - Ideal for [[Concurrency|concurrent programming]] because race conditions are not possible
 
 ## Examples

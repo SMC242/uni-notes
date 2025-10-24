@@ -1,6 +1,8 @@
 ---
 tags:
   - HCI/HealthTech
+aliases:
+  - Digital Health Tech
 ---
 # Overview
 - Robot assisted surgery

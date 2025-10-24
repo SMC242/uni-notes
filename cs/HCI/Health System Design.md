@@ -12,7 +12,9 @@ There are separate challenges for design vs the technology itself
 > Example: you need to make a technology that blind people can interact with. That is the design challenge. However, accessing blind people is difficult because you need to design patient recruitment processes that they can find (E.G posters won't work). That is a challenge for the design process
 
 > [!WARNING] Don't assume [[Digitising Healthcare|digital systems]] are always the solution
-> You must justify *why* it's better. Digitising without reason often just makes the system worse
+> You must justify *why* it's better. Digitising without reason often just makes the system worse. Sometimes even if an app *would* be more efficient/effective its effects won't be felt because the bottleneck is elsewhere
+>
+> Making something digital adds extra risks like data loss too
 # Challenges
 
 - Difficult to access patients

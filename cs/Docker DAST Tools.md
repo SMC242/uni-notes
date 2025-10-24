@@ -52,6 +52,11 @@ https://github.com/wireshark/wireshark
 	-  Could be used to see the communications coming in and out of a container
 - Not [[Docker]]-specific
 
+# Am I Isolated
+https://github.com/edera-dev/am-i-isolated
+
+- Checks what a container can access on the host OS
+
 # To look into
 - https://github.com/deepfence/ThreatMapper 
 - https://github.com/projectdiscovery/nuclei

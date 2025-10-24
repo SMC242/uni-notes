@@ -8,4 +8,6 @@ FROM
 	"daily-notes"
 WHERE
 	file.name != this.file.name
+SORT
+	file.cdate DESC
 ```

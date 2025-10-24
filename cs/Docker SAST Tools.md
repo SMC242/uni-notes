@@ -39,6 +39,17 @@ https://github.com/wagoodman/dive
 
 - A tool for analysing layers of [[Docker]] containers
 
+# Trufflehog
+
+- Finds credentials in many types of textual sources
+- Automatically gathers information about collected credentials
+	- What it's for
+	- Who created it
+	- When it expires
+	- Is it still valid?
+		- Done by attempting to log in
+- Can be run automatically in CI
+
 # HarborGuard
 https://github.com/HarborGuard/HarborGuard
 

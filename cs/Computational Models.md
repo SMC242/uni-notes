@@ -51,6 +51,12 @@ Consider the following:
 		- You're more likely to encounter a failure when you have 100 devices vs 1
 - Overcomes limits to vertical scaling
 
+
+## Metrics
+- Dynamic scalability: how well can you scale the system to incoming traffic?
+- Fault tolerance
+- Self-healing: can it automatically recover from being overloaded and failing? Nobody wants to get paged at 03:00
+
 # Design considerations
 - Partitioning: what should be broken into chunks
 	- And how large the chunks should be
