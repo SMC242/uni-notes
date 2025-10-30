@@ -2,7 +2,6 @@
 tags:
   - DistributedSystems
 ---
-
 # Overview
 Some computations or systems are infeasible to compute on a single CPU core and must be spread across multiple
 
@@ -31,5 +30,13 @@ WHERE
 ![[Concurrency#Overview]]
 
 - [[Concurrency In Go]]: using Goroutines to achieve concurrency
+
+## Message passing
+![[Message Passing#Overview]]
+
+- [[Message Passing]]
+- [[MPI]]
+- [[BEAM VM]]: Erlang's [[Virtual Machines|virtual machine]], implements message passing
+
 # See also
 - [[Systems Programming Map]]: a lot of parallelism is done with systems programming languages so the topics overlap heavily
