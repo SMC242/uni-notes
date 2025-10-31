@@ -9,6 +9,10 @@ Design for healthcare applications has a variety of extra considerations
 # Design
 This model helps you drill down to the root problem
 ![Double Diamond Model](https://miro.medium.com/v2/resize:fit:2000/1*plChYNkaj7TWsLPImkB41A.png)
+- Not a system for design
+- Just a pattern for good design: a descriptive and analytical tool
+- You can move backwards in the design too
+
 # Index
 ```dataview
 LIST
@@ -34,6 +38,7 @@ WHERE
 	- [[User-centred Design Principle]]
 	- [[Experience-centred Design Principle]]
 - [[Digitising Healthcare]]
+- [[Participatory Design]]
 
 ## Designing systems
 - [[Digitising Healthcare]]
@@ -42,7 +47,13 @@ WHERE
 
 ## Evaluating designs
 
+You need to evaluate 3 things:
+- Efficacy: does it work as designed?
+- Effectiveness: does it work in the real world?
+- Value: is it cost-effective?
+
 - [[Evaluating Health Tech]]
+- [[Health Economics]]
 - [[Think Aloud Protocol]]
 
 ## Machine-learning

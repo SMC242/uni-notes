@@ -9,6 +9,22 @@ When a researcher asks a series of questions to a participant. Three main types:
 - [[#Unstructured]]
 - [[#Semi-structured]]
 
+# Setup
+How to set up a good interview, regardless of structure
+## Recording
+- Audio recording is helpful but always take notes because it gets garbled
+	- Particularly in group sessions
+- Video recording is better than audio recording so you can see who is talking and lip-read during garbled audio
+
+## Topic guides
+- A plan for questions
+	- You can time-block these
+- Always assign importance and comfort ratings
+	- Importance: sometimes you won't have time for questions. Put these earlier in the interview
+	- Comfort: some questions are sensitive. You need to build rapport first
+		- Set up two softball questions at the start with easy questions
+	- Typically important questions are uncomfortable to some degree
+
 # Structured
 - Ask the same series of questions each time
 - Basically a verbal [[Questionnaires|questionnaire]]
@@ -16,7 +32,7 @@ When a researcher asks a series of questions to a participant. Three main types:
 
 # Unstructured
 - Little to no predefined structured
-- Helps when the research questions aren't fully formed yet
+- Helps when the research questions aren't fully formed yet or you don't know who is best to interview (detective work)
 
 # Semi-structured
 - An [[#interview protocol]] is followed in each interview
@@ -52,6 +68,10 @@ When a researcher asks a series of questions to a participant. Three main types:
 - Silence can prompt the interviewee to elaborate
 - Use markers
 	- "You mentioned ..., {probing question}"
+
+## Reflexive researcher
+- Be self-aware of your perspectives, biases and its influence on the interview process and data being collected
+
 
 ## Pitfalls
 - Don't be intrusive
